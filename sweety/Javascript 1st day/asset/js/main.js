@@ -34,11 +34,11 @@ typeof(ud);
 var ud=13;
 console.log(ud);
 
-{
-let n=00;
-n=3;
-console.log(n);
-}
+// {
+// let n=00;
+// n=3;
+// console.log(n);
+// }
 
 //difference of let and const
 
@@ -50,12 +50,12 @@ const w=6;
 const t=s+w;
 console.log(t);
 
-{
-    let i=9;
-    i=19;
-    i=i+i;
-    console.log(i);
-}
+// {
+//     let i=9;
+//     i=19;
+//     i=i+i;
+//     console.log(i);
+// }
 
 //Operator
 
