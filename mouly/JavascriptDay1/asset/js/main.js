@@ -62,3 +62,29 @@ for(i=1;i<=20;i++){
     console.log(a);
 }
 document.write(5 + 6);
+
+
+var x1=3,x2=2,x3=5,x4=6,x5='jerry',x6=63,x7=88;
+var s1=x1+x2+x3+x4+x5+x6+x7;
+console.log(s1);
+
+var lname,lName;
+lname='tom';
+lName='jerry';
+console.log(lname+' $ ' + lName);
+
+var fname,lname1,age,fullname;
+
+fname='Mohibul';
+lname1='Alam';
+age=' 24';
+age1='your age is 24';
+
+
+if(age=24){
+    fullname='Mr. '+fname+' '+ lname1 + ' . ' + age1;
+}
+else{
+    fullname=+fname+' '+ lname1; 
+}
+console.log(fullname);
