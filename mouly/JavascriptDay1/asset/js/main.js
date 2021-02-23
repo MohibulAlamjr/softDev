@@ -75,16 +75,17 @@ console.log(lname+' $ ' + lName);
 
 var fname,lname1,age,fullname;
 
-fname='Mohibul';
-lname1='Alam';
-age=' 24';
-age1='your age is 24';
+fname='Serajum';
+lname1='Munira';
+age=23;
+gender='female'
 
 
-if(age=24){
-    fullname='Mr. '+fname+' '+ lname1 + ' . ' + age1;
+
+if(gender=='male'){
+    fullname='Mr. '+fname+' '+ lname1 + ' . '+' Your age is ' + age;
 }
 else{
-    fullname=+fname+' '+ lname1; 
+    fullname= 'Mis. '+fname+' '+ lname1 + ' . '+'Your age is' + age;
 }
 console.log(fullname);
