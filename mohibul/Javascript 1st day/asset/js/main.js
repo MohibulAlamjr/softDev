@@ -47,3 +47,47 @@ console.log(y);
 
 var k=2**3;
 console.log(k);
+
+// comparison operator
+
+var a;
+
+
+a='hi';
+
+
+
+
+if (a==10){
+    console.log('it is 10');
+}
+else if(a>10){
+    console.log('it is great then 10');
+}
+else if(a<10){
+    console.log('it is less then 10');
+}else{
+    console.log('you are wrong');
+}
+
+
+// Array
+
+var cars = ["Saab",1,"BMW"," ","alonx"];
+console.log(cars[1]);
+
+
+// object
+
+var person = {
+    firstName : "John",
+    lastName  : "Doe",
+    age     : 50,
+    eyeColor  : "blue"
+  };
+  
+var info=person.firstName+' '+person.lastName+'.'+'you age is '+person.age+'.'+ 'your eye color is'+' '+person.eyeColor;
+console.log(info);
+
+
+
