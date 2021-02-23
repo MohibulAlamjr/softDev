@@ -28,7 +28,7 @@ var w=10;
 console.log(w);
 
 let t=30;
- t=34;
+    t=34;
  console.log(t);
 
  
@@ -50,3 +50,15 @@ p=n%l;
 console.log(h);
 console.log(k);
 console.log(p);
+
+
+alert ('Assalamualaikum');
+
+console.log(1+9);
+
+var a=20;
+for(i=1;i<=20;i++){
+    a=a+2;
+    console.log(a);
+}
+document.write(5 + 6);

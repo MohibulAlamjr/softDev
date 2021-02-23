@@ -10,7 +10,34 @@
 <body>
   
    
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+    <p id="demo">JavaScript can change HTML content.</p>
 
+    <button onclick="document.getElementById('myImage').src='ASSET/IMAGE/bird.jpg'">Bird</button>
+
+<img id="myImage" src="ASSET/IMAGE/cat.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='ASSET/IMAGE/flower.jpg'">Flower</button> <br><br>
+
+
+<p>JavaScript can show hidden HTML elements.</p>
+
+<p id="demo1" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo1').style.display='block'">Click Me!</button> <br> <br>
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+
+<script>
+document.getElementById("demo").innerHTML = 5 + 9;
+</script>
+
+
+
+    
+      
+
+        <button onclick="window.print()">Print this page</button>
 
     <script src="asset/js/main.js"></script>
 </body>
