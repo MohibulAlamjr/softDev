@@ -68,6 +68,34 @@ console.log(m);
 console.log(i);
 
 
+//For test
+
+var a=3,b=2,c=5,d=6,e='jery',u=63,f=88;
+g=a+b+c+d+e+u+f;
+
+console.log(g);
+
+
+var lname='tom',lName='jery';
+q=lname+' ' +'&'+' '+ lName;
+console.log(q);
+
+var fname='mohibul',lname='alam',age=24;
+if(fullname=='mohibul alam'){
+
+    gender= 'Mr. '+fname+' '+lname; 
+}
+else{
+    gender='Miss.'+fname+' '+lname;
+}
+console.log(fullname);
+
+
+
+
+
+
+
 
 
 
