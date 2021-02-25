@@ -29,16 +29,17 @@ console.log(w);
 
 let t=30;
     t=34;
- console.log(t);
+ console.log(t)
 
- 
 
  // const
 
  const a1=40;
  const a2=21;
 const f=a1+a2;
-console.log(a2);
+console.log(a1);
+
+
 
 // operator 
 
@@ -88,3 +89,118 @@ else{
     fullname=+fname+' '+ lname1; 
 }
 console.log(fullname);
+
+
+
+
+
+
+
+// operators 
+var x=3;
+  x+=5;
+  console.log(x);
+
+  var s1=8,s2="8";
+  var s4=s1+s1;
+  var s3=s1+s2;
+  console.log(s3);
+  console.log(s4);
+
+  var s5=12;
+  s5-=9;
+  console.log(s5);
+
+  var s6=6;
+  s6*=5;
+  console.log(s6);
+
+  var s7=9;
+  s7/=81;
+  console.log(s7);
+
+  var s8=7;
+  s8%=4;
+  console.log(s8);
+
+  var s9=5;
+  s9**=7;
+  console.log(s9);
+
+
+  var q;
+q=10;
+
+
+if (q==10){
+    console.log('it is 10');
+}
+else if(q>10){
+    console.log('it is greater then 10');
+}
+else if(q<10){
+    console.log('it is less then 10');
+}else{
+    console.log('it is wrong');
+}
+
+var k;
+k='9';
+
+if(k==='9'){
+    console.log('it is string');
+}
+else{
+    console.log('wrong');
+}
+
+var i;
+i=9;
+
+if(i!=9){
+    console.log('it is true');
+}
+else{
+    console.log('wrong');
+}
+
+var r;
+r=9;
+
+if(r>7){
+    console.log('true');
+}
+else{
+    console.log('wrong');
+}
+
+var i;
+i=9;
+
+if(i<7){
+    console.log('true');
+}
+else{
+    console.log('wrong');
+}
+
+var o;
+o=9;
+
+if(o<=7){
+    console.log('true');
+}
+else{
+    console.log('wrong');
+}
+
+var l;
+l=9;
+
+if(l>=7){
+    console.log('true');
+}
+else{
+    console.log('wrong');
+}
+
