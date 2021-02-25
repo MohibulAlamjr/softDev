@@ -34,11 +34,11 @@ typeof(ud);
 var ud=13;
 console.log(ud);
 
-{
-let n=00;
-n=3;
-console.log(n);
-}
+// {
+// let n=00;
+// n=3;
+// console.log(n);
+// }
 
 //difference of let and const
 
@@ -50,12 +50,12 @@ const w=6;
 const t=s+w;
 console.log(t);
 
-{
-    let i=9;
-    i=19;
-    i=i+i;
-    console.log(i);
-}
+// {
+//     let i=9;
+//     i=19;
+//     i=i+i;
+//     console.log(i);
+// }
 
 //Operator
 
@@ -66,6 +66,34 @@ i=g%b;
 console.log(d);
 console.log(m);
 console.log(i);
+
+
+//For test
+
+var a=3,b=2,c=5,d=6,e='jery',u=63,f=88;
+g=a+b+c+d+e+u+f;
+
+console.log(g);
+
+
+var lname='tom',lName='jery';
+q=lname+' ' +'&'+' '+ lName;
+console.log(q);
+
+var fname='mohibul',lname='alam',age=24;
+if(fullname=='mohibul alam'){
+
+    gender= 'Mr. '+fname+' '+lname; 
+}
+else{
+    gender='Miss.'+fname+' '+lname;
+}
+console.log(fullname);
+
+
+
+
+
 
 
 
