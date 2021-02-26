@@ -93,6 +93,28 @@ console.log(fullname);
 
 
 
+{
+    let a;
+   let b=a;
+   a=90;
+   console.log(b);
+}
+
+var str="Please locate 'locate' occurs!";
+var pos=str.lastIndexOf("locate");
+console.log(pos);
+
+var str="Please locate 'locate' occurs!";
+var pos=str.search("locate");
+console.log(pos);
+
+var str="Apple,Banana";
+var res=str.substr(-4);
+console.log(res);
+
+var fruits=["Banana","Orange","Apple"];
+document.getElementById("demo").innerHTML =fruits.join(",");
+console.log('fruits');
 
 
 
