@@ -91,3 +91,33 @@ console.log(info);
 
 
 
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.splice(2, 1, "Lemon", "Kiwi");
+
+console.log(fruits);
+
+
+var fruits = ["Banana", "Orange", "Apple"];
+
+
+fruits.unshift("Jackfruit, Lemon");
+console.log(fruits);
+
+var str = "Apple, Banana, Kiwi,Mango";
+
+var res = str.slice(8,17);
+console.log(res);
+
+
+var str = "Please locate 'locate' occurs!";
+ var pos = str.lastIndexOf("locate");
+ console.log(pos);
+
+ var str = "Please locate 'locate' occurs!";
+ var pos = str.search("locate");
+ console.log(pos);
+
+ var str = "Apple, Banana";
+var res = str.substr(-4);
+console.log(res);
