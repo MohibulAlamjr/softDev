@@ -1,0 +1,80 @@
+.cover{
+    background-image: url(../image/cover.jpg2.jpg);
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.navbar p{
+display: inline;
+}
+
+  
+/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+
+.navbar p {
+    position: relative;
+  }
+  
+  /* Element | file:///E:/softDev/sweety/Template1/index.html */
+  
+  .navbar > p:nth-child(4) {
+    left: 960px;
+    top: 23px;
+  }
+  
+  /* Element | file:///E:/softDev/sweety/Template1/index.html */
+  
+  .navbar > p:nth-child(3) {
+    left: 858px;
+    top: 22px;
+  }
+  
+  /* Element | file:///E:/softDev/sweety/Template1/index.html */
+  
+  .navbar > p:nth-child(2) {
+    left: 402px;
+    top: 21px;
+  }
+  
+  /* Element | file:///E:/softDev/sweety/Template1/index.html */
+  
+  .navbar > p:nth-child(1) {
+    left: 224px;
+    top: 20px;
+  }
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.navbar > h1:nth-child(6) {
+    poaitopn: relative;
+    position: relative;
+    left: 618px;
+    top: 151px;
+    color: black;
+  }
+  
+  /* Element | file:///E:/softDev/sweety/Template1/index.html */
+  
+  .navbar > p:nth-child(7) {
+    left: 657px;
+    top: 137px;
+  }
+  
+  /* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+  
+  .navbar p {
+    color: black;
+  }
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.navbar > p:nth-child(4) {
+    left: 985px;
+  }
+  
+  
+  
+
