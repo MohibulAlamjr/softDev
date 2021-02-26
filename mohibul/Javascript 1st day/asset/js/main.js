@@ -121,3 +121,4 @@ var str = "Please locate 'locate' occurs!";
  var str = "Apple, Banana";
 var res = str.substr(-4);
 console.log(res);
+// i am so sorry 
