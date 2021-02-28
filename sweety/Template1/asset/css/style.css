@@ -5,76 +5,276 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -45px;
+
  
 }
-.navbar p{
-display: inline;
+
+#grad {
+  background-image: radial-gradient(red, yellow, green);
 }
 
-  
-/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+.navbar p{
+display: inline;
+width: 24%;
+float: left;
+text-align: center;
+position: relative;
+top: -135px;
+}
 
-.navbar p {
-    position: relative;
-  }
-  
-  /* Element | file:///E:/softDev/sweety/Template1/index.html */
-  
-  .navbar > p:nth-child(4) {
-    left: 960px;
-    top: 23px;
-  }
-  
-  /* Element | file:///E:/softDev/sweety/Template1/index.html */
-  
-  .navbar > p:nth-child(3) {
-    left: 858px;
-    top: 22px;
-  }
-  
-  /* Element | file:///E:/softDev/sweety/Template1/index.html */
-  
-  .navbar > p:nth-child(2) {
-    left: 402px;
-    top: 21px;
-  }
-  
-  /* Element | file:///E:/softDev/sweety/Template1/index.html */
-  
-  .navbar > p:nth-child(1) {
-    left: 224px;
-    top: 20px;
-  }
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
 
 /* Element | file:///E:/softDev/sweety/Template1/index.html */
 
-.navbar > h1:nth-child(6) {
-    poaitopn: relative;
-    position: relative;
-    left: 618px;
-    top: 151px;
-    color: black;
-  }
-  
-  /* Element | file:///E:/softDev/sweety/Template1/index.html */
-  
-  .navbar > p:nth-child(7) {
-    left: 657px;
-    top: 137px;
-  }
-  
-  /* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
-  
-  .navbar p {
-    color: black;
-  }
+.fas {
+  position: relative;
+  left: -706px;
+  top: -48px;
+}
 
 /* Element | file:///E:/softDev/sweety/Template1/index.html */
 
 .navbar > p:nth-child(4) {
-    left: 985px;
-  }
-  
-  
-  
+  left: 72px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.navbar > p:nth-child(2) {
+  left: -58px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading {
+  position: relative;
+  left: -8px;
+}
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading > h1:nth-child(1) {
+  positon: relative;
+  position: relative;
+  left: 639px;
+  top: 223px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading > p:nth-child(2) {
+  position: relative;
+  left: 692px;
+  top: 205px;
+}
+.heading h1{
+  font-size: 70px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading {
+  top: -4px;
+  left: -187px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.fas {
+  top: -109px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading > p:nth-child(2) {
+  left: 848px;
+  top: 183px;
+}
+
+/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+
+.heading > p:nth-child(2) {
+  font-size: 20px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.fas {
+  top: -118px;
+}
+
+
+
+.secondpart{
+  background-size: cover;
+  background-color: black;
+  height: 1350px;
+  width: 100%;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.secondpart {
+  margin-top: -22px;
+}
+
+.secondpart h1{
+  color:#ffff;
+  text-align: center;
+  left: 11px;
+}
+.secondpart p{
+  color: #ffff;
+  text-align: center;
+}
+.Norway{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 420px;
+    color:black;
+    background-color: #ffff;
+    margin-left: 232px;
+    margin-top: 40px;
+    background-image: url(../image/Norway.jpg);
+}
+.US{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 420px;
+  color:black;
+  background-color: #ffff;
+  margin-left: 30px;
+  margin-top: 40px;
+  background-image: url(../image/US.jpg);
+}
+.Australia{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 420px;
+  color:black;
+  background-color: #ffff;
+  margin-left: 30px;
+  margin-top: 40px;
+  background-image: url(../image/AUST1..jpg);
+ 
+}
+.btn{
+  margin-top: 550px;
+  text-align: center;
+}
+.btn a{
+  text-decoration: none;
+  color: rgb(13, 13, 228);
+}
+
+/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+
+.Norway {
+  position: relative;
+}
+
+.secondpart p {
+  position: relative;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Norway > h1:nth-child(1) {
+  margin-left: 75px;
+  margin-top: 324.92px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Norway > p:nth-child(2) {
+  left: 2px;
+  top: -7px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Norway > h1:nth-child(1) {
+  margin-left: -2px;
+}
+.US h1{
+  margin-top: 324.92px;
+}
+.Australia h1{
+  margin-top: 324.92px;
+}
+.US > p:nth-child(2) {
+  top: -7px;
+}
+.Australia > p:nth-child(2) {
+  top: -7px;
+}
+.JOURNAL h1{
+  color: #ffff;
+  margin-top: 96px;
+}
+.AUn{
+  background-color: #ffff;
+  float: left;
+    width: 30%;
+    padding: 10px;
+    height: 200px;
+    color:black;
+    background-color: #ffff;
+    margin-left: 242px;
+    margin-top: 45px;
+    background-image: url(../image/AUNN.jpg);
+}
+.Steel{
+  background-color: #ffff;
+  float: left;
+    width: 30%;
+    padding: 10px;
+    height: 200px;
+    color:black;
+    background-color: #ffff;
+    margin-left: 50px;
+    margin-top: 45px;
+    background-image: url(../image/Steel.jpg);
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Mountain > p:nth-child(1) {
+  top: 221px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Mountain > h1:nth-child(2) {
+  margin-top: 233px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Bridge > p:nth-child(1) {
+  top: 222px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Bridge > h1:nth-child(2) {
+  margin-top: 232px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
