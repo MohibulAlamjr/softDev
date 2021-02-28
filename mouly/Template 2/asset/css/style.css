@@ -605,6 +605,7 @@ button.btn:nth-child(5) {
   position: relative;
   color: white;
   right: -279px;
+  text-decoration: none;
 }
 .btn2{
   color: white;
@@ -697,5 +698,90 @@ button.btn:nth-child(2) {
 
 
 
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.logo > img:nth-child(1) {
+  position: relative;
+  width: 30px;
+  right: -713px;
+  margin-top: -91px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn3 {
+  position: relative;
+  margin-top: -20px;
+}
 
 
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.navbar {
+  position: relative;
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn1 > a:nth-child(1) {
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn2 {
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn2 > a:nth-child(1) {
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn3 > a:nth-child(1) {
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn4 > a:nth-child(1) {
+  color: white;
+}
+
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(1) {
+  position: relative;
+  right: -934px;
+  top: -53px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn1 > a:nth-child(1) {
+  text-decoration: none;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn2 > a:nth-child(1) {
+  text-decoration: none;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn3 > a:nth-child(1) {
+  text-decoration: none;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn4 > a:nth-child(1) {
+  text-decoration: none;
+}
