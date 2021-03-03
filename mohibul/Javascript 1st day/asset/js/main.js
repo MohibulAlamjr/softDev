@@ -121,4 +121,9 @@ var str = "Please locate 'locate' occurs!";
  var str = "Apple, Banana";
 var res = str.substr(-4);
 console.log(res);
-// i am so sorry 
+
+
+// var is always global(either it is in block or outside of block), we can change or update the value of var 
+// let is global outside of block && it is local in a block, we can change or update the value of let
+// const is global outside of block && it is local in a block, we cann't change or update the value of const
+
