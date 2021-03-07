@@ -1,5 +1,5 @@
 .cover{
-    background-image: url(../image/cover.jpg2.jpg);
+    background-image: url(../image/Cover2.jpg);
     height: 750px;
     width: 100%;
     background-position: center;
@@ -15,6 +15,7 @@
 }
 
 .navbar p{
+  color: #ffff;
 display: inline;
 width: 24%;
 float: left;
@@ -25,7 +26,8 @@ top: -135px;
 
 .navbar a{
   text-decoration: none;
-  color: black;
+  color:#ffff;
+
 }
 
 /* Element | file:///E:/softDev/sweety/Template1/index.html */
@@ -34,6 +36,7 @@ top: -135px;
   position: relative;
   left: -706px;
   top: -48px;
+  color: #ffff;
 }
 
 /* Element | file:///E:/softDev/sweety/Template1/index.html */
@@ -53,6 +56,7 @@ top: -135px;
 .heading {
   position: relative;
   left: -8px;
+  color: #ffff;
 }
 /* Element | file:///E:/softDev/sweety/Template1/index.html */
 
@@ -267,12 +271,85 @@ top: -135px;
   margin-top: 232px;
 }
 
+.footer{
+  height: 650px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../image/Footer.jpg);
+  margin-top: -16px;
+}
+.footer a{
+  color: rgb(34, 34, 241);
+  text-decoration: none;
+}
+.bttn p{
+  text-align: center;
+}
+.footer1 p{
+  color: #ffff;
+}
 
 
+/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+
+.footer1 p {
+  position: relative;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.footer1 > p:nth-child(1) {
+  top: 557px;
+  left: 382px;
+}
+.bttn1 p{
+   display: inline;
+}
+.bttn1 a{
+  color: #ffff;
+}
 
 
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 {
+  position: relative;
+  left: 762px;
+  top: 523px;
+}
 
 
+/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+
+.bttn1 a {
+  position: relative;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 > p:nth-child(2) > a:nth-child(1) {
+  left: 28px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 > p:nth-child(3) > a:nth-child(1) {
+  left: 42px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 > p:nth-child(4) > a:nth-child(1) {
+  left: 57px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 > p:nth-child(1) > a:nth-child(1) {
+  left: 12px;
+}
 
 
 
