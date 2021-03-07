@@ -205,3 +205,11 @@ else{
     console.log('wrong');
 }
 
+var a;
+a=10;
+if(a=10){
+let b=5;
+let c=6;
+var d=b+c;
+console.log('b+c');
+}

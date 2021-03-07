@@ -25,3 +25,4 @@ console.log(typeof(x));
 // number
 // boolean
 // undefined
+
