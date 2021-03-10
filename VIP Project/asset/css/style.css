@@ -1,15 +1,17 @@
 body{
-    background-image: url(../image/background\ \(2\).jpg);
+    background-image: url(../image/rr.jpg) ;
+    background-color: rgba(0, 0, 0, 0.952);
    
     
-   
+   background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+  
    
 }
-.mainSection{
-    background: rgb(81,84,84);
-background: linear-gradient(90deg, rgba(81,84,84,0.5018382352941176) 12%, rgba(79,80,82,0.5242471988795518) 50%, rgba(84,82,87,0.44021358543417366) 88%);
 
+.mainSection{
+   
 height: 500px;
 }
 .heads{
@@ -59,9 +61,7 @@ div.col-sm-12:nth-child(2) > img:nth-child(1) {
 
 /* Element | file:///D:/softDev/softDev/VIP%20Project/index.html */
 
-div.col-sm-12:nth-child(3) {
-    bottom: 190px;
-  }
+
   
   /* Element | file:///D:/softDev/softDev/VIP%20Project/index.html */
   
