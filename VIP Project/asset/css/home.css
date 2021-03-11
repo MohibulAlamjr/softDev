@@ -1,30 +1,26 @@
 
-/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css */
 
 .bg-light {
-    /* background-color: #f8f9fa !important; */
+    
     background-color: #4e81b5 !important;
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
+
 
 .navbar-brand > img:nth-child(1) {
     height: 40px;
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
 
 li.nav-item:nth-child(1) > a:nth-child(1) {
     padding-right: 4.5rem;
    }
    
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
 
 #navbarDropdown {
     padding-right: 4.5rem;
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
 
 li.nav-item:nth-child(3) > a:nth-child(1) {
     padding-right: 4.5rem;
@@ -37,13 +33,13 @@ li.nav-item:nth-child(3) > a:nth-child(1) {
     background-repeat: no-repeat;
   }
 
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
+
 
 div.col-sm:nth-child(1) {
     margin-top: 35px;
   }
   
-  /* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
+  
   
   .container {
     /* margin-top: -35px; */
@@ -51,7 +47,7 @@ div.col-sm:nth-child(1) {
     margin-top: -2%;
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
+
 
 div.col-sm-8:nth-child(2) {
     margin-top: 7%;
@@ -59,8 +55,6 @@ div.col-sm-8:nth-child(2) {
     color: #ffffff;
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
-
 .col-sm-8 > h1:nth-child(2) {
     /* font-size: 325%; */
     font-size: 302%;
@@ -68,44 +62,29 @@ div.col-sm-8:nth-child(2) {
     font-family: 'Redressed', cursive;
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
-
-
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
-
 .col-sm-8 > h1:nth-child(1) {
     font-family: 'Redressed', cursive;
     font-family: 'Roboto', sans-serif
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
-
 .col-sm-8 > h1:nth-child(2) {
     margin-top: 1%;
     margin-left: 0px;
   }
   
-  /* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
-  
   .col-sm-8 > h1:nth-child(1) {
     margin-top: 0%;
   }
-  
-  /* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
-  
+    
   .col-sm-8 {
     top: 31px;
   }
-
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
 
 .col-sm-8 > h5:nth-child(3) {
     font-weight: bold;
     color: #f3ffde;
   }
   
-  
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
 
 .btn {
     margin-top: 5%;
@@ -114,18 +93,12 @@ div.col-sm-8:nth-child(2) {
     padding-top: 0.375rem;
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html# */
-
 .btn > a:nth-child(1) {
     text-decoration: none;
     color: #201e1e;
     font-size: larger;
   }
  
-
-
-
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
 
 .features > h1:nth-child(1) {
   color: #000;
@@ -191,21 +164,13 @@ img{
   transform: scale3d(1, 1, 1);
 }
 
-
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
-
 .card2{
   margin-top: 5%;
-
-
 }
+
 .cards .item{
   padding-right: 1%;
 }
-
-
-
-/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
 
 div.container:nth-child(4) {
   margin-top: 4%;

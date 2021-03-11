@@ -22,8 +22,6 @@ height: 500px;
 }
 
 
-/* Element | file:///D:/softDev/softDev/VIP%20Project/index.html */
-
 div.col-sm-12:nth-child(1) > h1:nth-child(1) {
     color: #ffffff;
     text-decoration: ;
@@ -32,7 +30,6 @@ div.col-sm-12:nth-child(1) > h1:nth-child(1) {
     font-family: 'Akaya Telivigala', cursive;
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/index.html */
 
 div.col-sm-12:nth-child(1) > h1:nth-child(1) > span:nth-child(2) {
     position: relative;
@@ -40,33 +37,20 @@ div.col-sm-12:nth-child(1) > h1:nth-child(1) > span:nth-child(2) {
     top: -31px;
   }
   
-/* Element | file:///D:/softDev/softDev/VIP%20Project/index.html */
 
 div.col-sm-12:nth-child(2) > img:nth-child(1) {
     height: 161px;
     margin-top: -25px;
   }
   
-/* style.css | file:///D:/softDev/softDev/VIP%20Project/asset/css/style.css */
-
-
-/* style.css | file:///D:/softDev/softDev/VIP%20Project/asset/css/style.css */
 
 div.col-sm-12:nth-child(2) > img:nth-child(1) {
-    /* height: 161px; */
-    /* margin-top: -25px; */
+    
     height: 44%;
     margin-top: -5%;
   }
 
-/* Element | file:///D:/softDev/softDev/VIP%20Project/index.html */
-
-
-  
-  /* Element | file:///D:/softDev/softDev/VIP%20Project/index.html */
-  
   button.btn:nth-child(1) {
-    /* margin-right: 221px; */
     margin-right: 50%;
   }
   
