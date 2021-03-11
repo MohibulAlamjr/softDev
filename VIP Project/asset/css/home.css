@@ -213,3 +213,9 @@ div.container:nth-child(5) {
 div.container:nth-child(6) {
   margin-top: 3%;
 }
+.card-title{
+  color: rgb(7, 7, 116);
+}
+.card-text{
+  color: #572d2d;
+}
