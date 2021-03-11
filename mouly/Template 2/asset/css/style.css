@@ -785,3 +785,11 @@ button.btn:nth-child(1) {
 .btn4 > a:nth-child(1) {
   text-decoration: none;
 }
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.fas {
+  position: relative;
+  right: -704px;
+  top: -35px;
+}
