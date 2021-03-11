@@ -230,3 +230,22 @@ div.container:nth-child(3) > div:nth-child(1) > div:nth-child(1) > hr:nth-child(
 
 
 
+/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
+
+div.container:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
+  margin-top: 6%;
+}
+
+/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
+
+div.container:nth-child(5) > div:nth-child(1) > div:nth-child(3) {
+  margin-top: 6%;
+}
+
+/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
+
+div.container:nth-child(5) {
+  margin: ;
+  margin-top: 2%;
+}
+
