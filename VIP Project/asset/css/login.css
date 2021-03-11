@@ -46,3 +46,9 @@ div.col-sm-4:nth-child(2) > h1:nth-child(1) {
 
 
   
+/* Element | file:///D:/softDev/softDev/VIP%20Project/login.html? */
+
+.btn > a:nth-child(1) {
+  text-decoration: none;
+  color: #fff;
+}
