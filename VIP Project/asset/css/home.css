@@ -210,3 +210,23 @@ img{
 div.container:nth-child(4) {
   margin-top: 4%;
 }
+hr.new4 {
+  border: 1px solid rgb(12, 12, 12);
+}
+
+
+
+/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
+
+div.container:nth-child(3) > div:nth-child(1) > div:nth-child(3) > hr:nth-child(1) {
+  margin-top: 5rem;
+}
+
+/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
+
+div.container:nth-child(3) > div:nth-child(1) > div:nth-child(1) > hr:nth-child(1) {
+  margin-top: 5rem;
+}
+
+
+
