@@ -196,7 +196,33 @@ div.container:nth-child(5) > div:nth-child(1) > div:nth-child(3) {
 }
 
 div.container:nth-child(5) {
-  margin: ;
+  
   margin-top: 2%;
 }
 
+
+/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
+
+div.container:nth-child(6) {
+  margin-top: 2%;
+  background-color: #171b23;
+  height: 300px;
+}
+
+/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
+
+div.container:nth-child(4) {
+  background-color: aliceblue;
+}
+
+/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
+
+div.container:nth-child(5) {
+  margin-top: 0%;
+}
+
+/* Element | file:///D:/softDev/softDev/VIP%20Project/home.html */
+
+div.container:nth-child(6) {
+  margin-top: 3%;
+}
