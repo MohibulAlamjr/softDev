@@ -1,18 +1,11 @@
 body{
     background-image: url(../image/Loginbg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
 }
-
-
-/* Element | file:///D:/softDev/softDev/VIP%20Project/login.html */
-
 .container {
     margin-top: 15%;
   }
-  
-  /* Element | file:///D:/softDev/softDev/VIP%20Project/login.html */
   
   div.col-sm-4:nth-child(2) {
     background: rgb(242,246,247);
@@ -21,33 +14,18 @@ background: linear-gradient(90deg, rgba(242,246,247,0.6) 12%, rgba(245,247,249,0
     border-radius: 19px;
   }
   .tAlign{
-
-
     text-align: center;
-   
-  }
-
-
-/* Element | file:///D:/softDev/softDev/VIP%20Project/login.html? */
+    }
 
 div.col-sm-4:nth-child(2) > h1:nth-child(1) {
     font-family: 'Oswald', sans-serif;
   }
 
 
-/* Element | file:///D:/softDev/softDev/VIP%20Project/login.html? */
-
 .btn {
     margin-top: 22px;
   }
   
-  /* resgistration  */
-
-
-
-  
-/* Element | file:///D:/softDev/softDev/VIP%20Project/login.html? */
-
 .btn > a:nth-child(1) {
   text-decoration: none;
   color: #fff;
