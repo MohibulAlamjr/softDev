@@ -52,3 +52,7 @@ console.log(calculator("div",4,5.50));
 
 
 
+// day 2 
+// homw Worker 
+// input :8,4;
+// output: The sum is 12. The substraction is 4. The multiple is 32. The division is 2. The modulus is 0.
