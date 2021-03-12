@@ -389,26 +389,27 @@ color: #878787;
 }
 
 
-
+/* Element | file:///D:/softDev/softDev1/softDev/VIP%20Project/home.html */
 
 .footer-section {
   margin-top: 4%;
 }
 
+/* Element | file:///D:/softDev/softDev1/softDev/VIP%20Project/home.html */
 
 .copyright-area > div:nth-child(1) {
   margin-top: -1%;
 }
 
-
+/* home.css | file:///D:/softDev/softDev1/softDev/VIP%20Project/asset/css/home.css */
 
 .footer-cta {
- 
+  /* border-bottom: 1px solid #373636; */
   border-bottom: 1px solid #8a5454;
 }
 
 .footer-section {
- 
+  /* background: #151414; */
   background: #3e5139;
 }
 .flogo{
@@ -419,7 +420,7 @@ font-family: 'Redressed', cursive;
 }
 
 
-
+/* Element | file:///D:/softDev/softDev1/softDev/VIP%20Project/home.html */
 
 .flogo {
   color: cornsilk;
