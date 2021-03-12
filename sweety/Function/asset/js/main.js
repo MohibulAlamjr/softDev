@@ -49,7 +49,7 @@ function calculator(a,b,c){
          result=b/c;
     }
     else if(a==="mod"){
-        result=b/c;
+        result=b%c;
     }
     else{
        result=" something is error";
@@ -77,7 +77,7 @@ function calculator(a,b,c){
          result=b/c;
     }
     else if(a==="mod"){
-        result=b/c;
+        result=b%c;
     }
     else{
        result=" something is error";
