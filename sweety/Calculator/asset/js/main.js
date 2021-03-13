@@ -15,6 +15,6 @@ calculator(20,11);
 console.log('CALCULATOR=2');
 
 function calculator2(a,b){
-    console.log('The summation is',' ',a+b,',','The substraction is',' ',a-b,',','The multiplication is',' ',a*b,',','The division is',' ',a/b,',','The modulation is',' ',a%b);
+    console.log('The summation is'+' '+a+b,','+'The substraction is',' '+ a-b,','+'The multiplication is',' '+a*b,',','The division is',' '+a/b,',','The modulation is',' '+a%b);
 }
 calculator2(20,11);
