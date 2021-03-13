@@ -14,4 +14,3 @@ var code=1,units=1,price=15.10, code1=2,units1=1,price1=15.10;
 var Taka=units1*price1;
 TOTAL=Taka+price;
 console.log('VALOR A PAGAR: = '+ 'R$' + ' ' + TOTAL);
-
