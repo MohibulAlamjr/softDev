@@ -3,9 +3,6 @@ function holud(a){
 }
 
 
-holud("sweety's");
-holud("mouly's");
-holud("kaium's");
 
 
 // sum function
@@ -23,7 +20,6 @@ sum(35,4);
 
 
 
-function calculator(a,b,c){
 
     if(a==="sum"){
         var result=b+c;
@@ -51,8 +47,3 @@ console.log(calculator("mul",4,6));
 console.log(calculator("div",4,5.50));
 
 
-
-// day 2 
-// homw Worker 
-// input :8,4;
-// output: The sum is 12. The substraction is 4. The multiple is 32. The division is 2. The modulus is 0.
