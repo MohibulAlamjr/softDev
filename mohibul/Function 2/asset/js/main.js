@@ -74,3 +74,7 @@ function myFunctionn(y) {
 
   console.log(typeof(txt1));
   
+
+//   arrow function 
+const xy = (x, y) => { return x * y };
+console.log(xy(7,8));
