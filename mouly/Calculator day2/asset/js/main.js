@@ -4,3 +4,8 @@ function calculator (b,c){
 calculator(12,15);
 
  
+function calculator1(m,n){
+    var result=m+n;
+    console.log("The summation is:" + result);
+}
+calculator1(1,1);
