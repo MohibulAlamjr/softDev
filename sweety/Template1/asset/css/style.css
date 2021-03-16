@@ -61,7 +61,6 @@ top: -135px;
 /* Element | file:///E:/softDev/sweety/Template1/index.html */
 
 .heading > h1:nth-child(1) {
-  positon: relative;
   position: relative;
   left: 639px;
   top: 223px;
