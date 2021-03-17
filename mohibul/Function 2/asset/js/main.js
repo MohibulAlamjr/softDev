@@ -45,7 +45,8 @@ function myFunctionn(y) {
 
 // lenght
 
-  function myFunctionu(a, b,c,d) {
+  function myFunctionu(a,b,c) {
+    
     return arguments.length;
   }
   console.log(myFunctionu(4,6,5,6));
@@ -78,3 +79,9 @@ function myFunctionn(y) {
 //   arrow function 
 const xy = (x, y) => { return x * y };
 console.log(xy(7,8));
+
+var afun=(a,b)=>{
+  return a+b;
+}
+
+console.log(afun(4,5));
