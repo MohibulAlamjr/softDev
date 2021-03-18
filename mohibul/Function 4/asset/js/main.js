@@ -52,3 +52,47 @@ var person2={
 }
 
 console.log(person2.fullbio());
+
+function myFunction(arg1, arg2) {
+    this.firstName = arg1;
+    this.lastName  = arg2;
+    return this.firstName;
+  }
+  
+
+  var v= myFunction('mohibul','alam');
+  console.log(v);
+
+  function myFunction1(arg1, arg2) {
+    this.firstName = arg1;
+    this.lastName  = arg2;
+    return this.firstName;
+  }
+  
+
+  var vr= myFunction1('jone','doe');
+  console.log(vr);
+
+//  assing value in object using function
+
+var myobj={
+  store: function(fn,ln){
+      this.firstName=fn;
+      this.lastName=ln;
+      this.age=arguments[2];
+  },
+  fullb:function (){
+      return('you name is '+this.firstName+' '+this.lastName+' your age is '+this.age);
+  }
+
+
+}
+
+myobj.store('sweety','akter',90);
+console.log(myobj.fullb());
+myobj.store('Serajum','Munira',100);
+console.log(myobj.fullb());
+myobj.store('Al','Kaium',150);
+console.log(myobj.fullb());
+myobj.store('Mohibul','Alam',180);
+console.log(myobj.age);
