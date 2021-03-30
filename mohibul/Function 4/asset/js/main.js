@@ -89,7 +89,7 @@ var myobj={
 }
 
 myobj.store('sweety','akter',90);
-console.log(myobj.fullb());
+console.log(myobj.firstName);
 myobj.store('Serajum','Munira',100);
 console.log(myobj.fullb());
 myobj.store('Al','Kaium',150);
