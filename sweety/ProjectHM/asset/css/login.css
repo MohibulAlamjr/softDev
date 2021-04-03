@@ -1,0 +1,52 @@
+.cover{
+    background-image: url(../image/stethoscope.jpg);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    position: relative;
+    left: 573px;
+    top: 147px;
+  }
+
+.form-check-label {
+    position: relative;
+    left: 134px;
+    top: 197px;
+  }
+  div.form-group:nth-child(2) {
+    position: relative;
+    top: 181px;
+  }
+  
+  div.form-group:nth-child(1) {
+    position: relative;
+    top: 155px;
+  }
+  
+  .container > h2:nth-child(1) {
+    position: relative;
+    top: 76px;
+    left: 437px;
+  }
+  .h2, h2 {
+    font-size: 50px;
+  }
+
+.btn {
+    top: 216px;
+    left: 6px;
+  }
+
+.form-check-label {
+    left: 4px;
+  }
+  
+.form-control {
+    background-clip: border-box;
+  }
+  
+  
