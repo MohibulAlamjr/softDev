@@ -11,3 +11,5 @@ function myFun(){
     document.getElementById("result").innerHTML=z;
 }
 
+
+
