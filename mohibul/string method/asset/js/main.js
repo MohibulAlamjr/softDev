@@ -45,3 +45,9 @@ console.log(kl);
 // slice
 // subString
 // substr
+
+
+
+
+
+

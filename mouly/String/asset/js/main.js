@@ -73,9 +73,9 @@ var a = 'BelyWhiteRoseBlueSunflowerYellow';
 var b = a.slice(9,13);
 var b1 = a.slice(13,17);
 var b2 = a.slice(5,8);
-var b3 = a.slice(-9,-11);
-var b4 = a.slice(-6,-7);
-var b5 = a.slice(-3,-5);
+var b3 = a.slice(-11,-9);
+var b4 = a.slice(-7,-6);
+var b5 = a.slice(-5,-3);
 
 
 console.log(b+b1+b2+b3+b4+b5);
