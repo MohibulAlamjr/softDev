@@ -1,0 +1,13 @@
+body {
+    
+    margin:0rem;
+    }
+.container-fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    background-color: rgb(167, 94, 240);
+    
+}
+.form-control {
+    margin-left: 620px;
+    }
