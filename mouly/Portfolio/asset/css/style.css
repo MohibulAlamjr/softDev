@@ -526,3 +526,155 @@ img.mx-auto:nth-child(6) {
 img.mx-auto:nth-child(6) {
   height: 277px;
 }
+.fas {
+  position: relative;
+  right: -145px;
+  bottom: -5px;
+}
+
+.fa-pushed {
+  position: relative;
+  height: 30px;
+}
+.Aa:hover{
+  transform: opacity0.25s;
+}
+i.fas:nth-child(5) {
+  position: relative;
+  bottom: -36px;
+  right: -16px;
+}
+i.fas:nth-child(8) {
+  position: relative;
+  bottom: -40px;
+  right: -19px;
+}
+i.fas:nth-child(11) {
+  position: relative;
+  bottom: -32px;
+  right: -19px;
+}
+
+img.mx-auto:nth-child(2) {
+  position: relative;
+  right: -236px;
+  bottom: 177px;
+  height: 277px;
+}
+img.mx-auto:nth-child(1) {
+  position: relative;
+  height: 277px;
+  left: -233px;
+  bottom: -100px;
+}
+
+img.mx-auto:nth-child(4) {
+  position: relative;
+  bottom: 254px;
+}
+
+img.mx-auto:nth-child(3) {
+  position: relative;
+  bottom: -165px;
+}
+.asset > div:nth-child(2) {
+  position: relative;
+  bottom: -118px;
+}
+img.mx-auto:nth-child(3) {
+  position: relative;
+  bottom: -90px;
+}
+img.mx-auto:nth-child(5) {
+  position: relative;
+  bottom: -110px;
+}
+.dolor {
+  position: relative;
+  bottom: -98px;
+  right: 218px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(6) {
+  position: relative;
+  bottom: 560px;
+  right: -299px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(5) {
+  right: 216px;
+  position: relative;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(3) {
+  position: relative;
+  right: 293px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+.dolor {
+  position: relative;
+  bottom: -104px;
+  right: 272px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(5) {
+  position: relative;
+  right: -338px;
+  bottom: 282px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+div.dolor:nth-child(6) {
+  position: relative;
+  right: -384px;
+  bottom: 268px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(7) {
+  position: relative;
+  right: 209px;
+  bottom: 246px;
+  left: -294px;
+  height: 277px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+div.dolor:nth-child(8) {
+  position: relative;
+  bottom: 236px;
+  right: 287px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(9) {
+  position: relative;
+  right: -365px;
+  bottom: 620px;
+  height: 277px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+div.dolor:nth-child(10) {
+  position: relative;
+  right: -364px;
+  bottom: 606px;
+}
+.work1.dolor.hover{
+  transition: scale(1.05s);
+}
