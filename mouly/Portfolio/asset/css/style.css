@@ -1,0 +1,210 @@
+.body{
+    margin: 0;
+
+}
+.cover{
+    background-image:url(../image/photo-1517694712202-14dd9538aa97.jpg);
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 700px;
+}
+.header{
+    text-align:right;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+.header > h2:nth-child(2) {
+    position: relative;
+    bottom: -337px;
+  }
+  
+  .header > h1:nth-child(1) > b:nth-child(1) {
+    position: relative;
+    bottom: -293px;
+  }
+
+.header > h1:nth-child(1) > b:nth-child(1) {
+    position: relative;
+    bottom: -272px;
+    left: -435px;
+  }
+  .header > h2:nth-child(2) {
+    position: relative;
+    bottom: -258px;
+    left: -87px;
+  }
+  
+.header > h1:nth-child(1) {
+    position: relative;
+    bottom: -273px;
+    left: -440px;
+  }
+  
+.header > h3:nth-child(3) {
+    position: relative;
+    bottom: -271px;
+    left: -195px;
+  }
+
+  .header > h1:nth-child(1) {
+    position: relative;
+    right: 429px;
+    bottom: -260px;
+    left: -274px;
+  }
+  .see{
+      font-size:10px ;
+      background-color: violet;
+  }
+.see {
+    position: relative;
+    bottom: -238px;
+    left: -239px;
+  }
+  .home{
+      background-color: rgb(87, 81, 81);
+      background-size: cover;
+    position: center;
+    width: 100%;
+    height: 700px;
+
+  }
+  .page{
+      color: white;
+  }
+
+div.container {
+    position: relative;
+    bottom: -97px;
+  }
+  
+  h4.container {
+    position: relative;
+    bottom: -66px;
+  }
+  .navbar a{
+      text-decoration: none;
+      color: white;
+  }
+
+
+.btn1 {
+    position: relative;
+    bottom: 270px;
+    right: -741px;
+  }
+  
+  
+  .btn2 {
+    position: relative;
+    bottom: 272px;
+    right: -446px;
+  }
+  
+  .btn3 {
+    position: relative;
+    right: -79px;
+    top: -271px;
+  }
+  
+  
+  .btn4 {
+    position: relative;
+    top: -270px;
+    left: -106px;
+  }
+  
+  .btn3 > a:nth-child(1) {
+    position: relative;
+    right: -86px;
+  }
+  
+.btn1 {
+    position: relative;
+    left: 696px;
+  }
+
+  .btn2 {
+    position: relative;
+    right: -486px;
+  }
+  
+  .btn3 {
+    position: relative;
+    right: -192px;
+  }
+  
+  .btn5 {
+    position: relative;
+    right: -78px;
+    bottom: 272px;
+  }
+  .facebook{
+      text-align: right;
+      font-size: 50px;
+  }
+
+.facebook {
+    position: relative;
+    left: -703px;
+    bottom: -235px;
+    color: #1c1c5b;
+  }
+
+.fa-twitter-square {
+    position: relative;
+    right: -906px;
+    bottom: -173px;
+    font-size: 50px;
+    color: #171748;
+  }
+  
+.fa-twitter-square {
+    position: relative;
+  }
+  
+  .skype {
+    position: relative;
+    font-size: 40px;
+    right: -1033px;
+    bottom: -112px;
+    color: #1c1c47;
+  }
+.facebook {
+    
+    font-size: 40px;
+  }
+  
+  .twitter {
+    position: relative;
+    font-size: 40px;
+  }
+  
+.fa-twitter-square {
+    
+    font-size: 40px;
+  }
+  .paragraph{
+      text-align: center;
+  }
+
+.rounded-circle {
+    position: relative;
+    bottom: -96px;
+  }
+ 
+  h4.container {
+    position: relative;
+    bottom: -167px;
+  }
+  
+  .home > h5:nth-child(4) {
+    position: relative;
+    bottom: 251px;
+    right: -521px;
+    left: 300px;
+    color: #1a1ac9d6;
+  }
+  
