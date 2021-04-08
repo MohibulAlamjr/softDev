@@ -458,3 +458,71 @@ body > p:nth-child(4) {
   
   color: #100f10;
 }
+.me {
+ 
+  height: 750px;
+}
+
+.btn3 > a:nth-child(1) {
+  bottom: 0px;
+  right: -17px;
+}
+.works1{
+  background-color: cyan;
+  width: 100%h;
+  height: 800px;
+  text-align: center;
+}
+.work1 {
+  background-color: #6ae3d8;
+  height: 1200px;
+  text-align: center;
+  color: black;
+}
+.image1{
+  width: 20%;
+  height: 20px;
+}
+
+.mx-auto {
+  position: relative;
+  right: 215px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(3) {
+  position: relative;
+  right: 234px;
+  height: 277px;
+  bottom: -25px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(4) {
+  position: relative;
+  right: -232px;
+  bottom: 252px;
+  height: 50;
+  height: 50ox;
+  height: 277px;
+}
+
+
+img.mx-auto:nth-child(5) {
+  position: relative;
+  bottom: 113px;
+  right: 233px;
+  height: 277px;
+}
+
+img.mx-auto:nth-child(6) {
+  position: relative;
+  bottom: 391px;
+  right: -231px;
+}
+
+img.mx-auto:nth-child(6) {
+  height: 277px;
+}
