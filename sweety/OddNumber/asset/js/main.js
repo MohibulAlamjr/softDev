@@ -13,3 +13,9 @@ function findODD() {
     }
   }
 }
+
+
+let a;
+let b=a;
+a=90;
+console.log(b);

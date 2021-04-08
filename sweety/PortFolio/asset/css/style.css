@@ -1,0 +1,215 @@
+.body{
+    margin-top: 0%;
+}
+
+.cover{
+    background-image: url(../image/cover.jpg);
+    height: 750px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-top: -21px;
+}
+.heading{
+    color: #ffff;
+    text-align: center;
+}
+
+.heading > h2:nth-child(1) {
+    position: relative;
+    left: -230px;
+    top: 299px;
+    font-size: 30px;
+  }
+
+  .heading > h3:nth-child(2) {
+    position: relative;
+    top: 253px;
+    left: -49px;
+    font-size: 50px;
+  }
+
+  .heading > h1:nth-child(3) {
+    position: relative;
+    top: 210px;
+    font-size: 80px;
+    margin-left: 356px;
+  }
+  .navbar a{
+      text-decoration: none;
+      color: #ffff;
+    }
+    .navbar p{
+        color: #ffff;
+        display: inline;
+        font-size: 15px;
+    }
+   .navbar {
+    position: relative;
+    top: -334px;
+    left: 46px;
+  }
+
+.navbar > p:nth-child(7) > a:nth-child(1) {
+    position: relative;
+    left: 189px;
+  }
+  .navbar > p:nth-child(6) > a:nth-child(1) {
+    position: relative;
+    left: 150px;
+  }
+  .navbar > p:nth-child(5) > a:nth-child(1) {
+    position: relative;
+    left: 109px;
+  }
+  .navbar > p:nth-child(4) > a:nth-child(1) {
+    position: relative;
+    left: 71px;
+  }
+  .navbar > p:nth-child(3) > a:nth-child(1) {
+    position: relative;
+    left: 27px;
+  }
+
+.navbar > p:nth-child(1) > a:nth-child(1) {
+    position: relative;
+    left: -26px;
+  }
+  .fab{
+      color: #ffff;
+      font-size: 20px;
+  }
+
+.fab {
+    position: relative;
+    left: 916px;
+  }
+
+i.fab:nth-child(8) {
+    position: relative;
+    left: 929px;
+  }
+
+i.fab:nth-child(9) {
+    position: relative;
+    left: 940px;
+  }
+
+i.fab:nth-child(10) {
+    position: relative;
+    left: 952px;
+  }
+  .SecondPart{
+      background-color: black;
+      height: 600px;
+      width: 100%;
+      
+  }
+.SecondPart {
+    position: relative;
+    top: 365px;
+  }
+
+.img-thumbnail {
+    position: relative;
+    top:-18px;
+    left: 54px;
+  }
+  .container h1{
+      color: #ffff;
+  }
+  
+.container > h1:nth-child(1) {
+    position: relative;
+    left: 714px;
+    top: 122px;
+
+  }
+  .container p{
+      color: #ffff;
+  }
+.container > p:nth-child(2) {
+    position: relative;
+    left: 520px;
+    top: 228px;
+    font-size: 18px;
+}
+
+.img-thumbnail {
+    position: relative;
+    top: -33px;
+  }
+
+.btn {
+    position: relative;
+    left: 777px;
+    top: 147px;
+  }
+
+.navbar {
+    top: -185px;
+  }
+  
+  .navbar > p:nth-child(2) > a:nth-child(1) {
+    position: relative;
+    left: -111px;
+  }
+  .navbar > p:nth-child(3) > a:nth-child(1) {
+    position: relative;
+    left: -201px;
+  }
+  
+  .navbar > p:nth-child(4) > a:nth-child(1) {
+    position: relative;
+    left: -297px;
+  }
+  
+  .navbar > p:nth-child(5) > a:nth-child(1) {
+    position: relative;
+    left: -385px;
+  }
+  
+  .navbar > p:nth-child(6) > a:nth-child(1) {
+    position: relative;
+    left: -475px;
+  }
+  
+  i.fab:nth-child(7) {
+    position: relative;
+    left: 180px;
+    top: -6px;
+  }
+
+  i.fab:nth-child(8) {
+    position: relative;
+    left: 79px;
+    top: -6px;
+  }
+  
+  i.fab:nth-child(9) {
+    position: relative;
+    left: -22px;
+    top: -6px;
+  }
+  
+  i.fab:nth-child(10) {
+    position: relative;
+    left: -122px;
+    top: -4px;
+  }
+  
+  .heading > h3:nth-child(2) {
+    position: relative;
+    top: 289px;
+    left: -68px;
+  }
+  .heading > h1:nth-child(3) {
+    position: relative;
+    top: 273px;
+    left: -3px;
+  }
+
+.SecondPart {
+    position: relative;
+    top: 479px;
+  }
