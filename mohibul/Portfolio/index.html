@@ -23,7 +23,12 @@
         <!-- google font  -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arimo&family=Lobster&display=swap" rel="stylesheet">
-
+        
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Teko:wght@600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <!-- wow js -->
+       <link rel="stylesheet" href="asset/css/animate.css">
+    <!-- my css  -->
         <link rel="stylesheet" href="asset/css/style.css">
         </head>
         <body>
@@ -38,7 +43,7 @@
                 <div class="row">
                     <div class="col-sm-12 navcolor">
                         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
-                            <a class="navbar-brand" href="#">Navbar</a>
+                            <a class="navbar-brand myn" href="#">MOHIBUL ALAM</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                             </button>
@@ -49,12 +54,21 @@
                                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link " href="#aboutme">About Me</a>
                                 </li>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#mypro">My Project</a>
+                            </li>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#myskill">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                            </li>
                             
-                                <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Disabled</a>
-                                </li>
+                                
                             </ul>
                             <form class="form-inline my-2 my-lg-0">
                             <a href="http://"> <i class="fab fa-facebook-f"></i></a>
@@ -71,8 +85,8 @@
                     <div class="col-sm-12 background">
                         <div class="heading">
 
-                            <p>FULL STACK WEB DEVELOPER</p>
-                            <h1 class="intro">Hello, I’m <span class="name">Mohibul Alam</span> <br> Welcome to my <br> World.</h1>
+                            <p class="animate__bounceIn" >FULL STACK WEB DEVELOPER</p>
+                            <h1  class="intro animate__animated animate__bounceInRight">Hello, I’m <span class="name">Mohibul Alam</span> <br> Welcome to my <br> World.</h1>
 
 
                         </div>
@@ -87,21 +101,23 @@
 
         <!-- about me  -->
 
-        <div class="container-fulid">
+        <div id="aboutme" class="container-fulid">
             <div class="row">
             <div class="col-sm-12">
                 <div class="about_me">
                 
                     <div class="container">
                         <div class="row">
-                        <div class="col-sm-4 myimg">
+                        <div class="col-sm-4 myimg animate__animated animate__fadeInLeft">
                             <div class="myimage">
                                 <img src="asset/image/my image.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-sm-8 myintro">
-                            <h1>About Me</h1>
+                            <h1 class="mhead">About Me</h1>
                             <p>There are many variations of passages of Lorem Ipsum available,  but the <br> majority have suffered alteration in some form, by injected humour, or <br> randomised words which dont look even slightly believable. If you are going <br> to use a passage of Lorem Ipsum,</p>
+                            <button type="button" class="btn btn-secondary">Contace With Me </button>
+                            
                         </div>
                         
                         </div>
@@ -116,13 +132,13 @@
 
         <!-- myawork -->
 
-        <div class="container-fulid myawork">
+        <div id="mypro" class="container-fulid myawork">
             <div class="row">
             <div class="col-sm-12">
                 <div class="container">
                     <div class="row">
                     <div class="col-sm-12 text">
-                        <h1>My Latest Project</h1>
+                        <h1 class="mhead">My Latest Project</h1>
                         <p>There are many variations of passages of Lorem Ipsum available, but the <br> majority have suffered alteration.</p>
                     </div>
                     <div class="col-sm-12 cards">
@@ -132,7 +148,7 @@
                             <div class="row">
                             <div class="col-sm">
                                 <div class="center">
-                                    <article class="card">
+                                    <article class="card animate__animated animate__fadeInUp" >
                                     <img src="asset/image/node.jpg" class="image">
                                     <a href="#" class="card__title">
                                         React.js
@@ -143,7 +159,7 @@
                             </div>
                             <div class="col-sm">
                                 <div class="center">
-                                    <article class="card">
+                                    <article class="card animate__animated animate__fadeInLeft">
                                     <img src="asset/image/re.jpg" class="image">
                                     <a href="#" class="card__title">
                                         Node.js
@@ -154,8 +170,8 @@
                             </div>
                             <div class="col-sm">
                                 <div class="center">
-                                    <article class="card">
-                                    <img src="asset/image/php.jpg.crdownload" class="image">
+                                    <article class="card card animate__animated animate__fadeInRight">
+                                    <img src="asset/image/php.jpg" class="image">
                                     <a href="#" class="card__title">
                                         Php
                                     </a>
@@ -180,10 +196,10 @@
 
         <!-- my skill  -->
 
-        <div class="container-fulid skill">
+        <div id="myskill" class="container-fulid skill">
             <div class="row">
                 <div class="col-sm-12 skillcontant">
-                    <h1>My Awesome Service</h1>
+                    <h1 class="mhead">My Awesome Service</h1>
                     <p>here are many variations of passages of Lorem Ipsum available, but the <br> majority have suffered alteration.</p>
                 </div>
             <div class="col-sm-12">
@@ -254,7 +270,7 @@
                 <div class="container">
                     <div class="row">
                     <div class="col-sm-12 upcon">
-                        <h1>My Client</h1>
+                        <h1 class="mhead">My Client</h1>
                 <p>There are many variations of passages of Lorem Ipsum available,<br> but the majority have suffered alteration.</p>
                     </div>
                     <div class="col-sm-12">
@@ -381,10 +397,10 @@
         </div>
         <!-- contact -->
 
-        <div class="container-fulid contact">
+        <div id="contact1" class="container-fulid contact">
             <div class="row">
             <div class="col-sm-12">
-                <h1>Contact Us</h1>
+                <h1 class="mhead">Contact Us</h1>
                 <div class="container">
                     <div class="row">
                     <div class="col-sm-12 contacttext">
@@ -440,6 +456,25 @@
     </div>
 </div>
             </div>
+
+            <!-- scaript -->
+ 
+            <!-- wow script  -->
+            <script src="asset/js/wow.min.js"></script>
+              <script>
+              
+              wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+              </script>
+              <!-- my script  -->
             
             <script src="asset/js/main.js"></script>
         
