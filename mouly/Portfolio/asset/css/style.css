@@ -187,7 +187,8 @@ div.container {
     font-size: 40px;
   }
   .paragraph{
-      text-align: center;
+      text-align: justify;
+     
   }
 
 .rounded-circle {
@@ -207,4 +208,96 @@ div.container {
     left: 300px;
     color: #1a1ac9d6;
   }
-  
+
+.paragraph > p:nth-child(2) {
+  position: relative;
+  bottom: 41px;
+  right: -787px;
+  color: white;
+}
+
+.paragraph > h4:nth-child(1) {
+  position: relative;
+  bottom: 63px;
+  right: -785px;
+  color: whitw;
+  color: white;
+}
+
+.home > h5:nth-child(4) {
+  position: relative;
+  right: -638px;
+  bottom: 139px;
+  top: -144px;
+  left: 786px;
+  color: black;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/about.html */
+
+.logo {
+  position: relative;
+  bottom: 202px;
+  right: -248px;
+  font-size: 20px;
+  color: #1b1b4d;
+}
+
+.paragraph > p:nth-child(2) {
+  position: relative;
+  color: white;
+  right: -641px;
+}
+
+.paragraph > h4:nth-child(1) {
+  position: relative;
+  color: whitw;
+  color: white;
+  right: -638px;
+}
+.home > h5:nth-child(4) {
+  position: relative;
+  color: black;
+  right: -482px;
+  bottom: 137px;
+  left: 642px;
+}
+.skill{
+  text-align: center;
+}
+.skill {
+  position: relative;
+  right: -776px;
+  bottom: -44px;
+}
+
+body > p:nth-child(2) {
+  position: relative;
+  bottom: -37px;
+}
+
+body > p:nth-child(3) {
+  position: relative;
+  bottom: -36px;
+  right: -626px;
+}
+
+  position: relative;
+  bottom: -36px;
+  left: 140px;
+}
+
+.skill {
+
+  right: -76px;
+}
+
+.skill {
+
+  right: -76px;
+}
+
+
+.skill {
+  position: relative;
+}
