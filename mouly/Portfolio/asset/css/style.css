@@ -489,16 +489,12 @@ body > p:nth-child(4) {
   right: 215px;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
-
 img.mx-auto:nth-child(3) {
   position: relative;
   right: 234px;
   height: 277px;
   bottom: -25px;
 }
-
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
 
 img.mx-auto:nth-child(4) {
   position: relative;
@@ -603,21 +599,14 @@ img.mx-auto:nth-child(6) {
   right: -299px;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
-
 img.mx-auto:nth-child(5) {
   right: 216px;
   position: relative;
 }
-
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
-
 img.mx-auto:nth-child(3) {
   position: relative;
   right: 293px;
 }
-
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
 
 .dolor {
   position: relative;
@@ -625,15 +614,11 @@ img.mx-auto:nth-child(3) {
   right: 272px;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
-
 img.mx-auto:nth-child(5) {
   position: relative;
   right: -338px;
   bottom: 282px;
 }
-
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
 
 div.dolor:nth-child(6) {
   position: relative;
@@ -668,8 +653,6 @@ img.mx-auto:nth-child(9) {
   height: 277px;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
-
 div.dolor:nth-child(10) {
   position: relative;
   right: -364px;
@@ -677,4 +660,9 @@ div.dolor:nth-child(10) {
 }
 .work1.dolor.hover{
   transition: scale(1.05s);
+}
+.work1 > div:nth-child(11) > button:nth-child(1) {
+  position: relative;
+  top: -543px;
+  background-color: blanchedalmond;
 }
