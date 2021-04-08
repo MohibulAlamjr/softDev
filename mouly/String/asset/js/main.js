@@ -80,3 +80,9 @@ var b5 = a.slice(-5,-3);
 
 console.log(b+b1+b2+b3+b4+b5);
 
+var fruits =["Banana","Orange","Apple"];
+var res = fruits.unshits("Jackfruit,Lemon");
+console.log(res);
+
+
+

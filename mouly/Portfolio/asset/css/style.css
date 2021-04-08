@@ -1,0 +1,680 @@
+.body{
+    margin: 0;
+
+}
+.cover{
+    background-image:url(../image/photo-1517694712202-14dd9538aa97.jpg);
+    background-size: cover;
+    position: center;
+    width: 100%;
+    height: 700px;
+}
+.header{
+    text-align:right;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+.header > h2:nth-child(2) {
+    position: relative;
+    bottom: -337px;
+  }
+  
+  .header > h1:nth-child(1) > b:nth-child(1) {
+    position: relative;
+    bottom: -293px;
+  }
+
+.header > h1:nth-child(1) > b:nth-child(1) {
+    position: relative;
+    bottom: -272px;
+    left: -435px;
+  }
+  .header > h2:nth-child(2) {
+    position: relative;
+    bottom: -258px;
+    left: -87px;
+  }
+  
+.header > h1:nth-child(1) {
+    position: relative;
+    bottom: -273px;
+    left: -440px;
+  }
+  
+.header > h3:nth-child(3) {
+    position: relative;
+    bottom: -271px;
+    left: -195px;
+  }
+
+  .header > h1:nth-child(1) {
+    position: relative;
+    right: 429px;
+    bottom: -260px;
+    left: -274px;
+  }
+  .see{
+      font-size:10px ;
+      background-color: violet;
+  }
+.see {
+    position: relative;
+    bottom: -238px;
+    left: -239px;
+  }
+  .home{
+      background-color: rgb(87, 81, 81);
+      background-size: cover;
+    position: center;
+    width: 100%;
+    height: 700px;
+
+  }
+  .page{
+      color: white;
+  }
+
+div.container {
+    position: relative;
+    bottom: -97px;
+  }
+  
+  h4.container {
+    position: relative;
+    bottom: -66px;
+  }
+  .navbar a{
+      text-decoration: none;
+      color: white;
+  }
+
+
+.btn1 {
+    position: relative;
+    bottom: 270px;
+    right: -741px;
+  }
+  
+  
+  .btn2 {
+    position: relative;
+    bottom: 272px;
+    right: -446px;
+  }
+  
+  .btn3 {
+    position: relative;
+    right: -79px;
+    top: -271px;
+  }
+  
+  
+  .btn4 {
+    position: relative;
+    top: -270px;
+    left: -106px;
+  }
+  
+  .btn3 > a:nth-child(1) {
+    position: relative;
+    right: -86px;
+  }
+  
+.btn1 {
+    position: relative;
+    left: 696px;
+  }
+
+  .btn2 {
+    position: relative;
+    right: -486px;
+  }
+  
+  .btn3 {
+    position: relative;
+    right: -192px;
+  }
+  
+  .btn5 {
+    position: relative;
+    right: -78px;
+    bottom: 272px;
+  }
+  .facebook{
+      text-align: right;
+      font-size: 50px;
+  }
+
+.facebook {
+    position: relative;
+    left: -703px;
+    bottom: -235px;
+    color: #1c1c5b;
+  }
+
+.fa-twitter-square {
+    position: relative;
+    right: -906px;
+    bottom: -173px;
+    font-size: 50px;
+    color: #171748;
+  }
+  
+.fa-twitter-square {
+    position: relative;
+  }
+  
+  .skype {
+    position: relative;
+    font-size: 40px;
+    right: -1033px;
+    bottom: -112px;
+    color: #1c1c47;
+  }
+.facebook {
+    
+    font-size: 40px;
+  }
+  
+  .twitter {
+    position: relative;
+    font-size: 40px;
+  }
+  
+.fa-twitter-square {
+    
+    font-size: 40px;
+  }
+  .paragraph{
+      text-align: justify;
+     
+  }
+
+.rounded-circle {
+    position: relative;
+    bottom: -96px;
+  }
+ 
+  h4.container {
+    position: relative;
+    bottom: -167px;
+  }
+  
+  .home > h5:nth-child(4) {
+    position: relative;
+    bottom: 251px;
+    right: -521px;
+    left: 300px;
+    color: #1a1ac9d6;
+  }
+
+.paragraph > p:nth-child(2) {
+  position: relative;
+  bottom: 41px;
+  right: -787px;
+  color: white;
+}
+
+.paragraph > h4:nth-child(1) {
+  position: relative;
+  bottom: 63px;
+  right: -785px;
+  color: whitw;
+  color: white;
+}
+
+.home > h5:nth-child(4) {
+  position: relative;
+  right: -638px;
+  bottom: 139px;
+  top: -144px;
+  left: 786px;
+  color: black;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/about.html */
+
+.logo {
+  position: relative;
+  bottom: 202px;
+  right: -248px;
+  font-size: 20px;
+  color: #1b1b4d;
+}
+
+.paragraph > p:nth-child(2) {
+  position: relative;
+  color: white;
+  right: -641px;
+}
+
+.paragraph > h4:nth-child(1) {
+  position: relative;
+  color: whitw;
+  color: white;
+  right: -638px;
+}
+.home > h5:nth-child(4) {
+  position: relative;
+  color: black;
+  right: -482px;
+  bottom: 137px;
+  left: 642px;
+}
+.skill{
+  text-align: center;
+}
+.skill {
+  position: relative;
+  right: -776px;
+  bottom: -44px;
+}
+
+body > p:nth-child(2) {
+  position: relative;
+  bottom: -37px;
+}
+
+body > p:nth-child(3) {
+  position: relative;
+  bottom: -36px;
+  right: -626px;
+}
+
+  position: relative;
+  bottom: -36px;
+  left: 140px;
+}
+
+.skill {
+
+  right: -76px;
+}
+
+.skill {
+
+  right: -76px;
+}
+
+
+.skill {
+  position: relative;
+}
+.work{
+  background-color: rgb(19, 16, 16);
+  background-size: cover;
+  position: center;
+  width: 100%;
+  height: 800px;
+  color: aqua;
+  font-size: 50px;
+  text-align: center;
+
+}
+.col{
+  color: white;
+}
+
+.container > h1:nth-child(1) {
+  position: relative;
+  top: 83px;
+}
+.row {
+  position: relative;
+  bottom: 666px;
+}
+.row {
+  position: relative;
+  bottom: 485px;
+}
+
+.row {
+  position: relative;
+  bottom: 711px;
+}
+.col{
+  background-color: rgb(87, 27, 87);
+}
+.Aa{
+  text-align: center;
+}
+
+.fas {
+  position: relative;
+  right: -159px;
+}
+
+.fa-pushed {
+  position: relative;
+  right: -161px;
+}
+
+.fa-figma {
+  position: relative;
+  right: -163px;
+}
+.cc{
+  text-align: center;
+  color: #ce0bde;
+}
+ 
+
+body > h3:nth-child(1) {
+  position: relative;
+  right: -625px;
+  bottom: -42px;
+}
+
+body > p:nth-child(2) {
+  position: relative;
+  right: -647px;
+}
+
+body > p:nth-child(3) {
+  position: relative;
+  right: -26px;
+  bottom: -15px;
+}
+
+body > p:nth-child(4) {
+  position: relative;
+  right: -27px;
+}
+
+
+.contact {
+  color: #ce0bde;
+}
+.me{
+  background-color: aquamarine;
+}
+.me {
+  
+  background-color: #b4f4df;
+  height: 700px;
+}
+
+
+.me > h3:nth-child(6) {
+  position: relative;
+  right: -50px;
+}
+
+
+.me > p:nth-child(7) {
+  position: relative;
+  right: -50px;
+}
+
+.fas {
+  position: relative;
+  font-size: 30px;
+  bottom: -37px;
+  right: -13px;
+}
+
+.me > h3:nth-child(9) {
+  position: relative;
+  right: -50px;
+}
+.me > p:nth-child(10) {
+  position: relative;
+  right: -55px;
+}
+
+.me > h3:nth-child(12) {
+  position: relative;
+  right: -52px;
+}
+
+.me > p:nth-child(13) {
+  position: relative;
+  right: -54px;
+}
+
+.message {
+  position: relative;
+  right: -379px;
+  bottom: 309px;
+}
+
+.btn {
+  position: relative;
+  right: -370px;
+  bottom: 269px;
+}
+.btn btn-primary1{
+  background-color: blueviolet;
+}
+
+.btn {
+  position: relative;
+  color: #e50ce5;
+  border: black;
+}
+
+.btn {
+  
+  color: #100f10;
+}
+.me {
+ 
+  height: 750px;
+}
+
+.btn3 > a:nth-child(1) {
+  bottom: 0px;
+  right: -17px;
+}
+.works1{
+  background-color: cyan;
+  width: 100%h;
+  height: 800px;
+  text-align: center;
+}
+.work1 {
+  background-color: #6ae3d8;
+  height: 1200px;
+  text-align: center;
+  color: black;
+}
+.image1{
+  width: 20%;
+  height: 20px;
+}
+
+.mx-auto {
+  position: relative;
+  right: 215px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(3) {
+  position: relative;
+  right: 234px;
+  height: 277px;
+  bottom: -25px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(4) {
+  position: relative;
+  right: -232px;
+  bottom: 252px;
+  height: 50;
+  height: 50ox;
+  height: 277px;
+}
+
+
+img.mx-auto:nth-child(5) {
+  position: relative;
+  bottom: 113px;
+  right: 233px;
+  height: 277px;
+}
+
+img.mx-auto:nth-child(6) {
+  position: relative;
+  bottom: 391px;
+  right: -231px;
+}
+
+img.mx-auto:nth-child(6) {
+  height: 277px;
+}
+.fas {
+  position: relative;
+  right: -145px;
+  bottom: -5px;
+}
+
+.fa-pushed {
+  position: relative;
+  height: 30px;
+}
+.Aa:hover{
+  transform: opacity0.25s;
+}
+i.fas:nth-child(5) {
+  position: relative;
+  bottom: -36px;
+  right: -16px;
+}
+i.fas:nth-child(8) {
+  position: relative;
+  bottom: -40px;
+  right: -19px;
+}
+i.fas:nth-child(11) {
+  position: relative;
+  bottom: -32px;
+  right: -19px;
+}
+
+img.mx-auto:nth-child(2) {
+  position: relative;
+  right: -236px;
+  bottom: 177px;
+  height: 277px;
+}
+img.mx-auto:nth-child(1) {
+  position: relative;
+  height: 277px;
+  left: -233px;
+  bottom: -100px;
+}
+
+img.mx-auto:nth-child(4) {
+  position: relative;
+  bottom: 254px;
+}
+
+img.mx-auto:nth-child(3) {
+  position: relative;
+  bottom: -165px;
+}
+.asset > div:nth-child(2) {
+  position: relative;
+  bottom: -118px;
+}
+img.mx-auto:nth-child(3) {
+  position: relative;
+  bottom: -90px;
+}
+img.mx-auto:nth-child(5) {
+  position: relative;
+  bottom: -110px;
+}
+.dolor {
+  position: relative;
+  bottom: -98px;
+  right: 218px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(6) {
+  position: relative;
+  bottom: 560px;
+  right: -299px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(5) {
+  right: 216px;
+  position: relative;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(3) {
+  position: relative;
+  right: 293px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+.dolor {
+  position: relative;
+  bottom: -104px;
+  right: 272px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(5) {
+  position: relative;
+  right: -338px;
+  bottom: 282px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+div.dolor:nth-child(6) {
+  position: relative;
+  right: -384px;
+  bottom: 268px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(7) {
+  position: relative;
+  right: 209px;
+  bottom: 246px;
+  left: -294px;
+  height: 277px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+div.dolor:nth-child(8) {
+  position: relative;
+  bottom: 236px;
+  right: 287px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+img.mx-auto:nth-child(9) {
+  position: relative;
+  right: -365px;
+  bottom: 620px;
+  height: 277px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
+
+div.dolor:nth-child(10) {
+  position: relative;
+  right: -364px;
+  bottom: 606px;
+}
+.work1.dolor.hover{
+  transition: scale(1.05s);
+}
