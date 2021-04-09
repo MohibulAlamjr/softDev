@@ -107,7 +107,9 @@ div.container {
     position: relative;
     right: -79px;
     top: -271px;
+    text-align: center;
   }
+  
   
   
   .btn4 {
@@ -626,8 +628,6 @@ div.dolor:nth-child(6) {
   bottom: 268px;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
-
 img.mx-auto:nth-child(7) {
   position: relative;
   right: 209px;
@@ -635,8 +635,6 @@ img.mx-auto:nth-child(7) {
   left: -294px;
   height: 277px;
 }
-
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
 
 div.dolor:nth-child(8) {
   position: relative;
@@ -665,4 +663,56 @@ div.dolor:nth-child(10) {
   position: relative;
   top: -543px;
   background-color: blanchedalmond;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/about.html */
+
+.github {
+  position: relative;
+  bottom: -238px;
+  right: -843px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/about.html */
+
+.facebook {
+  position: relative;
+  bottom: -268px;
+}
+
+.facebook {
+  font-size: 20px;
+}
+
+.twitter {
+
+  font-size: 10px;
+}
+
+.skype {
+
+  font-size: 20px;
+}
+
+.logo {
+  color: black;
+}
+.logo {
+  position: relative;
+}
+
+.skype {
+  position: relative;
+  bottom: -167px;
+  left: 880px;
+}
+
+.fa-skype {
+  position: relative;
+  left: -6px;
+}
+
+.fa-skype {
+  position: relative;
+  bottom: -41px;
 }
