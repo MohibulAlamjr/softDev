@@ -593,8 +593,6 @@ img.mx-auto:nth-child(5) {
   right: 218px;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
-
 img.mx-auto:nth-child(6) {
   position: relative;
   bottom: 560px;
@@ -665,7 +663,6 @@ div.dolor:nth-child(10) {
   background-color: blanchedalmond;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/about.html */
 
 .github {
   position: relative;
@@ -673,7 +670,6 @@ div.dolor:nth-child(10) {
   right: -843px;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/about.html */
 
 .facebook {
   position: relative;
@@ -716,3 +712,46 @@ div.dolor:nth-child(10) {
   position: relative;
   bottom: -41px;
 }
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/index.html */
+
+.btna > a:nth-child(1) {
+  position: relative;
+  text-decoration: none;
+  font-size: 30px;
+  height: 10px;
+  height: 10%;
+  bottom: 14px;
+  background-color: none;
+  
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/index.html */
+
+.btna {
+  position: relative;
+  bottom: -296px;
+  left: -147px;
+  color: #100f10;
+  text-align: center;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/index.html */
+
+.btn {
+  position: relative;
+  bottom: -285px;
+  right: 209px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn > a:nth-child(1) {
+  text-decoration: none;
+}
+ 
