@@ -795,3 +795,31 @@ transform: scaleY(110%);
   bottom: 264px;
   right: -375px;
 }
+
+.btn {
+  position: relative;
+  bottom: -240px;
+  right: 208px;
+}
+
+
+.btn6 {
+  position: relative;
+  right: -377px;
+  bottom: 275px;
+}
+
+body {
+  position: relative;
+}
+
+.btn6 {
+  position: relative;
+  right: -378px;
+  left: 373px;
+}
+
+.github {
+
+  right: -845px;
+}
