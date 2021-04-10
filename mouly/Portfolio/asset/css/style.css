@@ -712,9 +712,6 @@ div.dolor:nth-child(10) {
   position: relative;
   bottom: -41px;
 }
-
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/index.html */
-
 .btna > a:nth-child(1) {
   position: relative;
   text-decoration: none;
@@ -728,8 +725,6 @@ div.dolor:nth-child(10) {
   border-bottom-style: none;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/index.html */
-
 .btna {
   position: relative;
   bottom: -296px;
@@ -737,8 +732,6 @@ div.dolor:nth-child(10) {
   color: #100f10;
   text-align: center;
 }
-
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/index.html */
 
 .btn {
   position: relative;
@@ -781,4 +774,18 @@ transform: scaleY(110%);
   transform: scaleY(110%);
 
 
+}
+.submit{
+  text-decoration: none;
+}
+
+.work1 > div:nth-child(11) > button:nth-child(1) > a:nth-child(1) {
+  text-decoration: none;
+  color: black;
+}
+.container:hover{
+  opacity:0.5;
+  transition: 2s;
+  transform: scaleX(110%);
+  transform: scaleY(110%);
 }
