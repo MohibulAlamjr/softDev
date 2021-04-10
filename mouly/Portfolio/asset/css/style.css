@@ -789,3 +789,9 @@ transform: scaleY(110%);
   transform: scaleX(110%);
   transform: scaleY(110%);
 }
+.btn {
+  position: relative;
+  text-align: center;
+  bottom: 264px;
+  right: -375px;
+}
