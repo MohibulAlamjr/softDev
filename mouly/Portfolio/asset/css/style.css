@@ -107,7 +107,9 @@ div.container {
     position: relative;
     right: -79px;
     top: -271px;
+    text-align: center;
   }
+  
   
   
   .btn4 {
@@ -591,8 +593,6 @@ img.mx-auto:nth-child(5) {
   right: 218px;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
-
 img.mx-auto:nth-child(6) {
   position: relative;
   bottom: 560px;
@@ -626,8 +626,6 @@ div.dolor:nth-child(6) {
   bottom: 268px;
 }
 
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
-
 img.mx-auto:nth-child(7) {
   position: relative;
   right: 209px;
@@ -635,8 +633,6 @@ img.mx-auto:nth-child(7) {
   left: -294px;
   height: 277px;
 }
-
-/* Element | file:///E:/Project/softDev/mouly/Portfolio/works.html */
 
 div.dolor:nth-child(8) {
   position: relative;
@@ -665,4 +661,124 @@ div.dolor:nth-child(10) {
   position: relative;
   top: -543px;
   background-color: blanchedalmond;
+}
+
+
+.github {
+  position: relative;
+  bottom: -238px;
+  right: -843px;
+}
+
+
+.facebook {
+  position: relative;
+  bottom: -268px;
+}
+
+.facebook {
+  font-size: 20px;
+}
+
+.twitter {
+
+  font-size: 10px;
+}
+
+.skype {
+
+  font-size: 20px;
+}
+
+.logo {
+  color: black;
+}
+.logo {
+  position: relative;
+}
+
+.skype {
+  position: relative;
+  bottom: -167px;
+  left: 880px;
+}
+
+.fa-skype {
+  position: relative;
+  left: -6px;
+}
+
+.fa-skype {
+  position: relative;
+  bottom: -41px;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/index.html */
+
+.btna > a:nth-child(1) {
+  position: relative;
+  text-decoration: none;
+  font-size: 30px;
+  height: 10px;
+  height: 10%;
+  bottom: 14px;
+  background-color: none;
+  
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/index.html */
+
+.btna {
+  position: relative;
+  bottom: -296px;
+  left: -147px;
+  color: #100f10;
+  text-align: center;
+}
+
+/* Element | file:///E:/Project/softDev/mouly/Portfolio/index.html */
+
+.btn {
+  position: relative;
+  bottom: -285px;
+  right: 209px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn > a:nth-child(1) {
+  text-decoration: none;
+}
+.one:hover{
+opacity:0.5;
+transition: 2s;
+transform: scaleX(110%);
+transform: scaleY(110%);
+} 
+.two:hover{
+
+opacity:0.5;
+transition: 2s;
+transform: scaleX(110%);
+transform: scaleY(110%);
+}
+.three:hover{
+  opacity:0.5;
+  transition: 2s;
+  transform: scaleX(110%);
+  transform: scaleY(110%);
+
+}
+.four:hover{
+  opacity:0.5;
+  transition: 2s;
+  transform: scaleX(110%);
+  transform: scaleY(110%);
+
+
 }
