@@ -69,3 +69,10 @@ fruits.forEach(myFunction);
 function myFunction(value) {
     console.log(value);
   } 
+
+
+//   push 
+var fruits = ["Banana", "Orange", "Apple", "Mango","dfjbdjh"];
+fruits[fruits.length]="Lemon";
+// fruits.push("Lemon"); 
+console.log(fruits);
