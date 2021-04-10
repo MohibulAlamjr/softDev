@@ -213,3 +213,121 @@ i.fab:nth-child(10) {
     position: relative;
     top: 479px;
   }
+  .ThirdPart{
+    background-color: rgb(184, 28, 28);
+    height: 750px;
+    width: 100%;
+  }
+.ThirdPart {
+  position: relative;
+  top: 479px;
+}
+.ThirdPart h1{
+  text-align: center;
+  font-size: 60px;
+}
+div.container:nth-child(8) > p:nth-child(4) {
+  position: relative;
+  left: 421px;
+  top: 82px;
+}
+
+.ThirdPart {
+  position: relative;
+  top: 600px;
+}
+
+.FourthPart{
+  background-color: black;
+  height: 700px;
+  width: 100%;
+}
+.FourthPart {
+  position: relative;
+  top: 600px;
+}
+
+.copyright-text > p:nth-child(1) {
+  position: relative;
+  top: 664px;
+}
+.copyright-text {
+  position: relative;
+  top: -74px;
+}
+
+.FourthPart > h1:nth-child(1) {
+  position: relative;
+  left: 614px;
+  top: 2px;
+}
+.h1, h1 {
+  font-size: 60px;
+}
+.FourthPart h1{
+  color: #ffff;
+}
+.contact{
+  color: #ffff;
+}
+.fas{
+  font-size: 30px;
+}
+
+i.fas:nth-child(1) {
+  position: relative;
+  left: -50px;
+  top: 39px;
+}
+i.fas:nth-child(4) {
+  position: relative;
+  left: -48px;
+  top: 38px;
+}
+
+i.fas:nth-child(7) {
+  position: relative;
+  left: -43px;
+  top: 38px;
+}
+
+i.fas:nth-child(10) {
+  position: relative;
+  left: -46px;
+  top: 39px;
+}
+.copyright-text > p:nth-child(1) {
+  position: relative;
+  left: 861px;
+  top: 632px;
+}
+
+.contact > h1:nth-child(13) {
+  position: relative;
+  left: 366px;
+  top: -455px;
+}
+
+#subject {
+  positionL: relative;
+  position: relative;
+  top: -381px;
+  left: 647px;
+}
+
+div.container:nth-child(3) > form:nth-child(1) > label:nth-child(1) {
+  position: relative;
+  top: -606px;
+  left: 673px;
+}
+
+div.container:nth-child(3) > form:nth-child(1) > input:nth-child(3) {
+  position: relative;
+  top: -313px;
+  left: 632px;
+}
+
+body {
+  color: #fFff;
+}
+
