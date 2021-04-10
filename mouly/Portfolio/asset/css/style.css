@@ -754,4 +754,31 @@ a {
 .btn > a:nth-child(1) {
   text-decoration: none;
 }
- 
+.one:hover{
+opacity:0.5;
+transition: 2s;
+transform: scaleX(110%);
+transform: scaleY(110%);
+} 
+.two:hover{
+
+opacity:0.5;
+transition: 2s;
+transform: scaleX(110%);
+transform: scaleY(110%);
+}
+.three:hover{
+  opacity:0.5;
+  transition: 2s;
+  transform: scaleX(110%);
+  transform: scaleY(110%);
+
+}
+.four:hover{
+  opacity:0.5;
+  transition: 2s;
+  transform: scaleX(110%);
+  transform: scaleY(110%);
+
+
+}
