@@ -77,3 +77,4 @@ fruits[fruits.length]="Lemon";
 
 // fruits.push("Lemon"); 
 console.log(fruits);
+console.log( typeof(fruits));
