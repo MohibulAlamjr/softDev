@@ -172,22 +172,6 @@ font-family: 'Lobster Two', cursive;
     position: relative;
     top: 479px;
   }
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     padding: 1% 10%;
     background: rgb(168, 157, 157);
@@ -205,3 +189,27 @@ footer {
     }
 
 }
+
+
+/* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+
+.ThirdPart > h1:nth-child(1) {
+    text-align: center;
+    margin-top: 4px;
+    border-top-width: 0px;
+    border-top-style: solid;
+  }
+  
+  /* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+  
+  .ThirdPart {
+    margin-top: 39px;
+    background-color: thistle;
+  }
+  
+  /* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+  
+  .ThirdPart > h1:nth-child(1) > b:nth-child(1) {
+    margin-top: 1px;
+  }
+  
