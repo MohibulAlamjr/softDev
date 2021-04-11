@@ -3,8 +3,8 @@
 }
 
 .cover{
-    background-image: url(../img/image/cover.jpg);
-    height: 750px;
+    background-image: url(../img/cover.jpg);
+    height: 550px;
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
@@ -209,10 +209,7 @@ i.fab:nth-child(10) {
     left: -3px;
   }
 
-.SecondPart {
-    position: relative;
-    top: 479px;
-  }
+
   .ThirdPart{
     background-color: rgb(184, 28, 28);
     height: 750px;
@@ -328,6 +325,23 @@ div.container:nth-child(3) > form:nth-child(1) > input:nth-child(3) {
 }
 
 body {
-  color: #fFff;
+  color: rgb(22, 9, 58);
+}
+footer {
+  padding: 1% 10%;
+  background: rgb(29, 28, 28);
+}
+
+@media (max-width:768px) {
+  .nav-link {
+      background: rgb(0, 0, 0, 0.7);
+  }
+
+  .banner-container h1 {
+      font-size: 2.5rem;
+
+
+  }
+
 }
 
