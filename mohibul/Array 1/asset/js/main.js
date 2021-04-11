@@ -43,8 +43,36 @@ function indexNumber(array,val){
     return indexn;
 }
 
-var mya=['sweety','mouly','kaium','mohibul']
+var mya=['sweety','mouly','kaium','mohibul'];
 var o = indexNumber(myArray,30);
 var y = indexNumber(mya,'sweety');
 console.log(o);
 console.log(y);
+
+// reach all Element of array 
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+
+for(let i = 0; i < fruits.length;i++){
+    console.log(fruits[i]);
+}
+
+
+
+
+// different rules
+
+
+
+fruits.forEach(myFunction);
+
+function myFunction(value) {
+    console.log(value);
+  } 
+
+
+//   push 
+var fruits = ["Banana", "Orange", "Apple", "Mango","dfjbdjh"];
+fruits[fruits.length]="Lemon";
+// fruits.push("Lemon"); 
+console.log(fruits);
