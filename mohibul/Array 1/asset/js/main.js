@@ -74,5 +74,7 @@ function myFunction(value) {
 //   push 
 var fruits = ["Banana", "Orange", "Apple", "Mango","dfjbdjh"];
 fruits[fruits.length]="Lemon";
+
 // fruits.push("Lemon"); 
 console.log(fruits);
+console.log( typeof(fruits));

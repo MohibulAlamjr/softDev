@@ -18,10 +18,11 @@ console.log(myArray[3]);
 function myfun(){
     var x = 14;
     var y = 10;
-      sum = x+y;
-   console.log(sum);
+    var sum = x+y;
+   return sum;
 }
 console.log(myArray.length);
+console.log(myArray[2]);
 
 console.log(myArray[myArray.length-4]);
 
@@ -38,6 +39,6 @@ function indexNum(array,val){
 
 var mya=['sweety','mouly','kaium','mohibul']
 var x = indexNum(myArray,20);
-var y = indexNum(mya,'sweety');
+var y = indexNum(mya,'kaium');
 console.log(x);
 console.log(y);
