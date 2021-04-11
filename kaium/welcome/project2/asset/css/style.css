@@ -213,3 +213,24 @@ footer {
     margin-top: 1px;
   }
   
+/* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+
+.footer {
+    margin-top: -16px;
+  }
+  
+  /* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+  
+  .ThirdPart {
+    /* margin-top: 39px; */
+    margin-top: 35px;
+  }
+  
+  /* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+  
+  .ThirdPart > h1:nth-child(1) {
+    /* margin-top: 4px; */
+    margin-top: 20px;
+    padding-top: 35px;
+  }
+  
