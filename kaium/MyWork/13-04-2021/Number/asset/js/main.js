@@ -25,7 +25,7 @@ return z=x+y;
 console.log(Precision());
 
 
-// The maximum number of decimals is 17
+// The maximum number of decimals/float is 17
 var p = 0.2 + 0.1;
 console.log(p);
 
