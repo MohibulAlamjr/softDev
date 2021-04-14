@@ -125,8 +125,7 @@ console.log(a<=b);
 // Method of toString
 
  var i = 76;
- i.toString();
- console.log(i);
+ console.log( i.toString());
 
 
 
