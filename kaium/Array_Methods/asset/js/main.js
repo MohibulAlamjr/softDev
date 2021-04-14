@@ -88,6 +88,32 @@ var myChildren = arr1.concat(arr2, arr3);
 console.log(myChildren);
 
 
+// Merging an Array with Values
+var arr1 = ["Emil", "Tobias", "Linus"];
+var myChildren = arr1.concat("Peter"); 
+console.log(myChildren);
+
+// Slicing an Array
+// The slice() method 
+
+var fruits = ["Banana ", "Orange ", "Lemon ", "Apple ", "Mango "];
+var citrus = fruits.slice(1);
+console.log(fruits + ' ' + citrus);
+
+// Slicing an Array
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(3);
+console.log(fruits + " " + citrus);
+
+// Automatic toString()
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.toString());
+
+var fruits1 = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits1);
+
+
+
 
 
 
