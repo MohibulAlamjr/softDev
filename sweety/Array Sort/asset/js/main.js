@@ -51,10 +51,10 @@ console.log(N);
 
 // Random Sort 
 
-num.sort(function(a,b){return 0.5 - Math.random});
+num.sort(function(a,b){return 0.5 - Math.random()});
 console.log(num.toString());
 
-N.sort(function(x,y){return 0.5 - Math.random});
+N.sort(function(x,y){return 0.5 - Math.random()});
 console.log(N.toString());
 
 
