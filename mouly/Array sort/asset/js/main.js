@@ -166,7 +166,8 @@ function myMax11(val11){
 
         if(x<val11[i]){
             x=val11[i];
-        }else{
+        }else
+        {
             x = x;
         }
         
