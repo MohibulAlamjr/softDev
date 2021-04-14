@@ -123,7 +123,15 @@ console.log(typeof fruits);
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(Array.isArray(fruits));
 
+// isArray() function 
+var fruits = ["Banana", "Orange", "Apple", "Mango"]; //problem
+console.log(isArray(fruits));
+function isArray(myArray) {
+   return myArray.constructor.toString().indexOf("Array") > -1;
+ }
 
-
+//  instanceof
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits instanceof Array);
 
 
