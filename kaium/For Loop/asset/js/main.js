@@ -104,6 +104,6 @@ var cars = ["BMW", "Volvo", "Mini"];
 var txt = "";
 var x;
 for (x of cars) {
-  txt += cars[x] + " ";
+  txt += x + " ";
 }
 console.log(txt);
