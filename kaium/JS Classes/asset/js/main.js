@@ -8,7 +8,7 @@ class Car1 {
   console.log(mycar.name+ " " + mycar.year);
 
 
-  class homo{
+  class MyClass{
     constructor(a, b, c, d, e, f){
       this.color =a;
       this.FName = b;
@@ -19,21 +19,44 @@ class Car1 {
     }
       
   }
- myData = new homo("Red","MD AL","Kaium",25,"Barguna","Dhaka"); 
+ myData = new MyClass("Red","MD AL","Kaium",25,"Barguna","Dhaka"); 
  console.log(myData.color+ " " +myData.FName);
 
- class Car {
-    constructor(name, year) {
-      this.name = name;
-      this.year = year;
 
-    }
-    age() {
-      let date = new Date();
-      return date.getFullYear() - this.year;
-    }
+
+
+
+
+ class homo{
+  constructor(a,b,c,d,e,f,g){
+      this.color = a;
+      this.height = b;
+      this.weight = c;
+      this.eyeColor = d;
+      this.hairColor = e;
+      this.bloodgroup = f;
+      this.year = g;
+
+
+
   }
-  
-  let myCar = new Car("Ford", 2014);
-  console.log("My car is " + myCar.age() + " years old.");
+  age(x){
+      return x - this.year;
+  }
+}
+
+//  get year dynamcicaly 
+let date = new Date();
+let nowYear = date.getFullYear();
+
+
+
+sweety= new homo("Gray",2.8,96,"Black","red","A+",1975);
+
+mouly= new homo("Kala",5.3,33,"Black","Black","O+",1973);
+
+console.log("Sweet's color is "+sweety.color +". your eye color is "+sweety.eyeColor+" your age is "+ sweety.age(nowYear));
+
+console.log(mouly.age(nowYear));
+ 
  
