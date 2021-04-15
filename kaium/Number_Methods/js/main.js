@@ -105,3 +105,32 @@ console.log("parseInt");
  console.log(b); 
  var b=parseInt("years 10");
  console.log(b);
+
+//  Number Properties
+// MIN_VALUE and MAX_VALUE
+
+var x = Number.MAX_VALUE;
+console.log(x);
+
+var y = Number.MIN_VALUE;
+console.log(y);
+
+// POSITIVE_INFINITY
+var x = Number.POSITIVE_INFINITY;
+console.log(x);
+
+// NEGATIVE_INFINITY
+var x = Number.NEGATIVE_INFINITY;
+console.log(x);
+
+
+var x = -1 / 0;
+console.log(x);
+
+// NaN - Not a Number
+console.log( Number.NaN);
+console.log( 100 / "Apple");
+
+// Number.MAX_VALUE.
+var z = 7;
+console.log(z.MAX_VALUE);
