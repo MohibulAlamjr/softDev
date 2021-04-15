@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+   <!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   <!-- Popper JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+   <!-- Latest compiled JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- font  -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+      <link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
+      <!-- my style -->
+  <link rel="stylesheet" href="asset/css/reg.css">
+
+</head>
+<body>
+    <div class="body-content">
+        <div class="module">
+          <h1>Create an account</h1>
+          <form class="form" action="l.php" method="post" enctype="multipart/form-data" autocomplete="off">
+            <div class="alert alert-error"></div>
+            <input type="text" placeholder="First name" name="fname" required />
+            <input type="text" placeholder="Last Name" name="lname" required />
+            <input type="text" placeholder="ID" name="id" required />
+            <input type="email" placeholder="Email" name="email" required />
+            <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
+            <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
+            <input type="text" placeholder="Phone Number" name="phonenumber" required />
+            <input type="text" placeholder="Blood Group" name="bloodgroup" required />
+             
+           
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Male">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Female">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+            
+            
+            <input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
+          </form>
+        </div>
+      </div>
+</body>
+</html>
