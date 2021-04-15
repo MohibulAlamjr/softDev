@@ -1,10 +1,13 @@
 // The toString() Method
 var x = 123;
-console.log(x.toString() + " " +(123).toString() + " " +(100 + 23).toString());
+console.log(
+    x.toString() + " " +
+    (123).toString() + " " +
+    (100 + 23).toString());
 
 // The toExponential() Method
 // toExponential()
-var x = 9.656;
+var x = 9.656; //Problen
 console.log(
 x.toExponential() + " " + 
 x.toExponential(2) + " " + 
@@ -19,3 +22,11 @@ x.toFixed(0) + " " +
 x.toFixed(2) + " " +
 x.toFixed(4) + " " +
 x.toFixed(6));
+
+// The toPrecision() Method
+var x = 9.656;
+console.log(
+x.toPrecision() + " " +
+x.toPrecision(3) + " " +
+x.toPrecision(4) + " " +
+x.toPrecision(6) );
