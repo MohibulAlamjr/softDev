@@ -100,4 +100,10 @@ for (x in numbers) {
 }
 console.log(txt);
 
-
+var cars = ["BMW", "Volvo", "Mini"];
+var txt = "";
+var x;
+for (x of cars) {
+  txt += cars[x] + " ";
+}
+console.log(txt);
