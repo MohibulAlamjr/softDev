@@ -163,6 +163,3 @@ function myCalculator1(x,y,z){
     return ans;
 }
 console.log(myCalculator1(400,740,"SUM"));
-
-
-// gdgfruiwfgsfshrfierh

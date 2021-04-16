@@ -88,30 +88,34 @@ for ( let b in Name1){
 }
 
 // FOR CONDITION 
+function calculator (x,y,z){
 
-var a=[19,20,22,12];
-function myFunction() {
-var result;
+    if(x === "sum"){
+        var ans = y + z;
+    }
 
-if(a == 20){
-    result = 'its right';
-}
-else if(a < 12){
-    result = 'Its smaller Number'; 
-}
-else if(a > 10){
-    result = 'Its greater Number'
-}
-else if(a <= 5){
-    result = 'Its Right';
-}
-else{
-    result ='its wrong';
-}
-}
-console.log(result);
+    else if(x === "sub"){
+        var ans = y - z;
+    }
 
-    
+    else if(x === "div"){
+        var ans = y/z;
+    }
+    else if (x === "mul"){
+        var ans = y * z;
+    }
+    else {
+        ans = "Tumi Fail"
+    }
+    return ans;
+}
+
+console.log(calculator("sum",10,12));
+console.log(calculator ("sub",20,10));
+console.log(calculator ("div",6,2));
+console.log(calculator ("mul",9,9));
+
+console.log(calculator("DIV",40,4));
 
 
 
