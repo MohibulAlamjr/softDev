@@ -1,0 +1,27 @@
+body{
+    background-image: url(../CSS/../IMAGE/wAHxU8U.jpg);
+}
+.heading{
+    text-align: center;
+    color: chartreuse;
+    font-size: 42px;
+}
+.heading{
+    text-align: center;
+    color: aqua;
+    background-color: rgba(255, 140, 0, 0.466);
+    font-size: 50px;
+}
+.h.heading{
+    text-align: center;
+    background-color: rgba(233, 150, 122, 0.541);
+    
+}
+.class1{
+    font-size: xx-large;
+    text-align: right;
+    color: rgba(255, 20, 145, 0.664);
+}
+.class2{
+    background-color: dimgray;
+}
