@@ -1,63 +1,69 @@
-// // FOR
-// var i =1;
+// The While Loop
+var text = "";
+var i = 0;
+while (i < 10) {
+    text += "  " + i;
+    i++;
+}
+console.log(text);
 
-// for(; i<10 ;)
-// {
-//     console.log(i);
-//     i++;
-// }
-// // while
+// The Do/While Loop
 
-// var j=0;
-// while(j<12){
-//     console.log(j);
-//     j++
-// }
+var text = ""
+var i = 11;
 
-// // do while
-
-// var z=0;
-// console.log(Comes From do while);
-// do{
-//     console.log(z);
-// } while(z<13);
+do {
+    text += "  " + i;
+    i++;
+}
+while (i <= 20);
+console.log(text);
 
 // Comparing For and While
-var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var cars = ["kaium", "jubayer", "Sojib", "Tafsin"];
 var i = 0;
-
-for (;cars[i];) {
-    console.log(cars[i]);
-  i++;
+var text = "";
+for (; cars[i];) {
+    text += cars[i] + " ";
+    i++;
 }
+console.log(text);
 
-var ca = [4,1,2,5,1,];
-for(x of ca){
-    var ind = " ";
-if(x ===5){
-    var ind="Yes!";
-    break;
+var cars = ["kaium", "jubayer", "Sojib", "Tafsin"];
+var i = 0;
+var text = "";
+while (cars[i]) {
+    text += cars[i] + " ";
+    i++;
 }
-else{
-    ind="NO";
+console.log(text);
+
+
+
+// ---------------------------------------------------
+// JavaScript Break and Continue
+
+// The Break Statement
+
+var text = "";
+var i;
+for (i = 0; i < 10; i++) {
+    if (i === 5) {
+        break;
+    }
+    text += "The number is " + i + ". ";
 }
+console.log(text);
+
+// JavaScript Labels
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var text = "";
+
+list: {
+    text += cars[0] + " ";
+    text += cars[1] + " ";
+    text += cars[2] + " ";
+    break list;
+    text += cars[3] + " ";
 }
-console.log(ind);
-
-
-// The Continue Statement
-
-
-
-var ca = [4,1,2,5,1,4,5,2,1];
-for(x in ca){
-    var ind1 = -Infinity;
-if(ca[x]===5){
-    var ind1=x;
-    
-    console.log(ind1);
-}
-// else{
-//     ind1="NO";
-// }
-}
+console.log(text);
