@@ -1,0 +1,53 @@
+#LIFE{
+
+    color: blue;
+    background-color: blueviolet;
+    text-align: center;
+}
+#JOY{
+    color: chocolate;
+    background-color: darkgray;
+    text-align: left;
+}
+.HZ{
+    color: darkgreen;
+    background-color: darkkhaki;
+}
+.TD{
+    color: darkred;
+    background-color: deeppink;
+}
+#FF{
+    color: deepskyblue;
+    background-color: dimgray;
+    text-align: center;
+}
+#FR{
+    color: dimgrey;
+    background-color: dodgerblue;
+}
+#WW{
+    color: firebrick;
+    background-color: floralwhite;
+    text-align: end;
+}
+.FM{
+    color: forestgreen;
+  background-color: lightpink;
+}
+.SL{
+    color: indigo;
+    background-color: ivory;
+}
+#KK{
+    color: khaki;
+    background-color: lavender;
+
+}
+#RR{
+    color: darkred;
+}
+#TT{
+    background-color: darkred;
+}
+  

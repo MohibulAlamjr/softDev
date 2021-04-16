@@ -1,0 +1,30 @@
+.heading{
+    text-decoration: none;
+    color: rgba(red, green, blue, alpha);
+    text-shadow: 2px 2px;
+}
+.heading2{
+    text-decoration:line-through;
+    color: royalblue;
+}
+.lorem{
+    text-decoration: overline;
+}
+.heading3{
+    text-decoration: underline;
+    color: slateblue;
+    
+}
+.class1{
+    text-decoration: none;
+    color: rgb(7, 1, 12);
+}
+.heading4{
+    font-family: 'Jomhuria', cursive;
+    font-size: xx-large;
+}
+.fa-angry{
+    font-size: 60px;
+    text-shadow: 4px 4px 8px #bd1d1de3;
+    color: cadetblue;
+}

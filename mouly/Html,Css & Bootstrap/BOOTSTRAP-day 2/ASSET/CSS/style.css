@@ -1,0 +1,80 @@
+
+/* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css */
+
+@media (min-width: 576px) {
+    .col-sm-8 {
+      color: #1c1fbf;
+    }
+    .col-sm-4 {
+      color: blanchedalmondR;
+      color: green;
+      font-size: 20px;
+     
+    }
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/BOOTSTRAP/index.html */
+  
+  div.col-sm:nth-child(1) {
+    color: blueviolet;
+    font-size: 20px;
+  }
+  
+/* bootstrap.min.css | https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css */
+
+.bg-light {
+    /* background-color: #f8f9fa !important; */
+    background-color: #0b345d !important;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/BOOTSTRAP/index.html */
+  
+  li.nav-item:nth-child(1) > a:nth-child(1) {
+    color: white;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/BOOTSTRAP/index.html */
+  
+  li.nav-item:nth-child(2) > a:nth-child(1) {
+    color: white;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/BOOTSTRAP/index.html# */
+  
+  li.nav-item:nth-child(3) > a:nth-child(1) {
+    color: white;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/BOOTSTRAP/index.html# */
+
+li.nav-item:nth-child(4) > a:nth-child(1) {
+    color: white;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/BOOTSTRAP/index.html# */
+
+.navbar-brand > img:nth-child(1) {
+    width: 40px;
+    margin-top: 0px;
+    padding-top: -27px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/BOOTSTRAP/index.html# */
+  
+  .navbar {
+    /* top: -1px; */
+  }
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/BOOTSTRAP/index.html# */
+
+.navbar-brand > img:nth-child(1) {
+    width: 40px;
+  }
+  
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/BOOTSTRAP/index.html */
+
+.submit{
+    background-color: black;
+  }
+  

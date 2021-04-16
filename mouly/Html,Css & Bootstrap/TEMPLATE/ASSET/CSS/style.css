@@ -1,0 +1,1120 @@
+.body{
+    margin: 0px;
+}
+.headsection{
+
+}
+.cover{
+background-image: url(../IMAGE/Holding-hands_2823734-1920x1080.jpg);
+height:800px ;
+width: 100%;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.layout{
+
+}
+.navbar{
+
+}
+.logo{
+    display: inline;
+    width: 3px;
+    float: left;
+
+}
+.search{
+    float: right;
+   
+    width: 59%;
+
+}
+.Sbar{
+    margin-left: 50%;
+
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.buy > button:nth-child(1) {
+    float: right;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .buy {
+    margin-top: -34px;
+  }
+  
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.buy {
+    /* margin-top: -34px; */
+    margin-top: -36px;
+  }
+  
+  .buy > button:nth-child(1) {
+    position: relative;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .buy > button:nth-child(1) {
+    /* margin-left: -38px; */
+    /* margin-left: 6px; */
+    left: -144px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.Sbar > p:nth-child(1) {
+    position: relative;
+    right: -111px;
+    top: -1px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.logo > img:nth-child(1) {
+    width: 40px;
+  }
+  .heading{
+      color: white;
+      margin-left: 52px;
+  }
+
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.heading {
+    margin-right: 58px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .heading > h1:nth-child(1) {
+    position: relative;
+    right: -912px;
+    bottom: -202px;
+  }
+  
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.heading {
+    margin-right: 58px;
+    position: relative;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .heading > h1:nth-child(1) {
+    position: relative;
+    right: -912px;
+    bottom: -409px;
+    left: 873px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .heading > p:nth-child(2) {
+    /* margin-right: -88px; */
+    position: relative;
+    bottom: -409px;
+    right: -914px;
+    left: 875px;
+  }
+.seemore{
+    background-color: rgb(73, 7, 73);
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.btnfloat > h1:nth-child(1) {
+    margin-top: -0.56px;
+  }
+  
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.btnfloat > h1:nth-child(1) {
+    position: relative;
+    right: -119px;
+    bottom: -75px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .btnfloat > p:nth-child(2) {
+    position: relative;
+    right: -123px;
+    bottom: -74px;
+  }
+  .phone{
+      height: 50px;
+      width:20px ;
+  }
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.Phone > img:nth-child(2) {
+    width: 200px;
+    position: relative;
+    top: -510px;
+    right: -619px;
+  }
+  
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.Phone > img:nth-child(1) {
+    width: 170px;
+    position: relative;
+    right: -927px;
+    top: -184px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .Phone > img:nth-child(2) {
+    right: -909px;
+    bottom: 512px;
+    top: -166px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.btnfloat > p:nth-child(2) > button:nth-child(3) {
+    background: ;
+    background-color: #008068db;
+  }
+  .subElement1{
+      background-color:white;
+      width: 100%;
+      height: 400px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.subElement1 {
+    position: relative;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .fpara {
+    font-size: large;
+    position: relative;
+    right: -125px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .lpara {
+    font-size: smaller;
+    position: relative;
+    right: -124px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .opara {
+    position: relative;
+    right: -124px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .sbutton {
+    background-color: #00806e;
+    position: relative;
+    right: -119px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.subElement2 > p:nth-child(1) {
+    position: relative;
+    right: -634px;
+    top: -416px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement2 > p:nth-child(2) {
+    position: relative;
+    right: -638px;
+    top: -414px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement2 > p:nth-child(3) {
+    position: relative;
+    right: -639px;
+    top: -414px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement2 > button:nth-child(4) {
+    position: relative;
+    right: -629px;
+    top: -416px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.subElement3 > p:nth-child(1) {
+    position: relative;
+    right: -1127px;
+    top: -638px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement3 > p:nth-child(2) {
+    position: relative;
+    right: -995px;
+    top: -639px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement3 > p:nth-child(3) {
+    position: relative;
+    right: -994px;
+    top: -639px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement3 > button:nth-child(4) {
+    position: relative;
+    right: -988px;
+    top: -643px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement2 > p:nth-child(1) {
+    position: relative;
+    margin-left: -75px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement2 > p:nth-child(2) {
+    position: relative;
+    margin-left: -80px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement2 > p:nth-child(3) {
+    position: relative;
+    margin-left: -82px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement2 > button:nth-child(4) {
+    position: relative;
+    margin-left: -79px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement1 > p:nth-child(1) {
+    position: relative;
+    margin-left: -49px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement1 > p:nth-child(2) {
+    position: relative;
+    margin-left: -45px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement1 > p:nth-child(3) {
+    position: relative;
+    margin-left: -46px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement1 > button:nth-child(4) {
+    position: relative;
+    margin-left: -48px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.subElement1 {
+    position: relative;
+    margin-bottom: 37px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.subElement1 {
+    position: relative;
+    margin-bottom: 37px;
+    bottom: -26px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.subElement1 {
+    position: relative;
+    margin-bottom: 37px;
+    bottom: -26px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement2 {
+    position: relative;
+    left: -20px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.subElement1 {
+    position: relative;
+    margin-bottom: 37px;
+    bottom: -26px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .subElement2 {
+    position: relative;
+    left: -20px;
+    bottom: -3px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.subElement3 {
+    position: relative;
+    top: -38px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.subElement3 {
+    position: relative;
+    top: -17px;
+  }
+  .contentSection{
+      background-color:rgba(39, 37, 37, 0.705);
+      width: 100%;
+      height: 300px;
+  }
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.contentSection {
+    position: relative;
+    top: -622px;
+  }
+  
+  /* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+  
+  .contentSection {
+    /* background-color: rgba(39, 37, 37, 0.705); */
+    /* height: 300px; */
+    background-color: rgb(14, 13, 13);
+    height: 450px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.Human > h1:nth-child(1) {
+    position: relative;
+    text-align: center;
+    color: #c0b2b2;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .Human > p:nth-child(2) {
+    position: relative;
+    text-align: center;
+    color: #c4b7b7;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.Human > img:nth-child(3) {
+    position: relative;
+    right: -434px;
+  }
+  
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.Human > img:nth-child(3) {
+    height: 300px;
+    width: 700px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .Human > img:nth-child(3) {
+    left: 415px;
+    bottom: -13px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.Human > h1:nth-child(1) {
+    position: relative;
+    bottom: -21px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+  
+  .Human > p:nth-child(2) {
+    position: relative;
+    bottom: -15px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.csButton {
+    position: relative;
+    right: -733px;
+    top: -155px;
+    border: aqua;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.csButton > button:nth-child(1) {
+  background-color: #665b5b;
+}
+.light{
+  background-color: black;
+  height: 350px;
+  width: 100%;
+  position: relative;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.light {
+  top: -69px;
+}
+.number{
+  color: rgb(48, 43, 43);
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.lighthead {
+  position: relative;
+  color: #5f5959;
+  right: -23px;
+}
+.lightpara{
+  color: rgb(117, 105, 105);
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.lightpara {
+  position: relative;
+  right: -23px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.design {
+  position: relative;
+  right: -13px;
+  bottom: -50px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.refine {
+  position: relative;
+  right: -375px;
+  top: -131px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.dive {
+  position: relative;
+  right: -763px;
+  top: -311px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.research {
+  position: relative;
+  right: -1138px;
+  top: -489px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection1 {
+  position: relative;
+  top: -291px;
+  right: -62px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesectionpara > p:nth-child(2) {
+  font-size: 30px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection1 {
+  position: relative;
+  top: -291px;
+  right: -62px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesectionpara > p:nth-child(2) {
+  font-size: 30px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesectionpara {
+  position: relative;
+  -size: 10px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesectionpara > p:nth-child(3) {
+  font-size: 10px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesectionimg > img:nth-child(1) {
+  position: relative;
+  right: -460px;
+  top: -292px;
+  height: 400px;
+  margin-right: -92px;
+  width: 50%;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+div.connectivesectionimg:nth-child(1) > img:nth-child(1) {
+  position: relative;
+  left: -4px;
+  top: -587px;
+}
+.connectivesection2para{
+  background-color: rgb(87, 20, 87);
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection2para {
+  position: relative;
+  right: -566px;
+  width: 600px;
+  top: -906px;
+  height: 300px;
+  bottom: 1005px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+div.connectivesectionimg:nth-child(1) > img:nth-child(1) {
+  position: relative;
+  height: 300px;
+  right: -556px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+div.connectivesectionimg:nth-child(2) > img:nth-child(1) {
+  position: relative;
+  right: -506px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection2para {
+  position: relative;
+  right: -566px;
+  width: 753px;
+  top: -907px;
+  height: 300px;
+  bottom: 1005px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+div.connectivesectionimg:nth-child(1) > img:nth-child(1) {
+  position: relative;
+  height: 300px;
+  right: -556px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+div.connectivesectionimg:nth-child(2) > img:nth-child(1) {
+  position: relative;
+  right: -506px;
+}
+.connectivesection2para{
+  color: rgb(231, 222, 222);
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesectio3npara > img:nth-child(1) {
+  position: relative;
+  top: -907px;
+  width: 754px;
+  right: -566px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection3img {
+  position: relative;
+  top: -1133px;
+  bottom: 1341px;
+  right: -36px;
+}
+
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.connectivesectio3npara > img:nth-child(1) {
+  height: 300px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection4 {
+  background-color: #750c64;
+  width: 560px;
+  height: 300px;
+  margin-top: -1148px;
+  position: relative;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection3img {
+  position: relative;
+  bottom: 1357px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesectio3npara {
+  position: relative;
+  width: 00px;
+}
+
+.connectivitySection4img{
+  color: rgb(180, 167, 167);
+  margin-left:10% ;
+  position: relative;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivitySection4img > p:nth-child(1) {
+  position: relative;
+}
+
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.connectivitySection4img {
+  /* color: rgb(180, 167, 167); */
+  color: rgb(201, 174, 201);
+  background-color: #621e6c;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection4para > div:nth-child(2) > img:nth-child(1) {
+  position: relative;
+  top: -127px;
+  width: 1320px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection3img > p:nth-child(4) {
+  margin-top: -12px;
+  padding-top: 0px;
+  position: relative;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivitySection4img > p:nth-child(1) {
+  position: relative;
+  top: 0px;
+  right: -61px;
+  bottom: 12px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection4para {
+  position: relative;
+  top: -1119px;
+  left: -64px;
+  width: 630px;
+  height: 900px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivitySection4img > p:nth-child(3) {
+  position: relative;
+  right: -59px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivitySection4img {
+  position: tre;
+  position: relative;
+  top: -1127px;
+  left: -66px;
+}
+
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.connectivitySection4img {
+  width: 580px;
+  height: 400px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivitySection4img > p:nth-child(1) {
+  position: relative;
+  right: -106px;
+  top: 57px;
+  font-size: 20px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivitySection4img > p:nth-child(3) {
+  position: relative;
+  right: -108px;
+  top: 73px;
+  font-size: 20px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivitySection4img {
+  position: tre;
+  position: relative;
+  top: -1127px;
+  left: -66px;
+}
+
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.connectivitySection4img {
+  width: 580px;
+  height: 400px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivitySection4img > p:nth-child(1) {
+  position: relative;
+  right: -106px;
+  top: 57px;
+  font-size: 20px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivitySection4img > p:nth-child(3) {
+  position: relative;
+  right: -108px;
+  top: 73px;
+  font-size: 20px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.connectivesection4 > div:nth-child(1) > img:nth-child(1) {
+  position: relative;
+  right: 177px;
+  top: -5px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersection {
+  position: relative;
+  right: -290px;
+  bottom: -779px;
+  left: -10px;
+  background-color: #000;
+  width: 100%;
+  height: 600px;
+  top: 405px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersection1 > h1:nth-child(1) {
+  position: relative;
+  color: #817c7c;
+  font-size: 10px;
+  right: -107px;
+  bottom: -35px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersection1 > p:nth-child(2) {
+  position: relative;
+  color: #636060;
+  right: -105px;
+  bottom: -27px;
+  font-size: 10px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersection1 {
+  position: relative;
+  right: -103px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersectiondesign1 {
+  color: white;
+  font-size: 15px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersection {
+  right: -358px;
+  position: relative;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersection1 {
+  position: relative;
+  right: -47px;
+  bottom: -55px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersectiondesign1 {
+  color: white;
+  font-size: 10px;
+  position: relative;
+  bottom: -104px;
+  right: -152px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersection {
+  right: -358px;
+  position: relative;
+}
+.footersectiondesign2{
+  color: white;
+}
+.footersectiondesign3{
+  color: white
+  ;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersectiondesign2 {
+  position: relative;
+  right: -298px;
+  bottom: -37px;
+}
+
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.footersectiondesign2 {
+  font-size: 10px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.footersectiondesign3 {
+  position: relative;
+  widtgh: 10px;
+  font-size: 10px;
+  right: -451px;
+  bottom: 33px;
+}
+.perpel1{
+ background-color: #750c64; 
+}
+.white{
+  background-color: #817c7c;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.perpel1 {
+  position: relative;
+  width: 190px;
+  right: -821px;
+  bottom: 166px;
+}
+
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/ASSET/CSS/style.css */
+
+.perpel1 {
+  /* background-color: #750c64; */
+  background-color: #b841a5;
+}
+
+.white {
+  /* background-color: #817c7c; */
+  background-color: White;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.white {
+  position: relative;
+  WIDTH: 50PX;
+  right: -995px;
+  top: -225px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  bottom: 211px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.white {
+  position: relative;
+  padding-bottom: 23px;
+  padding-left: -65px;
+  padding-right: 89px;
+  bottom: 205px;
+  top: -164px;
+}
+.perpel1 {
+  position: relative;
+  padding-bottom: 23px;
+  padding-left: -65px;
+  padding-right: 89px;
+  bottom: 205px;
+  top: -164px;
+  background-color: #b841a5;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.perpel1 {
+  position: relative;
+  right: -1133px;
+  padding-left: -1px;
+  padding-right: 1px;
+  width: 30px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.white {
+  position: relative;
+  top: -208px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.perpel > p:nth-child(3) {
+  position: relative;
+  color: #b0abab;
+  right: -820px;
+  font-size: 10px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.perpel1 {
+  position: relative;
+  right: -1095px;
+  width: 1px;
+  padding-right: 53px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.white {
+  position: relative;
+  top: -209px;
+  left: 968px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.perpel > p:nth-child(3) {
+  position: relative;
+  color: #b0abab;
+  right: -967px;
+  font-size: 10px;
+  top: -268px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.perpel1 {
+  position: relative;
+  right: -1095px;
+  width: 1px;
+  padding-right: 53px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.white {
+  position: relative;
+  top: -209px;
+  left: 968px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.perpel > p:nth-child(4) {
+  color: white;
+  position: relative;
+  font-size: 10px;
+  right: -967px;
+  top: -233px;
+}
