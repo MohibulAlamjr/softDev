@@ -1,0 +1,39 @@
+
+/* Element | file:///D:/VIP/9th%20day/index.html */
+
+.col-sm-8 {
+    background-color: aqua;
+  }
+  
+  /* Element | file:///D:/VIP/9th%20day/index.html */
+  
+  .col-sm-3 {
+    background-color: blue;
+  }
+  
+  /* Element | file:///D:/VIP/9th%20day/index.html */
+  
+  .col-sm-1 {
+    background-color: bisque;
+  }
+  
+/* Element | file:///D:/VIP/9th%20day/index.html# */
+
+.navbar-brand > img:nth-child(1) {
+    height: 43px;
+  }
+  
+/* Element | file:///D:/VIP/9th%20day/index.html# */
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  /* Element | file:///D:/VIP/9th%20day/index.html# */
+  
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  

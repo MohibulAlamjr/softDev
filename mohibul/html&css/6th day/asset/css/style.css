@@ -1,0 +1,79 @@
+.head1{
+
+color: blue;
+
+
+}
+.margin1{
+
+
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    color: #fff;
+    position: relative;
+    
+}
+.parent{
+    height: 400px;
+    width: 400px;
+    background-color: chartreuse;
+    position: relative;
+}
+body{
+    position: relative;
+}
+.parent2{
+
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    position: relative;
+    z-index: 22222;
+    border: 2px solid red;
+    border-radius:50%;
+}
+.green{
+
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    position: relative;
+}
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    opacity: .7;
+}
+
+/* Element | file:///D:/VIP/6th%20day/index.html */
+
+.green {
+    width: 576px;
+    height: 291px;
+  }
+  
+/* Element | file:///D:/VIP/6th%20day/index.html */
+
+.red {
+    top: 52px;
+    left: 170px;
+  }
+
+/* Element | file:///D:/VIP/6th%20day/index.html */
+
+.green {
+    margin-top: 7px;
+  }
+  
+  
+/* Element | file:///D:/VIP/6th%20day/index.html */
+
+.parent2 > h1:nth-child(1) {
+    margin-top: 133.44px;
+    margin-left: 77px;
+  }
+  

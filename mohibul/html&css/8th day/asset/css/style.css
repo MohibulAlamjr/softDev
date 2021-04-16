@@ -1,0 +1,13 @@
+th,td{
+    width: 200px;
+    height: 30px;
+    
+}
+
+.mytable tr:nth-child(1){
+    background-color: greenyellow;
+}
+
+.mytable tr:nth-child(even){
+    background-color: rgb(189, 186, 186);
+}
