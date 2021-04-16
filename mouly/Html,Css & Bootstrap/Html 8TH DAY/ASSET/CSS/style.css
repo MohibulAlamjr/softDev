@@ -1,0 +1,97 @@
+.margin{
+    color: dodgerblue;
+    background-color: fuchsia;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+.parent{
+   color: gold; 
+   background-color: indigo;
+   height: 200px;
+   width: 200px;
+   position: relative;
+}
+.parent2{
+    color: lawngreen;
+    background-color: lightseagreen;
+    height: 150px;
+    width: 150px;
+    border: double rebeccapurple;
+    border-radius: 50%;
+    position: relative;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/8TH%20DAY/html.html */
+
+.margin {
+    bottom: -79px;
+    right: -77px;
+    padding-top: 5px;
+    padding-right: -12px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/8TH%20DAY/html.html */
+  
+  .friend1 {
+    padding-top: 48px;
+    padding-left: -30px;
+    padding-bottom: -3px;
+    margin-right: -3px;
+    padding-right: -30px;
+  }
+  .Green{
+    background-color: green;
+    height: 500px;
+    width: 700px;
+    position: relative;
+   
+    
+  }
+  .Red{
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+  }
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/8TH%20DAY/html.html */
+
+.Red {
+  margin-left: 170px;
+ 
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/8TH%20DAY/html.html */
+
+.parent2 > h2:nth-child(1) {
+  /* margin-left: 1px; */
+  margin-left: 20px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/8TH%20DAY/html.html */
+
+.friend1 {
+  /* padding-left: 4px; */
+  padding-top: 5px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/8TH%20DAY/html.html */
+
+.margin {
+  /* margin-top: 6px; */
+  /* margin-top: 3px; */
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/8TH%20DAY/html.html */
+
+.Red {
+  top: 85px;
+}
+
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/8TH%20DAY/ASSET/CSS/style.css */
+
+.Red {
+  /* border-bottom-style: solid; */
+}
