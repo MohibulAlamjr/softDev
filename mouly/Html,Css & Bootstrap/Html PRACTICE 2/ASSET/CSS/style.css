@@ -1,0 +1,53 @@
+
+.link ul li{
+   
+    display: inline-block;
+    
+   
+}
+.link ul{
+  float: right;
+  list-style: none;
+}
+
+.head h1{
+  text-align: center;
+  color: rgb(230, 218, 218);
+  margin: 25%;
+  font-size: 40px;
+}
+.bgmodify{
+ background-image: url(../IMAGE/th.jpg);
+ margin: 0%;
+ background-size: cover;
+ height: 100vh;
+}
+.link ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.link ul li a:hover{
+  color: rgba(201, 201, 27, 0.829);
+}
+.link ul li:hover{
+  border:2px solid mediumblue;
+}
+.logo img{
+  height: 60px;
+  width: 60px;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.csButton > button:nth-child(1) {
+  background-color: #837b7b;
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/TEMPLATE/index.html */
+
+.csButton > button:nth-child(1) {
+  background-color: #6c6565;
+}
+.light{
+  background-color: rgb(39, 38, 38);
+}
