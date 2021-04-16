@@ -30,7 +30,11 @@ console.log(c(3,4,7));
 
 
 const d = m => m;
-console.log(d(3,4,7));
+console.log(d(3,6,7));
+
+const u = b => b;
+console.log(d(3,6,7));
+
 
 
 // general function
