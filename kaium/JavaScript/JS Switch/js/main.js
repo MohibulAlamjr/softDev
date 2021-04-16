@@ -1,5 +1,6 @@
 // JavaScript Switch Statement
 var day;
+
 switch (new Date().getDay()) {
   case 0:
     day = "Sunday";
@@ -47,4 +48,4 @@ function myFun(a,b,c){
     }
     return result;
   }
-  console.log(myFun(3,50));
+  console.log(myFun(3,50,));
