@@ -1,0 +1,37 @@
+.table{
+    background-color: black;
+    color: brown;
+}
+.abc{
+    background-color: darkblue;
+    height: 100%;
+    width: 100%;
+}
+.container h2{
+    text-align: center;
+}
+.jumbotron{
+    background-color: rgb(209, 26, 26);
+}
+body{
+    background-color: cadetblue;
+}
+.row{
+    background-color: chartreuse;
+}
+.col-sm-4{
+    color: darkblue;
+}
+.border{
+    color: darkorchid;
+    background-color:#ffff;
+}
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/Bootstrap/index.html */
+
+div.container:nth-child(25) > h2:nth-child(3) {
+    margin-top: 15px;
+    margin-left: -793px;
+  }
+
+  
