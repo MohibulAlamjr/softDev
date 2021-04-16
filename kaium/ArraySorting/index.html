@@ -7,6 +7,49 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./asset/js/main.js"></script>
+
+                     <!-- Sorting an Array -->
+    <button onclick="myFunction()">Sorting an Array sort()</button>
+
+    <p id="a"></p>
+    
+    <script>
+    // Create and display an array:
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("a").innerHTML = fruits;
+    
+    function myFunction() {
+      
+      fruits.sort();
+      
+      fruits.reverse();
+      document.getElementById("a").innerHTML = fruits;
+    }
+    
+
+    // </script><hr>
+
+            <!-- Reversing an Array -->
+
+<button onclick="myFunction1()">Reversing an Array reverse()</button>
+
+<p id="demo"></p>
+<script>
+    
+    var fruits = ["Banana", "Orange", "Apple", "Mango"];
+    document.getElementById("demo").innerHTML = fruits;
+    
+    function myFunction1() {
+      
+      fruits.sort();
+     
+      fruits.reverse();
+      document.getElementById("demo").innerHTML = fruits;
+    }
+    </script><hr>
+
+
+    
+
 </body>
 </html>

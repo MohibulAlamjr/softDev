@@ -1,10 +1,3 @@
-/*
-
-Tooplate 2121 Wave Cafe
-
-https://www.tooplate.com/view/2121-wave-cafe
-
-*/
 
 html {
     scroll-behavior: smooth;
@@ -16,7 +9,7 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 18px;
     overflow-x: hidden;
-    background-color: #501e4e;
+    background-color: #383861;
 }
 
 ul {
@@ -50,40 +43,27 @@ h2 {
     z-index: -1000;
 }
 
-.tm-video-wrapper {
-    position: relative;
-}
 
-#tm-video-control-button {
-    cursor: pointer;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-}
 
-.tm-container {
+.Body {
     padding: 30px;
 }
 
-.tm-row {
+.Body2 {
     display: flex;
     justify-content: space-between;
 }
 
-.tm-left,
-.tm-right {
+.left1,
+.right1 {
     width: 50%;
 }
 
-.tm-left-inner {
+.left1-inner {
     position: fixed;
 }
 
-.tm-site-header {
+.site-header {
     background-color: white;
     color: #49501e;
     width: 100%;
@@ -97,27 +77,27 @@ h2 {
     margin-right: 30px;
 }
 
-.tm-site-name {
+.site-name {
     font-size: 2.2rem;
     font-style: italic;
 }
 
-.tm-left-inner {
+.left1-inner {
     max-width: 500px;
     width: 100%;
 }
 
-.tm-site-nav-ul {
+.site-nav-ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.tm-page-nav-item {
+.page-nav-item {
     margin-top: 20px;
 }
 
-.tm-page-link {
+.page-link {
     min-width: 240px;
     height: 100px;
     background-color: white;
@@ -128,19 +108,19 @@ h2 {
     font-size: 1.2rem;
 }
 
-.tm-page-link:hover,
-.tm-page-link.active {
+.page-link:hover,
+.page-link.active {
     background-color: #49501e;
     color: white;
 }
 
-.tm-page-link-icon {
+.page-link-icon {
     margin-right: 25px;
     margin-left: 25px;
     font-size: 1.5rem;
 }
 
-.tm-black-bg {
+.black-bg1 {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
 }
@@ -161,7 +141,7 @@ h2 {
     height: 80px;
 }
 
-.tm-main {
+.main1 {
     max-width: 660px;
 }
 
@@ -238,11 +218,11 @@ h2 {
     animation: fadeEffect 1s;
 }
 
-.tm-page-content {
+.page-content {
     animation: fadeEffect 1s;
 }
 
-.tm-text-primary {
+.text-primary {
     color: #3CC;
 }
 
@@ -259,16 +239,7 @@ h2 {
     margin-right: 0;
 }
 
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-    from {
-        opacity: 0.3;
-    }
 
-    to {
-        opacity: 1;
-    }
-}
 
 /* About */
 .tm-about-box-1 {
@@ -284,32 +255,32 @@ h2 {
 }
 
 /* Special */
-.tm-special-items {
+.special-items {
     display: flex;
     flex-wrap: wrap;
     margin: -30px -10px 0;
 }
 
-.tm-special-item {
+.special-item1 {
     max-width: 320px;
     margin: 30px 10px;
 }
 
-.tm-special-item-title {
+.special-item1-title {
     font-size: 1.4rem;
 }
 
-.tm-special-item-description {
+.special-item1-description {
     padding: 25px 30px;
 }
 
 /* Contact */
-.tm-contact-text-container {
+.contact-text-container {
     padding: 45px 50px;
     margin-bottom: 20px;
 }
 
-.tm-contact-form-container {
+.contact-form-container {
     max-width: 460px;
     padding: 40px 50px;
     box-sizing: border-box;
@@ -363,7 +334,7 @@ h2 {
     background-color: #49501e;
 }
 
-.tm-align-right {
+.align-right {
     display: block;
     margin-left: auto;
     margin-right: 0;
@@ -374,11 +345,11 @@ h2 {
 }
 
 @media (max-width: 1130px) and (min-width: 992px) {
-    .tm-left-inner {
+    .left1-inner {
         max-width: 380px;
     }
 
-    .tm-site-name {
+    .site-name {
         font-size: 2.6rem;
     }
 
@@ -386,44 +357,44 @@ h2 {
         margin-right: 20px;
     }
 
-    .tm-page-link {
+    .page-link {
         width: 100%;
     }
 
-    .tm-page-link-icon {
+    .page-link-icon {
         margin-right: 15px;
     }
 
-    .tm-left {
+    .left1 {
         width: 45%;
     }
 
-    .tm-right {
+    .right1 {
         width: 55%;
     }
 }
 
 @media (max-width: 991px) {
-    .tm-left-inner {
+    .left1-inner {
         position: static;
     }
 
-    .tm-left,
-    .tm-right {
+    .left1,
+    .right1 {
         width: 100%;
     }
 
-    .tm-left {
+    .left1 {
         margin-bottom: 50px;
     }
 
-    .tm-row {
+    .Body2 {
         display: block;
     }
 }
 
 @media (max-width: 574px) {
-    .tm-site-nav-ul {
+    .site-nav-ul {
         display: block;
     }
 }
@@ -463,7 +434,7 @@ h2 {
 }
 
 @media (max-width: 479px) {
-    .tm-site-name {
+    .site-name {
         font-size: 2.6rem;
     }
 
