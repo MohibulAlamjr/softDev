@@ -1,0 +1,77 @@
+.header{
+    background-color: blue;
+  height: 200px;
+}
+.nav{
+    background-color: blueviolet;
+}
+.section{
+    background-color: chartreuse;
+    width: 70%;
+    position: relative;
+    height: 200px;
+    
+}
+.article{
+    background-color: crimson;
+    width: 70%;
+    position: relative;
+    height: 200px;
+}
+.aside{
+    background-color: darkcyan;
+    width: 30%;
+    position: relative;
+  height: 400px;
+  
+    
+}
+.footer{
+    background-color: darkred;
+    position: relative;
+    height: 200px;
+}
+.mid{
+    text-align: center;
+    padding: 30px;
+    margin: 0%;
+
+}
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/6TH%20DAY/index2.html */
+
+.aside {
+    left: 1053px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/6TH%20DAY/index2.html */
+  
+  .article {
+    bottom: 97px;
+  }
+
+/* Element | file:///C:/Users/Asus/Desktop/VIP/6TH%20DAY/index2.html */
+
+.footer {
+    bottom: 96px;
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/6TH%20DAY/index2.html */
+
+.aside {
+    top: -200px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/6TH%20DAY/index2.html */
+  
+  .article {
+    top: -399px;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/6TH%20DAY/index2.html */
+  
+  .footer {
+    top: -399px;
+  }
+  
+  
