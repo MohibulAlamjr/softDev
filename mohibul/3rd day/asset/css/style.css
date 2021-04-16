@@ -1,0 +1,18 @@
+.test{
+
+
+color: blue;
+
+}
+.element{
+    display: inline;
+}
+.element2{
+    display: block;
+}
+.bg{
+    background-image: url(../image/banner.jpg);
+}
+.col{
+    color: chartreuse;
+}

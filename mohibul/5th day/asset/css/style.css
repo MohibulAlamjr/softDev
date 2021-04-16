@@ -1,0 +1,27 @@
+body{
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    
+    
+}
+
+.pera{
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    background-color:rgba(73, 109, 20, 0.329)
+}
+
+
+
+p.pera {
+    color: blue;
+  }
+  /* multiple class  */
+  .style1{
+      font-size: xx-large;
+      text-align: right;
+  }
+  .style2{
+      color: blueviolet;
+  }

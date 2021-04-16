@@ -1,0 +1,76 @@
+.wrapper{
+
+    height: 960px;
+    width: 100%;
+    background-image: url(../image/blood-tests.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+height: 60px;
+background: rgb(37,72,143);
+background: linear-gradient(90deg, rgba(37,72,143,0.5354516806722689) 0%, rgba(157,87,214,0.5942752100840336) 45%, rgba(9,4,96,0.5858718487394958) 100%);
+}
+.logo{
+    float: left;
+    width: 30%;
+    
+    display: inline;
+
+}
+.link{
+    float:right;
+    position: relative;
+    width: 69%;
+    
+    display: inline;
+    
+
+}
+.link ul li{
+    display: inline;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    
+    
+}
+.head{
+
+
+}
+.link ul{
+    float: right;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+
+}
+.head h1{
+    text-align: center;
+    margin: 25%;
+    color:#fff;
+    font-size: 70px;
+}
+.bgmpdify{
+    background: rgb(10,84,235);
+    background: linear-gradient(90deg, rgba(10,84,235,0.4962359943977591) 0%, rgba(12,1,20,0.7203256302521008) 45%, rgba(7,155,186,0.4206057422969187) 100%);
+    height: 100%;
+    width: 100%;
+}
+.link ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.link ul li:hover{
+    border: 2px solid#ffffff;
+    background-color: rgba(128, 190, 241, 0.555);
+    box-shadow: inset 0 0 10px;
+    transition: .5s ;
+}
+body{
+    margin: 0px;
+}

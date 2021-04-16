@@ -1,0 +1,29 @@
+#love{
+    color:red;
+    background-color: royalblue;
+}
+#para{
+   color: aqua;
+   text-align: center;
+   font-size: 50px; 
+}
+.fc{
+    color: blueviolet;
+    background-color: brown;
+    text-align: center;
+     font-size: 60px;
+     
+}
+.fb{
+    color: darkblue;
+    text-align: right;
+}
+.tableclass{
+    color: blue;
+    background-color: brown;
+}
+#lid{
+
+    color: brown;
+    text-align: center;
+}

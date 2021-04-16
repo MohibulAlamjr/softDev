@@ -1,0 +1,975 @@
+.wrapper{
+
+}
+
+body{
+    margin: 0px;
+}
+.headSection{
+
+}
+
+.cover{
+    background-image: url(../image/cover.jpg);
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar{
+
+ width: 100%;
+ height: 80px;
+}
+
+.logo{
+   
+   display: inline;
+   float:left;
+   width: 40%;
+}
+
+.search{
+    
+    display: inline;
+    float:right;
+    width: 59%;
+}
+.search >{
+    float: right;
+}
+.heading{
+
+}
+
+
+.seeMore{
+   background-color: rgb(141, 26, 137);
+   height: 300px;
+   width: 100%;
+   
+}
+
+.btn{
+    display: inline;
+    width: 50%;
+    float: left;
+    color: #fff;
+}
+
+.phone{
+    display: inline;
+    width: 49%;
+    float: right;
+}
+.logo img{
+
+    height: 90px;
+    width: 90px;
+}
+.srBar{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(244, 244, 245);
+    border-radius: 12px;
+    display: inline;
+    width: 50%;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.search {
+    margin-top: 37px;
+  }
+  
+.ffolat{
+    float: right;
+}
+.buy{
+    display: inline;
+    width: 49%;
+}
+.srBar p{
+    display: inline;
+    color: rgb(14, 14, 13);
+    font-size: 12px;
+    margin-right: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+.fa-search{
+    color: rgb(14, 14, 13);
+    font-size: 10px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.srBar {
+    margin-right: 30px;
+  }
+  .buy button{
+      border-radius: 12px;
+      background-color: mediumorchid;
+      border: none;
+     
+  }
+  .buy i{
+      color: #fff;
+      margin-left: 20px;
+      margin-right: 100px;
+
+  }
+  .bb{
+      padding: 5px;
+  }
+  /* .buy button p{
+      padding: 1px;
+  } */
+  .heading h1{
+      margin-left: 55%;
+      font-size: 70px;
+      color: #fff;
+      margin-top: 10%;
+  }
+  .heading p{
+    margin-left: 55%;
+    color: #fff;
+    text-align: left;
+    
+  }
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.heading > h1:nth-child(1) {
+    margin-bottom: 10.9px;
+  }
+  .layout{
+
+    background: rgb(93,95,99);
+background: linear-gradient(90deg, rgba(93,95,99,0.6278886554621849) 0%, rgba(46,47,40,0.6979166666666667) 49%, rgba(15,16,17,0.7343312324929971) 100%);
+    height: 100%;
+    width: 100%;
+  }
+  .btnfloat{
+      float: right;
+  }
+  .btnfloat button{
+      border-radius: 12px;
+      background-color: rgb(50, 236, 189);
+      border: none;
+      padding: 5px 20px 5px 10px ;
+  }
+
+  .phone img:nth-child(1){
+      width: 40%;
+      height: 100%;
+      position: relative;
+  }
+  .phone img:nth-child(2){
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.phone > img:nth-child(1) {
+    width: 17%;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .phone > img:nth-child(2) {
+    width: 45%;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.phone > img:nth-child(2) {
+    top: -87px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .phone > img:nth-child(1) {
+    left: 138px;
+    bottom: 119px;
+    width: 14%;
+    height: 182%;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.phone > img:nth-child(2) {
+    width: 56%;
+    height: 141%;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .seeMore {
+    height: 395px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .phone > img:nth-child(1) {
+    width: 18%;
+    left: 174px;
+  }
+
+  .subSection{
+
+    height:400px;
+  
+   
+    
+  }
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.phone > img:nth-child(1) {
+    top: -127px;
+  }
+  .subElement1{
+   position: relative;
+   width: 29%;
+   
+   
+   display: inline-block;
+  }
+  .subElement2{
+   position: relative;
+   width: 29%;
+  
+   display: inline-block;
+   
+  }
+  .subElement3{
+      position: relative;
+      width: 29%;
+     
+      
+      display: inline-block;
+
+  }
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.subSection {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.subElement2 {
+    left: 377px;
+    bottom: 18px;
+    top: 32px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .subElement3 {
+    left: 754px;
+    top: 14px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .subElement1 {
+    top: 50px;
+  }
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.fPara {
+    font-size: 29px;
+    position: relative;
+    margin-top: 29px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .sPara {
+    color: gray;
+    position: relative;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .tPara {
+    font-size: 14px;
+    position: relative;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .subButton {
+    padding: 6px;
+    background-color: aquamarine;
+    border: none;
+    margin-left: 93px;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.subElement2 {
+    top: -199px;
+    left: 428px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .subElement3 {
+    top: -199px;
+    left: 451px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .subSection {
+    padding-left: 387px;
+    padding-right: 185px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .subElement1 {
+    top: 37px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .deep{
+   background-color: rgb(37, 41, 52);
+   height: 400px;
+
+
+  }
+  .light{
+   background-color: rgba(45, 49, 61);
+   height: 300px;
+   
+
+  }
+  .contentSectionHeading{
+      color: #fff;
+      text-align: center;
+  }
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.contentSectionHeading {
+    padding-top: 23px;
+  }
+  .contentSectionButton{
+
+    background-image: url(../image/contentcover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+  }
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.deep {
+    margin-left: 2px;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .contentSectionButton {
+    height: 268px;
+    width: 935px;
+    margin-left: 251px;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.contentSectionButton > button:nth-child(1) {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 315px;
+    margin-top: 103px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: ;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .design{
+  position: relative;
+  width: 24%;
+
+
+  }
+  .refine{
+    position: relative;
+    width: 24%;
+   
+  }
+  .dive{
+    position: relative;
+    width: 24%;
+    
+  }
+  .research{
+    position: relative;
+    width: 24%;
+    
+  }
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.light {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.refine {
+    left: 336px;
+    top: 49px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .dive {
+    left: 673px;
+    top: 31px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .research {
+    left: 1009px;
+    top: 13px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .design {
+    top: 67px;
+  }
+  
+
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.lighthead {
+    color: #fff;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .number {
+    color: rgb(63, 56, 52);
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.lightpara {
+    color: #d3cccc;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.icon {
+    color: rgb(57, 233, 233);
+    font-size: xx-large;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.refine {
+    top: -158px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .dive {
+    top: -382px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .research {
+    top: -605px;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.research {
+    margin-left: 76px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .dive {
+    margin-left: 58px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .refine {
+    margin-left: 47px;
+  }
+  
+  /* Element | file:///D:/VIP/templet/index.html */
+  
+  .design {
+    margin-left: 46px;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.overflowround {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 11119;
+    position: relative;
+  }
+  
+/* Element | file:///D:/VIP/templet/index.html */
+
+.overflowround {
+    top: -162px;
+    left: 523px;
+    width: 102px;
+    height: 115px;
+  }
+  
+  /* style.css | file:///D:/VIP/templet/asset/css/style.css */
+  
+  .overflowround {
+    /* background-color: red; */
+    /* border-radius: 50%; */
+    background-color: white;
+    border-radius: 59px;
+    
+  }
+
+  .connectivitySection1para{
+   display:inline-block;
+   width: 35%;
+   height: 320px;
+    float:left;
+    background-color:rgb(234,237,242);
+
+  }
+  .connectivitySection1img{
+    display:inline-block;
+   width: 64%;
+    float:right;
+    
+    position: relative;
+
+  }
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1para > p:nth-child(2) {
+  display: inline;
+}
+
+
+/* style.css | file:///D:/VIP/templet/asset/css/style.css */
+
+.connectivitySection1para > p:nth-child(2) {
+  font-size: 30px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.fa-cloud-download-alt {
+  font-size: 30px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1para > p:nth-child(2) {
+  margin-left: 13px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1para > p:nth-child(3) {
+  color: gray;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1para > p:nth-child(4) {
+  font-size: 13px;
+  color: #4d4848;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1para {
+  /* margin-left: 1px; */
+  padding-left: 123px;
+  padding-top: 60px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1img > img:nth-child(1) {
+  height: 382px;
+  width: 829.117px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1img {
+  left: 389px;
+  top: -380px;
+  height: 380.5px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1para {
+  width: 50%;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1img > img:nth-child(1) {
+  height: 381px;
+  width: 829.117px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1img {
+  left: 389px;
+  top: -380px;
+  height: 380.5px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection1para {
+  width: 50%;
+}
+
+.connectivitySection2img{
+  display:inline-block;
+   width: 35%;
+   height: 320px;
+    float:left;
+    
+}
+
+.connectivitySection2pera{
+  display:inline-block;
+  width: 64%;
+   float:right;
+   background-color: rgb(131, 91, 169);
+   position: relative;
+   height: 290px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera {
+  top: -380px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2img > img:nth-child(1) {
+  height: 271px;
+  margin-left: 278px;
+  
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2img {
+  width: 36%;
+  height: 290px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera {
+  width: 820px;
+  height: 271px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2img > img:nth-child(1) {
+  margin-top: 1px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera > p:nth-child(4) {
+  display: inline;
+  padding-bottom: -18px;
+  position: relative;
+  top: -6px;
+  left: 6px;
+  color: #fff;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+i.fas:nth-child(3) {
+  font-size: 35px;
+  color: #fff;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera {
+  padding-left: 0px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera > p:nth-child(1) {
+  font-size: 12px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera > p:nth-child(2) {
+  font-size: 21px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera > p:nth-child(1) {
+  margin-left: 60px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera > p:nth-child(2) {
+  margin-left: 60px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+i.fas:nth-child(3) {
+  margin-left: 60px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera > p:nth-child(1) {
+  margin-top: 50px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera {
+  width: 829px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2img > img:nth-child(1) {
+  height: 272px;
+  width: 483px;
+  margin-left: 592px;
+}
+.connectivitySection3para{
+
+  display: inline-block;
+  position: relative;
+  height: 272px;
+  width: 483px;
+  margin-left: 592px;
+  
+}
+.connectivitySection3img{
+  display: inline-block;
+  padding-bottom: -18px;
+  position: relative;
+  width: 829px;
+  
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3para {
+  
+  width: 516px;
+  height: 313px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3img {
+  
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3para {
+  top: -380px;
+  margin-left: 1077px;
+  left: -3px;
+  height: 230px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3img {
+  top: -610px;
+  width: 1074px;
+  height: 230px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2img > img:nth-child(1) {
+  height: 271px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3img > h2:nth-child(1) {
+  font-size: 25px;
+  margin-left: 612px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3img > p:nth-child(2) {
+  margin-left: 616px;
+  font-size: 13px;
+  margin-bottom: 57px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3img > p:nth-child(4) {
+  display: inline;
+  margin-left: 67px;
+  margin-top: 2px;
+  margin-bottom: 18px;
+  color: gray;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3img > p:nth-child(3) {
+  display: inline;
+  margin-left: 617px;
+  margin-top: 27px;
+  font-size: 34px;
+  color: gray;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3para > img:nth-child(1) {
+  height: 235px;
+  width: 472.333px;
+}
+.connectivitySection4{
+
+  background-image: url(../image/connectivity4.jpg);
+  height: 425px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection4 {
+  top: -622px;
+  height: 500px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection3img > p:nth-child(2) {
+  margin-bottom: 38px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection4 {
+  height: 650px;
+}
+.connectivitySection4img{
+  background-color: rgb(131, 91, 169);
+  height: 60%;
+  width: 20%;
+}
+
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection4img {
+  width: 30%;
+  height: 58%;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera > p:nth-child(2) {
+  color: #fff;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection2pera > p:nth-child(1) {
+  color: #fff;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection4img > p:nth-child(1) {
+  font-size: 21px;
+  color: #ffffff;
+  margin-left: 99px;
+  margin-top: 7px;
+  position: relative;
+  top: 125px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+i.fa-user-circle:nth-child(2) {
+  display: inline;
+  font-size: 36px;
+  color: #fff;
+  margin-left: 105px;
+  margin-top: 22px;
+  position: relative;
+  top: 144px;
+}
+
+/* Element | file:///D:/VIP/templet/index.html */
+
+.connectivitySection4img > p:nth-child(3) {
+  display: inline;
+  font-size: 21px;
+  color: #fff;
+  margin-top: 19px;
+  position: relative;
+  top: 137px;
+  margin-left: 14px;
+}
