@@ -48,4 +48,6 @@ function myFun(a,b,c){
     }
     return result;
   }
-  console.log(myFun(3,50,));
+  console.log(myFun(30,50,));
+
+
