@@ -1,0 +1,110 @@
+.container{
+    background-color: rgb(124, 35, 124);
+    color: white;
+}
+.container-fluid{
+    background-color: rgb(42, 58, 10);
+    color: rgb(139, 226, 217);
+}
+
+/* style.css | file:///C:/Users/Asus/Desktop/VIP/B-DAY1/ASSET/CSS/style.css */
+
+.container {
+    /* background-color: rgb(124, 35, 124); */
+    background-color: rgb(23, 22, 23);
+  }
+  
+/* Element | file:///C:/Users/Asus/Desktop/VIP/B-DAY1/index.html */
+
+.container1 > h1:nth-child(1) {
+    background-color: violet;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/B-DAY1/index.html */
+  
+  .container1 {
+    background-color: violet;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/B-DAY1/index.html */
+  
+  .container-sm {
+    background-color: aqua;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/B-DAY1/index.html */
+  
+  .container-md {
+    background-color: azure;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/B-DAY1/index.html */
+  
+  .container-lg {
+    background-color: bisque;
+  }
+  
+  /* Element | file:///C:/Users/Asus/Desktop/VIP/B-DAY1/index.html */
+  
+  .container-xl {
+    background-color: blanchedalmond;
+  }
+  .row{
+      background-color: blueviolet;
+  }
+  .heading{
+    background-color: white;
+    color: black;
+  }
+  .mark{
+    background-color: blueviolet;
+  }
+  .who{
+    background-color: brown;
+  }
+.quote
+{
+  color: black;
+  background-color: cadetblue;
+}
+.span{
+  background-color: darkblue;
+}
+.code{
+  background-color: darkgreen;
+  color: beige;
+}
+.color{
+  background-color: darkslateblue;
+  color: khaki;
+}
+.background{
+  background-color: rgb(199, 116, 128);
+}
+.basic{
+  background-color:white;
+}
+.hover{
+  background-color:white;
+}
+.border{
+  background-color: rgb(102, 80, 80);
+}
+.context{
+  background-color: whitesmoke;
+}
+.corners{
+ background-color: white;
+}
+.circle{
+  background-color: white;
+}
+.align{
+  background-color: white;
+}
+.image{
+  background-color: white;
+}
+.jumbotron{
+  background-color: slateblue;
+}
