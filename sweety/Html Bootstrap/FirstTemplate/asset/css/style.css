@@ -1,0 +1,215 @@
+.cover{
+    background-image: url(../image/coverphoto.jpg);
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo img{
+   height: 5%;
+   width: 5%;
+}
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.srBar > p:nth-child(1) {
+    position: relative;
+    margin-top: 13px;
+    top: -81px;
+    left: 1315px;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.buy > button:nth-child(1) {
+    position: relative;
+    left: 1426px;
+    top: -115px;
+    bottom: 69px;
+  }
+  .navbar{
+
+    width: 100%;
+    height: 80px;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.heading > p:nth-child(2) {
+    position: relative;
+    left: 849px;
+    top: 303px;
+  }
+  
+  /* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+  
+  .heading > h1:nth-child(1) {
+    position: relative;
+    top: 293px;
+    left: 843px;
+    font-size: 60px;
+    color: #ffff;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.heading > p:nth-child(2) {
+    margin-top: -32px;
+  }
+  .SeeMore{
+      background-color: blueviolet;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.heading > h1:nth-child(1) {
+    top: 116px;
+  }
+  
+  /* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+  
+  .heading > p:nth-child(2) {
+    top: 110px;
+  }
+  
+  /* style.css | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/asset/css/style.css */
+  
+  .heading > p:nth-child(2) {
+    color: #fff;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.btnfloat {
+    background-position: bottom;
+    margin-top: -22px;
+    background: position: center;
+    background-position: top;
+    margin-bottom: 0px;
+  }
+
+/* style.css | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/asset/css/style.css */
+
+.btnfloat {
+    position: relative;
+  }
+  
+  /* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+  
+  .btnfloat {
+    top: 2px;
+    padding-top: 193px;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.btnfloat > h1:nth-child(1) {
+    position: relative;
+    left: 262px;
+    top: -129px;
+    color: #ffff;
+  }
+  
+  /* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+  
+  .btnfloat > p:nth-child(2) {
+    position: relative;
+    left: 261px;
+    top: -127px;
+    color: #ffff;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.btnfloat > h1:nth-child(1) {
+    top: -194px;
+  }
+  
+  /* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+  
+  .btnfloat > p:nth-child(2) {
+    left: 263px;
+    padding-top: -86px;
+    margin-bottom: -42px;
+    margin-top: -80px;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.buy > button:nth-child(1) {
+    top: -131px;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.SeeMore > button:nth-child(1) {
+    position: relative;
+    top: 136px;
+    left: 260px;
+    border: radius;
+    border-radius: 12px;
+    background-color: #2727e1;
+    border: no border;
+    border: none;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.phone > img:nth-child(1) {
+    position: relative;
+    width: 400px;
+    left: 1037px;
+    top: -1212px;
+  }
+
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.phone > img:nth-child(2) {
+    position: relative;
+    width: 150px;
+    left: 614px;
+    top: -247px;
+  }
+  
+/* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+
+.phone > img:nth-child(1) {
+    top: -290px;
+    left: 998px;
+  }
+  
+  /* Element | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/index.html */
+  
+  .phone > img:nth-child(2) {
+    left: 583px;
+    top: -333px;
+    margin-top: -12px;
+    margin-left: -5px;
+    width: 130px;
+  }
+
+/* style.css | file:///C:/Users/Sweety%20Akter/Desktop/VIP/FirstTemplate/asset/css/style.css */
+
+.srBar > p:nth-child(1) {
+    -round: royalblue;
+    border-radius: 12%;
+    border-color: #ffff;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

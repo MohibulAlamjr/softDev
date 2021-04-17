@@ -1,0 +1,36 @@
+body{
+    background-color: blueviolet;
+    background-image: url(../image/background\ image.jpg);
+
+}
+.learning{
+    text-align: center;
+    color: chartreuse;
+}
+p{
+    color: darkblue;
+    text-align: center;
+}
+
+.learning{
+    text-align: center;
+    background-color: rgba(0, 191, 255, 0.151);
+    color: darkmagenta;
+    font-size: 30px;
+}
+p.learning{
+    color: firebrick;
+}
+
+/* for multiple class  */
+.learning1{
+    font-size: larger;
+    background-color: gold;
+    color: fuchsia;
+    text-align: center;
+}
+.learning2{
+    color: indigo;
+}
+
+

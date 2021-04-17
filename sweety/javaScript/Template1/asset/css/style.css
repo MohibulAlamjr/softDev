@@ -1,0 +1,356 @@
+.cover{
+    background-image: url(../image/Cover2.jpg);
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -45px;
+
+ 
+}
+
+#grad {
+  background-image: radial-gradient(red, yellow, green);
+}
+
+.navbar p{
+  color: #ffff;
+display: inline;
+width: 24%;
+float: left;
+text-align: center;
+position: relative;
+top: -135px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color:#ffff;
+
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.fas {
+  position: relative;
+  left: -706px;
+  top: -48px;
+  color: #ffff;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.navbar > p:nth-child(4) {
+  left: 72px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.navbar > p:nth-child(2) {
+  left: -58px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading {
+  position: relative;
+  left: -8px;
+  color: #ffff;
+}
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading > h1:nth-child(1) {
+  position: relative;
+  left: 639px;
+  top: 223px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading > p:nth-child(2) {
+  position: relative;
+  left: 692px;
+  top: 205px;
+}
+.heading h1{
+  font-size: 70px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading {
+  top: -4px;
+  left: -187px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.fas {
+  top: -109px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.heading > p:nth-child(2) {
+  left: 848px;
+  top: 183px;
+}
+
+/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+
+.heading > p:nth-child(2) {
+  font-size: 20px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.fas {
+  top: -118px;
+}
+
+
+
+.secondpart{
+  background-size: cover;
+  background-color: black;
+  height: 1350px;
+  width: 100%;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.secondpart {
+  margin-top: -22px;
+}
+
+.secondpart h1{
+  color:#ffff;
+  text-align: center;
+  left: 11px;
+}
+.secondpart p{
+  color: #ffff;
+  text-align: center;
+}
+.Norway{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 420px;
+    color:black;
+    background-color: #ffff;
+    margin-left: 232px;
+    margin-top: 40px;
+    background-image: url(../image/Norway.jpg);
+}
+.US{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 420px;
+  color:black;
+  background-color: #ffff;
+  margin-left: 30px;
+  margin-top: 40px;
+  background-image: url(../image/US.jpg);
+}
+.Australia{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 420px;
+  color:black;
+  background-color: #ffff;
+  margin-left: 30px;
+  margin-top: 40px;
+  background-image: url(../image/AUST1..jpg);
+ 
+}
+.btn{
+  margin-top: 550px;
+  text-align: center;
+}
+.btn a{
+  text-decoration: none;
+  color: rgb(13, 13, 228);
+}
+
+/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+
+.Norway {
+  position: relative;
+}
+
+.secondpart p {
+  position: relative;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Norway > h1:nth-child(1) {
+  margin-left: 75px;
+  margin-top: 324.92px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Norway > p:nth-child(2) {
+  left: 2px;
+  top: -7px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Norway > h1:nth-child(1) {
+  margin-left: -2px;
+}
+.US h1{
+  margin-top: 324.92px;
+}
+.Australia h1{
+  margin-top: 324.92px;
+}
+.US > p:nth-child(2) {
+  top: -7px;
+}
+.Australia > p:nth-child(2) {
+  top: -7px;
+}
+.JOURNAL h1{
+  color: #ffff;
+  margin-top: 96px;
+}
+.AUn{
+  background-color: #ffff;
+  float: left;
+    width: 30%;
+    padding: 10px;
+    height: 200px;
+    color:black;
+    background-color: #ffff;
+    margin-left: 242px;
+    margin-top: 45px;
+    background-image: url(../image/AUNN.jpg);
+}
+.Steel{
+  background-color: #ffff;
+  float: left;
+    width: 30%;
+    padding: 10px;
+    height: 200px;
+    color:black;
+    background-color: #ffff;
+    margin-left: 50px;
+    margin-top: 45px;
+    background-image: url(../image/Steel.jpg);
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Mountain > p:nth-child(1) {
+  top: 221px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Mountain > h1:nth-child(2) {
+  margin-top: 233px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Bridge > p:nth-child(1) {
+  top: 222px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.Bridge > h1:nth-child(2) {
+  margin-top: 232px;
+}
+
+.footer{
+  height: 650px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../image/Footer.jpg);
+  margin-top: -16px;
+}
+.footer a{
+  color: rgb(34, 34, 241);
+  text-decoration: none;
+}
+.bttn p{
+  text-align: center;
+}
+.footer1 p{
+  color: #ffff;
+}
+
+
+/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+
+.footer1 p {
+  position: relative;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html */
+
+.footer1 > p:nth-child(1) {
+  top: 557px;
+  left: 382px;
+}
+.bttn1 p{
+   display: inline;
+}
+.bttn1 a{
+  color: #ffff;
+}
+
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 {
+  position: relative;
+  left: 762px;
+  top: 523px;
+}
+
+
+/* style.css | file:///E:/softDev/sweety/Template1/asset/css/style.css */
+
+.bttn1 a {
+  position: relative;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 > p:nth-child(2) > a:nth-child(1) {
+  left: 28px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 > p:nth-child(3) > a:nth-child(1) {
+  left: 42px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 > p:nth-child(4) > a:nth-child(1) {
+  left: 57px;
+}
+
+/* Element | file:///E:/softDev/sweety/Template1/index.html# */
+
+.bttn1 > p:nth-child(1) > a:nth-child(1) {
+  left: 12px;
+}
+
+
+
+
+

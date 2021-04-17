@@ -1,0 +1,795 @@
+.headsection{
+  background-image: url(../image/assets.newatlas.com.jpg22.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body{
+  margin: 0px;
+}
+
+/* style.css | file:///F:/softDev/mouly/Template%202/asset/css/style.css */
+
+.headsection {
+    height: 600px;
+  }
+  
+  /* Element | file:///F:/softDev/mouly/Template%202/index.html */
+  
+  li.nav-item:nth-child(1) {
+    position: relative;
+    right: -237px;
+  }
+  
+  /* Element | file:///F:/softDev/mouly/Template%202/index.html# */
+  
+  li.nav-item:nth-child(2) {
+    position: relative;
+    right: -387px;
+    top: -17px;
+  }
+  
+  /* Element | file:///F:/softDev/mouly/Template%202/index.html# */
+  
+  li.nav-item:nth-child(3) > a:nth-child(1) {
+    position: relative;
+    right: -853px;
+    top: -36px;
+    color: white;
+  }
+  
+  /* Element | file:///F:/softDev/mouly/Template%202/index.html# */
+  
+  li.nav-item:nth-child(4) {
+    position: relative;
+    right: -1136px;
+    top: -53px;
+  }
+  
+  /* Element | file:///F:/softDev/mouly/Template%202/index.html# */
+  
+  li.nav-item:nth-child(2) > a:nth-child(1) {
+    position: relative;
+    right: -48px;
+    color: white;
+  }
+  
+  /* Element | file:///F:/softDev/mouly/Template%202/index.html# */
+  
+  .disabled {
+    color: #ffffffdb;
+  }
+  
+  /* Element | file:///F:/softDev/mouly/Template%202/index.html# */
+  
+  li.nav-item:nth-child(1) > a:nth-child(1) {
+    color: white;
+  }
+  
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.journal {
+  position: relative;
+  color: white;
+}
+.outdoors{
+  text-align: center;
+  color: white;
+}
+
+/* style.css | file:///F:/softDev/mouly/Template%202/asset/css/style.css */
+
+.outdoors {
+  position: relative;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.outdoors {
+  bottom: -65px;
+}
+.secondsection{
+  background-color: black;
+}
+
+/* style.css | file:///F:/softDev/mouly/Template%202/asset/css/style.css */
+
+.secondsection {
+  position: relative;
+  height: 500px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.secondsection {
+  bottom: -407px;
+  padding-bottom: -28px;
+}
+.world{
+  color: white;
+  text-align: center;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.secondsection {
+  position: relative;
+  right: 0px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.world {
+  position: relative;
+  right: -483px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.world {
+  position: relative;
+  left: -27px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.para {
+  color: #b8adad;
+}
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.fire > img:nth-child(1) {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  right: -305px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.secondsection > div:nth-child(3) > img:nth-child(1) {
+  position: 200px;
+  position: relative;
+  width: 200px;
+  height: 300px;
+  right: -628px;
+  top: -303px;
+}
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.mountain > img:nth-child(1) {
+  position: relative;
+  width: 200px;
+  width: 200px;
+  height: 300px;
+  right: -960px;
+  top: -607px;
+}
+.NY{
+  color: white;
+}
+.NW{
+  color: white;
+}
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.mountain > img:nth-child(1) {
+  position: relative;
+  top: -701px;
+}
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.NY {
+  position: relative;
+  right: -340px;
+  top: -79px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.NW {
+  position: relative;
+  font-size: 70%;
+  right: -367px;
+  top: -88px;
+}
+
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.states {
+  position: relative;
+  right: -610px;
+  top: -386px;
+  width: 200px;
+  height: 300px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.mountain > img:nth-child(1) {
+  position: relative;
+  right: -954px;
+  bottom: 750px;
+  top: -688px;
+}
+
+.AC{
+  color: white;
+}
+
+.UC{
+  
+  color: white ;
+  
+}
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.AC {
+  position: relative;
+  right: -39px;
+  top: -77px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.UC {
+  position: relative;
+  font-size: 70%;
+  right: -63px;
+  top: -89px;
+}
+
+.AG{
+  color: white;
+}
+
+.UR{
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.AG {
+  position: relative;
+  top: -763px;
+  right: -993px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.UR {
+  position: relative;
+  top: -775px;
+  right: -1026px;
+  font-size: 70%;
+}
+.more{
+color: blue;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.more {
+  position: relative;
+  right: -689px;
+  top: -753px;
+}
+.journal{
+  color: white;
+  text-align: center;
+}
+.favourite{
+  color: white;
+  text-align: center;
+  
+}
+.midsection{
+  background-color: black;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.midsection {
+  position: relative;
+  bottom: -385px;
+}
+
+/* style.css | file:///F:/softDev/mouly/Template%202/asset/css/style.css */
+
+.midsection {
+  height: 400px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.more {
+  position: relative;
+  right: -679px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.midsection {
+  position: relative;
+  bottom: -385px;
+  top: 373px;
+}
+
+/* style.css | file:///F:/softDev/mouly/Template%202/asset/css/style.css */
+
+.midsection {
+  height: 590px;
+}
+
+.journal {
+  font-size: 80;
+  font-size: 25px;
+}
+
+.favourite {
+  /* color: white; */
+  color: #d2c5c5;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.more {
+  position: relative;
+  right: -679px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+h4.journal {
+  position: relative;
+  right: 31px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.favourite {
+  position: relative;
+  right: 9px;
+}
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.midsection > div:nth-child(2) > img:nth-child(1) {
+  position: relative;
+  width: 550px;
+  right: -204px;
+  bottom: -13px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.midsection > div:nth-child(2) > img:nth-child(1) {
+  position: relative;
+  width: 500px;
+  height: 300px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.midsection > div:nth-child(3) > img:nth-child(1) {
+  position: relative;
+  width: 500px;
+  right: -776px;
+  top: -290px;
+  height: 300px;
+  bottom: 305px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.may > div:nth-child(1) > img:nth-child(1) {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  right: -200px;
+  top: 18px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.may > p:nth-child(2) {
+  position: relative;
+  right: -372px;
+  top: 19px;
+  color: white;
+  font-size: 80%;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.may > h5:nth-child(3) {
+  position: relative;
+  color: white;
+  font-size: 120%;
+  right: -335px;
+  top: -8px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.may > p:nth-child(4) {
+  position: relative;
+  color: white;
+  font-size: 90%;
+  right: -248px;
+  top: -23px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.midsection > div:nth-child(3) > img:nth-child(1) {
+  position: relative;
+  right: -768px;
+  top: -447px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.steel > div:nth-child(1) > img:nth-child(1) {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  right: -764px;
+  top: -448px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.steel > p:nth-child(2) {
+  /* color: wn\\; */
+  position: relative;
+  right: -947px;
+  color: whitw;
+  color: #bbb0b0;
+  top: -452px;
+  font-size: 80%;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.steel > h6:nth-child(3) {
+  position: relative;
+  color: white;
+  right: -910px;
+  top: -483px;
+  font-size: 110%;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.steel > p:nth-child(4) {
+  position: relative;
+  color: whitew;
+  color: #b6aeae;
+  right: -819px;
+  top: -506px;
+  font-size: 90%;
+}
+
+/* style.css | file:///F:/softDev/mouly/Template%202/asset/css/style.css */
+
+.may > p:nth-child(4) {
+  /* color: white; */
+  color: #aca6a6;
+}
+
+.may > p:nth-child(2) {
+  /* color: white; */
+  color: #b4adad;
+}
+.footer{
+  background-image: url(../image/night-sky-star-space-nature-27-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.footer {
+  position: relative;
+  right: 1px;
+  top: 356px;
+  width: 100;
+  height: 700px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.all {
+  position: relative;
+  color: #06035b;
+  right: -701px;
+  background-color: black;
+  width: 100%;
+  margin-left: -700px;
+  height: 100px;
+  padding-right: -21px;
+  padding-top: -34px;
+  text-align: center;
+}
+
+/* style.css | file:///F:/softDev/mouly/Template%202/asset/css/style.css */
+
+.all {
+  /* color: #06035b; */
+  /* height: 100px; */
+  color: #1e18db;
+  height: 50px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.all {
+  bottom: 31px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.footer1 {
+  position: relative;
+  color: whitew;
+  color: white;
+  right: -190px;
+  bottom: -595px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: -57px;
+  position: relative;
+  right: -416px;
+  top: -35px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(2) {
+  position: relative;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(3) {
+  position: relative;
+  right: -520px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(4) {
+  position: relative;
+  right: -619px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(5) {
+  position: relative;
+  right: -725px;
+}
+
+/* style.css | file:///F:/softDev/mouly/Template%202/asset/css/style.css */
+
+.btn {
+  /* background-color: black; */
+  background-color: none;
+  background-color: #10100f;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn1 {
+  /* color: whi\\; */
+  position: relative;
+  color: white;
+  right: -279px;
+  text-decoration: none;
+}
+.btn2{
+  color: white;
+}
+.btn3{
+  color: white;
+}
+.btn4{
+  color: white;
+  float: right;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn4 {
+  position: relative;
+  right: 225px;
+  top: -53px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn2 {
+  position: relative;
+  right: -465px;
+  top: -18px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn3 {
+  position: relative;
+  right: -973px;
+  top: -34px;
+}
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.footer1 {
+  background-color: black;
+  right: 0px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.footer1 > p:nth-child(1) {
+  position: relative;
+  right: -211px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(5) {
+  position: relative;
+  right: -894px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(4) {
+  position: relative;
+  right: -818px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(3) {
+  position: relative;
+  right: -738px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(2) {
+  position: relative;
+  right: -647px;
+}
+
+/* style.css | file:///F:/softDev/mouly/Template%202/asset/css/style.css */
+
+.footer1 {
+  background-color: black;
+}
+
+.btn {
+  /* background-color: #10100f; */
+  background-color: #000;
+}
+
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.logo > img:nth-child(1) {
+  position: relative;
+  width: 30px;
+  right: -713px;
+  margin-top: -91px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn3 {
+  position: relative;
+  margin-top: -20px;
+}
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.navbar {
+  position: relative;
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn1 > a:nth-child(1) {
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn2 {
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn2 > a:nth-child(1) {
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn3 > a:nth-child(1) {
+  color: white;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn4 > a:nth-child(1) {
+  color: white;
+}
+
+
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+button.btn:nth-child(1) {
+  position: relative;
+  right: -934px;
+  top: -53px;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn1 > a:nth-child(1) {
+  text-decoration: none;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn2 > a:nth-child(1) {
+  text-decoration: none;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn3 > a:nth-child(1) {
+  text-decoration: none;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.btn4 > a:nth-child(1) {
+  text-decoration: none;
+}
+
+/* Element | file:///F:/softDev/mouly/Template%202/index.html */
+
+.fas {
+  position: relative;
+  right: -704px;
+  top: -35px;
+}

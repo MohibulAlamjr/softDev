@@ -1,0 +1,27 @@
+.elements{
+    display: inline;
+}
+.elementsBlock{
+    display: block;
+}
+.fname{
+    font-size: 30px;
+}
+.header{
+    background-color: lawngreen;
+    width: 1000px;
+    text-align: center;
+     
+}.nav{
+    background-color: lightseagreen;
+}
+.section{
+    background-color: lime;
+}
+.article{
+    text-align: right;
+    background-color: maroon;
+}
+.aside{
+    background-color: mediumblue;
+}
