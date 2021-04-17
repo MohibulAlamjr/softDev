@@ -1,0 +1,101 @@
+.cover{
+    background-image: url(../image/cover.jpg);
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    text-align: center;
+    color: #ffff;
+}
+.rounded-circle {
+    position: relative;
+    top: 169px;
+    left: -151px;
+  }
+.heading > h3:nth-child(1) > b:nth-child(1) {
+    position: relative;
+    left: -275px;
+    top: -98px;
+  }
+  .heading > h3:nth-child(2) > b:nth-child(1) {
+    position: relative;
+    left: -154px;
+    top: -98px;
+    font-size: 30px;
+  }
+  .heading > h2:nth-child(3) > b:nth-child(1) {
+    position: relative;
+    left: 7px;
+    top: -81px;
+    font-size: 40px;
+  }
+  .heading > h1:nth-child(4) > b:nth-child(1) {
+    position: relative;
+    left: 120px;
+    top: -70px;
+    font-size: 60px;
+  }
+.heading > p:nth-child(5) > b:nth-child(1) {
+    position: relative;
+    left: 20px;
+    top: 108px;
+  }
+  
+  .heading > p:nth-child(6) > button:nth-child(1) {
+    position: relative;
+    top: 102px;
+    left: 17px;
+  }
+  .heading a{
+      color: black;
+  }
+.heading > b:nth-child(7) {
+    position: relative;
+    left: 583px;
+    top: 66px;
+  }
+  .fa-facebook {
+    position: relative;
+    left: 565px;
+    top: 54px;
+  }
+  .heading button a {
+    color:blue;
+  }
+  .fa-linkedin-in {
+    position: relative;
+    left: 580px;
+    top: 54px;
+  }
+  .fa-twitter-square {
+    position: relative;
+    left: 592px;
+    top: 54px;
+  }
+  .fa-instagram {
+    position: relative;
+    left: 606px;
+    top: 55px;
+  }
+  .bar i{
+      color: #ffff;
+  }
+.heading > p:nth-child(7) > b:nth-child(1) {
+    position: relative;
+    left: 592px;
+    top: 63px;
+  }
+.fa-github {
+    position: relative;
+    left: 618px;
+    top: 54px;
+  }
+  
+  
+
+  
+
+  

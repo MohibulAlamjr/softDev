@@ -1,0 +1,67 @@
+body{
+  background-image: url(../image/rr.jpg) ;
+  background-color: rgba(0, 0, 0, 0.952);
+ 
+  
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+ 
+}
+
+.mainSection{
+ 
+height: 500px;
+}
+.heads{
+  margin-top: 12%;
+}
+.align{
+  text-align: center;
+}
+
+
+div.col-sm-12:nth-child(1) > h1:nth-child(1) {
+  color: #ffffff;
+  text-decoration: ;
+  font-weight: bold;
+  font-size: 591%;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+
+div.col-sm-12:nth-child(1) > h1:nth-child(1) > span:nth-child(2) {
+  position: relative;
+  font-size: 50px;
+  top: -31px;
+}
+
+
+div.col-sm-12:nth-child(2) > img:nth-child(1) {
+  height: 161px;
+  margin-top: -25px;
+}
+
+
+div.col-sm-12:nth-child(2) > a:nth-child(1) > img:nth-child(1) {
+  
+  height: 44%;
+  margin-top: -5%;
+}
+
+button.btn:nth-child(1) {
+  margin-right: 50%;
+}
+
+.mybtn1{
+    width: 15%;
+    padding: 5px;
+    background-color: #40e0d021;
+   
+}
+.mybtn1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+

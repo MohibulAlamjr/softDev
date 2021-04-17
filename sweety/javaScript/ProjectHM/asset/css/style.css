@@ -1,0 +1,106 @@
+.cover{
+    background-image:url(../image/Screen\ Shot\ 2021-01-04\ at\ 10.38.41\ AM.png);
+    height: 850px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -154px;
+}
+.navbar > p:nth-child(1) > a:nth-child(1) {
+    position: relative;
+    top: 69px;
+    left: 176px;
+  }
+  
+  .navbar > p:nth-child(2) > a:nth-child(1) {
+    position: relative;
+    top: 36px;
+    left: 420px;
+  }
+  
+  .navbar > p:nth-child(4) > a:nth-child(1) {
+    position: relative;
+    left: 970px;
+  }
+  
+  .navbar > p:nth-child(5) > a:nth-child(1) {
+    position: relative;
+    left: 1218px;
+    top: -33px;
+  }
+
+  .navbar a{
+      text-decoration: none;
+      color: black;
+  }
+
+.fas {
+    position: relative;
+    left: 96px;
+  }
+
+  .navbar > p:nth-child(6) > a:nth-child(1) {
+    position: relative;
+    left: 1381px;
+    top: -101px;
+  }
+  
+  .navbar > p:nth-child(5) > a:nth-child(1) {
+    top: -66px;
+    left: 1204px;
+  }
+  .navbar > p:nth-child(4) > a:nth-child(1) {
+    top: -32px;
+  }
+  
+  .navbar > p:nth-child(2) > a:nth-child(1) {
+    left: 661px;
+  }
+
+  .navbar > p:nth-child(1) > a:nth-child(1) {
+    left: 417px;
+  }
+
+.navbar > p:nth-child(7) > a:nth-child(1) {
+    position: relative;
+    left: 157px;
+    top: -135px;
+  }
+
+  
+  .fas {
+    left: 76px;
+    top: 3px;
+  }
+  .heading h1{
+      color: black;
+      text-align: center;
+      font-size: 40px;
+  }
+  .heading p{
+      text-align: center;
+      font-size: 20px;
+  }
+
+.heading > h1:nth-child(1) {
+    position: relative;
+    top: 464px;
+  }
+  
+  .heading > p:nth-child(2) {
+    position: relative;
+    top: 450px;
+  }
+
+.navbar {
+    position: relative;
+    top: -21px;
+  }
+  
+
+
+
+  
+  
+  
+  

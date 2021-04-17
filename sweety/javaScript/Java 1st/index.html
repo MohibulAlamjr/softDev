@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <h2>My First JavaScript</h2>
+
+     <button type="button"
+     onclick="document.getElementById('demo').innerHTML = 'Month'">
+      Click me to display Month.</button>
+
+<p id="demo"></p><br>
+
+
+<h2>What Can JavaScript Do?</h2>
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "Why u r so hard!"'>Click Me!</button>
+<p id="demo1">JavaScript is so hard near by me</p><br>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+    <button onclick="document.getElementById('myImage').src='asset/image/onlight.png'">Turn on the light</button>
+
+     <img id="myImage" src="asset/image/offlight.png" style="width:100px">
+
+     <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button><br>
+
+<h2>JavaScript in Body</h2>
+
+<p id="demo2"></p>
+
+<script>
+      document.getElementById("demo2").innerHTML = "My First JavaScript";
+</script><br>
+
+<script>
+    function myFunction() {
+      document.getElementById("demo5").innerHTML = "My Life.";
+    }
+    </script>
+    </head>
+    <body>
+    
+    <h2>JavaScript in Head</h2>
+    
+    <p id="demo5">Hojoborolo</p>
+    <h1><script>document.write(5+5);</script></h1>
+    
+    <button type="button" onclick="myFunction()">Try it</button>
+    <p id=just></p>
+   <button onclick="window.print()">pint this page</button>
+    
+
+<!-- //js output// -->
+
+<!-- for statement  -->
+<p id="demo4"></p>
+
+<script>
+var a, b, c;
+a = 10;
+b = 6;
+c = a + b;
+document.getElementById("demo4").innerHTML = c;
+</script>
+
+
+
+    <script src="asset/js/main.js"></script>
+</body>
+</html>

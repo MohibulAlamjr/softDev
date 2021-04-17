@@ -1,0 +1,161 @@
+
+.btn {
+    position: relative;
+    top: 102px;
+  }
+  div.form-group:nth-child(4) {
+    position: relative;
+    top: 111px;
+  }
+  div.form-group:nth-child(3) {
+    position: relative;
+    top: 116px;
+  }
+  div.form-group:nth-child(2) {
+    position: relative;
+    top: 122px;
+  }
+  div.form-group:nth-child(1) {
+    position: relative;
+    top: 131px;
+  }
+  .body{
+    margin-top: 0%;
+  }
+  .cover{
+      background-color: darkgrey;
+      height: 1200px;
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  .cover h1{
+      text-align: center;
+  }
+.cover > h1:nth-child(1) > b:nth-child(1) {
+    position: relative;
+    top: 64px;
+  }
+.contact > h2:nth-child(2) {
+    position: relative;
+    left: 887px;
+    top: -382px;
+  }
+  i.fas:nth-child(1) {
+    position: relative;
+    left: 858px;
+    top: -348px;
+  }
+  .contact > p:nth-child(3) {
+    position: relative;
+    left: 891px;
+    top: -395px;
+  }
+  i.fas:nth-child(4) {
+    position: relative;
+    left: 1136px;
+    top: -455px;
+  }
+  .contact > h2:nth-child(5) {
+    position: relative;
+    left: 1162px;
+    top: -487px;
+  }
+  i.fas:nth-child(7) {
+    position: relative;
+    left: 861px;
+    top: -495px;
+  }
+  .contact > p:nth-child(6) > b:nth-child(1) {
+    position: relative;
+    top: -503px;
+    left: 1164px;
+  }
+  .contact > h2:nth-child(8) {
+    position: relative;
+    top: -527px;
+    left: 890px;
+  }
+  .contact > p:nth-child(9) > b:nth-child(1) {
+    position: relative;
+    top: -538px;
+    left: 893px;
+  }
+  .contact > h2:nth-child(11) {
+    position: relative;
+    top: -638px;
+    left: 1193px;
+  }
+  i.fas:nth-child(10) {
+    position: relative;
+    top: -604px;
+    left: 1164px;
+  }
+  .contact > p:nth-child(12) > b:nth-child(1) {
+    position: relative;
+    top: -649px;
+    left: 1190px;
+  }
+.copyright-text > p:nth-child(1) {
+    position: relative;
+    left: 184px;
+    top: 410px;
+  }
+.contact > p:nth-child(13) > button:nth-child(1) {
+    position: relative;
+    top: -72px;
+    left: 1269px;
+  }
+.cover > p:nth-child(2) > b:nth-child(1) {
+    position: relative;
+    left: 656px;
+    top: 62px;
+  }
+.contact > p:nth-child(13) > button:nth-child(1) > a:nth-child(1) {
+    position: relative;
+    top: -7px;
+  }
+  .contact > p:nth-child(13) > button:nth-child(1) {
+    position: relative;
+    top: -122px;
+  }
+  .copyright-text > p:nth-child(1) {
+    left: 240px;
+    top: 360px;
+  }
+
+.contact > p:nth-child(13) > button:nth-child(1) > a:nth-child(1) {
+    position: relative;
+    top: -4px;
+}
+.contact > p:nth-child(13) > button:nth-child(1) {
+  position: relative;
+  top: 122px;
+}
+.copyright-text > p:nth-child(1) {
+  position: relative;
+  top: 607px;
+  left: 101px;
+}
+
+.soft > h2:nth-child(1) > b:nth-child(1) {
+  position: relative;
+  top: -502px;
+  left: 887px;
+}
+
+.soft > p:nth-child(2) > button:nth-child(1) {
+  position: relative;
+  top: -463px;
+  left: 1062px;
+}
+
+.copyright-text > p:nth-child(1) {
+  top: 337px;
+}
+
+.contact > p:nth-child(13) > button:nth-child(1) {
+  top: -144px;
+}
+
