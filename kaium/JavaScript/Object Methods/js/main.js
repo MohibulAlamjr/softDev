@@ -23,22 +23,22 @@ var person = {
 console.log(person.fullName().toUpperCase());
 
 
-var person = {
+var person2 = {
     firstName: "md",
     lastName: "al",
     id: 5566,
-    age:1920,
+    year : 1999,
     fullName: function () {
         return this.firstName + " " + this.lastName;
+    },
+    age: function(){
+       var date = new Date();
+        let x = date.getFullYear();
+        return x - this.year;
     }
-    // age.function(){
-    //     var date = new Date()
-    //     let x =date.getFullYear();
-    //     return x= this.year;
-    // }
 };
-console.log(person.fullName().toUpperCase());
-// console.log(person.age());
+console.log(person2.fullName().toUpperCase());
+console.log(person2.age());
 
 
 // ----------------------------------------------------------------
