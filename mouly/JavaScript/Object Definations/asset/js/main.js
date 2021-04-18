@@ -20,7 +20,7 @@ var person = {
  }
 
  console.log(food.food1);
- console.log(food.foo4+ "  "+ food.food3);
+ console.log(food.food4+ "  "+ food.food3);
  console.log(food.food3);
 
  var person1 = {
@@ -55,9 +55,9 @@ var food2 = new Object ()
 
 
 console.log(food2.food3);
-console.log(food2.foo4+ "  "+ food2.foo1);
+console.log(food2.food4+ "  "+ food2.food1);
 console.log(food2.food6);
-console.log(food2.foo4);
+console.log(food2.food4);
 
 // objects are mutable - updated value
 
