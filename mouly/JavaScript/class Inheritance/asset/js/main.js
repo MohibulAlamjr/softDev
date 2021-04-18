@@ -26,3 +26,30 @@ flowerName (){
 
    favourite = new food ("Rose", "Blue", 100, "Ice-cream",100);
    console.log(favourite.myFavourite());
+
+
+
+   class human {
+       constructor(first, mid, last){
+           this.fname = first;
+           this.mname = mid;
+           this.lname = last;
+       }
+       fullname (){
+           return this.fname+ " "+ this.mname+ " "+ this.lname;
+       }
+   };
+
+   class address extends human {
+       constructor(first, mid, last, nation, country){
+           super (first, mid, last);
+           this.nationality = nation;
+           this.country = country;
+       }
+       myAddress (){
+           return " My name is "+ this.fullname ()+ ". My nationality is  "+ this.nationality+". My country is  "+ this.country;
+       }
+   }
+
+   mouly = new address ("Serajum", "munira", "Mouly","Begali", "Bangladesh");
+   console.log(mouly.myAddress());
