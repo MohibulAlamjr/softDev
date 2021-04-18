@@ -39,7 +39,7 @@ class bio extends homo {
 
     }
     Student_bio(){
-        return 'Student name is : ' + this.fullname()+", Student Father name is : "+ this.Student_Father_Name+", Studen Age : " +this.Student_Age;
+        return '\n Student name is : ' + this.fullname()+",\n Student Father name is : "+ this.Student_Father_Name+",\n Studen Age : " +this.Student_Age;
     }
 }
  let st_Student = new bio("Kaium","Sorif","Siddik sorif",40);
