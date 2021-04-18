@@ -51,3 +51,29 @@ class bio extends homo {
 mohibul = new bio("Mohibul","alam","Mahmuda Sultana","Rafiqul Islam",24);
 console.log(mohibul.fullBio());
 
+// Getters and Setters
+
+class person2{
+    constructor(fn,ln){
+      this.firstName = fn;
+      this.lastName = ln;
+      
+    }
+    get fullName(){
+      return this.firstName + " " + this.lastName;
+    }
+    
+    set age1(x) {
+      this.age = x;
+    }
+    
+  
+
+}
+
+mohibul = new person2("Mohibul","Alam");
+console.log(mohibul.fullName) ;
+mohibul.age1=23;
+console.log( mohibul.age);
+
+
