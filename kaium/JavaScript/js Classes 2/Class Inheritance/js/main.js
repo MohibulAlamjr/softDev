@@ -32,15 +32,15 @@ class homo {
     }
 }
 class bio extends homo {
-    constructor(mn,fn){
-        super( k ,S);
-        this.Mothername = mn;
-        this.fathername = fn;
+    constructor(K,S,mn,fn){
+        super( K ,S);
+        this.Student_Father_Name = mn;
+        this.Student_Age = fn;
 
     }
-    fullbio(){
-        return 'your name is ' + this.fullname()+" Your Father name is "+ this.fathername+" Your Mother Name " +this.Mothername ;
+    Student_bio(){
+        return 'Student name is : ' + this.fullname()+", Student Father name is : "+ this.Student_Father_Name+", Studen Age : " +this.Student_Age;
     }
 }
-kaium = new bio("Kaium""Sorif""Shahinur begum","Siddik sorif");
-console.log(kaium.fullbio("Shahinur begum","Siddik sorif"))
+ let st_Student = new bio("Kaium","Sorif","Siddik sorif",40);
+console.log(st_Student.Student_bio());
