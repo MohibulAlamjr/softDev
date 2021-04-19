@@ -21,6 +21,10 @@ class Car {
   console.log( myCar.show());
 
 
+
+
+
+  
 // MY Class Inheritance
 class homo {
     constructor(k,S){
@@ -45,6 +49,15 @@ class bio extends homo {
  let st_Student = new bio("Kaium","Sorif","Siddik sorif",40);
 console.log(st_Student.Student_bio());
 
+
+
+
+
+
+
+
+
+
 // Getters and Setters
 class  Student1{
     constructor(Fn,Ln){
@@ -62,4 +75,30 @@ class  Student1{
  console.log(st_Student.fullname);
 st_Student.Age = 20;
  console.log(st_Student.Age);
+
+
+
+
+
+ class Animals{
+  constructor (cattle){
+      this.animalNee = cattle;
+  }
+  AB() {
+      return 'I have a ' + this.animalNee;
+  }
+};
+
+class Produced extends Animals {
+  constructor (cattle,Battle){
+      super(cattle);
+      this.beast = Battle;
+  }
+  Hi() {
+      return this.AB() + ' This is a ' + this.beast;
+  } 
+}
+
+let brute = new Produced ("cow","Domesticated Animal");
+console.log(brute.Hi());
 
