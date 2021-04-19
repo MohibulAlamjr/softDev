@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">JavaScript</h1>
+    <h2 style="text-align: center;">DOM Events</h2>
+
+    <h1 onclick="this.innerHTML='Ooops!'">Click on this text!</h1>
+
+
+    <h1 onclick="changeText(this)">Click on this text!</h1>
+
+
+    <h1 onclick="changeDate(this)">Click to show date</h1>
+
+    <!-- onclick on js file  -->
+
+
+    
+    <button id="btn">click to show date</button>
+    <h1 id="demo"></h1>
+
+
+
+    <!-- onchange -->
+
+    Enter your name: <input type="text" id="fname" onchange="myFunction()">
+<!-- onmouseover -->
+
+<h1 onmouseover="myChange(this)" onmouseout="myChange1(this)" >hi</h1>
+
+<!-- onmousedown, onmouseup and onclick Events -->
+
+<h1 onmousedown="over(this)" onmouseup="up(this)" >Mouly</h1>
+    
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
