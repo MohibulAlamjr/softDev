@@ -1,24 +1,24 @@
-// class Car {
-//     constructor(brand) {
-//       this.carname = brand;
-//     }
-//     present() {
-//       return 'I have a ' + this.carname;
-//     }
-//   }
+class Car {
+    constructor(brand) {
+      this.carname = brand;
+    }
+    present() {
+      return 'I have a ' + this.carname;
+    }
+  }
   
-//   class Model extends Car {
-//     constructor(brand, mod) {
-//       super(brand);
-//       this.model = mod;
-//     }
-//     show() {
-//       return this.present() + ', it is a ' + this.model;
-//     }
-//   }
+  class Model extends Car {
+    constructor(brand, mod) {
+      super(brand);
+      this.model = mod;
+    }
+    show() {
+      return this.present() + ', it is a ' + this.model;
+    }
+  }
   
-//   let myCar = new Model("Ford", "Mustang");
-//   console.log( myCar.show());
+  let myCar = new Model("Ford", "Mustang");
+  console.log( myCar.show());
 
 
 // MY Class Inheritance
@@ -39,8 +39,27 @@ class bio extends homo {
 
     }
     Student_bio(){
-        return 'Student name is : ' + this.fullname()+", Student Father name is : "+ this.Student_Father_Name+", Studen Age : " +this.Student_Age;
+        return '\n Student name is : ' + this.fullname()+",\n Student Father name is : "+ this.Student_Father_Name+",\n Studen Age : " +this.Student_Age;
     }
 }
  let st_Student = new bio("Kaium","Sorif","Siddik sorif",40);
 console.log(st_Student.Student_bio());
+
+// Getters and Setters
+class  Student1{
+    constructor(Fn,Ln){
+        this.firstname = Fn;
+        this.lastname = Ln;
+    }
+    get fullname(){
+        return this.firstname + " "+ this.lastname;
+    }
+    set Age1(x){
+        this.Age = x; 
+    }
+}
+ st_Student = new Student1("Kaium","Sorif");
+ console.log(st_Student.fullname);
+st_Student.Age = 20;
+ console.log(st_Student.Age);
+
