@@ -53,3 +53,47 @@ flowerName (){
 
    mouly = new address ("Serajum", "munira", "Mouly","Begali", "Bangladesh");
    console.log(mouly.myAddress());
+
+
+   // setter and getter 
+
+   class fruits {
+       constructor(lname, fcolor){
+           this.name = lname;
+           this.color = fcolor;
+       }
+      get Name (){
+          return this.name + " "+ this.color;
+      }
+      set taste1 (y){
+
+        return this. taste = y;
+      }
+   }
+
+   var fruits1 = new fruits ("Mango", "Yellow");
+   console.log(fruits1.Name);
+   fruits1.taste1 = "sweet";
+   console.log(fruits1.taste);
+
+
+
+
+
+   class human1 {
+       constructor(date, year){
+           this.date = date;
+           this.year = year;
+       }
+       get birthdate (){
+           return this.date + " " + this.year;
+       }
+       set birth (x){
+           return this.birth1 = x;
+       }
+      
+   }
+   var shaif = new human1 ("18 October", 2020);
+   console.log(shaif.birthdate);
+   shaif.birth = "8 months";
+   console.log(shaif.birth1);
