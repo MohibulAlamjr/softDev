@@ -25,14 +25,15 @@ function myMove1() {
    
   var pos1 = 0;
   clearInterval(id);
-  id1 = setInterval(frame, 5);
-  function frame() {
+  id1 = setInterval(frame1, 5);
+  function frame1() {
     if (pos1 == 350) {
       clearInterval(id1);
     } else {
       pos1++; 
-      elem1.style.right  = pos1 + "px"; 
-      elem1.style.top= pos1 + "px"; 
+      elem1.style.right = pos1 + "px"; 
+      
+      elem1.style.top= pos1 + "px";
     }
   }
 }
