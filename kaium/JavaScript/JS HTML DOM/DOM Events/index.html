@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Event</h1>
+    <h1 onclick="this.innerHTML='Ooops!'">Click on this text!</h1>
+    <h1 onclick="changeText(this)">Click on this</h1>
+    <h1 onclick="changeDate(this)">Click on Show</h1>
+    <button id="btn">ONE Click</button><br>
+
+    Enter your name: <input type="text" id="fname" onchange="myFunction()">
+    <h2 id="Demo"></h2>
+
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+        Mouse Over Me</div>
+
+        <div onmouseout="mOver(this)" onmouseout="mOut(this)">
+        Mouse Over Me</div>
+
+        <div onmousedown="mOver(this)" onmouseout="mOut(this)" onmouseover="mOut(this)">
+        Mouse Over Me</div>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
