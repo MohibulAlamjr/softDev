@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">DOM</h1>
+    <h2 style="text-align: center;">DOM Events</h2>
+
+
+    <!-- reacting on events  -->
+
+    <h1 onclick="this.innerHTML='Ooops!'">Click on this text!</h1>
+
+    <h1 onclick="this.innerHTML='Good Morning.'">Assalamualaikum!</h1>
+
+    <h1 onclick="changeText(this)">Click here </h1>
+
+     <h1 onclick="changeDate(this)"> Show Date</h1>
+
+     <h1 onclick="changedate(this)">Time</h1>
+     
+     <button onclick="displayDate(this)">The time is</button> <br> <br> <br>
+
+
+      <!-- assign event using thr html dom  -->
+
+      <button id="btn">Click here to show date</button>
+      <h1 id="demo"></h1>
+
+
+      <button id="btn1">Assalamualaikum</button>
+      <h1 id="demo1"></h1>
+
+
+    <!-- onchange event  -->
+
+    Enter your first name: <input type="text" id="fname" onchange="myFun2()"> <br> <br>
+
+    Enter your last name: <input type="text" id="lname" onchange="myFun3()"> <br> <br>
+
+    Enter your district: <input type="text" id="dis" onchange="myFun4()">
+
+
+    <script src="asset/js/main.js"></script>
+</body>
+</html>
