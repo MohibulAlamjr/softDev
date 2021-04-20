@@ -49,3 +49,47 @@ function Cin(b) {
 function acd(j){
     j.innerHTML = "YAEH!";
 }
+
+
+
+// onmousedown onmouseup and ONCLICK 
+
+
+
+function hh(s){
+  s.innerHTML = "Are You Ok?";
+}
+
+function h2(t){
+  t.innerHTML = "Yeah Fine";
+}
+
+
+function hhh(g){
+  g.innerHTML = "Hello!";
+}
+function h3(u){
+  u.innerHTML = "softDevians";
+}
+
+
+function gg(o){
+  o.innerHTML = "Click this";
+}
+function ggg(k){
+  k.innerHTML = "Thank You";
+}
+
+
+// On Click 
+
+function myFunction() {
+  var v = document.getElementById("fn");
+  v.value = v.value.toUpperCase();
+}
+
+
+function myFunction1() {
+  var v1 = document.getElementById("f");
+  v1.value = v1.value.toUpperCase();
+}
