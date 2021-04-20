@@ -55,3 +55,52 @@ function myfun4(){
     var z = document.getElementById("dis");
     z.value = z.value.toUpperCase();
 }
+
+// onmouse and onmouseout events
+
+function mOver(obj) {
+    obj.innerHTML = "Good Evening"
+  }
+  function mOut(obj) {
+    obj.innerHTML = "Good Noon"
+  }  
+
+
+  function mOver1(ob){
+      ob.innerHTML = "From Jhenidah"
+  }
+
+  function mOut1(ob){
+      ob.innerHTML = " This is Mouly"
+  }
+
+  // onmousedown, onmouseup and onclick Events
+
+  function mDown(obj) {
+    obj.style.backgroundColor = "#1ec5e5";
+    obj.innerHTML = "Pink";
+  }
+  
+  function mUp(obj) {
+    obj.style.backgroundColor="#D94A38";
+    obj.innerHTML="White";
+  }
+
+
+  function over(x){
+    x.innerHTML="Blue";
+}
+
+function up(x){
+    x.innerHTML="Black";
+}
+
+function over1(x){
+    x.innerHTML="Munira";
+}
+
+function up1(x){
+    x.innerHTML="Mouly";
+}
+
+
