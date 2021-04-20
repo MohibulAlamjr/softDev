@@ -21,4 +21,43 @@ document.getElementById("id1").innerHTML = document.getElementById("id").innerHT
 
 document.getElementById("id3").innerHTML = document.getElementById("id2").innerHTML;
 
+// Chile node 
+
+document.getElementById("nn1").innerHTML = document.getElementById("nn").firstChild.nodeValue;
+
+document.getElementById("nn3").innerHTML = document.getElementById("nn2").firstChild.nodeValue;
+
+document.getElementById("nn5").innerHTML = document.getElementById("nn4").childNodes[0].nodeValue;
+
+// Root Nodes 
+
+alert(document.body.innerHTML);
+
+// Node Name 
+
+document.getElementById("kk1").innerHTML = document.getElementById("kk").nodeName;
+
+
+// Node Type 
+
+document.getElementById("kk3").innerHTML = document.getElementById("kk2").nodeType;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
