@@ -2,13 +2,13 @@
 
 
 
-function myFun(){
-    var x = document.getElementById("number1").value;
-    var y = document.getElementById("number2").value;
+function myFunction(){
+    var x = document.getElementById("num").value;
+    var y = document.getElementById("num1").value;
     x = parseFloat(x);
     y = parseFloat(y);
     var z=x+y;
-    document.getElementById("result").innerHTML=z;
+    document.getElementById("ans").innerHTML=z;
 }
 
 
