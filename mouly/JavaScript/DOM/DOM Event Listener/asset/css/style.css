@@ -1,0 +1,40 @@
+#myDiv1, #myDiv2 {
+    background-color: coral;
+    padding: 50px;
+  }
+  
+  #myP1, #myP2 {
+    background-color: white; 
+    font-size: 20px;
+    border: 1px solid;
+    padding: 20px;
+  }
+
+
+  #Div1, #Div2 {
+    background-color: rgb(27, 18, 150);
+    padding: 50px;
+  }
+  
+  #para1, #para2 {
+    background-color: white; 
+    font-size: 20px;
+    border: 1px solid;
+    padding: 20px;
+  }
+
+  #myDIV {
+    background-color: coral;
+    border: 1px solid;
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+  }
+
+  #myDIV1 {
+    background-color: rgb(146, 15, 113);
+    border: 1px solid;
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+  }
