@@ -76,10 +76,6 @@ $(document).ready(function(){
 });
 
 
-
-
-
-
 // jQuery stop() Method
 $(document).ready(function(){
   $("#flip").click(function(){
@@ -87,5 +83,12 @@ $(document).ready(function(){
   });
   $("#stop").click(function(){
     $("#panel").stop();
+  });
+});
+
+// jQuery Method Chaining
+$(document).ready(function(){
+  $("#btn9").click(function(){
+    $("#p9").css("color", "red").slideUp(2000).slideDown(2000);
   });
 });
