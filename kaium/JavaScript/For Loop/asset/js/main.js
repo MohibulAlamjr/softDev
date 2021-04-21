@@ -6,7 +6,10 @@ for (i = 0; i < cars.length; i++) {
 }
 
 
+
+
 // The For/In Loop
+
 
 var person = {
   fname: "John",
