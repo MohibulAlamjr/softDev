@@ -1,5 +1,5 @@
 .style{
-    background:#98bf21;
+    background:#bf5b21;
     height:100px;
     width:100px;
     position:absolute;
@@ -9,5 +9,29 @@
     background:#98bf21;
     height:100px;
     width:100px;
+    position:absolute;
+}
+.style3{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+.style4{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+.style5{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+.style6{
+    background:#98bf21;
+    height:100px;
+    width:200px;
     position:absolute;
 }
