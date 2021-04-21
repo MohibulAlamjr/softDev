@@ -16,8 +16,8 @@ document.getElementById("myBtn").addEventListener("click", function() {
      }
 
         var x = document.getElementById("btn2");
-    x.addEventListener("click",Myfun3) ;
-     x.addEventListener("click",Myfun4);
+    y.addEventListener("click",Myfun3) ;
+     y.addEventListener("click",Myfun4);
      function Myfun2() {
          document.getElementById("Demo4").innerHTML = "Kaium";
          
