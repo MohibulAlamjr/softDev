@@ -40,3 +40,36 @@ $(document).ready(function(){
     });
   });
 
+//   select all elements 
+
+$(document).ready(function(){
+    $(".p0").click(function(){
+      $("*").hide();
+    });
+  });
+
+//   Selects the current HTML element
+
+$(document).ready(function(){
+    $(".p06").click(function(){
+      $(this).hide();
+    });
+  });
+
+
+//   Selects all <p> elements with class
+
+$(document).ready(function(){
+    $(".p006").click(function(){
+      $("p.h001").hide();
+    });
+  });
+ 
+
+//   select the first elements 
+
+$(document).ready(function(){
+    $("#demo3").click(function(){
+      $("p:first").hide();
+    });
+  });
