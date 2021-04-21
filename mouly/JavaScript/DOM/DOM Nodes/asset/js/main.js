@@ -49,7 +49,7 @@ function myFunction() {
     var elmnt = document.getElementById("pp1");
     elmnt.remove();
   }
-
+1
   function myFunction1() {
     var elmnt = document.getElementById("pp22");
     elmnt.remove();
@@ -59,3 +59,10 @@ function myFunction() {
 
 
 
+  var x6= document.createElement("p");
+  var y6= document.createTextNode("Flower");
+  x6.append(y6);
+  var replace = document.getElementById("p23");
+  var p = document.getElementById("demo5");
+ 
+  p.replaceChild(x6,replace);

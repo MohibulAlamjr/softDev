@@ -221,21 +221,3 @@ function Remove() {
 function remove() {
   document.getElementById("mine").removeEventListener("mousemove", Remove);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
