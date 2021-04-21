@@ -69,8 +69,8 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("button").click(function(){
-    $("p").hide(1000);
+  $("#btn8").click(function(){
+    $("#p8").hide(1000);
     alert("The paragraph is now hidden");
   });
 });
