@@ -27,6 +27,7 @@ $(document).ready(function () {
 });
 
 
+
 // The .class Selector
 
 $(document).ready(function () {
