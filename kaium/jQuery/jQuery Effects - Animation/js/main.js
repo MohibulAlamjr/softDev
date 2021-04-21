@@ -92,3 +92,10 @@ $(document).ready(function(){
     $("#p9").css("color", "red").slideUp(2000).slideDown(2000);
   });
 });
+
+
+$(document).ready(function(){
+  $("#btn10").click(function(){
+    $("#p10").css("color", "red").hide(2000).show(2000);
+  });
+});
