@@ -6,7 +6,6 @@ document.getElementById("myBtn").addEventListener("click", function() {
 
     // Work in some tag 
 
-
     var x = document.getElementById("btn");
     x.addEventListener("click",Myfun1) ;
     
