@@ -58,6 +58,29 @@ $(document).ready(function(){
   });
 });
 
+// jQuery Callback Functions
+$(document).ready(function(){
+  $("#btn7").click(function(){
+    $("#p7").hide("slow", function(){
+      alert("The paragraph is now hidden");
+    });
+  });
+});
+
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide(1000);
+    alert("The paragraph is now hidden");
+  });
+});
+
+
+
+
+
+
+// jQuery stop() Method
 $(document).ready(function(){
   $("#flip").click(function(){
     $("#panel").slideDown(5000);
