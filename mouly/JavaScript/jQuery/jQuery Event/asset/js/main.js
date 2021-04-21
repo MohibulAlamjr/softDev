@@ -1,5 +1,34 @@
+// one click 
+
 $(document).ready(function(){
-    $("p").on({
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+
+
+// double click 
+
+
+$(document).ready(function(){
+  $(".flower").dblclick(function(){
+    $(this).hide();
+  });
+});
+
+
+$(document).ready(function(){
+  $("p.p03").dblclick(function(){
+      $(this).hide();
+  })
+ 
+ })
+
+
+
+
+$(document).ready(function(){
+    $("h1").on({
       mouseenter: function(){
         $(this).css("background-color", "lightgray");
       },  
