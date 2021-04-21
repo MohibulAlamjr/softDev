@@ -73,3 +73,43 @@ $(document).ready(function(){
       $("p:first").hide();
     });
   });
+
+  // Selects the first  element of the first list
+
+  $(document).ready(function(){
+    $(".list").click(function(){
+      $("ul li:first").hide();
+    });
+  });
+
+
+  $(document).ready(function(){
+    $(".list1").click(function(){
+      $("ul li:first").hide();
+    });
+  });
+
+
+  // Selects the first  element of every list
+
+  $(document).ready(function(){
+    $(".list2").click(function(){
+      $("ul li:first-child").hide();
+    });
+  });
+
+
+  $(document).ready(function(){
+    $(".list3").click(function(){
+      $("ul li:first-child").hide();
+    });
+  });
+
+
+  // Selects all elements with an href attribute
+
+  $(document).ready(function(){
+    $(".list5").click(function(){
+      $("[href1]").hide();
+    });
+  });
