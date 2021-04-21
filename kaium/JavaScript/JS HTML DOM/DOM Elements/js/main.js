@@ -6,6 +6,7 @@
 // "The text from the intro paragraph is " + myElement.innerHTML;
 
 
+
 // Finding HTML Elements by Tag Name
 // Demo ID
 
@@ -14,6 +15,8 @@
 // 'The text in first paragraph (index 0) is: ' + x[0].innerHTML;
 
 // This example finds the element with id="main", and then finds all <p> elements inside "main":
+
+
 
 // main ID
 // var x = document.getElementById("main");
@@ -34,6 +37,7 @@
 // var x = document.querySelectorAll("p.intro");
 // document.getElementById("demo").innerHTML = 
 // 'The first paragraph (index 0) with class="intro": ' + x[3].innerHTML;
+
 
 
 // Finding HTML Elements by HTML Object Collections

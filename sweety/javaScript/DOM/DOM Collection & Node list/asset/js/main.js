@@ -54,23 +54,3 @@ function myFun1() {
       myNodelist1[j].style.color = "gray";
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -29,6 +29,7 @@ $(document).ready(function () {
 
 // The .class Selector
 
+
 $(document).ready(function () {
     $("#btn").click(function () {
         $(".test").hide();

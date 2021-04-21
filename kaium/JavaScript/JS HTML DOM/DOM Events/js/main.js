@@ -1,7 +1,6 @@
 function changeText(id) {
   id.innerHTML = "Ooops!";
 }
-
 function changeDate(x) {
   x.innerHTML = Date();
 }
@@ -18,7 +17,6 @@ function myFunction() {
 function mOver(obj) {
   obj.innerHTML = "Thank You"
 }
-
 function mOut(obj) {
   obj.innerHTML = "Sweety"
 }

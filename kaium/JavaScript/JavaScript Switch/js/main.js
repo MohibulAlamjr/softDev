@@ -46,8 +46,6 @@ function myfun(a,b,c){
         case "div";
         result = a/b;
 
-        
-
     }
     return result;
 }
