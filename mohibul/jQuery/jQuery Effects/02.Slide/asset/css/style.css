@@ -1,0 +1,41 @@
+
+  #d01{
+  width:800px;
+  height:30px;
+  background-color:red;
+  text-align: center;
+  
+  }
+  #d02{
+    width:800px;
+    height:80px;
+    background-color:rgb(54, 17, 158);
+    color:#fff;
+    text-align: center;
+    display: none;
+    }
+  
+    #d03{
+      width:800px;
+      height:30px;
+      background-color:red;
+      text-align: center;
+      
+      }
+
+      #d04{
+        width:800px;
+        height:30px;
+        background-color:red;
+        text-align: center;
+        
+        }
+
+        #d05{
+          width:800px;
+          height:80px;
+          background-color:rgb(54, 17, 158);
+          color:#fff;
+          text-align: center;
+          display: none;
+          }
