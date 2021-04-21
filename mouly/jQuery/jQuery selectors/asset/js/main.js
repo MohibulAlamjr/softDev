@@ -109,7 +109,32 @@ $(document).ready(function(){
   // Selects all elements with an href attribute
 
   $(document).ready(function(){
+    $(".list4").click(function(){
+      $("[href1]").hide();
+    });
+  });
+
+  $(document).ready(function(){
     $(".list5").click(function(){
       $("[href1]").hide();
+    });
+  });
+
+
+  // Selects all elements with a target attribute value equal to "_blank"
+
+
+  $(document).ready(function(){
+    $("list6").click(function(){
+      $(".hh[target='_blank']").hide();
+    });
+  });
+
+
+  // Selects all <a> elements with a target attribute value NOT equal to "_blank"
+
+  $(document).ready(function(){
+    $(".list7").click(function(){
+      $("a1[target!='_blank']").hide();
     });
   });
