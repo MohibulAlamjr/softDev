@@ -32,7 +32,7 @@ $(document).ready(function(){
    
    })
 
-   <!-- focus -->
+//    <!-- focus -->
 
    $(document).ready(function(){
     $("input").focus(function(){

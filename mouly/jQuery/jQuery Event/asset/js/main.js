@@ -16,7 +16,6 @@ $(document).ready(function(){
   });
 });
 
-
 $(document).ready(function(){
   $("p.p03").dblclick(function(){
       $(this).hide();
