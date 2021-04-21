@@ -39,6 +39,7 @@
 // 'The first paragraph (index 0) with class="intro": ' + x[3].innerHTML;
 
 
+
 // Finding HTML Elements by HTML Object Collections
 function myFun() {
     var x = document.forms["frm1"];
