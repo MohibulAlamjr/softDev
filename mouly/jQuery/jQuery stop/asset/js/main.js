@@ -10,10 +10,10 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $("#UP").click(function(){
-      $("#panel1").slideUp(7000);
+      $("#panel11").slideUp(7000);
     });
     $("#stop1").click(function(){
-      $("#panel1").stop();
+      $("#panel11").stop();
     });
   });
 
@@ -25,6 +25,6 @@ $(document).ready(function(){
       $("#panel3").slideDown(5000);
     });
     $("#stop3").click(function(){
-      $("#panel3").stop();
+      $("#panel2").stop();
     });
   });
