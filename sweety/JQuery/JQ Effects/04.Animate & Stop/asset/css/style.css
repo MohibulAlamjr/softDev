@@ -1,0 +1,55 @@
+
+/* For Animate */
+
+#div{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+/* toggle  */
+
+#div1{
+    background: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+
+/* Manipulate Multiple Properties */
+
+#div2{
+    background: blueviolet;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+/* Uses Queue Functionality */
+
+#div3{
+    background: brown;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+/* Another One  */
+
+#div4{
+    background:blueviolet;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+/* For fontSix=ze  */
+
+#div5{
+    background:greenyellow;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+}
