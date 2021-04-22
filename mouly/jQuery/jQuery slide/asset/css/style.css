@@ -1,0 +1,168 @@
+/* slidedown  */
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+ 
+  #div1,#div2{
+      padding: 8px;
+      text-align: center;
+      background-color: rgb(134, 108, 153);
+      border: solid 2px #722172;
+  }
+
+  #div2{
+      padding: 50px;
+      display: none;
+  }
+
+  /* slide up  */
+
+  #div3,#div4{
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(20, 70, 146);
+    border: solid 2px #4ca2ca;
+}
+
+#div4{
+    padding: 50px;
+  
+}
+
+#div5,#div6{
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(66, 146, 20);
+    border: solid 2px #b3ca4c;
+}
+
+#div6{
+    padding: 50px;
+  
+}
+
+
+/* slide toggole  */
+
+#div7,#div8{
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(134, 146, 20);
+    border: solid 2px #9c731b;
+}
+
+#div8{
+    padding: 50px;
+    display: none;
+  
+}
+
+
+
+#div9,#div10{
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(26, 107, 199, 0.329);
+    border: solid 2px #1b7e9c;
+}
+
+#div10{
+    padding: 50px;
+    display: none;
+  
+}
+ /* slide up and slide in  */
+
+ #div11,#div12,#div13{
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(199, 26, 184, 0.329);
+    border: solid 2px #4f23c7;
+}
+
+#div13{
+    padding: 50px;
+    display: none;
+
+  
+}
+#div12{
+    padding: 50px;
+  
+}
+
+
+
+
+
+
+
+
+
+ #div111,#div121,#div131{
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(199, 26, 184, 0.329);
+    border: solid 2px #4f23c7;
+}
+
+#div131{
+    padding: 50px;
+  
+  
+}
+#div121{
+    padding: 50px;
+    display: none;
+  
+}
+
+  
+/* slide up and toggole  */
+
+#div011,#div021,#div031{
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(26, 199, 156, 0.329);
+    border: solid 2px #6d5aa0;
+}
+
+#div031{
+    padding: 50px;
+  
+  
+}
+#div021{
+    padding: 50px;
+    display: none;
+  
+}
+
+
+#div0011,#div0021,#div0031{
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(26, 199, 156, 0.329);
+    border: solid 2px #6d5aa0;
+}
+
+#div0031{
+    padding: 50px;
+    display: none;
+  
+}
+#div0021{
+    padding: 50px;
+   
+  
+}
