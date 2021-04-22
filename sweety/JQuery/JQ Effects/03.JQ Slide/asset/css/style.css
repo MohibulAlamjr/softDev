@@ -1,0 +1,94 @@
+
+/* Slide Down  */
+
+#id1{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    padding: 50px;
+    display: none;
+    text-align: center;
+}
+    
+  #id2{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    text-align: center;
+  }
+  
+  
+  /* Slide Up  */
+
+  #id3{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    padding: 50px;
+    text-align: center;
+}
+    
+  #id4{
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: #341aa5;
+    border: solid 1px #c3c3c3;
+    text-align: center;
+    
+  }
+  
+
+/* Another One  */
+
+
+  #d{
+    width:800px;
+    height:30px;
+    background-color:red;
+    text-align: center;
+    
+    }
+    #dd{
+      width:800px;
+      height:80px;
+      background-color:black;
+      color:#fff;
+      text-align: center;
+      display: none;
+      }
+    
+      #ddd{
+        width:800px;
+        height:30px;
+        background-color: cornflowerblue;
+        text-align: center;
+        
+        }
+  
+        #dddd{
+          width:800px;
+          height:30px;
+          background-color: brown;
+          text-align: center;
+          
+          }
+  
+          #ddddd{
+            width:800px;
+            height:80px;
+            background-color:blueviolet;
+            color:#fff;
+            text-align: center;
+            display: none;
+            }
