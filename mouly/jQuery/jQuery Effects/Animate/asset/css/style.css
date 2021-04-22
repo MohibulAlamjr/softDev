@@ -1,0 +1,93 @@
+/* animation method  */
+#div{
+    background:#98bf21;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+
+#div1{
+    background:#2153bf;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+
+/* animate Manipulate Multiple Properties  */
+
+
+#div2{
+    background:#940694;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+
+#div3{
+    background:#036369;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+
+/* using relatives values  */
+
+#div4{
+    background:#a204b1;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+
+#div5{
+    background:#0415b1;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+/* using queue functionality  */
+#div6{
+    background:#04061a;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+
+#div7{
+    background:#464ea5;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+
+
+#div8{
+    background:#46a581;
+    height:100px;
+    width:100px;
+    position:absolute;
+}
+
+
+#div9{
+    background:#03794c;
+    height:100px;
+    width:500px;
+    position:absolute;
+}
+
+
+#div10{
+    background:#637903;
+    height:400px;
+    width:300px;
+    position:absolute;
+}
