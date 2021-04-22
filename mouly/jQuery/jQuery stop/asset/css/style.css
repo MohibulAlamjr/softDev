@@ -1,0 +1,46 @@
+#panel, #flip {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+
+  #panel1, #UP {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(42, 152, 185);
+    color: white;
+    border: solid 1px rgb(226, 156, 156);
+    border-radius: 3px;
+  }
+  
+  #panel1 {
+    padding: 50px;
+  
+  }
+
+
+  #panel11, #toggole {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(99, 235, 117);
+    color: white;
+    border: solid 1px rgb(226, 215, 156);
+    border-radius: 3px;
+  }
+  
+  #panel11 {
+    padding: 50px;
+  
+  }
