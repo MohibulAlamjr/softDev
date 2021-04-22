@@ -1,0 +1,42 @@
+/*  Fading-in, fade out,toggle */
+#green{
+    background-color: green;
+    height:250px;
+    width: 500px;
+    display:none;
+
+}
+
+#red{
+    background-color:red;
+    height:120px;
+    width: 120px;
+    border-radius: 50%;
+    position: relative;
+    display:none;
+    bottom: 175px;
+    left: 176px;
+
+}
+
+/* Fade to  */
+
+#div3{
+    width:80px;
+    height:80px;
+    background-color:rgb(24, 19, 19)
+}
+
+
+#div4{
+    width:80px;
+    height:80px;
+    background-color:rgb(17, 158, 139)
+    }
+  
+#div5{
+    width:80px;
+    height:80px;
+    background-color:rgb(95, 17, 158)
+        }
+      
