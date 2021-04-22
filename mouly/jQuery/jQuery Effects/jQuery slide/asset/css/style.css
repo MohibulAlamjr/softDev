@@ -166,3 +166,98 @@
    
   
 }
+
+
+/* slide down and toggole  */
+
+#div003,#div002,#div004{
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(26, 199, 69, 0.329);
+    border: solid 2px #2e1475;
+}
+
+#div03{
+    padding: 50px;
+    display: none;
+  
+}
+#div004{
+    padding: 50px;
+    display: none;
+   
+  
+}
+
+
+#div007,#div008,#div009{
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(26, 199, 69, 0.329);
+    border: solid 2px #2e1475;
+}
+
+#div08{
+    padding: 50px;
+    display: none;
+  
+}
+#div009{
+    padding: 50px;
+    display: none;
+   
+  
+}
+
+/* slide up slide down and toggole  */
+
+#div0071,#div0081,#div0091,#div0004{
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(7, 18, 182, 0.329);
+    border: solid 2px #000000;
+}
+
+#div081{
+    padding: 50px;
+    display: none;
+  
+}
+#div0091{
+    padding: 50px;
+    display: none;
+   
+  
+}
+#div0004{
+    padding: 50px;
+
+
+}
+
+
+
+#div00071,#div00081,#div00091,#div00004{
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(7, 18, 182, 0.329);
+    border: solid 2px #000000;
+}
+
+#div00081{
+    padding: 50px;
+ 
+  
+}
+#div00091{
+    padding: 50px;
+    display: none;
+   
+  
+}
+#div00004{
+    padding: 50px;
+    display: none;
+
+
+}

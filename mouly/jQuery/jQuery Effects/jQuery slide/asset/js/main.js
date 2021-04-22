@@ -81,3 +81,42 @@ $(document).ready(function(){
         $("#div0031").slideToggle(1000);
     });
 });
+
+
+// slide down and toggole 
+
+$(document).ready(function(){
+    $("#div002").click(function(){
+        $("#div003").slideDown(3000);
+        $("#div004").slideToggle(1000);
+    });
+});
+
+
+$(document).ready(function(){
+    $("#div007").click(function(){
+        $("#div008").slideToggle(3000);
+        $("#div009").slideDown(1000);
+    });
+});
+
+
+
+// slide up slide down and toggole 
+
+$(document).ready(function(){
+    $("#div0071").click(function(){
+        $("#div0081").slideToggle(3000);
+        $("#div0091").slideDown(1000);
+        $("div0004").slideUp(3000);
+    });
+});
+
+
+$(document).ready(function(){
+    $("#div00071").click(function(){
+        $("#div00081").slideUp(3000);
+        $("#div00091").slideToggle(1000);
+        $("div00004").slideDown(3000);
+    });
+});
