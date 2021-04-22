@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 // jQuery fadeToggle() Method
 $(document).ready(function(){
-  $("button").click(function(){
+  $("#btn4").click(function(){
     $("#div7").fadeToggle();
     $("#div8").fadeToggle("slow");
     $("#div9").fadeToggle(3000);
