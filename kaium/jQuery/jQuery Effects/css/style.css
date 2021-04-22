@@ -1,0 +1,33 @@
+#div1{
+    width:80px;
+    height:80px;
+    display:none;
+    background-color:red;
+}
+#div2{
+    width:80px;
+    height:80px;
+    display:none;
+    background-color:green;
+}
+#div3{
+    width:80px;
+    height:80px;
+    display:none;
+    background-color:blue;
+}
+#div4{
+    width:80px;
+    height:80px;
+    background-color:red;
+}
+#div5{
+    width:80px;
+    height:80px;
+    background-color:green;
+}
+#div6{
+    width:80px;
+    height:80px;
+    background-color:blue;
+}
