@@ -17,3 +17,6 @@ $(document).ready(function(){
      $("#p2").toggle(1000);
   });
 });
+
+// jQuery Effects - Fading
+
