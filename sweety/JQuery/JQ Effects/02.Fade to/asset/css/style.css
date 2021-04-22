@@ -40,3 +40,83 @@
     background-color:rgb(95, 17, 158)
         }
       
+
+/* Fade In  */
+
+
+#div6{
+    background-color: hotpink;
+    height: 80px;
+    width: 80px;
+    display: none;
+}
+
+
+#div7{
+    background-color:gray;
+    height: 80px;
+    width: 80px;
+    display: none;
+}
+
+#div8{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    display: none;
+}
+
+
+/* Fade Out  */
+
+#di1{
+    background-color: greenyellow;
+    height: 80px;
+    width: 80px;
+}
+
+
+#di2{
+    background-color:indigo;
+    height: 80px;
+    width: 80px;
+
+}
+
+#di3{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    
+}
+
+/* Fade in/Fade Out/Fade to  */
+
+
+#dii{
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    display: none;
+}
+
+
+#dii1{
+    background-color:indigo;
+    height: 80px;
+    width: 80px;
+    display: none;
+
+}
+
+#dii2{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    display: none;
+
+}
+
+
+
+
