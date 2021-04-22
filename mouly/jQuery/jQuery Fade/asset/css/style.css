@@ -74,13 +74,233 @@ background-color:red;
             background-color:rgb(0, 0, 0);
         }
 
+/* fade out  */
+
+        #div11{
+
+            width:80px;
+            height:80px;
+        
+            background-color:red;
+            }
+            
+            #div12{
+            
+                width:80px;
+                height:80px;
+               
+                background-color:darkmagenta;
+            
+            }
+            
+            #div13{
+                width:80px;
+                height:80px;
+             
+                background-color:rgb(14, 77, 63);
+            }
+
+            #div71{
+
+                width:100px;
+                height:80px;
+              
+                background-color:rgb(0, 0, 0);
+                }
+                
+                #div81{
+                
+                    width:100px;
+                    height:80px;
+                 
+                    background-color:rgb(0, 29, 196);
+                
+                }
+                
+                #div91{
+                    width:100px;
+                    height:80px;
+                   
+                    background-color:rgb(0, 0, 0);
+                }
+
+
+/* fade in and fade out  */
+
+#div21{
+
+    width:100px;
+    height:80px;
+  
+    background-color:rgb(34, 123, 238);
+    }
+    
+    #div22{
+    
+        width:100px;
+        height:80px;
+        display:none;
+        background-color:rgb(0, 28, 184);
+    
+    }
+    
+    #div23{
+        width:100px;
+        height:80px;
+  
+        background-color:rgb(34, 123, 238);
+    }
+
+
+/* fade toggole  */
+#div011{
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+}
+
+#div02{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(32, 29, 24);
+}
+
+#div03{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 98);
+}
+
+
+#div012{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(51, 255, 0);
+}
+
+#div022{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(95, 92, 86);
+}
+
+#div033{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 255);
+}
 
 
 
+ /* fade in out fade toggole  */
+
+ #div41{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+}
+
+#div42{
+ width: 100px;
+ display: none;
+ height: 100px;
+ background-color: rgb(2, 2, 2);
+}
+
+#div43{
+ width: 100px;
+ height: 100px;
+ background-color: deeppink;
+}
+
+/* fade out and fade toggole  */
+
+#div51{
+ width: 100px;
+ height: 100px;
+ background-color: rgb(20, 181, 255);
+}
+
+#div52{
+width: 100px;
+
+height: 100px;
+background-color: rgb(99, 73, 73);
+}
+
+#div53{
+width: 100px;
+height: 100px;
+background-color: rgb(73, 18, 47);
+}
 
 
 
+/* fade to  */
+#div61{
+    width: 90px;
+    height: 90px;
+    background-color: deepskyblue;
+}
 
+#div62{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(44, 51, 53);
+}
+
+#div63{
+    width: 90px;
+    height: 90px;
+    background-color: deepskyblue;
+}
+
+
+#div71{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(85, 14, 81);
+}
+
+#div72{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(39, 98, 114);
+}
+
+#div73{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(12, 45, 56);
+}
+
+
+
+/* fade in fade out fade to and afde toggole   */
+
+
+
+#div81{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 9, 156);
+}
+#div82{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(129, 42, 86);
+}
+#div83{
+    width: 100px;
+    height: 100px;
+    display:none;
+    background-color: rgb(41, 4, 22);
+}
+#div81{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(156, 126, 141);
+}
 
 
 
@@ -108,3 +328,5 @@ background-color:red;
        display:none;
    
    }
+
+  
