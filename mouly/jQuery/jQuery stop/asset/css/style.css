@@ -44,3 +44,21 @@
     padding: 50px;
   
   }
+
+
+
+
+  #panel2,#panel3 #toggole1 {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(99, 235, 117);
+    color: white;
+    border: solid 1px rgb(226, 215, 156);
+    border-radius: 3px;
+  }
+  
+  #panel2,#panel3 {
+    padding: 50px;
+  
+  }

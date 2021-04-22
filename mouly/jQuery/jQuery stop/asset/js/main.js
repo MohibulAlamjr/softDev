@@ -20,10 +20,11 @@ $(document).ready(function(){
 
   
   $(document).ready(function(){
-    $("#toggole").click(function(){
-      $("#panel11").slideToggle(7000);
+    $("#toggole1").click(function(){
+      $("#panel2").slideToggle(7000);
+      $("#panel3").slideDown(5000);
     });
-    $("#stop2").click(function(){
-      $("#panel11").stop();
+    $("#stop3").click(function(){
+      $("#panel3").stop();
     });
   });

@@ -38,3 +38,20 @@ $(document).ready(function(){
     $("#div6").fadeOut(3000);
   });
 });
+
+// jQuery fadeToggle() Method
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div7").fadeToggle();
+    $("#div8").fadeToggle("slow");
+    $("#div9").fadeToggle(3000);
+  });
+});
+// jQuery fadeTo() Method
+$(document).ready(function(){
+  $("#btn5").click(function(){
+    $("#div10").fadeTo("slow", 0.15);
+    $("#div11").fadeTo("slow", 0.4);
+    $("#div12").fadeTo("slow", 0.7);
+  });
+});
