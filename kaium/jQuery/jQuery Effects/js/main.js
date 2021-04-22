@@ -55,3 +55,26 @@ $(document).ready(function(){
     $("#div12").fadeTo("slow", 0.7);
   });
 });
+
+// jQuery Effects - Sliding
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+
+// jQuery slideUp() Method
+
+$(document).ready(function(){
+  $("#flip1").click(function(){
+    $("#panel1").slideUp("slow");
+  });
+});
+
+
+// jQuery slideToggle() Method
+$(document).ready(function(){
+  $("#flip2").click(function(){
+    $("#panel2").slideToggle("slow");
+  });
+});
