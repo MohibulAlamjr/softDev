@@ -1,0 +1,21 @@
+.important {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .blue {
+    color: blue;
+  }
+
+  .div1 {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .violet {
+    color: rgb(112, 18, 131);
+  }
+
+  .green{
+      color: chartreuse;
+  }
