@@ -2,25 +2,33 @@
 
 $(document).ready(function(){
     $("#btn1").click(function(){
-        var z = $("#test").html();
-        $("#btn1").text(z);
+        var x = $("#test1").html();
+        $("#h01").text(x);
     })
 })
 
-// $(document).ready(function () {
-//     $("#btn1").click(function () {
-//         alert("Text: " + $("#test").text());
-//     });
-//     $("#btn2").click(function () {
-//         alert("HTML: " + $("#test").html());
-//     });
-// })
+
+$(document).ready(function(){
+    $("#btn2").click(function(){
+        var y = $("#test1").html();
+        $("#h02").html(y);
+    })
+})
+
+$(document).ready(function(){
+    $("#btn3").click(function(){
+        var z = $("#test1").html();
+        $("#h03").text(z);
+    })
+})
 
 
-// $(document).ready(function(){
-//     $("").click(function(){
-//         var z = $("").html();
-//         $("").text(z);
-//     })
-// })
+// Get Attributes - attr()
+$(document).ready(function(){
+    $("#btn4").click(function(){
+        var z = $("#test1").attr("href");
+        $("#h04").text(z);
+    })
+})
+
 

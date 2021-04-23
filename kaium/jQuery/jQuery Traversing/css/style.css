@@ -1,0 +1,23 @@
+.fparent{
+    color: red;
+    border: 2px solid red;
+}
+
+.fparent2{
+    color: rgb(92, 31, 69);
+    border: 2px solid red;
+}
+.fparent3 {
+    background-color: rgb(115, 167, 173);
+    border: 2px solid red;
+}
+
+.fparent4 {
+    background-color: rgb(228, 188, 222);
+    border: 4px solid rgb(113, 148, 221);
+}
+
+.fparent5 {
+    background-color: rgb(255, 176, 243);
+    border: 4px solid rgb(194, 199, 211);
+}
