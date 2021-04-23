@@ -28,3 +28,10 @@ $(document).ready(function(){
       $(".blue").removeClass("blue");
     });
   });
+
+
+  $(document).ready(function(){
+    $("#btn7").click(function(){
+      $(".ss").removeClass("green1");
+    });
+  });
