@@ -57,8 +57,39 @@ $(document).ready(function(){
 
  });
   $(document).ready(function(){
-      $("btn7").click(function(){
-          $("#div4").css({"background-color": "red", "text-align: center"});
+      $("#btn7").click(function(){
+          $("#div4").css({"color": "red", "text-align": "center"});
       });
 
+  });
+
+//   dimension 
+
+// Inner height and weight 
+
+
+$(document).ready(function(){
+    $("#btn8").click(function(){
+      var txt = "";
+      txt += "Width of div: " + $("#div5").width() + "</br>";
+      txt += "Height of div: " + $("#div5").height() + "</br>";
+      txt += "Inner width of div: " + $("#div5").innerWidth() + "</br>";
+      txt += "Inner height of div: " + $("#div5").innerHeight();
+      $("#div5").html(txt);
+    });
+  });
+
+
+//   outter height and weight 
+
+
+$(document).ready(function(){
+    $("#btn9").click(function(){
+      var txt = "";
+      txt += "Width of div: " + $("#div6").width() + "</br>";
+      txt += "Height of div: " + $("#div6").height() + "</br>";
+      txt += "Outer width of div: " + $("#div6").outerWidth() + "</br>";
+      txt += "Outer height of div: " + $("#div6").outerHeight();
+      $("#div6").html(txt);
+    });
   });

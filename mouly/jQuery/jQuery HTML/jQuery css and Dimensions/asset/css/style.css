@@ -33,3 +33,24 @@
 #div4{
     background-color: rgb(71, 143, 211);
 }
+
+
+#div5 {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+  }
+
+
+
+  #div6 {
+    height: 200px;
+    width: 305px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+  }
