@@ -21,3 +21,10 @@ $(document).ready(function(){
      
     });
   });
+
+//   remove classes 
+$(document).ready(function(){
+    $("#btn6").click(function(){
+      $(".blue").removeClass("blue");
+    });
+  });
