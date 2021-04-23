@@ -1,0 +1,35 @@
+#h1{
+    color: aqua;
+}
+#h2{
+    color: rgb(6, 59, 59);
+}
+
+#h3{
+    color: rgb(249, 255, 255);
+    background-color: rgb(224, 192, 192);
+}
+
+
+#h4{
+    color: rgb(116, 238, 238);
+    background-color: burlywood;
+}
+#h5{
+    color: rgb(188, 226, 226);
+    background-color: darkcyan;
+}
+
+#h6{
+    color: rgb(249, 255, 255);
+    background-color: rgb(153, 99, 99);
+}
+
+#div3{
+    background-color: darkmagenta;
+}
+
+
+#div4{
+    background-color: rgb(71, 143, 211);
+}
