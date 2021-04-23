@@ -32,3 +32,18 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("u").not(".intro").addClass('sb05');
 });
+
+
+function myFun(){
+  $(document).ready(function(){
+    x = $("#in01").val();
+    
+    if(x==2021){
+      $("#pp1").text(x);
+    }else{
+      $("#pp1").text("no");
+    }
+  });
+
+}
+console.log("hi");
