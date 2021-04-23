@@ -1,0 +1,25 @@
+.sb01{
+    background-color: blueviolet;
+    border: solid burlywood;
+}
+
+.sb02 {
+    background-color: blueviolet;
+     border: solid burlywood;
+}
+.sb03 {
+    background-color: rgb(226, 183, 43);
+    border: solid burlywood;
+}
+.sb04 {
+    background-color: rgb(159, 167, 214);
+    border: solid rgb(135, 222, 171);
+}
+.sb05 {
+    background-color: rgb(204, 116, 34);
+    border: solid rgb(17, 207, 96);
+}
+.sb06 {
+    background-color: rgb(28, 243, 9);
+    border: solid rgb(41, 4, 248);
+}
