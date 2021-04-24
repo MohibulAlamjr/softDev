@@ -1,0 +1,57 @@
+.blue{
+    color: blue;
+}
+
+.important{
+    color: brown;
+    font-size: 50px;
+}
+
+
+.Red{
+    color: cadetblue;
+}
+.Green{
+    color: chartreuse;
+    font-size: 40px;
+}
+
+
+
+.cl1{
+    color: chocolate;
+}
+
+.cl2{
+    color: darkcyan;
+    font-size: 50px;
+}
+
+
+.cl3{
+    color: darkorange;
+}
+.cl4{
+    color: darkred;
+    font-size: 50px;
+}
+
+
+.important{
+    font-weight: bold;
+    font-size: xx-large;
+    color: darkslateblue;
+  }
+
+  /* remove  */
+
+  .blue{
+      color: darkviolet;
+  }
+
+  .blue1{
+      color: firebrick;
+  }
+  
+
+  

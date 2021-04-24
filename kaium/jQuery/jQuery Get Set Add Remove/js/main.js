@@ -68,6 +68,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#btn10").click(function(){
-    $("#w3s").attr("href", "https://www.google.com");
+    $("#w3s").attr("href", "https://www.google.com/");
   });
 });

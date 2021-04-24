@@ -1,0 +1,34 @@
+#hi1{
+    color:brown;
+}
+#hi2{
+    color:blue;
+}
+
+#hi3{
+    color:blueviolet;
+}
+
+#ok{
+    background-color: blueviolet;
+}
+
+#ok2{
+    background-color: cyan;
+}
+
+/* set multiple css  */
+
+#o{
+    background-color: deeppink;
+}
+#o1{
+    background-color: cyan;
+}
+
+#o2{
+    background-color: darkgreen;
+}
+#o3{
+    background-color: darkred;
+}

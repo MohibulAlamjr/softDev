@@ -1,0 +1,46 @@
+
+
+#div1 {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid red;
+    background-color: blueviolet;
+}
+
+/* innerWidth() and innerHeight() Methods */
+
+#div2 {
+    color: cornsilk;
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid rgb(255, 196, 0);
+    background-color: rgb(41, 0, 43);
+}
+
+/* outerWidth() and outerHeight() Methods */
+
+#div3 {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: lightblue;
+  }
+
+
+  /* ReSize Div  */
+
+
+  #div4 {
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid rgb(0, 255, 0);
+    background-color: red;
+  }
