@@ -25,7 +25,7 @@ $(document).ready(function(){
       $("#p4").text(x);
 
     });
-
+});
 
     // html 
     $(document).ready(function(){
@@ -34,14 +34,14 @@ $(document).ready(function(){
           $("#p04").html(x);
     
         });
+      });
 
 
 
-
-    $("#btn2").click(function(){
-      $("#test2").html("<b>Hello world!</b>");
-    });
-    $("#btn3").click(function(){
-      $("#test3").val("Dolly Duck");
-    });
-  });
+      $(document).ready(function(){
+        $("#btn6").click(function(){
+         var x = $("#p04").html();
+          $("#h4").html(x);
+    
+        });
+      });
