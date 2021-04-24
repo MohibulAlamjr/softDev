@@ -130,3 +130,20 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("h2").prevUntil("#last").addClass('s12');
   });
+
+
+  // fillitering 
+
+  $(document).ready(function(){
+    $("p").filter(".intro").css("background-color", "blue");
+  });
+
+
+  $(document).ready(function(){
+    $("p").not(".intro").css("background-color", "pink");
+  });
+
+
+  $(document).ready(function(){
+    $("p").eq(1).css("background-color", "orange");
+  });
