@@ -4,11 +4,11 @@
 
 $(document).ready(function(){
     $("#btn1").click(function(){
-      $("p").append("<b>Shovhana Sweety</b>.");
+      $("#ok").append("<i><b>Shovhana Sweety</i></b>.");
     });
   
     $("#btn2").click(function(){
-      $("ol").append("<li> Human </li>");
+      $("#oo").append("<li> Human </li>");
     });
   });
 
@@ -30,3 +30,42 @@ $(document).ready(function(){
   });
 
 //   Prepend
+
+
+$(document).ready(function(){
+  $("#b1").click(function(){
+    $("#kk").prepend("<b>Prepended text</b>. ");
+  });
+  $("#b2b").click(function(){
+    $("ll").prepend("<li>Prepended item</li>");
+  });
+});
+
+
+// Before After 
+
+
+$(document).ready(function(){
+  $("#jj").click(function(){
+    $("#pp").before("<b>Before</b>");
+  });
+
+  $("#jjj").click(function(){
+    $("#pp").after("<i>After</i>");
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
