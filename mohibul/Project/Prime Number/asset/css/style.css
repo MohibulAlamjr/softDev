@@ -1,0 +1,52 @@
+
+
+
+.container {
+    margin-top: 10%;
+  }
+  
+  
+  
+  .btn {
+    margin-top: 10%;
+  }
+  #result{
+    background-color: #84cccc;
+    min-height: 200px;
+    text-align: center;
+    display: none;
+  }
+
+  #lenghtNumber{
+    background-color: #84cccc;
+    height: 300px;
+    text-align: center;
+    display: none;
+  }
+  #oneNumber{
+    background-color: #84cccc;
+    height: 200px;
+    text-align: center;
+    display: none; 
+  }
+
+
+
+#Number {
+    background-color: #84cccc;
+    height: 200px;
+    text-align: center;
+  }
+  
+  
+  #Number > div:nth-child(1) > div:nth-child(2) {
+    top: 35%;
+  }
+  
+
+
+
+#oneNumber > div:nth-child(1) > div:nth-child(2) {
+    top: 50px !important;
+  }
+  

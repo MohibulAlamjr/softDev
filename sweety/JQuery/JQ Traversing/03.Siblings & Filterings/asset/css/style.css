@@ -1,0 +1,38 @@
+
+
+.siblings * { 
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+  }
+
+
+
+
+  .s1{
+    background-color: black;
+    border: solid rgb(121, 180, 25);
+}
+
+.s2 {
+    background-color: blueviolet;
+     border: solid burlywood;
+}
+.s3 {
+    background-color: gold;
+    border: solid burlywood;
+}
+.s4 {
+    background-color: khaki;
+    border: solid rgb(135, 222, 171);
+}
+.s5 {
+    background-color:blue;
+    border: solid rgb(207, 17, 17);
+}
+.s6 {
+    background-color: rgb(28, 243, 9);
+    border: solid rgb(248, 4, 106);
+}

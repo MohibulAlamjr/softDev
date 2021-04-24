@@ -57,8 +57,8 @@ $(document).ready(function(){
 
  });
   $(document).ready(function(){
-      $("btn7").click(function(){
-          $("#div4").css({"color": "black", "text-align": "center"});
+      $("#btn7").click(function(){
+          $("#div4").css({"color": "red", "text-align": "center"});
       });
 
   });
