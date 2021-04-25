@@ -4,25 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prime Number Finder</title>
 
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="./asset/css/style.css">
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- my css -->
+  <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
-    <div class="wrapper"></div>
+    <div class="wrapper">
 
-    <script src="./asset/js/main.js"></script>
+        <!-- button  -->
+        <div id="Number" class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    
+                    <button id="btn1" type="button" class="btn btn-primary">Check a Prime Number</button>
+                    <button id="btn2" type="button" class="btn btn-primary">Check Prime Numbers from a lenght</button>
+                </div>
+                <div class="col-sm-3"></div>
+              </div>
+          </div>
+
+          <!-- one number  -->
+
+        <div id="oneNumber" class="container common">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <input id="input1" class="form-control" type="number" placeholder="Enter the number " >
+                    <button id="btn3" type="button" class="btn btn-primary res">Result</button>
+                </div>
+              </div>
+          </div>
+    </div>
+
+  <!-- number between lenght  -->
+
+  <div id="lenghtNumber" class="container common">
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            From Number :<input id="input02" class="form-control" type="number" placeholder="Enter the starting number" >
+            To Number: <input id="input03"    class="form-control" type="number" placeholder="Enter the finishing number" >
+            <button id="btn4" type="button" class="btn btn-primary res">Result</button>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- result -->
+<div id="result" class="container">
+    <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <p id="pResult">This Result is </p>
+        </div>
+      </div>
+  </div>
+</div>
+
+    <!-- javaScript -->
+
+    <script src="asset/js/main.js"></script>
 </body>
 </html>
