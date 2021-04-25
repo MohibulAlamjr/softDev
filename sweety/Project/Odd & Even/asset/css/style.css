@@ -1,0 +1,24 @@
+
+.container{
+    margin-top: 15%;
+}
+#id1{
+    background-color: cyan;
+    height: 300px;
+    text-align: center;
+}
+
+#btn1 {
+    position: relative;
+    top: 144px;
+    left: 19px;
+    background-color: crimson;
+  }
+  
+  #btn2 {
+    position: relative;
+    top: 143px;
+    left: 25px;
+    background-color: crimson;
+  }
+  

@@ -78,3 +78,26 @@ $(document).ready(function(){
     $("#panel2").slideToggle("slow");
   });
 });
+
+// jQuery Callback Functions
+$(document).ready(function(){
+  $("#btn6").click(function(){
+    $("#p01").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#btn7").click(function(){
+    $("#p02").hide(1000);
+  
+  });
+});
+
+
+
+// jQuery - Chaining
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#p1").css("color", "green").slideUp(2000).slideDown(2000);
+  });
+});
