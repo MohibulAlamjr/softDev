@@ -11,7 +11,7 @@
 #btn1 {
     position: relative;
     top: 144px;
-    left: 19px;
+    left: 15px;
     background-color: crimson;
   }
   
@@ -22,3 +22,58 @@
     background-color: crimson;
   }
   
+  #id2{
+    background-color: rgb(215, 135, 222);
+    height: 300px;
+    text-align: center;
+    display: none;
+  }
+
+#btn3 {
+  color: black;
+  background-color: rgb(250, 114, 171);
+  position: relative;
+  top: 141px;
+  left: 14px;
+}
+
+#input1 {
+  position: relative;
+  top: 117px;
+}
+
+#id3{
+  background-color: cornflowerblue;
+  height: 300px;
+  text-align: center;
+  display: none;
+}
+
+#btn4 {
+  background-color:rgb(194, 84, 84);
+  color: black;
+  position: relative;
+  top: 19px;
+  left: 13px;
+}
+
+
+#id3 > div:nth-child(1) > div:nth-child(2) {
+  position: relative;
+  top: 76px;
+}
+
+#id4{
+  background-color: rgb(155, 63, 120);
+  height: 300px;
+  text-align: center;
+  display: none;
+}
+
+#answer{
+  font-size: 40px;
+
+}
+
+
+
