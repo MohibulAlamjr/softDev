@@ -58,13 +58,13 @@ $(document).ready(function(){
         return y;
     }
 let output = myYear (leap);
-if(result === 0){
+if(output === 0){
     let z = leap + " is leap year";
     $("#bt4"). show();
     $("#output").text(z);
 }
 
-if(result === 1){
+if(output === 1){
     let m = leap + " is not leap year";
     $("#bt4"). show();
     $("#output").text(m);
