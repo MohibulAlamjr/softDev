@@ -22,6 +22,8 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#btn3").click(function(){
      var number = $("#input1").val();
+
+     
      function singlePrime(x){
          for(let i=2; i<=x/2 ;i++){
             var l=0;
