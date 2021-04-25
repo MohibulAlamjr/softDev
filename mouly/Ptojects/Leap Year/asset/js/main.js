@@ -43,27 +43,8 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("bt3").click(function(){
        var leap = $("#input").val();
-        function leapYear (year){
-          
-            
-             for(let i = 0; i = year; i ++){
+        function myYear (year){
+       
 
-             var l = 0;
-             if(year % 400 ==0){
-               
-
-             }
-             else if(year % 1001 == 0){
-                
-               
-             }
-             else if(year % 4 == 0){
-               
-             }
-            }
-
-
-
-        
-    });
 });
+ });
