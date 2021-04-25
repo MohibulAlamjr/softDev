@@ -4,6 +4,11 @@ $(document).ready(function(){
        $("#oneNumber").show(); 
     })
 
+    $("#btn2").click(function(){
+        $("#Number").hide();
+        $("#lenghtNumber").show(); 
+     })
+
      $(".res").click(function(){
         $(".common").hide();
         $("#result").show(); 
@@ -24,11 +29,11 @@ $(document).ready(function(){
 
      let result = singlePrime(number);
    if(result === 1){
-   let y = number + " is a Celcius";
+   let y = number + " is a Fahrenheit";
     $("#result").show();
     $("#pResult").text(y);
    }else{
-    let z = number + " is not a Celcius";
+    let z = number + " is not a Fahrenheit";
     $("#result").show();
     $("#pResult").text(z);
    }
@@ -42,10 +47,15 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    $("#btn1").click(function(){
+    $("#btn2").click(function(){
        $("#Number").hide();
        $("#oneNumber").show(); 
     })
+
+    $("#btn1").click(function(){
+        $("#Number").hide();
+        $("#lenghtNumber").show(); 
+     })
 
      $(".res").click(function(){
         $(".common").hide();
