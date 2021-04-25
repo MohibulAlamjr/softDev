@@ -1,7 +1,7 @@
 
 #year {
     position: relative;
-  display: none;
+  
     height: 1000px;
     width: 1000px;
     bottom: -371px;
@@ -28,5 +28,33 @@
     position: relative;
     right: -201px;
     bottom: -21px;
+  }
+  
+
+
+
+#year2 {
+    position: relative;
+    bottom: -236px;
+    display: none;
+  }
+  
+ 
+  
+  #bt4 {
+    position: relative;
+    right: -206px;
+    bottom: -40px;
+  }
+  
+
+
+
+#output1 {
+    position: relative;
+    background-color: #6fefefc7;
+    height: 150px;
+    bottom: -194px;
+    display: none;
   }
   
