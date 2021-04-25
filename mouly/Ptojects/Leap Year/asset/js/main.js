@@ -44,7 +44,12 @@ $(document).ready(function(){
     $("bt3").click(function(){
        var leap = $("#input").val();
         function leapYear (year){
-          
+          year % 4 == 0){
+                  
+                }
+               }
+   
+   
             
         
     });
