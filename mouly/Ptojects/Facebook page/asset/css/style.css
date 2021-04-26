@@ -9,6 +9,7 @@ html {
   #face{
       color: rgb(45, 108, 243);
       font-size: 55px;
+    
 
   }
 
@@ -16,7 +17,23 @@ html {
       font-size: 24px;
   }
 
-  .body{
-      color: rgba(59, 35, 35, 0.788)
-      ;
+
+
+.wrapper {
+    height: 10000px;
   }
+  
+ 
+  
+  body {
+   
+    background-color: #fff;
+  }
+  
+
+.container {
+    position: relative;
+    right: -65px;
+   
+  }
+  
