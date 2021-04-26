@@ -1,0 +1,94 @@
+
+.cover{
+    background-image: url(../image/Nature.jpg);
+    height: 800px;
+    width: 100%;
+    background-repeat: none;
+    background-position: center;
+    margin-top: -16px;
+}
+
+  
+.navbar{
+    display: inline;
+}
+
+
+.navbar > p:nth-child(4) > a:nth-child(1) {
+    position: relative;
+    left: 1255px;
+    top: -62px;
+  }
+  
+  
+  .navbar > p:nth-child(3) > a:nth-child(1) {
+    position: relative;
+    left: 987px;
+    top: -27px;
+  }
+  
+  
+  .navbar > p:nth-child(2) > a:nth-child(1) {
+    position: relative;
+    left: 453px;
+    top: 8px;
+  }
+  
+  
+  .navbar > p:nth-child(1) > a:nth-child(1) {
+    position: relative;
+    left: 142px;
+    top: 45px;
+  }
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+}
+
+.fas{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 750px;
+    top: -100px;
+}
+
+.tarek{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 110px;
+}
+
+.tarek > p:nth-child(2) {
+    position: relative;
+    top: -55px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
