@@ -1,0 +1,22 @@
+
+
+
+html {
+    position: relative;
+    bottom: -257px;
+  }
+  
+  #face{
+      color: rgb(45, 108, 243);
+      font-size: 55px;
+
+  }
+
+  #para{
+      font-size: 24px;
+  }
+
+  .wrapper{
+      color: rgba(59, 35, 35, 0.788)
+      ;
+  }
