@@ -1,0 +1,14 @@
+.wrapper{
+    background-color: blue;
+    color: crimson;
+    text-align: center;
+}
+
+.cover{
+    background-image: url(../image/fish.jpg);
+    height: 520px;
+    width: 50%;
+    position: relative;
+    left: 404px;
+}
+
