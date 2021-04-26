@@ -18,8 +18,8 @@ $(document).ready(function () {
         function singlePrime(x) {
 
 
-            //  number=(x-32)/1.8;
-            number = (x * 1.8) + 32;
+             number=(x-32)/1.8;
+            // number = (x * 1.8) + 32;
         }
 
         let result = singlePrime(number);
