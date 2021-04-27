@@ -1,0 +1,63 @@
+
+#cover{
+    background: #e9eaed;
+    height: 830px;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.center{
+    
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 360px;
+    width: 440px;
+    margin: 100px auto;
+    font-size: 11px;
+    position: relative;
+    left: 268px;
+    top: 15px;
+  }
+  body{
+    background: #fff;
+    font-family: Arial;
+    font-size: 14px;
+  }
+  
+  /*Button properties*/
+  .btn{
+    padding: 3px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .btn-signup{
+    background: #6bb933;
+    border-color: #60a62e #519f18 #409701;
+  }
+  
+  .btn-login{
+    width: 210px;
+    background: #3a5795; 
+    border: none;
+    padding: 8px;
+  }
+  
+  .center p{
+    margin: 2px 0;
+  }
+  input{
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  .checkbox-style{
+    display: inline;
+    width:20px;
+  }
+  
+  
