@@ -12,12 +12,12 @@
     background: #fff;
     padding: 20px;
     text-align: center;
-    height: 360px;
-    width: 440px;
+    height: 365px;
+    width: 420px;
     margin: 100px auto;
     font-size: 11px;
     position: relative;
-    left: 268px;
+    left: 295px;
     top: 15px;
   }
   body{
@@ -40,24 +40,82 @@
   }
   
   .btn-login{
-    width: 210px;
+    width: 331px;
+    height: 50px;
     background: #3a5795; 
     border: none;
     padding: 8px;
+    font-size: 25px;
+    border-radius: 5px;
   }
   
   .center p{
     margin: 2px 0;
   }
-  input{
+  .first{
     display: block;
-    width: 200px;
+    width: 330px;
+    height: 50px;
     margin: 10px auto;
     padding: 5px;
-  }
-  .checkbox-style{
-    display: inline;
-    width:20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: rgb(240, 233, 233);
+    box-shadow: none;
   }
   
-  
+.center > p:nth-child(4) > a:nth-child(1) {
+  position: relative;
+  top: 14px;
+  font-size: 15px;
+}
+
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html */
+
+button.btn:nth-child(5) {
+  position: relative;
+  top: 61px;
+  height: 50px;
+  width: 200px;
+}
+
+
+/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css */
+
+.btn-success {
+  /* background-color: #28a745; */
+  background-color: #1aca42;
+}
+
+/* style.css | file:///E:/softDev2/softDev/sweety/Template/Template%202/asset/css/style.css */
+
+.btn-login {
+  /* background: #3a5795; */
+  background: #4073e0;
+}
+#heading{
+  text-align: center;
+  position: relative;
+  top: -387px;
+  left: -403px;
+  font-size: 25px;
+}
+
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html */
+
+#heading > h1:nth-child(1) {
+  position: relative;
+  left: -28px;
+  font-size: 60px;
+  color: #3e76f0;
+}
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html */
+
+#heading > p:nth-child(2) {
+  position: relative;
+  left: 66px;
+  top: -1px;
+}
