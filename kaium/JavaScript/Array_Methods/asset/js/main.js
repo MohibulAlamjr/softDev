@@ -110,8 +110,8 @@ var fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.toString());
 
 var fruits1 = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits1);
 
+console.log(fruits1);
 
 
 
