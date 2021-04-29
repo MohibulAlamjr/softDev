@@ -1,5 +1,4 @@
 var http = require('http');
-var http = require('http');
 var formidable = require('formidable');
 
 http.createServer(function (req, res) {
