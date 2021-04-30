@@ -4,7 +4,7 @@ var DatabaseConnectionConfig={
     host:"localhost",
     user:"root", 
     password:"",
-    database: "softDev"
+    database: "softdev"
     
 }
 
@@ -16,11 +16,11 @@ con.connect(function(error){
 
     }else{
         console.log("success");
-        // Insert();
-        // Delete();
+         //Insert();
+         Delete();
         // update();
         // select();
-        selectall()
+        // selectall()
         
 
     }
@@ -42,7 +42,7 @@ function Insert(){
 // deleting data 
 
 function Delete(){
-  var sql = "DELETE FROM `admin` WHERE id = '5' ";
+  var sql = "DELETE FROM `admin` WHERE id = '6' ";
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record deleted");
