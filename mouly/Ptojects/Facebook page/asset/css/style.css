@@ -27,7 +27,7 @@ html {
   
   body {
    
-    background-color: #fff;
+    background-color: rgb(223, 221, 221);
   }
   
 
@@ -63,4 +63,38 @@ html {
     position: relative;
     width: 32.5%;
   }
-  
+  .login{
+    
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 365px;
+    width: 420px;
+    margin: 100px auto;
+    font-size: 11px;
+    position: relative;
+    left: 295px;
+    top: -250px;
+  }
+
+
+
+
+.row {
+  margin-bottom: -175px;
+}
+
+
+#email {
+  bottom: -22px;
+}
+
+
+#pwd {
+  position: relative;
+  bottom: -21px;
+  border-right-width: -33px;
+  border-left-width: 1px;
+  margin-right: 7px;
+  width: 100px;
+}
