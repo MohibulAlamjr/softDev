@@ -10,10 +10,9 @@ var con = mysql.createConnection({
 con.connect(function(err) {
   if (err) throw err;
   console.log("Connected!");
-  var sql = "DELETE FROM `admin` WHERE id='1'";
+  var sql = "UPDATE `admin` SET  `id`='1',`name`='kaium sorif',`bloodgroup`='A(+)' WHERE id='2'";
   con.query(sql, function (err, result) {
     if (err) throw err;
-    console.log("1 record Delete");
+    console.log("1 record update");
   });
 });
-
