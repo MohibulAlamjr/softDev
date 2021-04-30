@@ -71,8 +71,6 @@
 }
 
 
-/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html */
-
 button.btn:nth-child(5) {
   position: relative;
   top: 61px;
@@ -80,18 +78,12 @@ button.btn:nth-child(5) {
   width: 200px;
 }
 
-
-/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css */
-
 .btn-success {
-  /* background-color: #28a745; */
   background-color: #1aca42;
 }
 
-/* style.css | file:///E:/softDev2/softDev/sweety/Template/Template%202/asset/css/style.css */
 
 .btn-login {
-  /* background: #3a5795; */
   background: #4073e0;
 }
 #heading{
@@ -103,8 +95,6 @@ button.btn:nth-child(5) {
 }
 
 
-/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html */
-
 #heading > h1:nth-child(1) {
   position: relative;
   left: -28px;
@@ -112,10 +102,10 @@ button.btn:nth-child(5) {
   color: #3e76f0;
 }
 
-/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html */
 
 #heading > p:nth-child(2) {
   position: relative;
   left: 66px;
   top: -1px;
+  
 }

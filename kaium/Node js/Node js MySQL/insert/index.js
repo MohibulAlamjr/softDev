@@ -1,19 +1,19 @@
-var mysql=require('mysql');
+var mysql = require('mysql');
 
-var DatabaseConnectionConfig={
-    host:"localhost",
-    user:"root", 
-    password:"",
-    
-}
-
-var con = mysql.createConnection(DatabaseConnectionConfig);
-
-con.connect(function(error){
-    if(error){
-        console.log("failed");
-
-    }else{
-        console.log("success");
-    }
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "softdev"
 });
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+  var sql = "INSERT INTO `admin`(`name`, `bloodgroup`, `email`, `password`) VALUES ('Sweety','A(+)','sweetzxcvbnm@gmail.com','sweet123'),('Sabbir','C(+)','sabbirzxcvbnm@gmail.com','sabbir123'),('abul','D(+)','abulzxcvbnm@gmail.com','abul123')";
+  con.query(sql, function (err, result) {
+    if (err) throw err;
+    console.log("1 record inserted");
+  });
+});
+
