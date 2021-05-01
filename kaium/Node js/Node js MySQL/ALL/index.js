@@ -25,9 +25,7 @@
           //multipleInsterData();
           //  order(con);
           limits(con);
-
-
-        }
+       }
       });
 
 
@@ -41,7 +39,6 @@
         });
 
       }
-
 
 
       // Delete();
@@ -81,8 +78,6 @@
       }
 
 
-
-
       // selectall()
 
       function selectall() {
@@ -113,7 +108,7 @@
 
 
       //selectByWhere(con);
-      
+
       function selectbyWhere(con) {
         var idj = "3";
         var namem = "Sweety";
@@ -134,33 +129,33 @@
 
 
       //orderBy(con);
-      function  order(con){
-    
-  
-  //var sql = "SELECT * FROM `admin` ORDER BY id" ;
-  var sql = "SELECT * FROM `admin` ORDER BY id DESC " ;
-  
+      function order(con) {
 
-  con.query(sql, function (err, result) {
-    if (err) throw err;
-    console.log(result);
-  });
 
-}
+        //var sql = "SELECT * FROM `admin` ORDER BY id" ;
+        var sql = "SELECT * FROM `admin` ORDER BY id DESC ";
+
+
+        con.query(sql, function (err, result) {
+          if (err) throw err;
+          console.log(result);
+        });
+
+      }
 
 
 
 
 
       //dropTable(con);
-      function  dropTable(con){
-  var sql = "DROP TABLE kaium" ;
-  con.query(sql, function (err, result) {
-    if (err) throw err;
-    console.log(result);
-  });
+      function dropTable(con) {
+        var sql = "DROP TABLE kaium";
+        con.query(sql, function (err, result) {
+          if (err) throw err;
+          console.log(result);
+        });
 
-}
+      }
 
 
 
@@ -169,16 +164,16 @@
 
       // limits(con);
 
-function  limits(con){
-    //var sql = "SELECT * FROM `admin` LIMIT 3" ;
-    //var sql = "SELECT * FROM `admin` ORDER BY id DESC LIMIT 3" ;
-    //var sql = "SELECT * FROM `admin` LIMIT 5 OFFSET 4" ;
-    var sql = "SELECT * FROM `admin` LIMIT 5, 7" ;
-    con.query(sql, function (err, result) {
-      if (err) throw err;
-      console.log(result);
-    });
-  
-  }
+      function limits(con) {
+        //var sql = "SELECT * FROM `admin` LIMIT 3" ;
+        //var sql = "SELECT * FROM `admin` ORDER BY id DESC LIMIT 3" ;
+        //var sql = "SELECT * FROM `admin` LIMIT 5 OFFSET 4" ;
+        var sql = "SELECT * FROM `admin` LIMIT 5, 7";
+        con.query(sql, function (err, result) {
+          if (err) throw err;
+          console.log(result);
+        });
 
-// =============================================================================
+      }
+
+      // =============================================================================
