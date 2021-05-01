@@ -1,10 +1,6 @@
 var mysql=require('mysql');
 
-var DatabaseConnectionConfig={
-    host:"localhost",
-    user:"root", 
-    password:"",
-    database: "softdev"
+var DatabaseConnectionConfig={host:"localhost",user:"root", password:"",database: "softdev"
     
 }
 
@@ -16,7 +12,7 @@ con.connect(function(error){
 
     }else{
         console.log("success");
-         //Insert();
+        //  Insert();
          //Delete();
         // update();
         // select();
@@ -26,20 +22,6 @@ con.connect(function(error){
 
     }
 });
-
-
-// inserting data 
-
-// function Insert(){
-//   var sql = "";
-//   con.query(sql, function (err, result) {
-//     if (err) throw err;
-//     console.log("1 record inserted");
-//   });
-
-// }
-
-
 
 
 // Select Where
@@ -53,3 +35,19 @@ function selectbyWhere(){
   });
 
 }
+
+
+
+
+// inserting data 
+function Insert(){
+  var sql = "";
+  con.query(sql, function (err, result) {
+    if (err) throw err;
+    console.log("1 record Selected");
+    console.log(result);
+  });
+
+}
+
+
