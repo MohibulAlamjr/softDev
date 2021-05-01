@@ -4,7 +4,7 @@ var DatabaseConnectionConfig={
     host:"localhost",
     user:"root", 
     password:"",
-    database: "softdev"
+    database: "softDev"
     
 }
 
@@ -16,11 +16,19 @@ con.connect(function(error){
 
     }else{
         console.log("success");
+<<<<<<< HEAD
          Insert();
          //Delete();
         // update();
         // select();
         // selectall()
+=======
+         //Insert(con);
+         Delete(con);
+        // update(con);
+        // select(con);
+        // selectall(con)
+>>>>>>> 6bad752237b9393132f4d62b46f55b3183a8636d
         
 
     }
@@ -29,8 +37,13 @@ con.connect(function(error){
 
 // inserting data 
 
+<<<<<<< HEAD
 function Insert(){
   var sql = "INSERT INTO `admin`( `name`, `bloodgroup`, `email`, `password`) VALUES ('hasem','B+','Shahanaj@gmail.com','Shahanaj123')";
+=======
+function Insert(con){
+  var sql = "INSERT INTO `admin`( `name`, `bloodgroup`, `email`, `password`) VALUES ('Shahanaj','B+','Shahanaj@gmail.com','Shahanaj123')";
+>>>>>>> 6bad752237b9393132f4d62b46f55b3183a8636d
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record inserted");
@@ -41,7 +54,7 @@ function Insert(){
 
 // deleting data 
 
-function Delete(){
+function Delete(con){
   var sql = "DELETE FROM `admin` WHERE id = '6' ";
   con.query(sql, function (err, result) {
     if (err) throw err;
@@ -54,7 +67,7 @@ function Delete(){
 // updating data 
 
 
-function update(){
+function update(con){
   var sql = "UPDATE `admin` SET `name`='Nayeem',`bloodgroup`='O+',`email`='nayeem@gmail.com',`password`='nayeem12333' WHERE id = '4' ";
   con.query(sql, function (err, result) {
     if (err) throw err;
@@ -65,11 +78,12 @@ function update(){
 
 // selecting data 
 
-function select(){
+function select(con){
   var sql = "SELECT `name`, `bloodgroup`, `email`, `password` FROM `admin` WHERE id = '1' ";
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record selected");
+    console.log(result);
   });
 
 }
@@ -77,11 +91,12 @@ function select(){
 
 // selecting all data 
 
-function selectall(){
+function selectall(con){
   var sql = "SELECT * FROM `admin` WHERE id = '2' ";
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record selected");
+    console.log(result);
   });
 
 }
