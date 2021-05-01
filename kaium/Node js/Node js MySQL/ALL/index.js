@@ -95,7 +95,7 @@
 
       }
 
-      // multiple insert 
+      //multipleInsterData() 
 
 
       function multipleInsterData() {
