@@ -30,31 +30,32 @@
               </div>
               
               <div  class="col-sm-8 courseform">
-                <button id="btn2" type="button" class="btn btn-primary btn-lg">Add New</button>
+                <h1>Add Your Course</h1>
                 <div id="main">
                     <div id="card" class="card1">
-                        <form action="add.php">
+                        <form>
                         <div class="card text-center">
-                            <div class="card-header">
-                              Featured
+                          <h1 id="sid" style="display:none"><?php echo $_GET['id'] ?></h1>
+                            <div id="txtHint" class="card-header">
+                              Course Details 
                             </div>
                             <div class="card-body">
-                                
+                                    
                                   <div class="form-row align-items-center">
                                     <div class="col-auto">
                                         <label class="sr-only" for="inlineFormInput">Name</label>
-                                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+                                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Course Name">
                                     </div>
                                     <div class="col-auto">
                                         <label class="sr-only" for="inlineFormInputGroup">Username</label>
                                         
                     
-                                          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                                          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Course Id">
                                       </div>
                                     
                                       
                                     <div class="col-auto">
-                                        <button type="submit" class="btn btn-primary mybtn">Submit</button>
+                                        <button id="btn02" class="btn btn-primary mybtn" >Submit</button>
                                         
                                     </div>
                                   </div>
@@ -93,6 +94,10 @@
             </div>
           </div>
     </div>
+
+
+
+    
     
 <script src="asset/js/main.js"></script>
 </body>
