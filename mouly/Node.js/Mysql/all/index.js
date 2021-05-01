@@ -16,8 +16,8 @@ con.connect(function(error){
 
     }else{
         console.log("success");
-         //Insert();
-         Delete();
+         Insert();
+         //Delete();
         // update();
         // select();
         // selectall()
@@ -30,7 +30,7 @@ con.connect(function(error){
 // inserting data 
 
 function Insert(){
-  var sql = "INSERT INTO `admin`( `name`, `bloodgroup`, `email`, `password`) VALUES ('Shahanaj','B+','Shahanaj@gmail.com','Shahanaj123')";
+  var sql = "INSERT INTO `admin`( `name`, `bloodgroup`, `email`, `password`) VALUES ('hasem','B+','Shahanaj@gmail.com','Shahanaj123')";
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record inserted");

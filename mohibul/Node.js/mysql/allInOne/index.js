@@ -1,118 +1,90 @@
-// var mysql = require('mysql');
+var mysql=require('mysql');
 
-// var con = mysql.createConnection({
-//   host: "localhost",
-//   user: "root",
-//   password: "",
-//   database: "softDev"
-// });
+var DatabaseConnectionConfig={
+    host:"localhost",
+    user:"root", 
+    password:"",
+    database: "softdev"
+    
+}
 
-// var con = mysql.createConnection(DatabaseConnectionConfig);
+var con = mysql.createConnection(DatabaseConnectionConfig);
 
-// con.connect(function(error){
-//     if(error){
-//         console.log("failed");
+con.connect(function(error){
+    if(error){
+        console.log("failed");
 
-//     }else{
-//         insertData(con);
-//         // deleteData(con);
-//         // updateData(con);
-//         // multipleInsterData(con);
-//         // selecData(con);
-//         // allSelect(con);
-//     }
-// });
-
-
-
-
-var mysql = require('mysql');
-
-var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "softDev"
-});
-
-con.connect(function(err) {
-  if (err) throw err;
-  console.log("Connected!");
-  var sql = "DELETE FROM `admin` WHERE id='2'";
-  con.query(sql, function (err, result) {
-    if (err){ throw err
     }else{
-        //insertData(con);
-         //deleteData(con);
-        // updateData(con);
-        // multipleInsterData(con);
-        // selecData(con);
-         allSelect(con); 
-    }    
-  });
+        console.log("success");
+         //Insert(con);
+         //Delete(con);
+        // update(con);
+        // select(con);
+         selectall(con)
+        
+
+    }
 });
 
 
-// insert
+// inserting data 
 
-function insertData(con){
- var sql = "INSERT INTO `admin`(`name`, `bloodgroup`, `email`, `password`) VALUES ('Sweety Aktar','A(+)','sswty@gmail.com','sss123')";
+function Insert(con){
+  var sql = "INSERT INTO `admin`( `name`, `bloodgroup`, `email`, `password`) VALUES ('hasem','B+','Shahanaj@gmail.com','Shahanaj123')";
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record inserted");
   });
-};
 
-
-// delete  
-
-function deleteData(con){
-    var sql = "DELETE FROM `admin` WHERE id='3'";
-    con.query(sql, function (err, result) {
-      if (err) throw err;
-      console.log("1 record deleted");
-    });
 }
 
 
-// update 
+// deleting data 
+
+function Delete(con){
+  var sql = "DELETE FROM `admin` WHERE id = '16' ";
+  con.query(sql, function (err, result) {
+    if (err) throw err;
+    console.log("1 record deleted");
+  });
+
+}
 
 
-function  updateData(con){
+// updating data 
 
-    var sql = "UPDATE `admin` SET `name`='mouly' WHERE id='5'";
+
+function update(con){
+  var sql = "UPDATE `admin` SET `name`='Nayeem',`bloodgroup`='O+',`email`='nayeem@gmail.com',`password`='nayeem12333' WHERE id = '4' ";
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record updated");
   });
+
 }
 
-// select 
-function selecData(con){
-    var sql = "SELECT  `name` FROM `admin` WHERE id='4'";
-    con.query(sql, function (err, result) {
-      if (err) throw err;
-      console.log(result);
-    });
-}
+// selecting data 
 
-// multiple insert 
-function multipleInsterData(con){
-    var sql = "INSERT INTO `admin`(`name`, `bloodgroup`, `email`, `password`) VALUES ('Sweety Aktar','A(+)','sswty@gmail.com','sss123'),('Serajum munira','O(+)','mouly@gmail.com','mmm123'),('kaium','B(+)','kaium@gmail.com','kkk123')";
+function select(con){
+  var sql = "SELECT `name`, `bloodgroup`, `email`, `password` FROM `admin` WHERE id = '1' ";
   con.query(sql, function (err, result) {
     if (err) throw err;
-    console.log("1 record inserted");
+    console.log("1 record selected");
+    console.log(result);
   });
 
-    
 }
 
-//allselect
-function  allSelect(con){
-    var sql = "SELECT * FROM `admin` WHERE id='5'";
-    con.query(sql, function (err, result) {
-      if (err) throw err;
-      console.log(result);
-    });
+
+// selecting all data 
+
+function selectall(con){
+  var sql = "SELECT * FROM `admin` WHERE id = '12' ";
+  con.query(sql, function (err, result) {
+    if (err) throw err;
+    console.log("1 record selected");
+    //console.log(result)
+    console.log(JSON.stringify(result));
+  });
 
 }
