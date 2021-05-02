@@ -1,5 +1,5 @@
 var MongoClient = require('mongodb').MongoClient;
-var URL="mongodb+srv://weAresoftDev:x8rAY6ffshuejQk@cluster0.c3u3b.mongodb.net?retryWrites=true&w=majority";
+var URL="mongodb+srv://weAresoftDev:x8rAY6ffshuejQk@cluster0.c3u3b.mongodb.net/softDev?retryWrites=true&w=majority";
 
 var confige={ useUnifiedTopology: true }
 
