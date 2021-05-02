@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body{
+    background: #fff;
+    font-family: Arial;
+    font-size: 14px;
+  }
+  
+  /*Our Header*/
+  header{
+    background: #3a5795;
+    color: #fff;
+    padding: 15px 5px;
+  }
+  
+  header h2{
+    font-size: 42px;
+  }
+  
+  header .top{
+    width: 850px;
+    margin: 0px auto;
+  }
+  /*Link Properties*/
+  a,a:hover,a:visited,a:active{
+    color: #3a5795;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  /*Button properties*/
+  .btn{
+    padding: 3px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .btn-signup{
+    background: #6bb933;
+    border-color: #60a62e #519f18 #409701;
+  }
+  
+  .btn-login{
+    width: 210px;
+    background: #3a5795; 
+    border: none;
+    padding: 8px;
+  }
+  
+  /*Section*/
+  section{
+    padding: 10px;
+    background: #e9eaed;
+  }
+  
+  section .center{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    margin: 100px auto;
+    font-size: 11px;
+  }
+  
+  section h3{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 15px 0;
+  }
+  
+  p{
+    margin: 2px 0;
+  }
+  input{
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  
+  input.checkbox-style{
+    display: inline;
+    width:20px;
+  }
+  
+  /* Footer Styles */
+  footer{
+    font-size: 11px;
+  }
+  
+  footer .bottom{
+    width: 850px;
+    margin: 0 auto;
+  }
+  
+  footer p{
+    padding: 4px 0;
+  }
+  
+  /*Table Style*/
+  table{
+    border:none;
+  }
+  tr{
+    padding: 2px;
+  }
+  td{
+    width: 80px;
+  } 

@@ -1,4 +1,4 @@
-<?php
+<?php 
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -16,20 +16,20 @@ if ($conn->connect_error) {
 $myusername = $_POST['username'];
 $mypassword = $_POST['password'];
 
-$sql = "SELECT pass FROM userdata WHERE email = '$myusername'";
+$sql = "SELECT pass FROM userdata WHERE id = '$myusername'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
     if($row["pass"]==$mypassword){
-        header("Location:http://localhost/RegiFast/home.php");
+        header("Location:http://localhost/RegiFast/home.php?id=$myusername");
     }else{
         echo"Your Login Name or Password is invalid";
     }
   }
 } else {
-    echo"Your Login Name or Password is invalid";
+    echo"Your Login Name invalid";
 }
 $conn->close();
 ?>

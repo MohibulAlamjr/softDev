@@ -16,11 +16,19 @@ con.connect(function(error){
 
     }else{
         console.log("success");
+<<<<<<< HEAD
+         Insert();
+         //Delete();
+        // update();
+        // select();
+        // selectall()
+=======
          //Insert(con);
          Delete(con);
         // update(con);
         // select(con);
         // selectall(con)
+>>>>>>> 6bad752237b9393132f4d62b46f55b3183a8636d
         
 
     }
@@ -29,8 +37,13 @@ con.connect(function(error){
 
 // inserting data 
 
+<<<<<<< HEAD
+function Insert(){
+  var sql = "INSERT INTO `admin`( `name`, `bloodgroup`, `email`, `password`) VALUES ('hasem','B+','Shahanaj@gmail.com','Shahanaj123')";
+=======
 function Insert(con){
   var sql = "INSERT INTO `admin`( `name`, `bloodgroup`, `email`, `password`) VALUES ('Shahanaj','B+','Shahanaj@gmail.com','Shahanaj123')";
+>>>>>>> 6bad752237b9393132f4d62b46f55b3183a8636d
   con.query(sql, function (err, result) {
     if (err) throw err;
     console.log("1 record inserted");
