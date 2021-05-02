@@ -34,7 +34,7 @@
    <!-- navication bar -->
     
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="asset/image/regilogo (2).png" alt=""></a>
+    <a class="navbar-brand" href="http://localhost/RegiFast/"><img style="width: 120px;" src="asset/image/regilogo (2).png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -117,7 +117,8 @@
           <div class="card item-card card-block">
           
         <img src="asset/image/1.webp5.webp" alt="Photo of sunset">
-        <h5 class="card-title  mt-3 mb-3">Regular courses</h5>
+        <h5 class="card-title  mt-3 mb-3"><a href="http://localhost/RegiFast/regularCourse.php?<?php
+        echo "id=".$_GET['id'] ?>">Regular courses</a></h5>
         <p class="card-text">Our first concern about registration all the offered courses... </p> 
       </div>
         </div>
