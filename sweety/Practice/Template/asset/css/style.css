@@ -1,0 +1,132 @@
+body{
+    margin-top: 0%;
+}
+.cover{
+    background-image: url(../image/coverr.jpg);
+    height: 850px;
+    width: 100%;
+    background-position: center;
+    background-repeat: none;
+
+}
+
+.logo img{
+
+    height: 90px;
+    width: 90px;
+}
+
+.search{
+    
+    display: inline;
+    float:right;
+    width: 59%;
+
+}
+
+.srBar p{
+    height: 20px;
+    width: 125px;
+    background-color: rgb(244, 244, 245);
+    border-radius: 12px;
+
+    
+}
+.buy button{
+    border-radius: 12px;
+    background-color: mediumorchid;
+    border: none;
+   
+}
+
+
+/* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
+
+.buy {
+    position: relative;
+    left: 730px;
+    top: -117px;
+  }
+  
+  /* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
+  
+  .srBar > p:nth-child(1) {
+    position: relative;
+    left: 550px;
+    top: -83px;
+  }
+
+
+/* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
+
+.logo > img:nth-child(1) {
+    position: relative;
+    left: -13px;
+    top: -12px;
+  }
+  
+  /* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
+  
+  .srBar > p:nth-child(1) {
+    top: -90px;
+  }
+  
+  /* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
+  
+  .bb {
+    margin-top: -54px;
+  }
+  
+  /* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
+  
+  .buy {
+    top: -125px;
+  }
+  .fas{
+      color: blanchedalmond;
+  }
+
+  .fas-bars{
+      color: blanchedalmond;
+  }
+
+.buy {
+    top: -142px;
+  }
+
+  .fa-search {
+    position: relative;
+    top: -124px;
+    left: 531px;
+  }
+
+  .fa-bars {
+    position: relative;
+    left: 9px;
+  }
+  
+  .heading{
+      color: blanchedalmond;
+  }
+
+.srBar > p:nth-child(1) {
+    left: 573px;
+  }
+  
+  
+  .buy {
+    left: 722px;
+  }
+  .heading h1{
+      font-size: 70px;
+      position: relative;
+    left: 224px;
+    top: 133px;
+  }
+  .heading p{
+      font-size: 15px;
+      position: relative;
+      left: 225px;
+      top: 87px;
+  }
+  
