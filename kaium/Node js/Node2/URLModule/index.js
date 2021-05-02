@@ -7,10 +7,13 @@ var myURLobj = URL.parse(myURL,true);
 var myhostName = myURLobj.host;
 var mypathName = myURLobj.pathname;
 var mySearchName = myURLobj.search;
-write(myhostName);
+
+res.writeHead(200,{'Content-Type':'text/html'})
+res.write(myhostName);
+res.end();
 
 
  
 });
-server.listen(8080);
+server.listen(1080);
 console.log("Server Run Success");
