@@ -26,11 +26,8 @@ var server = http.createServer(function (req, res) {
         });
 
 
-        let mydata = fs.readFileSync('index.html');
-
-
     }
 
 });
-server.listen(2060);
+server.listen(1050);
 console.log("Server Run Success");
