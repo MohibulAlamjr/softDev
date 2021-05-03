@@ -1,0 +1,50 @@
+.sh01{
+   text-align: center;
+   margin-top: -16px;
+   position: relative;
+   top: 322px;
+   color:green;
+   font-size: 19px;
+    
+
+}
+#btn002{
+
+   display: none;
+   position: relative;
+   left: 106%;
+   top: 20%;
+}
+#btn001{
+
+ margin-top: 25%;
+ margin-left: 73%;
+}
+.anc{
+    text-decoration: none !important;
+    color:#fff;
+}
+.anc:hover{
+    color:#fff;
+}
+
+#fonta{
+
+    font-size: 250px;
+    color: green;
+    margin-top: 30%;
+}
+#btn003{
+    position: relative;
+    top: 26%;
+    right: 30%;
+}
+
+#dd{
+    text-align: center;
+}
+#showd{
+    border: 1px solid azure;
+    background-color: #262222;
+    color: #fff;
+}
