@@ -6,18 +6,18 @@ var server = http.createServer(function (req, res) {
 
     if (req.url == "/") {
 
-        fs.writeFile('demo.txt', 'hello Kaium', function (error) {
+        fs.rename('demo.txt', 'demoNew.txt','Hellow kaium s', function (error) {
             if (error) {
                 res.writeHead(200, {
                     'Content-Type': 'text/html '
                 });
-                res.write("file Write Fail");
+                res.write("file rename Fail");
                 res.end();
             } else {
                 res.writeHead(200, {
                     'Content-Type': 'text/html '
                 });
-                res.write("file Write Success");
+                res.write("file rename Success");
                 res.end();
             }
 
@@ -28,5 +28,5 @@ var server = http.createServer(function (req, res) {
 
 });
 
-server.listen(1050);
+server.listen(3080);
 console.log("Server Run Success");
