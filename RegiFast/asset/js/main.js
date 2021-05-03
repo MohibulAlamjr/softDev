@@ -39,3 +39,52 @@ function myfun(){
 
     alert("This Page is on Processing")
 }
+
+// password validation 
+$(document).ready(function(){
+    $("#fpass").blur(function(){
+       var pass= $(this).val();
+        $("#cpass").blur(function(){
+       var pass2=$("#cpass").val();
+       if(pass==pass2){
+           $("#show1").text("Password is matched").css("color","green");
+           $("#btns01").fadeIn(1000);
+       }else{
+        $("#show1").text("Password is not matched").css("color","red");
+       }
+        });
+
+    })
+})
+
+// email validation 
+
+$(document).ready(function(){
+    $("#email").blur(function(){
+      var mail=$(this).val()
+      var mailformat =  /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+      if(mail.match(mailformat)){
+        $("#show2").text("Email Formate is matched").css("color","green");
+      }else{
+        $("#show2").text("Email Formate is not matched").css("color","red");
+        $("#btns01").hide();
+      }
+    })
+})
+
+//phone number validation
+
+$(document).ready(function(){
+    $("#phone").blur(function(){
+      var mail=$(this).val()
+      var mailformat =/^\d{11}$/;
+
+      if(mail.match(mailformat)){
+        $("#show3").text("Email Formate is matched").css("color","green");
+      }else{
+        $("#show3").text("Email Formate is not matched").css("color","red");
+        $("#btns01").hide();
+      }
+    })
+})
