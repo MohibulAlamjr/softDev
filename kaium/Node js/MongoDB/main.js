@@ -11,7 +11,8 @@ MongoClient.connect(url, config, function (error, myclicnt) {
 
         console.log("done");
         insert(myclicnt)
-// deleteData(myclicnt)
+        // deleteData(myclicnt)
+        // deleteallData(myclicnt)
     }
 
 
@@ -20,7 +21,7 @@ MongoClient.connect(url, config, function (error, myclicnt) {
 function insert(connect) {
 
     var mydatabase = connect.db("softDev");
-    var mycollection = mydatabase.collection("admin");
+    var mycollection = mydatabase.collection("kaium");
     var person = {
         name: " AL kaium",
         position: "Core Member of softDev",
@@ -40,17 +41,36 @@ function insert(connect) {
 
 }
 
-
+// Delete one Data
 function deleteData(connect) {
 
     var mydatabase = connect.db("softDev");
     var mycollection = mydatabase.collection("admin");
     var person = {
         name: " AL kaium",
-        
+
     }
 
     mycollection.deleteOne(person, function (error) {
+        if (error) {
+            console.log(" All Data delete failed");
+        } else {
+            console.log(" All Data delete succecfully");
+        }
+    })
+
+}
+// Delete all Data
+function deleteallData(connect) {
+
+    var mydatabase = connect.db("softDev");
+    var mycollection = mydatabase.collection("admin");
+    var person = {
+        position: "Core Member of softDev"
+
+    }
+
+    mycollection.deleteMany(person, function (error) {
         if (error) {
             console.log("Data delete failed");
         } else {
