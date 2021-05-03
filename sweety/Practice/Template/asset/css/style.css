@@ -28,7 +28,7 @@ body{
     height: 20px;
     width: 125px;
     background-color: rgb(244, 244, 245);
-    border-radius: 12px;
+    border-radius: 8px;
 
     
 }
@@ -39,25 +39,18 @@ body{
    
 }
 
-
-/* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
-
 .buy {
     position: relative;
     left: 730px;
     top: -117px;
   }
   
-  /* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
-  
+
   .srBar > p:nth-child(1) {
     position: relative;
     left: 550px;
     top: -83px;
   }
-
-
-/* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
 
 .logo > img:nth-child(1) {
     position: relative;
@@ -65,29 +58,20 @@ body{
     top: -12px;
   }
   
-  /* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
   
   .srBar > p:nth-child(1) {
     top: -90px;
   }
   
-  /* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
-  
   .bb {
     margin-top: -54px;
   }
-  
-  /* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
-  
+
   .buy {
     top: -125px;
   }
   .fas{
-      color: blanchedalmond;
-  }
-
-  .fas-bars{
-      color: blanchedalmond;
+    color: black;
   }
 
 .buy {
@@ -103,6 +87,7 @@ body{
   .fa-bars {
     position: relative;
     left: 9px;
+    color: blanchedalmond;
   }
   
   .heading{
@@ -129,4 +114,8 @@ body{
       left: 225px;
       top: 87px;
   }
-  
+
+.fa-search {
+  left: 676px;
+  top: -125px;
+}

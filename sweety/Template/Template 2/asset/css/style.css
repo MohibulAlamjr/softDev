@@ -62,6 +62,8 @@
     border-radius: 5px;
     border-color: rgb(240, 233, 233);
     box-shadow: none;
+    
+    
   }
   
 .center > p:nth-child(4) > a:nth-child(1) {
@@ -104,8 +106,12 @@ button.btn:nth-child(5) {
 
 
 #heading > p:nth-child(2) {
-  position: relative;
-  left: 66px;
+  /* position: relative; */
+  /* left: 66px; */
   top: -1px;
   
+}
+
+.line{
+  width: 100%;
 }
