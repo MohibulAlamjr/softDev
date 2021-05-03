@@ -11,6 +11,7 @@ MongoClient.connect(url, config, function (error, myclicnt) {
 
         console.log("done");
         insert(myclicnt)
+// deleteData(myclicnt)
     }
 
 
@@ -21,7 +22,7 @@ function insert(connect) {
     var mydatabase = connect.db("softDev");
     var mycollection = mydatabase.collection("admin");
     var person = {
-        name: " ALkaium",
+        name: " AL kaium",
         position: "Core Member of softDev",
         city: "Barguna",
         phoneNumber: "01785956149",
@@ -34,6 +35,26 @@ function insert(connect) {
             console.log("Data insert failed");
         } else {
             console.log("Data insert succecfully");
+        }
+    })
+
+}
+
+
+function deleteData(connect) {
+
+    var mydatabase = connect.db("softDev");
+    var mycollection = mydatabase.collection("admin");
+    var person = {
+        name: " AL kaium",
+        
+    }
+
+    mycollection.deleteOne(person, function (error) {
+        if (error) {
+            console.log("Data delete failed");
+        } else {
+            console.log("Data delete succecfully");
         }
     })
 
