@@ -8,12 +8,13 @@ MongoClient.connect(url,config,function(error,myclicnt){
     }else{
 
         console.log("done");
-        insert(myclicnt)
+        //insert(myclicnt)
+        deleteData(myclicnt);
     }
        
 
 })
-
+// data insert 
 function insert(connect){
 
  var mydatabase= connect.db("softDev");
@@ -33,5 +34,26 @@ function insert(connect){
         console.log("Data insert succecfully");
      }
  })
+
+}
+
+// data delete 
+
+function deleteData(connect){
+    var mycollection= mydatabase.collection("admin");
+ var person = {
+     name:"Mohibul Alam"
+ }
+
+ mycollection.deleteOne(person,function(error){
+     if(error){
+         console.log("Data delete failed");
+     }else{
+        console.log("Data delete succecfully");
+     }
+ })
+
+}
+
 
 }
