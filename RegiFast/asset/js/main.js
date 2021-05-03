@@ -35,3 +35,7 @@ $(document).ready(function(){
 })
 
 
+function myfun(){
+
+    alert("This Page is on Processing")
+}
