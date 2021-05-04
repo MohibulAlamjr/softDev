@@ -10,7 +10,8 @@ MongoClient.connect(url, config, function (error, myclicnt) {
     } else {
 
         console.log("done");
-        fineData(myclicnt)
+        // fineData(myclicnt)
+        fineDatawithcon(myclicnt)
         // insert(myclicnt)
         // deleteData(myclicnt)
         // deleteallData(myclicnt)
@@ -20,12 +21,25 @@ MongoClient.connect(url, config, function (error, myclicnt) {
 })
 
 
-function fineData(con){
-var mydatabase= con.db("softDev");
-var mycollection = mydatabase.collection('admin');
-var finddata ={};
-mycollection.findOne(finddata,function(error ,result){
-//  console.log(result);
-console.log( 'Your name is :' +result.name,'. your position is :' +result.position);
-})
+function fineData(con) {
+    var mydatabase = con.db("softDev");
+    var mycollection = mydatabase.collection('admin');
+    var finddata = {};
+    mycollection.findOne(finddata, function (error, result) {
+        //  console.log(result);
+        console.log('Your name is :' + result.name, '. your position is :' + result.position);
+    })
+}
+
+
+function fineDatawithcon(con) {
+    var mydatabase = con.db("softDev");
+    var mycollection = mydatabase.collection('admin');
+    var finddata = {
+        serial: "08"
+    };
+    mycollection.findOne(finddata, function (error, result) {
+        //  console.log(result);
+        console.log('Your name is :' + result.name, '. your position is :' + result.position);
+    })
 }
