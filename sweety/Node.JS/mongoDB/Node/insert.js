@@ -23,14 +23,14 @@ MongoClient.connect(URL,config,function(error,myclient){
 
 function insert(connect){
     var mydatabase = connect.db("softDev");
-    var myCollection = mydatabase.collection("sweety");
+    var myCollection = mydatabase.collection("admin");
 
     var person = {
-        name:"Shovhana sweety",
-        position:"Core Member of softDev",
-        city:"Dhaka",
-        phoneNumber:"017777777777",
-        serial:"01"
+        name:"Sabrina Rahim Awashi",
+        position:"supporter of softDev",
+        city:"Narshingdi",
+        phoneNumber:"01764419927",
+        serial:"001"
     }
 
     myCollection.insertOne(person,function(error){
