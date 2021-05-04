@@ -20,7 +20,8 @@ MongoClient.connect(url, config, function (error, myclicnt) {
         // findproByQuery(myclicnt)
         // insert(myclicnt)
         // findproByQuerylimit(myclicnt)
-findshort(myclicnt)
+        // findshort(myclicnt)
+createCollection(myclicnt)
     }
 
 
@@ -171,4 +172,35 @@ function findshort(con) {
 
     })
 
+}
+
+
+
+
+// function update(con) {
+//     var mydatabase = con.db("softDev");
+//     var mycollection = mydatabase.collection('admin');
+
+//     var Query = {
+
+//         serial: "04"
+
+//     };
+
+//     var newValu
+
+
+//     mycollection.UpdateOne(Query, ).toArray(function (error, result) {
+//         console.log(result);
+
+//     })
+
+// }
+
+function createCollection(con) {
+    var mydatabase = con.db("softDev");
+    mydatabase.createCollection("Happy",function (error, result) {
+        console.log(result)
+
+    })
 }
