@@ -21,7 +21,8 @@ MongoClient.connect(url, config, function (error, myclicnt) {
         // insert(myclicnt)
         // findproByQuerylimit(myclicnt)
         // findshort(myclicnt)
-createCollection(myclicnt)
+        dropCollection(myclicnt)
+        // createCollection(myclicnt)
     }
 
 
@@ -199,7 +200,15 @@ function findshort(con) {
 
 function createCollection(con) {
     var mydatabase = con.db("softDev");
-    mydatabase.createCollection("Happy",function (error, result) {
+    mydatabase.createCollection("Happy", function (error, result) {
+        console.log(result)
+
+    })
+}
+
+function dropCollection(con) {
+    var mydatabase = con.db("softDev");
+    mydatabase.dropCollection("Happy", function (error, result) {
         console.log(result)
 
     })
