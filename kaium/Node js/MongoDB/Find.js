@@ -73,7 +73,7 @@ function findpro(con) {
 
     var inprojection = {
         projection: {
-            id:""
+            id:1
         }
     }
     mycollection.find(finddata,inprojection).toArray(function (error, result) {
@@ -81,4 +81,4 @@ function findpro(con) {
 
     })
 
-}
+}1
