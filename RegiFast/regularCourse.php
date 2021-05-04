@@ -1,3 +1,48 @@
+
+ <?php
+
+if(isset($_POST['SubmitButton'])){ //check if form was submitted
+ 
+  
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "regifast";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+// Escape user inputs for security
+$courseName = $_POST['name'];
+$courseId = $_POST['cid'];
+$sId =  $_GET['id'];
+
+
+ 
+// Attempt insert query execution
+$sql = "INSERT INTO `addcourses`(`studentId`, `coursecode`, `coursename`) VALUES ('$sId','$courseId','$courseName')";
+if (mysqli_query($conn, $sql)) {
+    echo "<p class='sh01'>You are successfully add course= $courseName and course ID= $courseId</p>";
+ } else {
+   echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+ }
+ 
+ mysqli_close($conn);
+
+
+
+}    
+?> 
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,9 +64,10 @@
 
       <link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
       <!-- my style -->
-  <link rel="stylesheet" href="asset/css/course.css">
+   <link rel="stylesheet" href="asset/css/new.css">
 </head>
 <body>
+  
     <div class="wrapper">
         <div class="container">
             <div class="row">
@@ -32,10 +78,12 @@
               <div  class="col-sm-8 courseform">
                 <h1>Add Your Course</h1>
                 <div id="main">
+
+                <form action="" method="post">
                     <div id="card" class="card1">
                         <form>
                         <div class="card text-center">
-                          <h1 id="sid" style="display:none"><?php echo $_GET['id'] ?></h1>
+                        
                             <div id="txtHint" class="card-header">
                               Course Details 
                             </div>
@@ -44,18 +92,18 @@
                                   <div class="form-row align-items-center">
                                     <div class="col-auto">
                                         <label class="sr-only" for="inlineFormInput">Name</label>
-                                        <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Course Name">
+                                        <input name="name" type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Course Name">
                                     </div>
                                     <div class="col-auto">
                                         <label class="sr-only" for="inlineFormInputGroup">Username</label>
                                         
                     
-                                          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Course Id">
+                                          <input name="cid" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Course Id">
                                       </div>
                                     
                                       
                                     <div class="col-auto">
-                                        <button id="btn02" class="btn btn-primary mybtn" >Submit</button>
+                                    <input type="submit" name="SubmitButton" />
                                         
                                     </div>
                                   </div>
@@ -65,7 +113,7 @@
                           </div>
                         </form>
                     </div>
-
+                  </form>
                   </div>
 
 
@@ -88,8 +136,9 @@
 
                    
               </div>
-              <div class="col-sm-2">
-                
+              <div class="col-sm-5">
+              <button  id="btn001"  type="button" class="btn btn-success btn-lg btn-block">Save and Finish</button>
+              <button  id="btn002" type="button" class="btn btn-success btn-lg"><a class="anc" href="http://localhost/RegiFast/Success.php?<?php echo 'id='.$_GET['id'] ?>">Confirm Now</a></button>
               </div>
             </div>
           </div>

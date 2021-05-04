@@ -45,11 +45,11 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
        
-        <li class="nav-item dropdown">
+        <li onclick="myfun()" class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Features
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div onclick="myfun()" class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#"> Add Regular Courses</a>
             <a class="dropdown-item" href="#">Drop Courses</a>
             <a class="dropdown-item" href="#">Incomplete Courses</a>
@@ -58,10 +58,10 @@
             <a class="dropdown-item" href="#">Show All Courses</a>
             
         </li>
-        <li class="nav-item">
+        <li onclick="myfun()" class="nav-item">
           <a class="nav-link" href="#">About Us</a>
         </li>
-        <li class="nav-item">
+        <li onclick="myfun()" class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>
         </li>
        
@@ -81,7 +81,7 @@
         <h1>Welcome to</h1>
         <h1>Stamford University Bangladesh</h1>
         <h5>RegiFast For Online Registration </h5>
-        <button type="button" class="btn btn-light"><a href="index.html">Login</a></button>
+        <button type="button" class="btn btn-light"><a href="http://localhost/RegiFast/login.html">Login</a></button>
       </div>
       <div class="col-sm-2">
         
@@ -122,7 +122,7 @@
         <p class="card-text">Our first concern about registration all the offered courses... </p> 
       </div>
         </div>
-        <div class="col-md-4 col-sm-6 item">
+        <div onclick="myfun()" class="col-md-4 col-sm-6 item">
           <div class="card item-card card-block">
           
         <img src="asset/image/agency-blog-business-close-up1.jpg" alt="Photo of sunset">
@@ -132,7 +132,7 @@
       </div>
         </div>
         
-        <div class="col-md-4 col-sm-6 item">
+        <div onclick="myfun()" class="col-md-4 col-sm-6 item">
           <div class="card item-card card-block">
          
         <img src="https://static.pexels.com/photos/262550/pexels-photo-262550.jpeg" alt="Photo of sunset">
@@ -142,7 +142,7 @@
       </div>
         </div>
        
-        <div class="col-md-4 col-sm-6 item card2">
+        <div onclick="myfun()" class="col-md-4 col-sm-6 item card2">
           <div class="card item-card card-block">
           
         <img src="https://static.pexels.com/photos/326424/pexels-photo-326424.jpeg" alt="Photo of sunset">
@@ -152,11 +152,11 @@
       </div>
         </div> 
         
-        <div class="col-md-4 col-sm-6 item card2">
+        <div onclick="myfun()" class="col-md-4 col-sm-6 item card2">
           <div class="card item-card card-block">
           
         <img src="asset/image/158931a4.jpg" alt="Photo of sunset">
-            <h5 class="card-title  mt-3 mb-3">Improvement courses
+            <h5  class="card-title  mt-3 mb-3">Improvement courses
             </h5>
             <p class="card-text">One can also register to improve one course. Our system can show which subjects...</p> 
       </div>
@@ -166,7 +166,8 @@
           <div class="card item-card card-block">
           
         <img src="asset/image/mg22429932.200-1_800.webp6.webp" alt="Photo of sunset">
-            <h5 class="card-title  mt-3 mb-3">Show All Courses</h5>
+            <h5 class="card-title  mt-3 mb-3"><a href="http://localhost/RegiFast/showaddcourse.php?<?php
+        echo "id=".$_GET['id'] ?>">Show All Courses</a></h5>
             <p class="card-text">Our system also can show all of the subjects on one page...</p> 
       </div>
         </div>  
@@ -200,7 +201,7 @@
         
         <p>This is a Online Registration App.All University's Student can Registration which University use our Software.This Software Created by</p>
         <h1>softDev</h1>
-        <button type="button" class="btn btn-secondary">Know More</button>
+        <button onclick="myfun()" type="button" class="btn btn-secondary">Know More</button>
       </div>
       <div class="col-sm-2">
         
@@ -329,5 +330,7 @@
 
           
     </div>
+
+    <script src="asset/js/main.js"></script>
 </body>
 </html>

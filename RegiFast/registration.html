@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
 
    <!-- Latest compiled and minified CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -35,10 +35,13 @@
             <input type="text" placeholder="First name" name="fname" required />
             <input type="text" placeholder="Last Name" name="lname" required />
             <input type="text" placeholder="ID" name="id" required />
-            <input type="email" placeholder="Email" name="email" required />
-            <input type="password" placeholder="Password" name="password" autocomplete="new-password" required />
-            <input type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
-            <input type="text" placeholder="Phone Number" name="phonenumber" required />
+            <input id="email" type="email" placeholder="Email" name="email" required />
+            <p id="show2"></p>
+            <input id="fpass" type="password" placeholder="Password" name="password" autocomplete="new-password" size="8" required />
+            <input id="cpass" type="password" placeholder="Confirm Password" name="confirmpassword" autocomplete="new-password" required />
+            <p id="show1"></p>
+            <input id="phone" type="text" placeholder="Phone Number(01774276336)" name="phonenumber" required />
+            <p id="show3"></p>
             <input type="text" placeholder="Blood Group" name="bloodgroup" required />
              
            
@@ -52,9 +55,10 @@
               </div>
             
             
-            <input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
+            <input style="display: none;" id="btns01" type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
           </form>
         </div>
       </div>
+      <script src="asset/js/main.js"></script>
 </body>
 </html>
