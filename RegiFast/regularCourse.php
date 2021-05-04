@@ -137,7 +137,7 @@ if (mysqli_query($conn, $sql)) {
                    
               </div>
               <div class="col-sm-5">
-              <button id="btn001"  type="button" class="btn btn-success btn-lg btn-block">Save and Finish</button>
+              <button  id="btn001"  type="button" class="btn btn-success btn-lg btn-block">Save and Finish</button>
               <button  id="btn002" type="button" class="btn btn-success btn-lg"><a class="anc" href="http://localhost/RegiFast/Success.php?<?php echo 'id='.$_GET['id'] ?>">Confirm Now</a></button>
               </div>
             </div>

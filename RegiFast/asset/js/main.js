@@ -50,7 +50,8 @@ $(document).ready(function(){
            $("#show1").text("Password is matched").css("color","green");
            $("#btns01").fadeIn(1000);
        }else{
-        $("#show1").text("Password is not matched").css("color","red");
+        $("#show1").text("Password doesn't match").css("color","red");
+        $("#btns01").hide();
        }
         });
 
@@ -62,12 +63,13 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#email").blur(function(){
       var mail=$(this).val()
-      var mailformat =  /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      var mailformat = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
       if(mail.match(mailformat)){
         $("#show2").text("Email Formate is matched").css("color","green");
+        $("#btns01").fadeIn(1000);
       }else{
-        $("#show2").text("Email Formate is not matched").css("color","red");
+        $("#show2").text("Email Formate doesn't match").css("color","red");
         $("#btns01").hide();
       }
     })
@@ -81,10 +83,13 @@ $(document).ready(function(){
       var mailformat =/^\d{11}$/;
 
       if(mail.match(mailformat)){
-        $("#show3").text("Email Formate is matched").css("color","green");
+        $("#show3").text("Phone Number Formate is matched").css("color","green");
+        $("#btns01").fadeIn(1000);
       }else{
-        $("#show3").text("Email Formate is not matched").css("color","red");
+        $("#show3").text("Phone Number Formate doesn't match").css("color","red");
         $("#btns01").hide();
       }
     })
 })
+
+
