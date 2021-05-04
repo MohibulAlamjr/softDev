@@ -26,11 +26,11 @@ function insert(connect){
     var myCollection = mydatabase.collection("admin");
 
     var person = {
-        name:"Sabrina Rahim Awashi",
-        position:"supporter of softDev",
-        city:"Narshingdi",
+        name:"Shovhana Islam Sweety",
+        position:"Member of softDev",
+        city:"Dhaka",
         phoneNumber:"01764419927",
-        serial:"001"
+        serial:"003"
     }
 
     myCollection.insertOne(person,function(error){
