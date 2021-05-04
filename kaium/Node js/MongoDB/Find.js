@@ -16,7 +16,8 @@ MongoClient.connect(url, config, function (error, myclicnt) {
         // deleteData(myclicnt)
         // deleteallData(myclicnt)
         // fineallDatacon(myclicnt)
-        findpro(myclicnt)
+        // findpro(myclicnt)
+        findproByQuery(myclicnt)
     }
 
 
@@ -73,12 +74,33 @@ function findpro(con) {
 
     var inprojection = {
         projection: {
-            id:1
+            id: 1
         }
     }
-    mycollection.find(finddata,inprojection).toArray(function (error, result) {
+    mycollection.find(finddata, inprojection).toArray(function (error, result) {
         console.log(result);
 
     })
 
-}1
+}
+
+
+
+function findproByQuery(con) {
+    var mydatabase = con.db("softDev");
+    var mycollection = mydatabase.collection('admin');
+
+    var Query = {
+
+        city: "Barguna",
+        name: " AL kaium"
+
+    };
+
+
+    mycollection.find(Query).toArray(function (error, result) {
+        console.log(result);
+
+    })
+
+}
