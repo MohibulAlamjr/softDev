@@ -17,7 +17,10 @@ MongoClient.connect(url, config, function (error, myclicnt) {
         // deleteallData(myclicnt)
         // fineallDatacon(myclicnt)
         // findpro(myclicnt)
-        findproByQuery(myclicnt)
+        // findproByQuery(myclicnt)
+        // insert(myclicnt)
+        // findproByQuerylimit(myclicnt)
+findshort(myclicnt)
     }
 
 
@@ -99,6 +102,71 @@ function findproByQuery(con) {
 
 
     mycollection.find(Query).toArray(function (error, result) {
+        console.log(result);
+
+    })
+
+}
+
+
+
+
+function insert(connect) {
+
+    var mydatabase = connect.db("softDev");
+    var mycollection = mydatabase.collection("admin");
+    var person = {
+        name: "MD AL Kaium",
+        position: "Core Member of softDev",
+        city: "Barguna",
+        phoneNumber: "01785956149",
+        serial: "14",
+        bloodgroup: "B(+)"
+    }
+
+    mycollection.insertOne(person, function (error) {
+        if (error) {
+            console.log("Data insert failed");
+        } else {
+            console.log("Data insert succecfully");
+        }
+    })
+
+}
+
+
+
+function findproByQuerylimit(con) {
+    var mydatabase = con.db("softDev");
+    var mycollection = mydatabase.collection('admin');
+
+    var Query = {
+
+        city: "Barguna",
+        name: " AL kaium"
+
+    };
+
+
+    mycollection.find(Query).limit(2).toArray(function (error, result) {
+        console.log(result);
+
+    })
+
+}
+
+function findshort(con) {
+    var mydatabase = con.db("softDev");
+    var mycollection = mydatabase.collection('admin');
+
+    var Query = {
+
+        serial: 1
+
+    };
+
+
+    mycollection.find().sort(Query).toArray(function (error, result) {
         console.log(result);
 
     })
