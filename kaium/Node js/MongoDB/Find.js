@@ -10,7 +10,8 @@ MongoClient.connect(url, config, function (error, myclicnt) {
     } else {
 
         console.log("done");
-        insert(myclicnt)
+        fineData(myclicnt)
+        // insert(myclicnt)
         // deleteData(myclicnt)
         // deleteallData(myclicnt)
     }
@@ -18,25 +19,13 @@ MongoClient.connect(url, config, function (error, myclicnt) {
 
 })
 
-function insert(connect) {
 
-    var mydatabase = connect.db("softDev");
-    var mycollection = mydatabase.collection("admin");
-    var person = {
-        name: " kaium",
-        position: "Core Member of softDev",
-        city: "Barguna",
-        phoneNumber: "01785956149",
-        serial: "08",
-        bloodgroup: "B(+)"
-    }
-
-    mycollection.insertOne(person, function (error) {
-        if (error) {
-            console.log("Data insert failed");
-        } else {
-            console.log("Data insert succecfully");
-        }
-    })
-
+function fineData(con){
+var mydatabase= con.db("softDev");
+var mycollection = mydatabase.collection('admin');
+var finddata ={};
+mycollection.findOne(finddata,function(error ,result){
+//  console.log(result);
+console.log( 'Your name is :' +result.name,'. your position is :' +result.position);
+})
 }
