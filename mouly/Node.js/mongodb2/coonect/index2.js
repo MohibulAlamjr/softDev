@@ -22,14 +22,14 @@ MongoClient.connect(url,config,function(error,myclient){
 
 function InsertData(connect){
     var MyDatabase = connect.db("softDev");
-    var mycollection = MyDatabase.collection("mouly");
+    var mycollection = MyDatabase.collection("admin");
 
     var mydata = {
-        name:"Serajum Munira",
+        name:"Shahanaj Sharmin",
         position:"Core Member of softDev",
         city:"Jhenidah",
         phonenumber:"01778127862",
-        serial:"02"
+        serial:"03"
     }
 
     mycollection.insertOne(mydata, function(error){
@@ -83,3 +83,4 @@ function deleteMany(connect){
     })
 
 }
+
