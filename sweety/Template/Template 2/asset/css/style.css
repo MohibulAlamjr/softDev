@@ -12,13 +12,14 @@
     background: #fff;
     padding: 20px;
     text-align: center;
-    height: 365px;
-    width: 420px;
+    height: 378px;
+    width: 395px;
     margin: 100px auto;
     font-size: 11px;
     position: relative;
     left: 295px;
     top: 15px;
+    border-radius: 8px;
   }
   body{
     background: #fff;
@@ -40,8 +41,8 @@
   }
   
   .btn-login{
-    width: 331px;
-    height: 50px;
+    width: 356px;
+    height: 53px;
     background: #3a5795; 
     border: none;
     padding: 8px;
@@ -54,8 +55,8 @@
   }
   .first{
     display: block;
-    width: 330px;
-    height: 50px;
+    width: 355px;
+    height: 55px;
     margin: 10px auto;
     padding: 5px;
     font-size: 16px;
@@ -82,6 +83,9 @@ button.btn:nth-child(5) {
 
 .btn-success {
   background-color: #1aca42;
+  height: 50px;
+  width: 200px;
+  border-radius: 7px;
 }
 
 
@@ -115,3 +119,150 @@ button.btn:nth-child(5) {
 .line{
   width: 100%;
 }
+
+#heading > p:nth-child(2) {
+  margin-left: 118px;
+  margin-top: -3px;
+}
+
+#heading > p:nth-child(3) {
+  margin-left: -26px;
+  margin-top: -26px;
+}
+
+#heading > p:nth-child(2) {
+  margin-left: 305px;
+  margin-top: -9px;
+}
+
+#heading > p:nth-child(3) {
+  margin-left: 163px;
+}
+
+#heading > h1:nth-child(1) {
+  left: 64px;
+}
+
+button.btn:nth-child(6) {
+  margin-top: 30px;
+}
+
+.line {
+  position: relative;
+  top: 19px;
+}
+
+#cr {
+  position: relative;
+  top: 50px;
+  font-size: 15px;
+}
+#cr a{
+  color: black;
+}
+#cr p{
+  color: rgb(90, 81, 81);
+}
+.bottom{
+  text-align: center;
+}
+
+.bottom > p:nth-child(1) > a:nth-child(1) {
+  margin-left: -856px;
+  margin-top: -71px;
+  position: relative;
+  top: 9px;
+}
+
+.bottom > p:nth-child(1) > a:nth-child(2) {
+  position: relative;
+  left: 12px;
+  top: 9px;
+}
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(1) {
+  position: relative;
+  left: 376px;
+  top: -46px;
+}
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > a:nth-child(1) {
+  position: relative;
+  left: 352px;
+  top: -46px;
+}
+
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3) > a:nth-child(1) {
+  position: relative;
+  left: 360px;
+  top: -46px;
+}
+
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(4) > a:nth-child(1) {
+  position: relative;
+  left: 363px;
+  top: -44px;
+}
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(1) > a:nth-child(1) {
+  position: relative;
+  left: 652px;
+  top: -67px;
+}
+
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > a:nth-child(1) {
+  position: relative;
+  left: 639px;
+  top: -67px;
+}
+
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(3) > a:nth-child(1) {
+  position: relative;
+  left: 643px;
+  top: -69px;
+}
+
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(4) > a:nth-child(1) {
+  position: relative;
+  left: 643px;
+  top: -68px;
+}
+
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1) > a:nth-child(1) {
+  position: relative;
+  left: 967px;
+  top: -91px;
+}
+
+
+a {
+  /* color: #007bff; */
+  color: #7b99ba;
+}
+
+.far {
+  position: relative;
+  left: 337px;
+  top: -111px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
