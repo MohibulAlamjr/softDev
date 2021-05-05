@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title h3 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+/* header   */
+
+header {
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgb(33, 143, 115);
+}
+.nabar-icon{
+    color: white;
+}
+.navbar-brand{
+    color:rgb(255, 255, 255);
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lobster Two', cursive;  
+    font-weight: 800;
+}
+.nav-link {
+    color: black;
+    margin: 10px;
+    border-radius: 3px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background-color: rgb(41, 12, 107);
+    color: white;
+    transition: 0.5s;
+
+}
+li.nav-item{
+    font-size: 26px;
+    color: cornsilk;
+}
+
+.banner-container {
+    height: 90vh;
+
+
+
+}
+
+.banner-container h1 {
+    font-size: 4.4rem;
+    padding-left: 80px;
+    font-family: 'Concert One', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Lobster Two', cursive;
+    color: white;
+
+
+}
+
+.banner-container h2 {
+    padding-left: 80px;
+    font-family: 'Concert One', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Lobster Two', cursive;
+    color: black;
+}
+/* header ends  */
+
+.cover{
+    background-image: url(../img/cover.jpg);
+    height: 750px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-top: -21px;
+}
+
+
+.heading{
+    color: #ffff;
+    text-align: center;
+}
+
+.heading > h2:nth-child(1) {
+    position: relative;
+    left: -230px;
+    top: 299px;
+    font-size: 30px;
+  }
+
+  .heading > h3:nth-child(2) {
+    position: relative;
+    top: 253px;
+    left: -49px;
+    font-size: 50px;
+  }
+
+  .heading > h1:nth-child(3) {
+    position: relative;
+    top: 210px;
+    font-size: 80px;
+    margin-left: 356px;
+  }
+ 
+  .container h1{
+    color: #ffff;
+}
+
+.container > h1:nth-child(1) {
+  position: relative;
+  left: 714px;
+  top: 122px;
+
+}
+.container p{
+    color: rgb(255, 255, 255);
+}
+.container > p:nth-child(2) {
+  position: relative;
+  left: 520px;
+  top: 228px;
+  font-size: 18px;
+}
+
+.img-thumbnail {
+    position: relative;
+    top: -33px;
+  }
+
+
+.SecondPart{
+    background-color: rgb(85, 137, 206);
+    height: 600px;
+    width: 100%;
+    
+    
+}
+.SecondPart {
+  position: relative;
+  top: 365px;
+ 
+}
+.SecondPart {
+    position: relative;
+    top: 479px;
+  }
+.SecondPart {
+    position: relative;
+    top: 479px;
+  }
+footer {
+    padding: 1% 10%;
+    background: rgb(168, 157, 157);
+}
+
+@media (max-width:768px) {
+    .nav-link {
+        background: rgba(233, 121, 121, 0.7);
+    }
+
+    .banner-container h1 {
+        font-size: 2.5rem;
+
+
+    }
+
+}
+
+
+/* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+
+.ThirdPart > h1:nth-child(1) {
+    text-align: center;
+    margin-top: 4px;
+    border-top-width: 0px;
+    border-top-style: solid;
+  }
+  
+  /* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+  
+  .ThirdPart {
+    margin-top: 39px;
+    background-color: thistle;
+  }
+  
+  /* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+  
+  .ThirdPart > h1:nth-child(1) > b:nth-child(1) {
+    margin-top: 1px;
+  }
+  
+/* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+
+.footer {
+    margin-top: -16px;
+  }
+  
+  /* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+  
+  .ThirdPart {
+    /* margin-top: 39px; */
+    margin-top: 35px;
+  }
+  
+  /* Element | file:///D:/softDev/softdev2/softDev/kaium/welcome/project2/index.html */
+  
+  .ThirdPart > h1:nth-child(1) {
+    /* margin-top: 4px; */
+    margin-top: 20px;
+    padding-top: 35px;
+  }
+  
