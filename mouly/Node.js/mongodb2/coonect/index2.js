@@ -22,12 +22,12 @@ MongoClient.connect(url,config,function(error,myclient){
 
 function InsertData(connect){
     var MyDatabase = connect.db("softDev");
-    var mycollection = MyDatabase.collection("admin");
+    var mycollection = MyDatabase.collection("mouly");
 
     var mydata = {
-        name:"Shahanaj Sharmin",
+        name:"Bilash",
         position:"Core Member of softDev",
-        city:"Jhenidah",
+        city:"Dhaka",
         phonenumber:"01778127862",
         serial:"03"
     }
