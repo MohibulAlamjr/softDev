@@ -26,7 +26,7 @@ html {
  
   
   body {
-   
+   height: 100px;
     background-color: rgb(223, 221, 221);
   }
   
@@ -68,13 +68,14 @@ html {
     background: #fff;
     padding: 20px;
     text-align: center;
-    height: 365px;
-    width: 420px;
+    height: 415px;
+    width: 433px;
     margin: 100px auto;
     font-size: 11px;
     position: relative;
     left: 295px;
     top: -250px;
+    border-radius: 10px;
   }
 
 
@@ -97,4 +98,165 @@ html {
   border-left-width: 1px;
   margin-right: 7px;
   width: 100px;
+}
+
+
+
+#pwd {
+  position: relative;
+  width: 380px;
+}
+
+
+
+
+.btn {
+  position: relative;
+  width: 380px;
+  bottom: -38px;
+  height: 61px;
+}
+
+
+
+#pwd {
+  height: 61px;
+}
+
+
+
+#email {
+  position: relative;
+  height: 61px;
+}
+
+
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/asset/css/style.css */
+
+#email {
+  /* bottom: -22px; */
+  bottom: -16px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#email {
+  bottom: 0px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#pwd {
+  bottom: -1px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.btn {
+  bottom: -2px;
+}
+
+/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css */
+
+*, ::after, ::before {
+  border-radius: 10px;
+}
+
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/asset/css/style.css */
+
+#email {
+  border-radius: 5px;
+}
+
+#pwd {
+  border-radius: 5px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.btn {
+  position: relative;
+  border-radius: 5px;
+}
+
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/asset/css/style.css */
+
+#email {
+  font-size: 17px;
+}
+
+#pwd {
+  font-size: 17px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.btn {
+  font-size: 17px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.login > form:nth-child(1) > p:nth-child(4) > a:nth-child(1) {
+  position: relative;
+  bottom: -13px;
+  font-size: 17px;
+}
+
+#success{
+  width: 240px;
+  height: 61px;
+}
+
+
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/asset/css/style.css */
+
+#pwd {
+  /* width: 380px; */
+  width: 395px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#success > b:nth-child(1) {
+  position: relative;
+  bottom: -1px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#success {
+  position: relative;
+  bottom: -44px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.login > div:nth-child(2) > p:nth-child(1) > a:nth-child(1) {
+  position: relative;
+  font-size: 16px;
+  color: black;
+  bottom: -103px;
+}
+
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/asset/css/style.css */
+
+.wrapper {
+ 
+  height: 100px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.footer {
+  position: relative;
+  background-color: white;
+  height: 200px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.first {
+  position: relative;
+  text-align: center;
 }
