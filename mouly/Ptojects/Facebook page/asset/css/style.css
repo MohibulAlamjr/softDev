@@ -607,12 +607,6 @@ p.herf1:nth-child(10) > a:nth-child(1) {
   position: relative;
   bottom: 14px;
 }
-.footer{
-  display: none;
-}
-.wrapper{
-  display: none;
-}
 
 .signup{
     
@@ -1105,4 +1099,13 @@ label.cus {
   width: 240px;
   height: 41px;
   bottom: 140px;
+}
+.signup{
+  display: none;
+}
+.footer{
+  display: none;
+}
+.wrapper{
+  display: none;
 }
