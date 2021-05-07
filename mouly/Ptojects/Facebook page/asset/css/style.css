@@ -613,3 +613,245 @@ p.herf1:nth-child(10) > a:nth-child(1) {
 .wrapper{
   display: none;
 }
+
+.signup{
+    
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  height: 615px;
+  width: 538px;
+  margin: 100px auto;
+  font-size: 11px;
+  position: relative;
+  left: 295px;
+  top: -250px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.signup {
+  position: relative;
+  left: 37px;
+  bottom: 239px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.signup {
+  top: -177px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+input.control:nth-child(1) {
+  position: relative;
+  width: 235px;
+  bottom: -77px;
+  background-color: rgb(243, 240, 240);
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+input.form-control:nth-child(3) {
+  position: relative;
+  width: 235px;
+  right: -265px;
+  bottom: -23px;
+  background-color: rgb(243, 240, 240);
+
+}
+
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/asset/css/style.css */
+
+input.form-control:nth-child(4) {
+  background-color: rgb(243, 240, 240);
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+input.form-control:nth-child(2) {
+  position: relative;
+  height: 43px;
+  width: 498px;
+  bottom: -5px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#emailemail {
+  position: relative;
+  bottom: -38px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+input.form:nth-child(1) {
+  position: relative;
+  height: 43px;
+  width: 498px;
+  bottom: -38px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#pwdd {
+  position: relative;
+  height: 43px;
+  width: 498px;
+  bottom: -38px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.signup > form:nth-child(1) > div:nth-child(1) > p:nth-child(1) {
+  position: relative;
+  text-align: left;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#text > b:nth-child(1) {
+  position: relative;
+  text-align: left;
+  bottom: 15px;
+  right: 189px;
+  font-size: 14px;
+  color: #a19e9e;
+  text-decoration: none;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+input.form-control:nth-child(3) {
+  position: relative;
+  text-align: left;
+  bottom: -14px;
+  right: -2px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+input.form-control:nth-child(5) {
+  position: relative;
+  width: 235px;
+  background-color: rgb(243, 240, 240);
+  bottom: 41px;
+  right: -259px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#emailemail {
+  position: relative;
+  background-color: rgb(243, 240, 240);
+  bottom: 25px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#pwdd {
+  position: relative;
+  bottom: 23px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.date > p:nth-child(1) {
+  position: relative;
+  text-align: left;
+  bottom: 25px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.fas {
+  position: relative;
+  bottom: 57px;
+  right: 177px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#day {
+  position: relative;
+  text-decoration: none;
+  border-radius: 5%;
+  width: 155px;
+  height: 36px;
+  bottom: 69px;
+  right: 113px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#month {
+ 
+  position: relative;
+  text-decoration: none;
+  border-radius: 5%;
+  width: 155px;
+  height: 36px;
+  bottom: 69px;
+  right: 58px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#day {
+  position: relative;
+  right: 68px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#month {
+  position: el;
+  position: relative;
+  text-decoration: none;
+  border-radius: 5%;
+  width: 155px;
+  height: 36px;
+  bottom: 69px;
+  right: 1px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#day {
+  position: relative;
+  right: 16px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#Year {
+  position: relative;
+  text-decoration: none;
+  border-radius: 5%;
+  width: 155px;
+  height: 36px;
+  right: -14px;
+  bottom: 70px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.gender > p:nth-child(1) {
+  position: relative;
+  text-align: left;
+  bottom: 57px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.gender > p:nth-child(2) {
+  position: relative;
+  bottom: 31px;
+  right: 26px;
+}
+.signup{
+  display: none;
+}

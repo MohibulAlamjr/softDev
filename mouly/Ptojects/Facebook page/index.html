@@ -12,7 +12,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<link href="https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 <!-- my css  -->
 <link rel="stylesheet" href="asset/css/style.css">
 
@@ -123,6 +124,55 @@
     
     </div>
    
+  <div class="signup">
+
+    <form action="/action_page.php">
+      <div class="form-group">
+
+        <p id="para"> <b> Sign Up </b></p>
+        <p id="text"> <b> It's quick and easy. </b></p>
+       
+        <input type="name" class="form-control control control" id="name" placeholder="Firstname" name="Firstname"> <br>
+        
+        <input type="name" class="form-control control control" id="name" placeholder="Surname" name="Surname">
+        
+        <input type="email" class="form form-control control control" id="emailemail" placeholder=" Mobile number or  email address " name="email">
+      </div>
+      <div class="form-group">
+       
+        <input type="password" class="form two form-control control control" id="pwdd" placeholder="New password" name="pswdd">
+      </div>
+     <div class="date">
+      <p>Date of birth</p>
+      <p><i class="fas fa-question-circle"></i></p>
+
+     <select aria-label="Day" name="birthday_day" id="day" title="Day" class="day"><option value="0">Day</option></select>
+     
+     <select aria-label="month" name="birthday_month" id="month" title="month" class="month"><option value="0">month</option></select>
+     
+     <select aria-label="Year" name="birthday_Year" id="Year" title="Year" class="Year"><option value="0">Year</option></select>
+     </div>
+
+     <div class="gender">
+
+<p>Gender</p>
+<p><i class="fas fa-question-circle circle"></i></p>
+      <label class="fem" for="selectfemale">Female</label>
+      <input type="radio" class="fem" name="gender" value="0" id="forfemale"> <br>
+
+      <label class="form-check-label" >
+        <input type="radio" class="form-check-input" name="optradio">Option 1
+      </label>
+
+
+     </div>
+     
+      <button type="submit submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+
+  </div>
 
 
     <script src="asset/js/main.js"></script>
