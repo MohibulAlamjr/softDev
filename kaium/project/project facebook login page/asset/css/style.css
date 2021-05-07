@@ -1,22 +1,17 @@
-/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
-
-
-
-/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
-
-/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
-body{
-background-color: rgb(235, 229, 240);
+body {
+    background-color: rgb(235, 229, 240);
 }
+
 .Unp {
-   
-font-size: 1.5rem;
+
+    font-size: 1.5rem;
 }
+
 .row>h1:nth-child(1)>b:nth-child(1) {
     font-size: 53px;
     border-top-width: -13px;
     margin-left: 36px;
-  
+
 }
 
 /* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
@@ -35,4 +30,42 @@ button.btn:nth-child(3) {
 
 button.btn:nth-child(7) {
     margin-left: 79px;
+}
+
+/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css */
+
+b,
+strong {
+    color: #163e8a;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
+
+
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
+
+.card {
+    top: 154px;
+    left: 88px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
+
+.col-sm-6 {
+    top: 156px;
+left: 42px;
+
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
+
+.col-sm-6>h1:nth-child(1)>b:nth-child(1) {
+    font-size: 65px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
+
+.Unp {
+    font-size: 1.8rem;
 }
