@@ -16,12 +16,6 @@ body {
 
 /* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
 
-button.btn:nth-child(3) {
-    margin-left: 144px;
-}
-
-/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
-
 .card-body>a:nth-child(5) {
     margin-left: 98px;
 }
@@ -36,7 +30,7 @@ button.btn:nth-child(7) {
 
 b,
 strong {
-    color: #163e8a;
+    color: #316ef3;
 }
 
 /* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/index.html */
