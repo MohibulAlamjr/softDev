@@ -165,6 +165,7 @@ button.btn:nth-child(6) {
 }
 .bottom{
   text-align: center;
+  font-size: 13px;
 }
 
 .bottom > p:nth-child(1) > a:nth-child(1) {
@@ -252,17 +253,325 @@ a {
   top: -111px;
 }
 
+.\32 nd > a:nth-child(1) {
+  position: relative;
+  top: -103px;
+  left: 277px;
+  font-size: 13px;
+}
 
 
+.\32 nd > a:nth-child(2) {
+  position: relative;
+  top: -103px;
+  left: 296px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(3) {
+  position: relative;
+  top: -103px;
+  left: 313px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(4) {
+  position: relative;
+  top: -102px;
+  left: 326px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(5) {
+  position: relative;
+  top: -102px;
+  left: 338px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(6) {
+  position: relative;
+  top: -103px;
+  left: 351px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(7) {
+  position: relative;
+  left: 362px;
+  top: -103px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(8) {
+  position: relative;
+  top: -101px;
+  left: 373px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(9) {
+  position: relative;
+  top: -102px;
+  left: 385px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(10) {
+  position: relative;
+  top: -102px;
+  left: 391px;
+  font-size: 13px;
+}
 
 
+.\32 nd > a:nth-child(11) {
+  position: relative;
+  top: -102px;
+  left: 400px;
+  font-size: 13px;
+}
 
 
+.\32 nd > a:nth-child(12) {
+  position: relative;
+  top: -102px;
+  left: 412px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(13) {
+  position: relative;
+  top: -101px;
+  left: 422px;
+  font-size: 13px;
+}
+
+.\32 nd > a:nth-child(14) {
+  position: relative;
+  top: -101px;
+  left: 433px;
+  font-size: 13px;
+}
 
 
+.third{
+  text-align: center;
+  font-size: 13px;
+}
 
 
+/* .............................  */
 
 
+.third > a:nth-child(1) {
+  position: relative;
+  top: -101px;
+  left: -72px;
+}
+.third > a:nth-child(2) {
+  position: relative;
+  top: -100px;
+  left: -62px;
+}
+
+.third > a:nth-child(3) {
+  position: relative;
+  top: -100px;
+  left: -47px;
+}
+
+.third > a:nth-child(4) {
+  position: relative;
+  top: -100px;
+  left: -34px;
+}
+
+.third > a:nth-child(5) {
+  position: relative;
+  top: -100px;
+  left: -22px;
+}
+
+a {
+  position: relative;
+}
+.third > a:nth-child(6) {
+  top: -100px;
+  left: -14px;
+}
+
+.third > a:nth-child(7) {
+  position: relative;
+  top: -100px;
+  left: 1px;
+}
+
+.third > a:nth-child(8) {
+  position: relative;
+  top: -98px;
+  left: 15px;
+}
+
+.third > a:nth-child(9) {
+  position: relative;
+  top: -98px;
+  left: 25px;
+}
+
+.third > a:nth-child(10) {
+  position: relative;
+  top: -98px;
+  left: 36px;
+}
+
+.third > a:nth-child(11) {
+  position: relative;
+  top: -98px;
+  left: 54px;
+}
+
+.third > a:nth-child(12) {
+  position: relative;
+  top: -98px;
+  left: 68px;
+}
+
+.third > a:nth-child(13) {
+  position: relative;
+  top: -97px;
+  left: 80px;
+}
+.third > a:nth-child(14) {
+  position: relative;
+  top: -97px;
+  left: 98px;
+}
+
+.fourth{
+  font-size: 13px;
+  text-align: left;
+}
+
+.fourth > a:nth-child(1) {
+  position: relative;
+  top: -99px;
+  left: 275px;
+}
+
+.fourth > a:nth-child(2) {
+  position: relative;
+  left: 297px;
+  top: -99px;
+}
 
 
+.fourth > a:nth-child(3) {
+  position: relative;
+  top: -99px;
+  left: 328px;
+}
+
+.fourth > a:nth-child(4) {
+  position: relative;
+  top: -99px;
+  left: 343px;
+}
+
+#para{
+  text-align: left;
+  font-size: 10px;
+}
+
+#para {
+  position: relative;
+  top: -75px;
+  left: 279px;
+}
+
+body {
+  /* color: #212529; */
+  color: #919ca8;
+}
+
+.bottom > p:nth-child(1) > a:nth-child(2) {
+  top: 7px;
+}
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html */
+
+#para {
+  left: 282px;
+  top: -68px;
+}
+
+
+.bottom > p:nth-child(1) > a:nth-child(1) {
+  top: 7px;
+}
+
+.\32 nd {
+  position: relative;
+  top: 12px;
+}
+
+
+.third {
+  position: relative;
+  top: 12px;
+}
+
+.fourth {
+  position: relative;
+  top: 14px;
+}
+
+.para {
+  top: -69px;
+  left: 282px;
+}
+
+.third > a:nth-child(1) {
+  left: -66px;
+}
+
+.fourth > a:nth-child(1) {
+  left: 282px;
+}
+
+.bottom > p:nth-child(1) > a:nth-child(1) {
+  left: 0px;
+}
+
+.\32 nd > a:nth-child(1) {
+  left: 283px;
+}
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(4) > a:nth-child(1) {
+  left: 378px;
+}
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(3) > a:nth-child(1) {
+  left: 372px;
+}
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > a:nth-child(1) {
+  left: 360px;
+}
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(4) > a:nth-child(1) {
+  left: 659px;
+}
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(3) > a:nth-child(1) {
+  left: 651px;
+}
+
+.bottom > table:nth-child(3) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(2) > a:nth-child(1) {
+  left: 644px;
+}
+.far {
+  left: 327px;
+}
+.p{
+  color: black;
+}
