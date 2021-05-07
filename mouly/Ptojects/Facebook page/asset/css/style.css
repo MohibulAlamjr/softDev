@@ -619,7 +619,7 @@ p.herf1:nth-child(10) > a:nth-child(1) {
   background: #fff;
   padding: 20px;
   text-align: center;
-  height: 615px;
+  height: 560px;
   width: 538px;
   margin: 100px auto;
   font-size: 11px;
@@ -852,6 +852,257 @@ input.form-control:nth-child(5) {
   bottom: 31px;
   right: 26px;
 }
-.signup{
-  display: none;
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.select {
+  position: relative;
+  bottom: 102px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.fem {
+  position: relative;
+  bottom: 1px;
+  right: 115px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#fofermale {
+  position: relative;
+  bottom: -3px;
+  right: 120px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+label.male {
+  position: relative;
+  width: 196px;
+  height: 43px;
+  right: 142px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+label.cus {
+  position: relative;
+  width: 196px;
+  height: 43px;
+  bottom: 51px;
+  right: -126px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#formale {
+  position: relative;
+  right: 164px;
+  bottom: -3px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#forcus {
+  position: relative;
+  bottom: 47px;
+  right: -102px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.fem {
+  position: relative;
+  border: border-image-source: none;
+  width: 160px;
+  height: 43px;
+  border: solid;
+  right: 59px;
+  text-align: justify;
+  bottom: -6px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#fofermale {
+  bottom: -11px;
+}
+
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/asset/css/style.css */
+
+.fem {
+  /* border: solid; */
+  /* text-align: justify; */
+  border: .5px solid;
+  text-align: center;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#ff {
+  position: relative;
+  right: 48px;
+  bottom: -8px;
+  font-size: 15px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#fofermale {
+  position: relative;
+  bottom: -16px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#ff {
+  position: relative;
+  right: 48px;
+  bottom: -8px;
+  font-size: 15px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#fofermale {
+  position: relative;
+  bottom: -10px;
+  right: 125px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+label.male {
+  position: relative;
+  width: 160px;
+  border: .5px solid;
+  font-size: 15px;
+  bottom: 0px;
+  right: 79px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#formale {
+  position: relative;
+  border: .5 solid;
+  right: 164px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+label.cus {
+  position: relative;
+  width: 160px;
+  height: 43px;
+  border: .4px solid;
+  font-size: 15px;
+  right: -182px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.fem {
+  position: relative;
+  bottom: 0px;
+  right: 74px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#mm {
+  position: relative;
+  bottom: -10px;
+  right: 54px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#cc {
+  position: relative;
+  bottom: -9px;
+  right: 45px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#formale {
+  position: relative;
+  bottom: -11px;
+  right: 135px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#forcus {
+  position: relative;
+  bottom: 40px;
+  right: -125px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#formale {
+  position: relative;
+  bottom: -11px;
+  right: 135px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#forcus {
+  position: relative;
+  bottom: 40px;
+  right: -125px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#formale {
+  position: relative;
+  bottom: -11px;
+  right: 135px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#forcus {
+  position: relative;
+  bottom: 40px;
+  right: -125px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#formale {
+  position: relative;
+  bottom: -11px;
+  right: 135px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#forcus {
+  position: relative;
+  bottom: 40px;
+  right: -125px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.by {
+  position: relative;
+  font-size: 12px;
+  bottom: 143px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.signup > form:nth-child(1) > button:nth-child(5) {
+  position: relative;
+  width: 240px;
+  height: 41px;
+  bottom: 140px;
 }
