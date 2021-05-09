@@ -575,3 +575,170 @@ body {
 .p{
   color: black;
 }
+
+#full{
+  display: none;
+}
+
+
+/* For Sign Up  */
+
+
+body {
+  /* color: #919ca8; */
+  color: #000;
+}
+
+
+.h5, h5 {
+  /* font-size: 1.25rem; */
+  font-size: 30px;
+}
+
+
+#exampleModalLabel {
+  position: relative;
+  top: -17px;
+}
+
+
+div.p > p:nth-child(1) {
+  position: relative;
+  top: 27px;
+  left: -105px;
+}
+
+.p {
+  /* color: black; */
+  color: #767272;
+}
+
+div.p > p:nth-child(1) {
+  left: -112px;
+  top: 32px;
+}
+
+#exampleModalLabel {
+  top: -12px;
+}
+
+.form-group{
+  width: 48%;
+}
+
+
+div.form-group:nth-child(1) > input:nth-child(2) {
+  margin-left: 226px;
+  margin-top: -38px;
+}
+
+body {
+  /* color: #000; */
+  color: #131212;
+}
+
+.modal-dialog {
+  top: 135px;
+}
+
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    /* max-width: 500px; */
+    max-width: 450px;
+  }
+}
+
+div.form-group:nth-child(1) > input:nth-child(2) {
+  margin-left: 215px;
+  margin-top: -39px;
+}
+
+.form-group1 > input:nth-child(1) {
+  margin-top: -5px;
+}
+
+.form-group1 > input:nth-child(2) {
+  margin-top: 11px;
+}
+#days{
+  height: 30px;
+  width: 32%;
+}
+
+#months{
+  height: 30px;
+  width: 32%;
+}
+
+#year{
+  height: 30px;
+  width: 32%;
+}
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html# */
+
+#year {
+  margin-left: 11px;
+}
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html# */
+
+#months {
+  margin-left: 15px;
+}
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html# */
+
+#year {
+  margin-left: 6px;
+}
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html# */
+
+#months {
+  margin-left: 7px;
+}
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html# */
+
+.modal-body > form:nth-child(1) > label:nth-child(4) {
+  position: relative;
+  top: -11px;
+}
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html# */
+
+.DMY {
+  margin-top: -18px;
+}
+
+/* style.css | file:///E:/softDev2/softDev/sweety/Template/Template%202/asset/css/style.css */
+
+body {
+  /* color: #131212; */
+  color: #6f6565;
+  font-size: 13px;
+}
+
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html# */
+
+#year {
+  margin-left: 2px;
+}
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html# */
+
+#months {
+  position: relative;
+  left: -3px;
+}
+
+
+
+
+
+
+
+
