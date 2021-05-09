@@ -1160,9 +1160,17 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
-.wrapper{
-  display: none;
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.fa-plus-circle {
+  position: relative;
+  right: -791px;
+  bottom: 23px;
+  width: 20px;
+  background-color: white;
 }
+
 .signup{
   display: none;
 }
