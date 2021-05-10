@@ -5,3 +5,167 @@
 .navbar-collapse{
 text-align: right;
 }
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+li.nav-item:nth-child(5) > a:nth-child(1) {
+    position: relative;
+    right: -837px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+  
+  li.nav-item:nth-child(4) > a:nth-child(1) {
+    position: relative;
+    right: -835px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+  
+  li.nav-item:nth-child(3) > a:nth-child(1) {
+    position: relative;
+    right: -835px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  li.nav-item:nth-child(2) > a:nth-child(1) {
+    position: relative;
+    right: -835px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  li.nav-item:nth-child(1) > a:nth-child(1) {
+    position: relative;
+    right: -835px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  .navbar-brand {
+    position: relative;
+    right: -100px;
+  }
+  
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+
+.fa-facebook-f {
+    position: relative;
+    color: #a18888;
+    left: -113px;
+    font-size: 25px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  .fa-twitter {
+    color: #a18888;
+    position: relative;
+    right: 95px;
+    font-size: 25px;
+  }
+  
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/asset/css/style.css */
+
+li.nav-item:nth-child(1) > a:nth-child(1) {
+    /* right: -835px; */
+    right: -810px;
+  }
+  
+  li.nav-item:nth-child(2) > a:nth-child(1) {
+    /* right: -835px; */
+    right: -815px;
+  }
+  
+  li.nav-item:nth-child(3) > a:nth-child(1) {
+    /* right: -835px; */
+    right: -810px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  li.nav-item:nth-child(1) > a:nth-child(1) {
+    position: relative;
+    bottom: -20px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  li.nav-item:nth-child(2) > a:nth-child(1) {
+    position: relative;
+    bottom: -20px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  li.nav-item:nth-child(3) > a:nth-child(1) {
+    bottom: -20px;
+    right: -819px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  li.nav-item:nth-child(4) > a:nth-child(1) {
+    position: relative;
+    bottom: -20px;
+    right: -830px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  li.nav-item:nth-child(5) > a:nth-child(1) {
+    position: relative;
+    bottom: -20px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  .fa-facebook-f {
+    bottom: -20px;
+    position: relative;
+    right: 95px;
+    position: relative;
+    left: -180px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  .fa-twitter {
+    position: relative;
+    bottom: -20px;
+    left: -159px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  .navbar-brand {
+    overflow: rel;
+    position: relative;
+    bottom: -20px;
+    right: -149px;
+  }
+  
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+
+.fas {
+    position: relative;
+    bottom: -20px;
+    font-size: 25px;
+    color: #a18888;
+    left: -110px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  .fa-twitter {
+    right: 92px;
+    left: -137px;
+  }
+  
+  /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html#about */
+  
+  .fa-facebook-f {
+    left: -160px;
+  }
+  
