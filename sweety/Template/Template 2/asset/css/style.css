@@ -498,8 +498,6 @@ body {
   top: 7px;
 }
 
-/* Element | file:///E:/softDev2/softDev/sweety/Template/Template%202/index.html */
-
 #para {
   left: 282px;
   top: -68px;
@@ -575,10 +573,10 @@ body {
 .p{
   color: black;
 }
-
+/* 
 #full{
   display: none;
-}
+} */
 
 
 /* For Sign Up  */
@@ -712,8 +710,75 @@ body {
   left: -3px;
 }
 
+div.form-check-inline:nth-child(1) {
+  margin-top: 18px;
+}
+
+.DMY {
+  margin-top: -14px;
+}
 
 
+.form-control::placeholder {
+  /* color: #6c757d; */
+  color: #70757a;
+}
+
+.form-group {
+  margin-top: 3px;
+}
+
+.form-group1 > input:nth-child(1) {
+  margin-top: -2px;
+}
+
+.form-group1 > input:nth-child(2) {
+  margin-top: 14px;
+}
+
+button.btn:nth-child(1) {
+  margin-top: 28px;
+}
+
+#cr > p:nth-child(1) {
+  margin-top: 2px;
+}
+
+
+button.btn:nth-child(1) {
+  height: 58px;
+  width: 60;
+  width: 65%;
+}
+
+
+.btn-primary {
+  /* background-color: #007bff; */
+  /* border-color: #007bff; */
+  background-color: #0ee859;
+  border-color: none;
+}
+
+
+.btn-primary {
+  /* border-color: #007bff; */
+  border-color: #2cff00;
+}
+
+:root {
+  /* --blue: #007bff; */
+  --blue: #00ff34;
+}
+
+
+.modal-body > form:nth-child(1) > label:nth-child(4) {
+  left: -177px;
+}
+
+
+#last {
+  margin-left: -221px;
+}
 
 
 
