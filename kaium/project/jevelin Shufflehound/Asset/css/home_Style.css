@@ -85,3 +85,26 @@ position: relative;
 top: 361px;
 
 }
+
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-sm-8>h1:nth-child(1)>b:nth-child(1) {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-sm-8 {
+    /* top: 154px; */
+    font-size: 21px;
+    letter-spacing: 0.084em;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.vc_single_image-img {
+    left: -437px;
+    top: 66px;
+}
