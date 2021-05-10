@@ -1,0 +1,170 @@
+body {
+height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    position: relative;
+background-image: url(../img/lady.jpg) !important;
+ background-repeat: no-repeat;
+
+}
+
+.container {
+    border: none;
+
+
+}
+
+.navbar {
+    width: 1363px;
+    left: -127px;
+    border: none;
+    background-color: none;
+    position: relative;
+    color: #000102;
+
+}
+
+
+.social_media {
+    color: rgb(8, 8, 8);
+    position: relative;
+    letter-spacing: 0.223em;
+    font-size: 22px;
+
+}
+img{
+position: relative;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+h1{
+position: relative;}
+p{position: relative;}
+h5{position: relative;}
+a {
+
+    color: #000;
+    position: relative;
+
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.row {
+    position: relative;
+    
+    
+    
+    left: 312px;
+}
+
+
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.row {
+    font-weight: 300;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.navbar-brand>img:nth-child(1) {
+    margin-left: 33px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.navbar {
+    top: 7px;
+}
+
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.vc_single_image-img {
+    top: 39px;
+    left: -287px;
+position: relative;
+}
+.card-group{
+position: relative;
+top: 361px;
+
+}
+
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-sm-8>h1:nth-child(1)>b:nth-child(1) {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-sm-8 {
+    /* top: 154px; */
+    font-size: 21px;
+    letter-spacing: 0.084em;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.vc_single_image-img {
+    left: -437px;
+    top: 66px;
+}
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.container>img:nth-child(4) {
+    top: 461px;
+    right: 108px;
+}
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-6>img:nth-child(1) {
+    top: 461px;
+    right: 108px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-6>h1:nth-child(2) {
+    /* left: 223px; */
+    /* left: 4px; */
+    left: 788px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-6>h1:nth-child(2)>b:nth-child(1) {
+    font-size: 33px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-6>h5:nth-child(3) {
+    /* left: 4px; */
+    left: 790px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-6>p:nth-child(4) {
+    left: 790px;
+}
+.help{
+position: relative;
+height: 150px;
+width: auto;
+ background:linear-gradient(90deg, rgba(255, 255, 255, 0.6) 12%, rgb(85, 218, 178) 47%, rgba(251, 249, 252, 0.6) 88%);
+text-align: center;
+}
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.col-sm-12 {
+    top: 253px;
+}
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */

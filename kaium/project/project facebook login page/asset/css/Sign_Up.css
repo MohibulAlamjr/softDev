@@ -1,0 +1,91 @@
+body {
+    border: none;
+}
+
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+.card {
+    left: 278px;
+    top: 32px;
+}
+
+
+#Female {
+    position: relative;
+    border: 1px solid black;
+    width: 130px;
+
+}
+
+#male {
+    position: relative;
+    border: 1px solid black;
+    width: 130px;
+}
+
+#Custom {
+    position: relative;
+    border: 1px solid black;
+    width: 130px;
+}
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+#male {
+    left: 136px;
+    top: -50px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+#Custom {
+    left: 271px;
+    top: -100px;
+}
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+#Female>label:nth-child(1) {
+    margin-left: 20px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+#male>label:nth-child(1) {
+    margin-left: 29px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+#Custom>label:nth-child(1) {
+    margin-left: 23px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+#Female>input:nth-child(2) {
+    margin-left: 18px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+#male>input:nth-child(2) {
+    margin-left: 25px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+#Custom>input:nth-child(2) {
+    margin-left: 12px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+.card-body>small:nth-child(10) {
+    bottom: 90px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/project%20facebook%20login%20page/Sign_Up.html */
+
+.btn {
+    bottom: 80px;
+}
