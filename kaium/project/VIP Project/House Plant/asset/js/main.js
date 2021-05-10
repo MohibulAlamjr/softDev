@@ -1,17 +1,17 @@
-//  function setVideoSize() {
-//       const vidWidth = 1920;
-//       const vidHeight = 1080;
-//       const windowWidth = window.innerWidth;
-//       const windowHeight = window.innerHeight;
-//       const tempVidWidth = windowHeight * vidWidth / vidHeight;
-//       const tempVidHeight = windowWidth * vidHeight / vidWidth;
-//       const newVidWidth = tempVidWidth > windowWidth ? tempVidWidth : windowWidth;
-//       const newVidHeight = tempVidHeight > windowHeight ? tempVidHeight : windowHeight;
-//       const tmVideo = $('#tm-video');
+ function setVideoSize() {
+      const vidWidth = 1920;
+      const vidHeight = 1080;
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const tempVidWidth = windowHeight * vidWidth / vidHeight;
+      const tempVidHeight = windowWidth * vidHeight / vidWidth;
+      const newVidWidth = tempVidWidth > windowWidth ? tempVidWidth : windowWidth;
+      const newVidHeight = tempVidHeight > windowHeight ? tempVidHeight : windowHeight;
+      const tmVideo = $('#tm-video');
 
-//       tmVideo.css('width', newVidWidth);
-//       tmVideo.css('height', newVidHeight);
-//     }
+      tmVideo.css('width', newVidWidth);
+      tmVideo.css('height', newVidHeight);
+    }
 
     function openTab(evt, id) {
       $('.tm-tab-content').hide();
