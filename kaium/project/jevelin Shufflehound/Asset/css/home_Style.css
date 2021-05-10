@@ -1,0 +1,87 @@
+body {
+    width: 100%;
+    background-color: cornflowerblue;
+    border: none;
+    position: relative;
+background-image: url(../img/lady.jpg) !important;
+}
+
+.container {
+    border: none;
+
+
+}
+
+.navbar {
+    width: 1363px;
+    left: -127px;
+    border: none;
+    background-color: none;
+    position: relative;
+    color: #000102;
+
+}
+
+
+.social_media {
+    color: rgb(8, 8, 8);
+    position: relative;
+    letter-spacing: 0.223em;
+    font-size: 22px;
+
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+
+
+a {
+
+    color: #000;
+    position: relative;
+
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.row {
+    position: relative;
+    
+    
+    
+    left: 312px;
+}
+
+
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.row {
+    font-weight: 300;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.navbar-brand>img:nth-child(1) {
+    margin-left: 33px;
+}
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.navbar {
+    top: 7px;
+}
+
+
+/* Element | http://127.0.0.1:5500/kaium/project/jevelin%20Shufflehound/index.html */
+
+.vc_single_image-img {
+    top: 39px;
+    left: -287px;
+position: relative;
+}
+.card-group{
+position: relative;
+top: 361px;
+
+}
