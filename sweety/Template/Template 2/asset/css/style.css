@@ -780,6 +780,171 @@ button.btn:nth-child(1) {
   margin-left: -221px;
 }
 
+.modal-body > form:nth-child(1) > label:nth-child(4) {
+  top: 6px;
+}
+
+.DMY {
+  margin-top: -1px;
+}
+
+button.btn:nth-child(1) {
+  height: 55px;
+  width: 60%;
+}
+
+.btn-primary {
+  background-color: #42ae3e;
+}
+
+.btn-primary {
+  border-color: #1d8e05;
+}
+
+
+.first {
+  /* border-color: rgb(240, 233, 233); */
+  border-color: rgb(228, 220, 220);
+}
+
+body {
+  /* color: #6f6565; */
+  color: #433b3b;
+}
+
+.form-control {
+  /* color: #495057; */
+  color: #9b9fa3;
+}
+
+button.btn:nth-child(1) {
+  /* height: 55px; */
+  height: 53px;
+}
+
+.p {
+  /* color: #767272; */
+  color: #131212;
+}
+
+
+.center > p:nth-child(4) > a:nth-child(1) {
+  top: 15px;
+}
+
+a {
+  /* color: #7b99ba; */
+  color: #6b8db3;
+}
+
+.center > p:nth-child(4) > a:nth-child(1) {
+  top: 15px;
+}
+
+a {
+  /* color: #7b99ba; */
+  color: #6b8db3;
+}
+
+
+/* radio biutton  */
+
+
+#last > p:nth-child(1) {
+  margin-top: 14px;
+  margin-left: -157px;
+}
+div.form-check-inline:nth-child(2) {
+  margin-top: 1px;
+}
+#ppp > p:nth-child(1) {
+  position: relative;
+  left: 101px;
+  top: 13px;
+}
+
+
+#ppp > p:nth-child(2) {
+  position: relative;
+  left: 70px;
+  top: 9px;
+}
+
+#bb {
+  margin-left: 215px;
+  margin-top: 34px;
+  height: 40px;
+  width: 30%;
+}
+
+#ppp {
+  margin-top: 10px;
+}
+
+
+#bb {
+  margin-top: 26px;
+}
+
+.btn-success {
+  /* background-color: #1aca42; */
+  background-color: #0ba32e;
+}
+
+.p {
+  /* color: #131212; */
+  color: #9d9595;
+}
+
+body {
+  /* color: #433b3b; */
+  color: #7d7575;
+}
+.p{
+  color: #000;
+}
+
+
+/* style.css | file:///E:/softDev2/softDev/sweety/Template/Template%202/asset/css/style.css */
+
+body {
+  /* color: #7d7575; */
+  color: #100f0f;
+}
+
+.form-group > input:nth-child(1) {
+  position: relative;
+  background-color: #ebe9e9;
+}
+
+.form-group > input:nth-child(2) {
+  position: relative;
+  background-color: #dcdada;
+}
+
+
+.form-group1 > input:nth-child(1) {
+  position: relative;
+  background-color: gainsboro;
+}
+
+
+.form-control {
+  /* color: #9b9fa3; */
+  color: #d8d8d8;
+}
+
+.form-group1 > input:nth-child(2) {
+  position: relative;
+  background-color: #dedede;
+}
+
+
+
+
+
+
+
 
 
 
