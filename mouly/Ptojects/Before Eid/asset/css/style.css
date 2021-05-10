@@ -332,6 +332,47 @@ button.btn:nth-child(5) {
   position: relative;
   bottom: -4px;
 }
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.fa-pump-medical {
+  position: relative;
+  top: 56px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.far {
+  position: relative;
+  top: 44px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.opeming > p:nth-child(2) > b:nth-child(1) {
+  position: relative;
+  top: 10px;
+}
+.middle{
+  padding-top: 200px ;
+  padding-bottom: 250px ;
+  background-image: url(../image/Layer-1200.png) !important;
+  background-position: center ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  width: 737px;
+  height: 496px;
+  text-align: left;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.middle {
+  position: relative;
+  top: -725px;
+  right: 202px;
+  bottom: 737px;
+}
 .first{
   display: none;
 }
