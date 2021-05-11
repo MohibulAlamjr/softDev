@@ -904,9 +904,6 @@ body {
   color: #000;
 }
 
-
-/* style.css | file:///E:/softDev2/softDev/sweety/Template/Template%202/asset/css/style.css */
-
 body {
   /* color: #7d7575; */
   color: #100f0f;
@@ -940,7 +937,59 @@ body {
 }
 
 
+.modal-body > form:nth-child(1) > a:nth-child(5) > i:nth-child(1) {
+  position: relative;
+  left: -178px;
+  top: 6px;
+}
 
+a {
+  /* color: #6b8db3; */
+  color: #161719;
+}
+
+
+#last > a:nth-child(2) > i:nth-child(1) {
+  position: relative;
+  top: -18px;
+  left: 44px;
+}
+
+
+.modal-body > form:nth-child(1) > label:nth-child(4) {
+  left: -170px;
+}
+
+
+.modal-body > form:nth-child(1) > a:nth-child(5) {
+  left: 7px;
+}
+
+
+div.form-check-inline:nth-child(3) {
+  margin-left: -9px;
+  margin-top: 4px;
+  position: relative;
+  top: 3px;
+}
+
+
+#last > p:nth-child(1) {
+  margin-top: 14px;
+  position: relative;
+  top: 6px;
+}
+
+
+div.form-check-inline:nth-child(4) {
+  position: relative;
+  top: 4px;
+}
+
+div.form-check-inline:nth-child(5) {
+  position: relative;
+  top: 4px;
+}
 
 
 
