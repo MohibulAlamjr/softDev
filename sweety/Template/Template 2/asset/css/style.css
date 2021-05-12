@@ -996,6 +996,7 @@ border: 1px solid black;
 width: 130px;
 margin-left: 221px;
 margin-top: -13px;
+border-radius: 5px;
 }
 
 #male{
@@ -1003,6 +1004,7 @@ margin-top: -13px;
 width: 130px;
 margin-left: 361px;
 margin-top: -56px;
+border-radius: 5px;
 }
 
 #custom{
@@ -1010,6 +1012,7 @@ margin-top: -56px;
 width: 130px;
 margin-left: 504px;
 margin-top: -57px;
+border-radius: 5px;
 }
 
 
@@ -1069,16 +1072,8 @@ margin-top: -57px;
   color: rgb(107, 107, 192);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+#male {
+  position: relative;
+  left: 1px;
+}
 
