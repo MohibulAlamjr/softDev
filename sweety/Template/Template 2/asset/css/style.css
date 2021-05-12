@@ -991,6 +991,90 @@ div.form-check-inline:nth-child(5) {
   top: 4px;
 }
 
+#Female{
+border: 1px solid black;
+width: 130px;
+margin-left: 221px;
+margin-top: -13px;
+}
+
+#male{
+  border: 1px solid black;
+width: 130px;
+margin-left: 361px;
+margin-top: -56px;
+}
+
+#custom{
+  border: 1px solid black;
+width: 130px;
+margin-left: 504px;
+margin-top: -57px;
+}
+
+
+#Female > label:nth-child(1) {
+  margin-top: 10px;
+  position: relative;
+  left: -28px;
+  font-size: 14px;
+}
+
+#Female > input:nth-child(2) {
+  top: 2px;
+  left: 26px;
+}
+
+#male > label:nth-child(1) {
+  margin-top: 11px;
+  left: -34px;
+  font-size: 13px;
+  position: relative;
+}
+
+#male > input:nth-child(2) {
+  left: 36px;
+  top: 2px;
+}
+
+#custom > label:nth-child(1) {
+  margin-top: 11px;
+  font-size: 13px;
+  position: relative;
+  left: -28px;
+}
+#custom > input:nth-child(2) {
+  left: 27px;
+  top: 4px;
+}
+
+
+#last > a:nth-child(2) > i:nth-child(1) {
+  left: -51px;
+  top: -14px;
+}
+
+#last > p:nth-child(1) {
+  top: 4px;
+}
+
+#ppp {
+  margin-top: -11px;
+}
+
+#ppp{
+  color: rgb(138, 135, 135);
+}
+#ppp a{
+  color: rgb(107, 107, 192);
+}
+
+
+
+
+
+
+
 
 
 
