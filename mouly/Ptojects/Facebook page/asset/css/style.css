@@ -613,7 +613,7 @@ p.herf1:nth-child(10) > a:nth-child(1) {
   background: #fff;
   padding: 20px;
   text-align: center;
-  height: 560px;
+  height: 580px;
   width: 538px;
   margin: 100px auto;
   font-size: 11px;
@@ -1171,12 +1171,87 @@ a {
   background-color: white;
 }
 
-.signup{
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#days {
+  position: relative;
+  top: -62px;
+  height: 45px;
+  width: 160px;
+  right: 9px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#months {
+  position: relative;
+  top: -61px;
+  height: 45px;
+  width: 160px;
+  right: -3px;
+  bottom: 59px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+#year {
+  position: relative;
+  top: -62px;
+  height: 45px;
+  width: 160px;
+  right: -9px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+input.form-control:nth-child(6) {
+  position: relative;
+  top: -55px;
+  width: 250px;
+  right: -248px;
+  border: 1px solid #ced4da;
+  background-color: #f4f4f4;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+input.form-control:nth-child(4) {
+  width: 240px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/index.html */
+
+.blur {
+  position: relative;
+  height: 3000px;
+  top: -287px;
+  background-image: cover;
+}
+
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/asset/css/style.css */
+
+.blur {
+  /* background-color: rgb(182, 80, 80); */
+  background-color: #ffffffe6;
+}
+
+/* style.css | file:///E:/softDev5/softDev/mouly/Ptojects/Facebook%20page/asset/css/style.css */
+
+.footer {
+  /* height: 200px; */
+  height: 250px;
+}
+
+.blur{
   display: none;
 }
-.blur{
-  display:none ;
-}
+
 .font{
   color: rgb(25, 25, 102);
+}
+.signup {
+  display: none;
+}
+.wrapper{
+  display: none;
 }

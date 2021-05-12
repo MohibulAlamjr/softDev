@@ -1,4 +1,4 @@
-const { fstat } = require('fs');
+const fs = require('fs');
 var http = require('http');
 var Server = http.createServer(function (req, res) {
 
