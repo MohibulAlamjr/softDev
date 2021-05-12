@@ -24,7 +24,20 @@ for (i = 0; i < 13; i++)
 
 $(document).ready(function(){
     $("#success").click(function(){
+        $(".blur").show();
         $(".signup").show();
+       
+       
+        
+    });
+});
+
+
+$(document).ready(function(){
+    $(".close").click(function(){
+
+        $(".signup").hide();
+       
        
         
     });
