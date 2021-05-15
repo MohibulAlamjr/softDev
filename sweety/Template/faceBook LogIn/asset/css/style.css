@@ -1,4 +1,6 @@
 
+/* Facebook Css */
+
 #cover{
     background: #e9eaed;
     height: 830px;
@@ -1077,3 +1079,6 @@ border-radius: 5px;
   left: 1px;
 }
 
+.btn:hover{
+  background-color: #0ba32e;
+}

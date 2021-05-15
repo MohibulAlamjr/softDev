@@ -1,0 +1,127 @@
+#p{
+    height: 70px;
+    width: 33%;
+    background-color: blue;
+}
+
+
+/* Navbar  */
+
+
+.navbar-brand {
+    color: white;
+    padding: 0 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.nav-menu {
+    background: transparent;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+
+    transition: all .0s;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.menu-item {
+    font-family: 'Josefin Sans';
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+
+
+.ham {
+    transition: width 0.3s;
+    background: #F9F8F7;
+}
+
+.dropdown-item {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.costum-navbar {
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    background-color:white !important;  
+    position: fixed;
+}
+
+/* ===== END OF NAVBAR SECTION ===== */
+
+
+/* ===== HERO SECTION ===== */
+
+.hero-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, .7), 
+        rgba(0, 0, 0, .6)),   
+        url('https://images.pexels.com/photos/240572/pexels-photo-240572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-hero {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.sub-text-hero {
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 9px;
+    color: rgb(15, 15, 15);
+}
+/* <nav>  */
+
+.nav-bottom {
+    background: transparent !important;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    
+    bottom: 10px;
+}
+
+.item-bottom {
+    padding: 0 20px;
+    transition: .0s;
+    font-size: 20px;
+}
+
+.item-bottom:hover {
+    background: transparent;
+    transform: translateY(-2px);
+}
+
+/* ===== END OF HERO SECTION ===== */
+.menu-item {
+    color: #211f1f;
+  }
+  
+  .navbar-brand {
+    color: #121010;
+  }
+  
