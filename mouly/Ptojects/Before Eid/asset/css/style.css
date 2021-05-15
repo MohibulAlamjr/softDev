@@ -482,9 +482,9 @@ button.btn:nth-child(5) {
 
 .color {
   position: relative;
-  color: ;
-  background-color: background-color: #e6e0e0;
+  
   background-color: #e6e0e0;
+  
   width: 100%;
   height: 10px;
   top: 57px;
@@ -898,7 +898,7 @@ background-position: 50% 50%;
 background-size: cover;
 cursor: pointer;
 position: relative;
--webkit-transform: translateZ(0);
+
 word-wrap: break-word;
 }
 
@@ -927,7 +927,7 @@ word-wrap: break-word;
 
 #dentist {
   color: #0078aa;
-  on: 12px;
+ 
 }
 
 /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
@@ -1219,17 +1219,8 @@ a {
 
 /* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html# */
 
-#analy {
-  /* display: none; */
-}
 
-/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html# */
 
-#diag {
-  /* display: none; */
-}
-
-/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html# */
 
 .last {
   position: relative;
@@ -1323,4 +1314,11 @@ button.btn:nth-child(5) > b:nth-child(1) {
   transition: all .3s ease-in-out;
   text-align: center;
   background-color: #d4fdfe;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html# */
+
+#js01 {
+  bottom: -44px;
+  top: 57px;
 }
