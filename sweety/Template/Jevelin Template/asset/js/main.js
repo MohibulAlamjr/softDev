@@ -25,5 +25,38 @@ $(document).ready(function(){
 });
 
 
+// Navbar
+
+
+$(window).scroll(function() {
+  
+  let position    =   $(this).scrollTop();
+    if (position <= 10000) {
+      $('.nav-menu').addClass('costum-navbar');
+    } else {
+      $('.nav-menu').removeClass('costum-navbar');
+    }
+  
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
