@@ -1,0 +1,954 @@
+
+/* NavBar  */
+
+.navbar-brand {
+  color: white;
+  padding: 0 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.nav-menu {
+  background: transparent;
+  padding: 30px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+
+  transition: all .0s;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.menu-item {
+  font-family: 'Josefin Sans';
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: white;
+  
+}
+
+
+a {
+  color: black;
+}
+
+.ham {
+  transition: width 0.3s;
+  background: #F9F8F7;
+}
+
+.dropdown-item {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.costum-navbar {
+  background-color:white !important;  
+  position: fixed;
+}
+.navbar {
+  top: -30px;
+}
+
+
+.nav-bottom {
+  background: transparent !important;
+  padding: 30px;
+  position: absolute;
+  width: 100%;
+  
+  bottom: 10px;
+}
+
+.item-bottom {
+  padding: 0 20px;
+  transition: .10s;
+  font-size: 20px;
+}
+
+.item-bottom:hover {
+  background: transparent;
+  transform: translateY(-2px);
+}
+
+.menu-item {
+  color: #211f1f;
+}
+
+.navbar-brand {
+  color: #121010;
+}
+
+
+li.nav-item:nth-child(7) {
+  position: relative;
+  left: 635px;
+  top: 15px;
+}
+
+li.nav-item:nth-child(6) {
+  position: relative;
+  left: 636px;
+  top: 15px;
+}
+
+li.nav-item:nth-child(5) {
+  position: relative;
+  left: 634px;
+  top: 15px;
+}
+
+li.nav-item:nth-child(4) {
+  position: relative;
+  left: 627px;
+  top: 15px;
+}
+
+li.nav-item:nth-child(3) {
+  position: relative;
+  left: 616px;
+  top: 15px;
+}
+
+
+li.nav-item:nth-child(2) {
+  position: relative;
+  left: 606px;
+  top: 15px;
+}
+
+li.nav-item:nth-child(1) {
+  position: relative;
+  left: 590px;
+  top: 15px;
+}
+
+#navbarNav {
+  margin-top: 0px;
+}
+.navbar-brand {
+  position: relative;
+  left: 186px;
+  top: 15px;
+}
+
+/* Try */
+
+/* Coverr */
+
+.cover{
+    background-image: url(../image/cover.jpg);
+    height: 900px;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -85px;
+}
+
+#h > b:nth-child(1) {
+  position: relative;
+  top: 151px;
+  left: 174px;
+  font-size: 50px;
+}
+
+#h1 {
+  position: relative;
+  top: 131px;
+  left: 174px;
+  font-size: 50px;
+}
+
+#p1 {
+  position: relative;
+  top: 144px;
+  left: 175px;
+}
+
+body {
+  color: #1d2022;
+}
+
+#p1 {
+  color: #7d7a7a;
+  font-size: 13px;
+}
+
+#img {
+  position: relative;
+  top: 178px;
+  left: 174px;
+}
+
+/* Second Part  */
+
+.col-sm1-40{
+  background-color: cadetblue;
+  height: 400px;
+  width: 31%;
+  border-radius: 10px;
+}
+ .col-sm2-50{
+  background-color: cadetblue;
+  height: 428px;
+  width: 31%;
+  border-radius: 10px;
+} 
+
+.col-sm3-40{
+  background-color: cadetblue;
+  height: 400px;
+  width: 31%;
+  border-radius: 10px;
+
+}
+
+
+.col-sm3-40 {
+  position: relative;
+  left: 411px;
+}
+
+.col-sm2-50 {
+  position: relative;
+  left: 125px;
+}
+
+.col-sm1-40 {
+  position: relative;
+  left: 48px;
+}
+
+.col-sm3-40 {
+  left: 16px;
+}
+
+
+.col-sm2-50 {
+  left: 16px;
+}
+.col-sm2-50 {
+  background-color: #a0995f;
+}
+
+.col-sm1-40 {
+  left: 16px;
+}
+
+.col-sm3-40 {
+  left: 54px;
+}
+
+.col-sm2-50 {
+  left: 54px;
+}
+
+.col-sm1-40 {
+  left: 54px;
+}
+.col-sm1-40 {
+  background-color:#88eaed;
+}
+
+.col-sm2-50 {
+  background-color: #a9f9fe;
+}
+
+.col-sm3-40 {
+  background-color: #88eaed;
+}
+.col-sm1-40 {
+  top: -191px;
+}
+
+.col-sm2-50 {
+  top: -213px;
+}
+
+.col-sm3-40 {
+  top: -191px;
+}
+.col-sm2-50 {
+  top: -204px;
+}
+
+
+.col-sm1-40 > p:nth-child(3) {
+  position: relative;
+  font-size: 13px;
+  left: 55px;
+  top: 114px;
+}
+
+body {
+  /* color: #1d2022; */
+  color: #686868;
+}
+
+.col-sm1-40 > h5:nth-child(2) {
+  position: relative;
+  top: 101px;
+  left: 64px;
+  font-size: 18px;
+}
+
+.col-sm1-40 > p:nth-child(3) {
+  top: 109px;
+  left: 66px;
+}
+.col-sm1-40 > h2:nth-child(1) {
+  position: relative;
+  top: 84px;
+  left: 59px;
+}
+
+.col-sm1-40 > p:nth-child(3) {
+  font-size: 12px;
+}
+.col-sm1-40 h2{
+  color: rgb(32, 126, 235);
+}
+.col-sm1-40 h5{
+  color: black;
+}
+
+.col-sm1-40 > h2:nth-child(1) {
+  top: 53px;
+}
+
+.col-sm1-40 > h5:nth-child(2) {
+  top: 65px;
+}
+
+.col-sm1-40 > p:nth-child(3) {
+  top: 72px;
+}
+.heading h1{
+  color: black;
+}
+
+
+/* Button  */
+
+.btn {
+  position: relative;
+  top: 135px;
+  left: 73px;
+  height: 53px;
+  width: 25%;
+  border-radius: 50px;
+  border-color:white;
+  background-color: white;
+}
+.btn-outline-info {
+  color:black;
+}
+
+.btn:hover{
+background-color: #88eaed;
+color: black;
+border-color: blue;
+}
+
+.fa-calendar-minus{
+  font-size: 45px;
+}
+
+
+.far {
+  position: relative;
+  left: 61px;
+  top: 68px;
+  color: #8787fc;
+}
+
+
+.col-sm2-50 > h6:nth-child(2) {
+  position: relative;
+  top: 95px;
+  left: 62px;
+  color: black;
+}
+
+.col-sm2-50 > p:nth-child(3) {
+  position: relative;
+  top: 107px;
+  left: 61px;
+  font-size: 13px;
+}
+
+body {
+  color: #807878;
+}
+
+.btn {
+  position: relative;
+  top: 150px;
+  left: 73px;
+  height: 53px;
+  width: 25%;
+  border-radius: 50px;
+  border-color:white;
+  background-color: white;
+  /* border-right: white;
+  border-bottom: white; */
+ 
+}
+.btn-outline-info {
+  color:black;
+}
+
+.btn:hover{
+color: black;
+border-color: blue;
+/* border-right: blue;
+border-bottom: blue; */
+}
+
+.fa-clock {
+  font-size: 40px;
+}
+
+.col-sm3-40 > h6:nth-child(2) {
+  position: relative;
+  top: 113px;
+  left: 65px;
+}
+
+body {
+  
+  color: #615b5b;
+}
+
+.col-sm3-40 > p:nth-child(3) {
+  margin-top: 133px;
+  position: relative;
+  left: 66px;
+  font-size: 14px;
+}
+
+.col-sm3-40 > p:nth-child(4) {
+  position: relative;
+  left: 66px;
+  top: -4px;
+  font-size: 14px;
+}
+.col-sm3-40 h6{
+  color: black;
+}
+
+
+button.btn:nth-child(5) {
+  top: 19px;
+}
+
+/*.................. Third Part .................. */
+
+.float-left {
+  margin-top: -104px;
+  margin-left: 15px;
+}
+
+.h2 b{
+  color: black;
+}
+.h2 p{
+  font-size: 14px;
+  color: rgb(65, 65, 238);
+}
+
+.float-left {
+  margin-top: -77px;
+}
+
+.h2 {
+  position: relative;
+  top: -115px;
+  left: 63px;
+  margin-top: 0px;
+}
+.h2 > p:nth-child(2) {
+  position: relative;
+  top: 45px;
+  left: -5px;
+}
+
+.h2 p {
+  color: rgb(136, 136, 221);
+}
+
+.h2 > h1:nth-child(1) {
+  position: relative;
+  top: 39px;
+  left: -8px;
+}
+.p01{
+  color: rgb(148, 143, 143);
+}
+
+.p01 > p:nth-child(1) {
+  position: relative;
+  top: -51px;
+  left: 24px;
+  font-size: 14px;
+}
+
+.h2 {
+  left: 27px;
+  top: -141px;
+}
+.p01 > p:nth-child(1) {
+  top: -92px;
+}
+
+/* Slide Troggle  */
+
+
+#p{
+  position: relative;
+  top: 14px;
+  background-color: #f6f6f6;
+  border: solid 1px #c3c3c3;
+  border-radius: 10px;
+  border-color: #f6f6f6;
+  padding: 5px;
+  height: 70px;
+  width: 100%;
+}
+
+#p > b:nth-child(1) {
+  position: relative;
+  left: 62px;
+  top: 16px;
+}
+
+#lorem1 > p:nth-child(1) {
+  position: relative;
+  left: 51px;
+}
+
+.troggle{
+  width: 33%;
+}
+
+.troggle {
+  margin-left: 777px;
+  margin-top: -86px;
+}
+
+#lorem1 {
+  font-size: 12px;
+}
+
+/* Second Troggle  */
+
+#Laboratory {
+  padding: 5px;
+  text-align: center;
+  background-color: #f6f6f6;
+  border: solid 1px #c3c3c3;
+  height: 70px;
+  border-radius: 10px;
+  border-color: #f6f6f6;
+  margin-top: -1px;
+}
+
+#lorem2 {
+  display: none;
+  padding: 5px;
+  background-color:white;
+  border: solid 1px white;
+}
+
+.troggle1{
+  width: 33%;
+}
+
+.troggle1 {
+  margin-left: 777px;
+   margin-top: 3px;
+}
+
+#lorem2 {
+  height: 4;
+  font-size: 12px;
+}
+#Laboratory > p:nth-child(1) > b:nth-child(1) {
+  position: relative;
+  left: -108px;
+  top: 15px;
+}
+
+/* Third Toggle  */
+
+#Diagnostic {
+  padding: 5px;
+  text-align: center;
+  background-color: #f6f6f6;
+  border: solid 1px #c3c3c3;
+  height: 70px;
+  border-radius: 10px;
+  border-color: #f6f6f6;
+}
+
+#lorem3 {
+  display: none;
+  padding: 5px;
+  background-color:white;
+  border: solid 1px white;
+}
+
+.troggle3{
+  width: 33%;
+}
+
+.troggle3 {
+  margin-left: 777px;
+   margin-top: 3px;
+}
+
+#lorem3 {
+  height: 4;
+  font-size: 12px;
+}
+#Diagnostic > p:nth-child(1) > b:nth-child(1) {
+  position: relative;
+  left: -119px;
+  top: 15px;
+}
+
+#lorem2 > p:nth-child(1) {
+  position: relative;
+  left: 46px;
+}
+#lorem3 > p:nth-child(1) {
+  position: relative;
+  left: 46px;
+}
+
+#p:hover{
+  background-color: rgb(59, 245, 245);
+}
+
+#Laboratory:hover{
+  background-color: rgb(59, 245, 245);
+}
+
+#Diagnostic:hover{
+  background-color: rgb(59, 245, 245);
+}
+
+
+#Diagnostic > i:nth-child(2) {
+  position: relative;
+}
+
+.troggle > i:nth-child(2) {
+  position: relative;
+}
+
+/* Fourth Part  */
+
+.cover2{
+  background-image: url(../image/cover2.jpg);
+  height: 1127px;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.cover2 h1{
+  text-align: center;
+  position: relative;
+  top: 94px;
+  color: black;
+}
+
+.cover2 p{
+  text-align: center;
+  margin-top: 110px;
+  font-size: 14px;
+  color: #4d5153;
+}
+
+.icons{
+  background-color: white;
+  height: 820px;
+  width: 85%;
+  margin-left: 115px;
+  margin-top: 55px;
+  
+}
+.eyes p{
+  text-align: left;
+}
+.eyes h5{
+  color: black;
+}
+.cardio{
+  text-align: center;
+}
+.cardio p{
+  text-align: left;
+}
+
+.dentist{
+  text-align: right;
+}
+
+.eyes > img:nth-child(1) {
+  position: relative;
+  top: 87px;
+}
+
+.eyes {
+  margin-left: 97px;
+  margin-top: 0px;
+}
+
+.eyes > h5:nth-child(2) {
+  position: relative;
+  top: 108px;
+}
+
+.eyes > p:nth-child(3) {
+  position: relative;
+  top: 14px;
+}
+
+.cardio {
+  margin-top: -208px;
+}
+
+.cardio > img:nth-child(1) {
+  margin-top: 0px;
+  position: relative;
+  top: -25px;
+  left: -85px;
+}
+.cardio > h5:nth-child(2) {
+  position: relative;
+  left: -96px;
+  top: 9px;
+  color: black;
+}
+
+.cardio > p:nth-child(3) {
+  position: relative;
+  left: 499px;
+  top: -85px;
+}
+.dentist p{
+text-align: left;
+}
+
+.dentist {
+  margin-top: -333px;
+}
+
+.dentist > h5:nth-child(2) {
+  position: relative;
+  left: -316px;
+  top: 34px;
+  color: black;
+}
+
+.dentist > p:nth-child(3) {
+  position: relative;
+  top: -59px;
+  left: 888px;
+}
+
+.dentist > img:nth-child(1) {
+  position: relative;
+  left: -275px;
+}
+
+.cardio {
+  margin-left: -6px;
+}
+
+.laboratory p{
+text-align: left;
+}
+.laboratory > p:nth-child(3) {
+  position: relative;
+  top: 36px;
+  left: 97px;
+}
+.laboratory > h5:nth-child(2) {
+  position: relative;
+  top: 120px;
+  left: 97px;
+  color: black;
+}
+
+.laboratory > img:nth-child(1) {
+  position: relative;
+  top: 88px;
+  left: 97px;
+}
+
+.done {
+  position: relative;
+  top: 38px;
+}
+
+.pedia{
+  text-align: center;
+}
+
+.pedia p{
+  text-align: left;
+}
+
+.pedia {
+  margin-top: -227px;
+}
+
+.pedia > p:nth-child(3) {
+  position: relative;
+  top: -45px;
+  left: 493px;
+}
+
+.pedia > h5:nth-child(2) {
+  position: relative;
+  top: 39px;
+  left: -108px;
+  color: black;
+}
+.pedia > img:nth-child(1) {
+  position: relative;
+  left: -89px;
+}
+
+.eyes > h5:nth-child(2) {
+  left: 0px;
+}
+
+.cardio > h5:nth-child(2) {
+  left: -100px;
+}
+
+.radio{
+  text-align: right;
+}
+
+.radio p{
+  text-align: left;
+}
+
+.radio {
+  margin-top: -351px;
+}
+
+.radio > p:nth-child(3) {
+  position: relative;
+  left: 889px;
+}
+
+.radio > h5:nth-child(2) {
+  margin-left: 0px;
+  position: relative;
+  left: -309px;
+  top: 83px;
+}
+
+.radio > img:nth-child(1) {
+  position: relative;
+  left: -275px;
+}
+
+.radio > img:nth-child(1) {
+  top: 51px;
+}
+
+.cover3{
+  background-image: url(../image/Doctor.jpg);
+  height: 706px;
+  width: 67%;
+  margin-left: 606px;
+  font-size: 14px;
+}
+
+#co {
+  position: relative;
+  left: -373px;
+  top: 92px;
+}
+#co h1{
+  color: black;
+}
+#co h6{
+  color: rgb(96, 189, 250);
+  position: relative;
+  top: -11px;
+  font-size: 13px;
+}
+
+.btn2 {
+  position: relative;
+  top: 135px;
+  left: 73px;
+  height: 53px;
+  width: 18%;
+  border-radius: 50px;
+  border-color:rgb(65, 218, 167);
+  background-color:rgb(65, 241, 183);
+  color: white;
+  border-right: rgb(65, 241, 183);
+  border-bottom: rgb(65, 241, 183);
+}
+
+.btn2 {
+  position: relative;
+  left: -5px;
+  top: 74px;
+}
+
+.btn2:hover{
+  background-color: whitesmoke;
+  border: aqua;
+  color: black;
+}
+
+/* Agaian Toggle  */
+
+.fa-chevron-down::before {
+  position: relative;
+  color: black;
+}
+i.fas:nth-child(2) {
+  left: 28px;
+  top: -48px;
+}
+
+#lorem1 {
+  margin-top: 0px;
+  position: relative;
+  top: -20px;
+}
+
+.troggle1 {
+  margin-top: -24px;
+}
+#Laboratory > i:nth-child(2) {
+  position: relative;
+  left: -215px;
+  top: -23px;
+}
+#Diagnostic > i:nth-child(2) {
+  left: -216px;
+  top: -24px;
+}

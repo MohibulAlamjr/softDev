@@ -1,0 +1,48 @@
+body{
+background-color: rgb(184, 183, 182);}
+.section-1 {}
+
+.container {}
+
+.row {
+    margin-top: 113px;
+}
+
+.col-sm-6 {
+    top: 87px;
+}
+
+.btn1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+b,
+strong {
+    color: #316ef3;
+}
+
+#exampleInputEmail1 {
+    font-size: 1.5rem;
+}
+
+
+#exampleInputPassword1 {
+    font-size: 1.4rem;
+}
+
+/* ---------------------------------------------------------------------- */
+.section-2{}
+/* Element | http://127.0.0.1:5500/kaium/Another%20File/Bootstrap/index.html */
+
+.Sign{
+    left: 92px;
+}
+
+.card {
+    width: 500px;
+    height: 600px;
+}

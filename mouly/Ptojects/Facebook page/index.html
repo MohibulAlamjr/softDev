@@ -26,7 +26,7 @@
             <div class="row">
               <div class="col-sm-4">
                 <h1 id="face"><b>facebook</b> </h1>
-                <p id="para">  Facebook helps you connect and share  with the people in your life.</p>
+                <p id="para">  Facebook helps you connect and share with the people in your life.</p>
                
               </div>
             </div>
@@ -76,10 +76,8 @@
          
          
         </div>
-          
         
-         
-          
+          <hr>
           
          
          
@@ -133,7 +131,9 @@
 
         <p id="para"> <b> Sign Up </b></p>
         <p id="text"> <b> It's quick and easy. </b></p> <hr>
-       
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
         <input type="name" class="form-control control control" id="name" placeholder="Firstname" name="Firstname"> <br>
         
         <input type="name" class="form-control control control" id="name" placeholder="Surname" name="Surname">
@@ -147,12 +147,17 @@
      <div class="date">
       <p>Date of birth</p>
       <p><i class="fas fa-question-circle"></i></p>
+      <div class="selector">
 
-     <select aria-label="Day" name="birthday_day" id="day" title="Day" class="day"><option value="0">Day</option></select>
-     
-     <select aria-label="month" name="birthday_month" id="month" title="month" class="month"><option value="0">month</option></select>
-     
-     <select aria-label="Year" name="birthday_Year" id="Year" title="Year" class="Year"><option value="0">Year</option></select>
+        
+        
+        <select   name="days" id="days"></select>
+        <select  name="month" id="months"></select>
+        <select   name="year" id="year"></select>
+          
+
+        </select>
+      </div>
      </div>
 
      <div class="gender">
@@ -177,7 +182,7 @@
 
      </div>
      
-     <button type="button" class="btn btn-success sucess sucess">Success</button>
+     <button type="button" class="btn btn-success sucess sucess">Sign Up</button>
     </form>
 
 
@@ -185,7 +190,7 @@
 
 
   <div class="blur">
-    <p>ghfh</p>
+    <p></p>
   
   </div>
     <script src="asset/js/main.js"></script>
