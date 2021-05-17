@@ -1,10 +1,9 @@
+/* Element | http://127.0.0.1:5500/kaium/Another%20File/Bootstrap/index.html */
+
 .container {
-    background-color: rgb(230, 152, 152);
+    margin-top: 147px;
 }
 
-.container-fluid {
-    background-color: chartreuse;
-}
 
 div.col-sm:nth-child(1) {
     top: -3px;
@@ -24,4 +23,10 @@ strong {
 
 #exampleInputPassword1 {
     font-size: 1.4rem;
+}
+.card-body{
+width: 400px;
+height: 347px;
+text-align: center;
+margin-left: 500px;
 }
