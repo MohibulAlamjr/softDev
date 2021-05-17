@@ -1,3 +1,5 @@
+body{
+background-color: rgb(184, 183, 182);}
 .section-1 {}
 
 .container {}
@@ -42,5 +44,5 @@ strong {
 
 .card {
     width: 500px;
-    height: 574px;
+    height: 600px;
 }
