@@ -1,13 +1,9 @@
-/* Element | http://127.0.0.1:5500/kaium/Another%20File/Bootstrap/index.html */
+.section-1{}
+.container{}
+.row{}
+button{
+text-align: center;}
 
-.container {
-    margin-top: 147px;
-}
-
-
-div.col-sm:nth-child(1) {
-    top: -3px;
-}
 h1 {
     font-size: 65px;
 }
@@ -23,10 +19,4 @@ strong {
 
 #exampleInputPassword1 {
     font-size: 1.4rem;
-}
-.card-body{
-width: 400px;
-height: 347px;
-text-align: center;
-margin-left: 500px;
 }
