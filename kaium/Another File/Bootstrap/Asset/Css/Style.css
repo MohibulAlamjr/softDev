@@ -1,7 +1,12 @@
 .section-1{}
 .container{}
-.row{}
-button{
+.row {
+    margin-top: 113px;
+}
+.col-sm-6 {
+    top: 87px;
+}
+.btn1 {
 text-align: center;}
 
 h1 {
