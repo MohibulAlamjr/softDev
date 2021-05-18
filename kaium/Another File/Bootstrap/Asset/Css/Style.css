@@ -1,0 +1,46 @@
+body{
+background-color: #edf0f5}
+.section-1 {}
+
+.container {}
+
+.row {
+    margin-top: 113px;
+}
+
+.col-sm-6 {
+    top: 87px;
+}
+
+.btn1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+b,
+strong {
+    color: #316ef3;
+}
+
+#exampleInputEmail1 {
+    font-size: 1.5rem;
+}
+
+
+#exampleInputPassword1 {
+    font-size: 1.4rem;
+}
+
+/* ---------------------------------------------------------------------- */
+.section-2{}
+.Sign{
+    left: 92px;
+}
+
+.card {
+    width: 500px;
+    height: 600px;
+}
