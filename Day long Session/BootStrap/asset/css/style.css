@@ -12,3 +12,8 @@
   .container1{
       background-color: blue;
   }
+  .alert-warning {
+    color: #28210c;
+    background-color: #eae7dc !important;
+    border-color: #ffeeba;
+}
