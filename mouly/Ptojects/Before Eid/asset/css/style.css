@@ -1322,3 +1322,284 @@ button.btn:nth-child(5) > b:nth-child(1) {
   bottom: -44px;
   top: 57px;
 }
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.comp > img:nth-child(2) {
+  position: relative;
+  right: -456px;
+  bottom: 319px;
+  width: 800px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.box > button:nth-child(4) {
+  width: 50px;
+  position: relative;
+  top: 150px;
+  left: 73px;
+  height: 53px;
+  width: 25%;
+  border-radius: 50px;
+  border-color: white;
+  background-color: white;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.number > button:nth-child(4) {
+  position: relative;
+  top: 150px;
+  left: 73px;
+  height: 53px;
+  width: 25%;
+  border-radius: 50px;
+  border-color: white;
+  background-color: white;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+button.click:nth-child(5) {
+  position: relative;
+  top: 150px;
+  left: 73px;
+  height: 53px;
+  width: 25%;
+  border-radius: 50px;
+  border-color: white;
+  background-color: white;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+button.btn:nth-child(5) {
+  position: relative;
+  top: 150px;
+  left: 73px;
+  height: 53px;
+  width: 25%;
+  border-radius: 50px;
+  border-color: white;
+  background-color: white;
+}
+
+
+
+button.btn:nth-child(5) {
+  color: black;
+  font-size: 14px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.number > button:nth-child(4) {
+  color: black;
+  font-size: 14px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.box > button:nth-child(4) {
+  color: black;
+  font-size: 14px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.number > button:nth-child(4) {
+  color: black;
+  font-size: 14px;
+}
+
+.number > button:nth-child(4).btn:hover{
+  background-color: #88eaed;
+  color: black;
+  border-color: rgb(24, 218, 218);
+  }
+  .box > button:nth-child(4).btn:hover{
+    background-color: #d4fdfe;
+    color: black;
+    border-color: rgb(24, 218, 218);
+  }
+  .button.btn:nth-child(5).btn:hover{
+    background-color: #88eaed;
+  color: black;
+  border-color: rgb(24, 218, 218);
+
+  }
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#icon {
+  position: relative;
+  font-size: 15px;
+  color: whitw;
+  color: black;
+  right: 105px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#js01 > i:nth-child(1) {
+  position: relative;
+  right: 81px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#diag > i:nth-child(1) {
+  position: relative;
+  right: 115px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#js01 > i:nth-child(1) {
+  position: relative;
+  right: 81px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#diag > i:nth-child(1) {
+  position: relative;
+  right: 115px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#in {
+  position: relative;
+  font-size: 12px;
+  top: 48px;
+  right: -55px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#nec {
+  position: relative;
+  font-size: 12px;
+  bottom: -32px;
+  right: -53px;
+}
+#in{
+  display: none;;
+}
+#nec{
+  display: none;;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.medical > button:nth-child(1) {
+  position: relative;
+  font-size: 20px;
+  background-color: #e6e0e0;
+  height: 70px;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  top: -59px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.medical > button:nth-child(1) {
+  position: relative;
+  font-size: 20px;
+  background-color: #e6e0e0;
+  height: 70px;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  top: -59px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.at {
+  position: relative;
+  font-size: 12px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#js02 {
+  position: relative;
+  top: 6px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.medical > button:nth-child(1) {
+  position: relative;
+  top: 33px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.last > button:nth-child(1) {
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  background-color: #e6e0e0;
+  height: 70px;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  top: 43px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.last > button:nth-child(3) {
+  position: relative;
+ 
+  width: 500px;
+  height: 65px;
+  border-radius: 10px;
+  top: 35px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.pul > button:nth-child(1) {
+  position: relative;
+  width: 500px;
+  height: 60px;
+  border-radius: 10px;
+  right: -226px;
+  bottom: -46px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#cursus {
+  position: relative;
+  font-size: 12px;
+  right: -279px;
+  bottom: -59px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#nostic {
+  height: 62px;
+  font-size: 16px;
+}
+
+/* Element | file:///E:/softDev5/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#nostic > i:nth-child(1) {
+  position: relative;
+  left: -132px;
+}
