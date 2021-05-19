@@ -3,12 +3,12 @@
 
 $(document).ready(function(){
     // hide 
-    $("#hd").click(function(){
-        $("#div01").hide(1000);
+    $("#hideEvent").click(function(){
+        $(".hideEffect").hide(1000);
     })
     // show 
-    $("#sw").click(function(){
-        $("#div01").show(1000);
+    $("#showEvent").click(function(){
+        $(".hideEffect").show(1000);
     })
 //   toggle
     $("#tog").click(function(){
