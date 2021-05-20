@@ -1,12 +1,38 @@
 
+// mouseleavealert
 $(document).ready(function(){
-    $("#hide").click(function(){
-        $("#hideEffect").hide(1000)
+    $("#alertText").css("display","none");
+    $("#alert").mouseleave(function(){
+        let a= $("#alertText").text();
+        alert(a);
     })
-})
+}
+)
+// mouseleavehide
+$(document).ready(function(){
+    
+    $("#mouseLeaveHide").mouseleave(function(){
+    $("#mouseLeaveHideEffect").hide();
+        
+    })
+}
+)
+// mouseleaveshow
+$(document).ready(function(){
+    
+    $("#mouseLeaveShow").mouseleave(function(){
+    $("#mouseLeaveShowEffect").show();
+        
+    })
+}
+)
 
+// mouseleavetoggle
 $(document).ready(function(){
-    $("#toggole").click(function(){
-        $("#toggoleEffect").toggle(1000)
+    
+    $("#mouseLeaveToggle").mouseleave(function(){
+    $("#mouseLeaveToggleEffect").toggle();
+        
     })
-})
+}
+)
