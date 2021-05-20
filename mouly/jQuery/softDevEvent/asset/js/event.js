@@ -218,7 +218,7 @@ $(document).ready(function(){
 /////////////////////////   fade out ////////////////////////////
 
 
-// fade in by default 
+// fade out by default 
 
 
 $(document).ready(function(){
@@ -230,13 +230,64 @@ $(document).ready(function(){
   });
 
 
-//   fade in slowly 
+//   fade out slowly 
 
 
 $(document).ready(function(){
     $("#dbclickFadeOutEffectSlowly").css("color","blue");
     $("#dbclickFadeOutSlowly").dblclick(function(){
       $("#dbclickFadeOutEffectSlowly").fadeOut(3000);
+     
+    });
+  });
+
+
+//   fade out fastly 
+
+
+
+$(document).ready(function(){
+    $("#dbclickFadeOutEffectFastly").css("color","green");
+    $("#dbclickFadeOutFastly").dblclick(function(){
+      $("#dbclickFadeOutEffectFastly").fadeOut(-3000);
+     
+    });
+  });
+
+
+//////////////////////// fade toggole ////////////////////////////////
+
+// fade toggole by default 
+
+
+$(document).ready(function(){
+    $("#dbclickFadeToggoleEffect").css("color","red");
+    $("#dbclickFadeToggole").dblclick(function(){
+      $("#dbclickFadeToggoleEffect").fadeToggle();
+     
+    });
+  });
+
+
+//   fade toggole slowly 
+
+
+$(document).ready(function(){
+    $("#dbclickFadeToggoleEffectSlowly").css("color","blue");
+    $("#dbclickFadeToggoleSlowly").dblclick(function(){
+      $("#dbclickFadeToggoleEffectSlowly").fadeToggle(3000);
+     
+    });
+  });
+
+
+//   fade toggole fastly 
+
+
+$(document).ready(function(){
+    $("#dbclickFadeToggoleEffectFastly").css("color","blue");
+    $("#dbclickFadeToggoleFastly").dblclick(function(){
+      $("#dbclickFadeToggoleEffectFastly").fadeToggle(-3000);
      
     });
   });
