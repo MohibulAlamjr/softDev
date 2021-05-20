@@ -291,3 +291,150 @@ $(document).ready(function(){
      
     });
   });
+
+
+
+  ///////////////////////// fade to //////////////////////////
+
+  // fade to 
+
+  
+$(document).ready(function(){
+  $("#dbclickFadeToEffect").css("color","red");
+  $("#dbclickFadeTo").dblclick(function(){
+    $("#dbclickFadeToEffect").fadeTo("slow", 0.15);
+   
+  });
+});
+
+// fade to slowly
+ 
+$(document).ready(function(){
+  $("#dbclickFadeToEffectSlowly").css("color","blue");
+  $("#dbclickFadeToSlowly").dblclick(function(){
+    $("#dbclickFadeToEffectSlowly").fadeTo("slow", 0.60);
+   
+  });
+});
+
+// fade to fastly
+ 
+$(document).ready(function(){
+  $("#dbclickFadeToEffectFastly").css("color","green");
+  $("#dbclickFadeToFastly").dblclick(function(){
+    $("#dbclickFadeToEffectFastly").fadeTo("slow", 0.1);
+   
+  });
+});
+
+
+////////////////////// slide down //////////////////////////////
+
+// slide down by default 
+
+$(document).ready(function(){
+  $("#dbclickSlideDownEffcet").css("display","none");
+  $("#dbclickSlideDown").dblclick(function(){
+    $("#dbclickSlideDownEffcet").slideDown();
+  });
+});
+
+
+// slide down slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickSlideDownEffcetSlowly").css("display","none");
+  $("#dbclickSlideDownSlowly").dblclick(function(){
+    $("#dbclickSlideDownEffcetSlowly").slideDown(3000);
+  });
+});
+
+
+// slide down fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickSlideDownEffcetFastly").css("display","none");
+  $("#dbclickSlideDownFastly").dblclick(function(){
+    $("#dbclickSlideDownEffcetFastly").slideDown(-3000);
+  });
+});
+
+
+//////////////////// slide up ////////////////////////////////////
+
+// slide up by default 
+
+$(document).ready(function(){
+  $("#dbSlideUp").dblclick(function(){
+    $("#dbSlideUpEffect").slideUp();
+  });
+});
+
+
+// slide up slowly 
+
+
+$(document).ready(function(){
+  $("#dbSlideUpSlowly").dblclick(function(){
+    $("#dbSlideUpEffectSlowly").slideUp(3000);
+  });
+});
+
+
+
+// slide up fastly 
+
+
+$(document).ready(function(){
+  $("#dbSlideUpFastly").dblclick(function(){
+    $("#dbSlideUpEffectFastly").slideUp(-3000);
+  });
+});
+
+//////////////////// slideToggle //////////////////////////////
+
+// slide toggole by default 
+
+
+$(document).ready(function(){
+  $("#dbclickSlideToggole").dblclick(function(){
+    $("#dbclickSlideToggoleEffect").slideToggle();
+  });
+});
+
+
+// slide toggole slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickSlideToggoleSlowly").dblclick(function(){
+    $("#dbclickSlideToggoleEffectSlowly").slideToggle(3000);
+  });
+});
+
+
+// slide toggole fastly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickSlideToggoleFastly").dblclick(function(){
+    $("#dbclickSlideToggoleEffectFastly").slideToggle(-3000);
+  });
+});
+
+
+
+//////////////////// animation /////////////////////////////////////
+
+
+// animate by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimate").dblclick(function(){
+    $("#dbclickAnimateEffect").animate({left: '250px'});
+  });
+});
