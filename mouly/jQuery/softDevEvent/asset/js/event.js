@@ -228,3 +228,15 @@ $(document).ready(function(){
      
     });
   });
+
+
+//   fade in slowly 
+
+
+$(document).ready(function(){
+    $("#dbclickFadeOutEffectSlowly").css("color","blue");
+    $("#dbclickFadeOutSlowly").dblclick(function(){
+      $("#dbclickFadeOutEffectSlowly").fadeOut(3000);
+     
+    });
+  });
