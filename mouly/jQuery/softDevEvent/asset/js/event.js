@@ -528,7 +528,7 @@ $(document).ready(function(){
   });
 });
 
-// animate top br default 
+// animate top by default 
 
 
 $(document).ready(function(){
@@ -558,3 +558,66 @@ $(document).ready(function(){
 
 // animate top fastly 
 
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopFastly").dblclick(function(){
+    $("#dbclickAnimateTopEffectFastly").animate({
+      opacity: '0.11',
+      marginTop : '-=20px',
+    }, -3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+// animate top using toggole by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopToggole").dblclick(function(){
+    $("#dbclickAnimateTopToggoleEffect").animate({
+      opacity: '0.5',
+      marginTop : "-=30px",
+      height: "toggle"
+    });
+  });
+});
+
+
+
+// animate top using toggole slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopToggoleSlowly").dblclick(function(){
+    $("#dbclickAnimateTopToggoleEffectSlowly").animate({
+      opacity: '0.32',
+      marginTop : '-=20px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+// animate top using toggole fastly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopToggoleFastly").dblclick(function(){
+    $("#dbclickAnimateTopToggoleEffectFastly").animate({
+      opacity: '0.11',
+      marginTop : '-=20px',
+      height: "toggle"
+    }, -3000, function() {
+      // Animation complete.
+    });
+  });
+});
