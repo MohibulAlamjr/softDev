@@ -156,6 +156,17 @@ const port = 8080;
       })
 
 
+// delete cokokie 
+
+app.get("/eight", function(req,res){
+
+res.clearCookie('name');
+res.clearCookie('city');
+res.clearCookie('age');
+  
+  res.end("Successfully Clear Cookie!");
+
+})
 
  app.listen(port, function(){
    console.log('Example app listening at http://localhost:' + port)
