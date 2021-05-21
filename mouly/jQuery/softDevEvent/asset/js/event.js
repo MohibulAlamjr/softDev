@@ -430,18 +430,131 @@ $(document).ready(function(){
 //////////////////// animation /////////////////////////////////////
 
 
-// animate by default 
+// animate left by default 
 
 
 $(document).ready(function(){
   $("#dbclickAnimate").dblclick(function(){
     $("#dbclickAnimateEffect").animate({
-      
-      left: '250px',
       opacity: '0.5',
-      height: '150px',
-      width: '150px'
-     
+      marginLeft : '100px'
     });
   });
 });
+
+// animate left by slowly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateSlowly").dblclick(function(){
+    $("#dbclickAnimateEffectSlowly").animate({
+      opacity: '0.32',
+      marginLeft : '100px'
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+// animate left by fastly 
+
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateFastly").dblclick(function(){
+    $("#dbclickAnimateEffectFastly").animate({
+      opacity: '0.11',
+      marginLeft : '100px',
+    }, -3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+
+// animate left using toggole by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggole").dblclick(function(){
+    $("#dbclickAnimateEffectToggole").animate({
+      opacity: '0.35',
+      marginLeft : '100px',
+      height: "toggle"
+    });
+  });
+});
+
+
+
+// animate left using toggole slowly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleSlowly").dblclick(function(){
+    $("#dbclickAnimateEffectToggoleSlowly").animate({
+      opacity: '0.15',
+      marginLeft : '100px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+// animate left using toggole fastly 
+
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleFastly").dblclick(function(){
+    $("#dbclickAnimateEffectToggoleFastly").animate({
+      opacity: '0.55',
+      marginLeft : '100px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+// animate top br default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTop").dblclick(function(){
+    $("#dbclickAnimateTopEffect").animate({
+      opacity: '0.5',
+      marginTop : "-=30px"
+    });
+  });
+});
+
+
+// animate top slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopSlowly").dblclick(function(){
+    $("#dbclickAnimateTopEffectSlowly").animate({
+      opacity: '0.32',
+      marginTop : '-=20px'
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+// animate top fastly 
+
