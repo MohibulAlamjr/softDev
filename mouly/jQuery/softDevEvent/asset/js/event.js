@@ -621,3 +621,17 @@ $(document).ready(function(){
     });
   });
 });
+
+
+/////////////////// stop Animation /////////////////////////////////
+
+// stop animation by default 
+
+$(document).ready(function(){
+  $("#dbclickStopAnimate").dblclick(function(){
+    $("#dbclickStopAnimateEffect").slideDown();
+  });
+  $("#dbclickButtonStop").click(function(){
+    $("#dbclickStopAnimateEffect").stop();
+  });
+});
