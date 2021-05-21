@@ -98,6 +98,16 @@ app.get ("/six",function(req,res){
     res.end("Success")
 })
 
+// Clear Cookie
+
+app.get ("/seven",function(req,res){
+    res.clearCookie("name","Sweety Akter")
+    res.clearCookie("age","22")
+    res.end("Success")
+})
+
+
+
 
 
 

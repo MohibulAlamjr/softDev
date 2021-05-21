@@ -336,6 +336,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 
   $("#mouseEnterSlideUpEffectAll").mouseenter(function(){
+    
     $("#mouseEnterSlideUpFastEffect").slideUp(100);
     $("#mouseEnterSlideUpEffect").slideUp();
     $("#mouseEnterSlideUpSlowEffect").slideUp("slow");
@@ -391,7 +392,15 @@ $(document).ready(function(){
 
 // For Stop Method 
 
-
+$(document).ready(function(){
+  $("#stopSlideDownEffect").css("display","none");
+  $("#startSlideDown").mouseenter(function(){
+    $("#stopSlideDownEffect").slideDown(5000);
+  });
+  $("#stopSlideDown").mouseenter(function(){
+    $("#stopSlideDownEffect").stop();
+  });
+});
 
 
 
