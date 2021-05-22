@@ -478,6 +478,55 @@ $(document).ready(function(){
 
 
 
+// animate right by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateRight").dblclick(function(){
+    $("#dbclickAnimateRightEffect").animate({
+      opacity: '0.5',
+      marginRight : '100px'
+    });
+  });
+});
+
+
+
+// animate left by slowly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateRightSlowly").dblclick(function(){
+    $("#dbclickAnimateRightEffectSlowly").animate({
+      opacity: '0.32',
+      marginRight : '100px'
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+// animate left by fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateRightFastly").dblclick(function(){
+    $("#dbclickAnimaterightEffectFastly").animate({
+      opacity: '0.11',
+      marginRight : '100px',
+    }, -3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
 
 // animate left using toggole by default 
 
@@ -514,8 +563,6 @@ $(document).ready(function(){
 // animate left using toggole fastly 
 
 
-
-
 $(document).ready(function(){
   $("#dbclickAnimateToggoleFastly").dblclick(function(){
     $("#dbclickAnimateEffectToggoleFastly").animate({
@@ -527,6 +574,58 @@ $(document).ready(function(){
     });
   });
 });
+
+
+
+// animate right using toggole by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleRight").dblclick(function(){
+    $("#dbclickAnimateToggoleRightEffect").animate({
+      opacity: '0.35',
+      marginRight : '150px',
+      height: "toggle"
+    });
+  });
+});
+
+
+
+// animate right using toggole slowly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleSlowlyRight").dblclick(function(){
+    $("#dbclickAnimateToggoleEffectSlowlyRight").animate({
+      opacity: '0.15',
+      marginRight : '200px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+// animate left using toggole fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleFastlyRight").dblclick(function(){
+    $("#dbclickAnimateToggoleEffectFastlyRight").animate({
+      opacity: '0.55',
+      marginRight : '300px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
 
 // animate top by default 
 
