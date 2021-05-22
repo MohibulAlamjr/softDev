@@ -724,13 +724,141 @@ $(document).ready(function(){
 
 /////////////////// stop Animation /////////////////////////////////
 
-// stop animation by default 
+// stop animation(sildedown) by default 
+
 
 $(document).ready(function(){
-  $("#dbclickStopAnimate").dblclick(function(){
-    $("#dbclickStopAnimateEffect").slideDown();
+  $("#dbclickstartAnimate").dblclick(function(){
+    $("#dbclickstartAnimateEffect").slideDown();
   });
-  $("#dbclickButtonStop").dblclick(function(){
-    $("#dbclickStopAnimateEffect").stop();
+  $("#dbclickstopAnimate").dblclick(function(){
+    $("#dbclickstartAnimateEffect").stop();
+  });
+});
+
+
+// stop animation (sildedown)slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickstartAnimateSlowly").dblclick(function(){
+    $("#dbclickstartAnimateEffectSlowly").slideDown(3000);
+  });
+  $("#dbclickstopAnimateSlowly").dblclick(function(){
+    $("#dbclickstartAnimateEffectSlowly").stop();
+  });
+});
+
+
+
+// stop animation(slidedown) fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickstartAnimateFastly").dblclick(function(){
+    $("#dbclickstartAnimateEffectFastly").slideDown(-3000);
+  });
+  $("#dbclickstopAnimateFastly").dblclick(function(){
+    $("#dbclickstartAnimateEffectFastly").stop();
+  });
+});
+
+
+
+// stop animation (slideup)by default 
+
+
+$(document).ready(function(){
+  $("#dbclickstartslideupAnimate").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffect").slideUp();
+  });
+  $("#dbclickstopslideupAnimate").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffect").stop();
+  });
+});
+
+
+
+
+// stop animation (slideup) slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickstartslideupAnimateSlowly").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffectSlowly").slideUp(3000);
+  });
+  $("#dbclickstopslideupAnimateSlowly").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffectSlowly").stop();
+  });
+});
+
+
+
+
+// stop animation (slideup) fastly
+
+
+$(document).ready(function(){
+  $("#dbclickstartslideupAnimateFastly").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffectFastly").slideUp(-3000);
+  });
+  $("#dbclickstopslideupAnimateFastly").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffectFastly").stop();
+  });
+});
+
+
+
+// stop animation (toggole)by default 
+
+
+$(document).ready(function(){
+  $("#dbclickstartToggoleAnimate").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffect").toggle();
+  });
+  $("#dbclickstopToggoleAnimate").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffect").stop();
+  });
+});
+
+
+
+// stop animation (toggole) slowly
+
+
+$(document).ready(function(){
+  $("#dbclickstartToggoleAnimateSlowly").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffectSlowly").toggle(3000);
+  });
+  $("#dbclickstopToggoleAnimateSlowly").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffectSlowly").stop();
+  });
+});
+
+
+
+
+// stop animation (toggole) fastly
+
+
+$(document).ready(function(){
+  $("#dbclickstartToggoleAnimateFastly").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffectFastly").toggle(-3000);
+  });
+  $("#dbclickstopToggoleAnimateFastly").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffectFastly").stop();
+  });
+});
+
+
+
+////////////////// callback /////////////////////////////
+
+
+$(document).ready(function(){
+  $("#dblclickCallback").dblclick(function(){
+    $("#dblclickCallbackEffect").hide("slow", function(){
+      alert("The paragraph is now hidden");
+    });
   });
 });
