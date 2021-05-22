@@ -610,7 +610,7 @@ $(document).ready(function(){
 
 
 
-// animate left using toggole fastly 
+// animate right using toggole fastly 
 
 
 $(document).ready(function(){
@@ -730,7 +730,7 @@ $(document).ready(function(){
   $("#dbclickStopAnimate").dblclick(function(){
     $("#dbclickStopAnimateEffect").slideDown();
   });
-  $("#dbclickButtonStop").click(function(){
+  $("#dbclickButtonStop").dblclick(function(){
     $("#dbclickStopAnimateEffect").stop();
   });
 });
