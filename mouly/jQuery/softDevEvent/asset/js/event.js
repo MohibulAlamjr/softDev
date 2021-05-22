@@ -854,11 +854,97 @@ $(document).ready(function(){
 
 ////////////////// callback /////////////////////////////
 
+// callback by defaul 
+
 
 $(document).ready(function(){
   $("#dblclickCallback").dblclick(function(){
-    $("#dblclickCallbackEffect").hide("slow", function(){
-      alert("The paragraph is now hidden");
+    $("#dblclickCallbackEffect").hide( function(){
+      let a = $("#dblclickCallbackEffect").text();
+      alert(a);
     });
+  });
+});
+
+
+// callback slowly 
+
+
+$(document).ready(function(){
+  $("#dblclickCallbackSlowly").dblclick(function(){
+    $("#dblclickCallbackEffectSlowly").hide(3000, function(){
+      let a = $("#dblclickCallbackEffectSlowly").text();
+      alert(a);
+    });
+  });
+});
+
+
+// callback fastly 
+
+
+
+$(document).ready(function(){
+  $("#dblclickCallbackFastly").dblclick(function(){
+    $("#dblclickCallbackEffectFastly").hide(-3000, function(){
+      let a = $("#dblclickCallbackEffectFastly").text();
+      alert(a);
+    });
+  });
+});
+
+
+/////////////////// chaining /////////////////////////////////////
+
+
+
+// chaining using slideup and slide down by default 
+
+
+
+$(document).ready(function(){
+  $("#dbclickChaining").click(function(){
+    $("#dbclickChainingEffect").css("color", "red").slideUp().slideDown();
+  });
+});
+
+
+
+// chaining using slideup and slide down slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickChainingSlowly").click(function(){
+    $("#dbclickChainingEffectSlowly").css("color", "violet").slideUp(3000).slideDown(3000);
+  });
+});
+
+// slideup slowly
+
+$(document).ready(function(){
+  $("#dbclickChainingSlowlySlideup").click(function(){
+    $("#dbclickChainingEffectSlowlySlideup").css("color", "violet").slideUp(3000).slideDown(-3000);
+  });
+});
+
+
+
+
+// chaining using slideup and slide down fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickChainingFastly").click(function(){
+    $("#dbclickChainingEffectFastly").css("color", "blue").slideUp(3000).slideDown(3000);
+  });
+});
+
+
+// slideup fastly
+
+
+$(document).ready(function(){
+  $("#dbclickChainingFastlySlideup").click(function(){
+    $("#dbclickChainingEffectFastlySlideup").css("color", "blue").slideUp(-3000).slideDown(3000);
   });
 });
