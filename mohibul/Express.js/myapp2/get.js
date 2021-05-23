@@ -10,6 +10,16 @@ const app = express();
  })
 
 
+ app.get("/header",function(req,res){
+   var fname = req.header('fname');
+   var lname = req.header('lname');
+   res.send(fname + " "+ lname)
+
+})
+
+
  app.listen(port,function(){
     console.log("Example app listening at http://localhost:"+ port)
 })
+
+
