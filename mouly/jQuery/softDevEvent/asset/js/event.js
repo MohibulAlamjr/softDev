@@ -430,18 +430,530 @@ $(document).ready(function(){
 //////////////////// animation /////////////////////////////////////
 
 
-// animate by default 
+// animate left by default 
 
 
 $(document).ready(function(){
   $("#dbclickAnimate").dblclick(function(){
     $("#dbclickAnimateEffect").animate({
-      
-      left: '250px',
       opacity: '0.5',
-      height: '150px',
-      width: '150px'
-     
+      marginLeft : '100px'
     });
+  });
+});
+
+// animate left by slowly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateSlowly").dblclick(function(){
+    $("#dbclickAnimateEffectSlowly").animate({
+      opacity: '0.32',
+      marginLeft : '100px'
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+// animate left by fastly 
+
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateFastly").dblclick(function(){
+    $("#dbclickAnimateEffectFastly").animate({
+      opacity: '0.11',
+      marginLeft : '100px',
+    }, -3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+// animate right by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateRight").dblclick(function(){
+    $("#dbclickAnimateRightEffect").animate({
+      opacity: '0.5',
+      marginRight : '100px'
+    });
+  });
+});
+
+
+
+// animate left by slowly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateRightSlowly").dblclick(function(){
+    $("#dbclickAnimateRightEffectSlowly").animate({
+      opacity: '0.32',
+      marginRight : '100px'
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+// animate left by fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateRightFastly").dblclick(function(){
+    $("#dbclickAnimaterightEffectFastly").animate({
+      opacity: '0.11',
+      marginRight : '100px',
+    }, -3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+
+// animate left using toggole by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggole").dblclick(function(){
+    $("#dbclickAnimateEffectToggole").animate({
+      opacity: '0.35',
+      marginLeft : '100px',
+      height: "toggle"
+    });
+  });
+});
+
+
+
+// animate left using toggole slowly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleSlowly").dblclick(function(){
+    $("#dbclickAnimateEffectToggoleSlowly").animate({
+      opacity: '0.15',
+      marginLeft : '100px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+// animate left using toggole fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleFastly").dblclick(function(){
+    $("#dbclickAnimateEffectToggoleFastly").animate({
+      opacity: '0.55',
+      marginLeft : '100px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+// animate right using toggole by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleRight").dblclick(function(){
+    $("#dbclickAnimateToggoleRightEffect").animate({
+      opacity: '0.35',
+      marginRight : '150px',
+      height: "toggle"
+    });
+  });
+});
+
+
+
+// animate right using toggole slowly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleSlowlyRight").dblclick(function(){
+    $("#dbclickAnimateToggoleEffectSlowlyRight").animate({
+      opacity: '0.15',
+      marginRight : '200px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+// animate right using toggole fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateToggoleFastlyRight").dblclick(function(){
+    $("#dbclickAnimateToggoleEffectFastlyRight").animate({
+      opacity: '0.55',
+      marginRight : '300px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+// animate top by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTop").dblclick(function(){
+    $("#dbclickAnimateTopEffect").animate({
+      opacity: '0.5',
+      marginTop : "-=30px"
+    });
+  });
+});
+
+
+// animate top slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopSlowly").dblclick(function(){
+    $("#dbclickAnimateTopEffectSlowly").animate({
+      opacity: '0.32',
+      marginTop : '-=20px'
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+// animate top fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopFastly").dblclick(function(){
+    $("#dbclickAnimateTopEffectFastly").animate({
+      opacity: '0.11',
+      marginTop : '-=20px',
+    }, -3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+// animate top using toggole by default 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopToggole").dblclick(function(){
+    $("#dbclickAnimateTopToggoleEffect").animate({
+      opacity: '0.5',
+      marginTop : "-=30px",
+      height: "toggle"
+    });
+  });
+});
+
+
+
+// animate top using toggole slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopToggoleSlowly").dblclick(function(){
+    $("#dbclickAnimateTopToggoleEffectSlowly").animate({
+      opacity: '0.32',
+      marginTop : '-=20px',
+      height: "toggle"
+    }, 3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+// animate top using toggole fastly 
+
+
+
+$(document).ready(function(){
+  $("#dbclickAnimateTopToggoleFastly").dblclick(function(){
+    $("#dbclickAnimateTopToggoleEffectFastly").animate({
+      opacity: '0.11',
+      marginTop : '-=20px',
+      height: "toggle"
+    }, -3000, function() {
+      // Animation complete.
+    });
+  });
+});
+
+
+
+
+
+
+
+
+
+
+
+/////////////////// stop Animation /////////////////////////////////
+
+// stop animation(sildedown) by default 
+
+
+$(document).ready(function(){
+  $("#dbclickstartAnimate").dblclick(function(){
+    $("#dbclickstartAnimateEffect").slideDown();
+  });
+  $("#dbclickstopAnimate").dblclick(function(){
+    $("#dbclickstartAnimateEffect").stop();
+  });
+});
+
+
+// stop animation (sildedown)slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickstartAnimateSlowly").dblclick(function(){
+    $("#dbclickstartAnimateEffectSlowly").slideDown(3000);
+  });
+  $("#dbclickstopAnimateSlowly").dblclick(function(){
+    $("#dbclickstartAnimateEffectSlowly").stop();
+  });
+});
+
+
+
+// stop animation(slidedown) fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickstartAnimateFastly").dblclick(function(){
+    $("#dbclickstartAnimateEffectFastly").slideDown(-3000);
+  });
+  $("#dbclickstopAnimateFastly").dblclick(function(){
+    $("#dbclickstartAnimateEffectFastly").stop();
+  });
+});
+
+
+
+// stop animation (slideup)by default 
+
+
+$(document).ready(function(){
+  $("#dbclickstartslideupAnimate").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffect").slideUp();
+  });
+  $("#dbclickstopslideupAnimate").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffect").stop();
+  });
+});
+
+
+
+
+// stop animation (slideup) slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickstartslideupAnimateSlowly").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffectSlowly").slideUp(3000);
+  });
+  $("#dbclickstopslideupAnimateSlowly").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffectSlowly").stop();
+  });
+});
+
+
+
+
+// stop animation (slideup) fastly
+
+
+$(document).ready(function(){
+  $("#dbclickstartslideupAnimateFastly").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffectFastly").slideUp(-3000);
+  });
+  $("#dbclickstopslideupAnimateFastly").dblclick(function(){
+    $("#dbclickstartslideupAnimateEffectFastly").stop();
+  });
+});
+
+
+
+// stop animation (toggole)by default 
+
+
+$(document).ready(function(){
+  $("#dbclickstartToggoleAnimate").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffect").toggle();
+  });
+  $("#dbclickstopToggoleAnimate").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffect").stop();
+  });
+});
+
+
+
+// stop animation (toggole) slowly
+
+
+$(document).ready(function(){
+  $("#dbclickstartToggoleAnimateSlowly").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffectSlowly").toggle(3000);
+  });
+  $("#dbclickstopToggoleAnimateSlowly").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffectSlowly").stop();
+  });
+});
+
+
+
+
+// stop animation (toggole) fastly
+
+
+$(document).ready(function(){
+  $("#dbclickstartToggoleAnimateFastly").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffectFastly").toggle(-3000);
+  });
+  $("#dbclickstopToggoleAnimateFastly").dblclick(function(){
+    $("#dbclickstartToggoleAnimateEffectFastly").stop();
+  });
+});
+
+
+
+////////////////// callback /////////////////////////////
+
+// callback by defaul 
+
+
+$(document).ready(function(){
+  $("#dblclickCallback").dblclick(function(){
+    $("#dblclickCallbackEffect").hide( function(){
+      let a = $("#dblclickCallbackEffect").text();
+      alert(a);
+    });
+  });
+});
+
+
+// callback slowly 
+
+
+$(document).ready(function(){
+  $("#dblclickCallbackSlowly").dblclick(function(){
+    $("#dblclickCallbackEffectSlowly").hide(3000, function(){
+      let a = $("#dblclickCallbackEffectSlowly").text();
+      alert(a);
+    });
+  });
+});
+
+
+// callback fastly 
+
+
+
+$(document).ready(function(){
+  $("#dblclickCallbackFastly").dblclick(function(){
+    $("#dblclickCallbackEffectFastly").hide(-3000, function(){
+      let a = $("#dblclickCallbackEffectFastly").text();
+      alert(a);
+    });
+  });
+});
+
+
+/////////////////// chaining /////////////////////////////////////
+
+
+
+// chaining using slideup and slide down by default 
+
+
+
+$(document).ready(function(){
+  $("#dbclickChaining").click(function(){
+    $("#dbclickChainingEffect").css("color", "red").slideUp().slideDown();
+  });
+});
+
+
+
+// chaining using slideup and slide down slowly 
+
+
+$(document).ready(function(){
+  $("#dbclickChainingSlowly").click(function(){
+    $("#dbclickChainingEffectSlowly").slideUp(3000).slideDown(3000);
+  });
+});
+
+// slideup slowly
+
+$(document).ready(function(){
+  $("#dbclickChainingSlowlySlideup").click(function(){
+    $("#dbclickChainingEffectSlowlySlideup").slideUp(3000).slideDown(-3000);
+  });
+});
+
+
+
+
+// chaining using slideup and slide down fastly 
+
+
+$(document).ready(function(){
+  $("#dbclickChainingFastly").click(function(){
+    $("#dbclickChainingEffectFastly").css("color", "blue").slideUp(3000).slideDown(3000);
+  });
+});
+
+
+// slideup fastly
+
+
+$(document).ready(function(){
+  $("#dbclickChainingFastlySlideup").click(function(){
+    $("#dbclickChainingEffectFastlySlideup").css("color", "blue").slideUp(-3000).slideDown(3000);
   });
 });

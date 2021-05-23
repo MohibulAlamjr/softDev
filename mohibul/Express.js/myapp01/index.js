@@ -63,6 +63,14 @@ app.get('/cooki',function(req,res){
    
 })
 
+app.get('/clcooki',function(req,res){
+    res.clearCookie('name');
+
+    res.end("clear cookie done");
+    
+   
+})
+
  app.listen(port,function(){
      console.log("Example app listening at http://localhost:"+ port)
  })
