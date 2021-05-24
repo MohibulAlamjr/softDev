@@ -70,9 +70,6 @@ $(document).ready(function(){
 });
 
 
-
-
-
 // The on() Method
 $(document).ready(function(){
   $("#p5").on("click", function(){
