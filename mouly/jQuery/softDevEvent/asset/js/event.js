@@ -722,6 +722,15 @@ $(document).ready(function(){
 });
 
 
+
+
+
+
+
+
+
+
+
 /////////////////// stop Animation /////////////////////////////////
 
 // stop animation(sildedown) by default 
@@ -915,7 +924,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#dbclickChainingSlowly").click(function(){
-    $("#dbclickChainingEffectSlowly").css("color", "violet").slideUp(3000).slideDown(3000);
+    $("#dbclickChainingEffectSlowly").slideUp(3000).slideDown(3000);
   });
 });
 
@@ -923,7 +932,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#dbclickChainingSlowlySlideup").click(function(){
-    $("#dbclickChainingEffectSlowlySlideup").css("color", "violet").slideUp(3000).slideDown(-3000);
+    $("#dbclickChainingEffectSlowlySlideup").slideUp(3000).slideDown(-3000);
   });
 });
 

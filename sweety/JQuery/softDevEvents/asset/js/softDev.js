@@ -391,43 +391,557 @@ $(document).ready(function(){
 
 
 // For Stop Method 
+// Stop Slide Down for 5000
 
 $(document).ready(function(){
-  $("#stopSlideDownEffect").css("display","none");
-  $("#startSlideDown").mouseenter(function(){
-    $("#stopSlideDownEffect").slideDown(5000);
+  $("#stopSlideDownEffect5000").css("display","none");
+  $("#startSlideDown5000").mouseenter(function(){
+    $("#stopSlideDownEffect5000").slideDown(5000);
   });
-  $("#stopSlideDown").mouseenter(function(){
-    $("#stopSlideDownEffect").stop();
+  $("#stopSlideDown5000").mouseenter(function(){
+    $("#stopSlideDownEffect5000").stop();
+  });
+});
+
+// Stop Slide Down For 3000
+
+
+$(document).ready(function(){
+  $("#stopSlideDownEffect3000").css("display","none");
+  $("#startSlideDown3000").mouseenter(function(){
+    $("#stopSlideDownEffect3000").slideDown(3000);
+  });
+  $("#stopSlideDown3000").mouseenter(function(){
+    $("#stopSlideDownEffect3000").stop();
+  });
+});
+
+// Slide down for 2000
+
+
+$(document).ready(function(){
+  $("#stopSlideDownEffect2000").css("display","none");
+  $("#startSlideDown2000").mouseenter(function(){
+    $("#stopSlideDownEffect2000").slideDown(2000);
+  });
+  $("#stopSlideDown2000").mouseenter(function(){
+    $("#stopSlideDownEffect2000").stop();
+  });
+});
+
+// Stop Slide Down For 1500
+
+
+$(document).ready(function(){
+  $("#stopSlideDownEffect1500").css("display","none");
+  $("#startSlideDown1500").mouseenter(function(){
+    $("#stopSlideDownEffect1500").slideDown(1500);
+  });
+  $("#stopSlideDown1500").mouseenter(function(){
+    $("#stopSlideDownEffect1500").stop();
+  });
+});
+
+// Stop Slide Down for 700
+
+
+$(document).ready(function(){
+  $("#stopSlideDownEffect700").css("display","none");
+  $("#startSlideDown700").mouseenter(function(){
+    $("#stopSlideDownEffect700").slideDown(700);
+  });
+  $("#stopSlideDown700").mouseenter(function(){
+    $("#stopSlideDownEffect700").stop();
+  });
+});
+
+// Stop Slide down for 1000
+
+
+$(document).ready(function(){
+  $("#stopSlideDownEffect1000").css("display","none");
+  $("#startSlideDown1000").mouseenter(function(){
+    $("#stopSlideDownEffect1000").slideDown(1000);
+  });
+  $("#stopSlideDown1000").mouseenter(function(){
+    $("#stopSlideDownEffect1000").stop();
+  });
+});
+
+// Stop Slide down for 1200 
+
+
+$(document).ready(function(){
+  $("#stopSlideDownEffect1200").css("display","none");
+  $("#startSlideDown1200").mouseenter(function(){
+    $("#stopSlideDownEffect1200").slideDown(1200);
+  });
+  $("#stopSlideDown1200").mouseenter(function(){
+    $("#stopSlideDownEffect1200").stop();
+  });
+});
+
+// For Stop SlideDown All 
+
+
+$(document).ready(function(){
+
+  $("#stopSlideDownEffect5000").css("display","none");
+  $("#stopSlideDownEffect3000").css("display","none");
+  $("#stopSlideDownEffect2000").css("display","none");
+  $("#stopSlideDownEffect1500").css("display","none");
+  $("#stopSlideDownEffect1200").css("display","none");
+  $("#stopSlideDownEffect1000").css("display","none");
+  $("#stopSlideDownEffect700").css("display","none");
+
+  $("#startSlideDownAll").mouseenter(function(){
+    $("#stopSlideDownEffect5000").slideDown(5000);
+    $("#stopSlideDownEffect3000").slideDown(3000);
+    $("#stopSlideDownEffect2000").slideDown(2000);
+    $("#stopSlideDownEffect1500").slideDown(1500);
+    $("#stopSlideDownEffect1200").slideDown(1200);
+    $("#stopSlideDownEffect1000").slideDown(1000);
+    $("#stopSlideDownEffect700").slideDown(700);
+  });
+  $("#stopSlideDownAll").mouseenter(function(){
+    $("#stopSlideDownEffect5000").stop();
+    $("#stopSlideDownEffect3000").stop();
+    $("#stopSlideDownEffect2000").stop();
+    $("#stopSlideDownEffect1500").stop();
+    $("#stopSlideDownEffect1200").stop();
+    $("#stopSlideDownEffect1000").stop();
+    $("#stopSlideDownEffect700").stop();
+  });
+});
+
+// Stop Slide Up for 5000
+
+
+$(document).ready(function(){
+  $("#startSlideUp5000").mouseenter(function(){
+    $("#stopSlideUpEffect5000").slideUp(5000);
+  });
+  $("#stopSlideUp5000").mouseenter(function(){
+    $("#stopSlideUpEffect5000").stop();
+  });
+});
+
+// Stop slide up for 3000
+
+
+$(document).ready(function(){
+  $("#startSlideUp3000").mouseenter(function(){
+    $("#stopSlideUpEffect3000").slideUp(3000);
+  });
+  $("#stopSlideUp3000").mouseenter(function(){
+    $("#stopSlideUpEffect3000").stop();
   });
 });
 
 
+// Stop Slide up for 2000
 
 
+$(document).ready(function(){
+  $("#startSlideUp2000").mouseenter(function(){
+    $("#stopSlideUpEffect2000").slideUp(2000);
+  });
+  $("#stopSlideUp2000").mouseenter(function(){
+    $("#stopSlideUpEffect2000").stop();
+  });
+});
 
 
+// Stop Slide Up for 1500
 
 
+$(document).ready(function(){
+  $("#startSlideUp1500").mouseenter(function(){
+    $("#stopSlideUpEffect1500").slideUp(1500);
+  });
+  $("#stopSlideUp1500").mouseenter(function(){
+    $("#stopSlideUpEffect1500").stop();
+  });
+});
 
 
+// Stop SlideUp for 1000
 
 
+$(document).ready(function(){
+  $("#startSlideUp1000").mouseenter(function(){
+    $("#stopSlideUpEffect1000").slideUp(1000);
+  });
+  $("#stopSlideUp1000").mouseenter(function(){
+    $("#stopSlideUpEffect1000").stop();
+  });
+});
+
+// Stop Slide up for 500
 
 
+$(document).ready(function(){
+  $("#startSlideUp500").mouseenter(function(){
+    $("#stopSlideUpEffect500").slideUp(500);
+  });
+  $("#stopSlideUp500").mouseenter(function(){
+    $("#stopSlideUpEffect500").stop();
+  });
+});
+
+// Stop Slide Up for 1200
+
+$(document).ready(function(){
+  $("#startSlideUp1200").mouseenter(function(){
+    $("#stopSlideUpEffect1200").slideUp(1200);
+  });
+  $("#stopSlideUp1200").mouseenter(function(){
+    $("#stopSlideUpEffect1200").stop();
+  });
+});
+
+// Stop Slide Up for All 
 
 
+$(document).ready(function(){
+
+  $("#startSlideUpAll").mouseenter(function(){
+    $("#stopSlideUpEffect5000").slideUp(5000);
+    $("#stopSlideUpEffect3000").slideUp(3000);
+    $("#stopSlideUpEffect2000").slideUp(2000);
+    $("#stopSlideUpEffect1500").slideUp(1500);
+    $("#stopSlideUpEffect1200").slideUp(1200);
+    $("#stopSlideUpEffect1000").slideUp(1000);
+    $("#stopSlideUpEffect500").slideUp(500);
+  });
+  $("#stopSlideUpAll").mouseenter(function(){
+    $("#stopSlideUpEffect5000").stop();
+    $("#stopSlideUpEffect3000").stop();
+    $("#stopSlideUpEffect2000").stop();
+    $("#stopSlideUpEffect1500").stop();
+    $("#stopSlideUpEffect1200").stop();
+    $("#stopSlideUpEffect1000").stop();
+    $("#stopSlideUpEffect500").stop();
+  });
+});
 
 
+// Stop For Toggle 2000
+
+$(document).ready(function(){
+  $("#startSlideToggle2000").mouseenter(function(){
+    $("#stopSlideToggleEffect2000").slideToggle(2000);
+  });
+  $("#stopSlideToggle2000").mouseenter(function(){
+    $("#stopSlideToggleEffect2000").stop();
+  });
+});
+
+//Stop Slide toggle for 3000
+
+$(document).ready(function(){
+  $("#startSlideToggle3000").mouseenter(function(){
+    $("#stopSlideToggleEffect3000").slideToggle(3000);
+  });
+  $("#stopSlideToggle3000").mouseenter(function(){
+    $("#stopSlideToggleEffect3000").stop();
+  });
+});
+
+// Stop Slide Toggle for 1500
+
+$(document).ready(function(){
+  $("#startSlideToggle1500").mouseenter(function(){
+    $("#stopSlideToggleEffect1500").slideToggle(1500);
+  });
+  $("#stopSlideToggle1500").mouseenter(function(){
+    $("#stopSlideToggleEffect1500").stop();
+  });
+});
+
+//Stop Slide toggle for 1000
+
+$(document).ready(function(){
+  $("#startSlideToggle1000").mouseenter(function(){
+    $("#stopSlideToggleEffect1000").slideToggle(1000);
+  });
+  $("#stopSlideToggle1000").mouseenter(function(){
+    $("#stopSlideToggleEffect1000").stop();
+  });
+});
+
+//Stop Slide Toggle for 500
+
+$(document).ready(function(){
+  $("#startSlideToggle500").mouseenter(function(){
+    $("#stopSlideToggleEffect500").slideToggle(500);
+  });
+  $("#stopSlideToggle500").mouseenter(function(){
+    $("#stopSlideToggleEffect500").stop();
+  });
+});
 
 
+// Stop Slide Toggle for All 
 
 
+$(document).ready(function(){
+
+  $("#startSlideToggleAll").mouseenter(function(){
+    $("#stopSlideToggleEffect3000").slideToggle(3000);
+    $("#stopSlideToggleEffect2000").slideToggle(2000);
+    $("#stopSlideToggleEffect1500").slideToggle(1500);
+    $("#stopSlideToggleEffect1000").slideToggle(1000);
+    $("#stopSlideToggleEffect500").slideToggle(500);
+  });
+  $("#stopSlideToggleAll").mouseenter(function(){
+    $("#stopSlideToggleEffect3000").stop();
+    $("#stopSlideToggleEffect2000").stop();
+    $("#stopSlideToggleEffect1500").stop();
+    $("#stopSlideToggleEffect1000").stop();
+    $("#stopSlideToggleEffect500").stop();
+  });
+});
+
+// Chaining Function 
+
+// Chaining for more slow
+
+$(document).ready(function(){
+  $("#mouseEnterChainingMoreSlow").mouseenter(function(){
+    $("#mouseEnterChainingEffectMoreSlow")
+      .slideUp(2000)
+      .slideDown(2000);
+  });
+});
+
+// Chaining for so slow
+
+$(document).ready(function(){
+  $("#mouseEnterChainingSoSlow").mouseenter(function(){
+    $("#mouseEnterChainingEffectSoSlow")
+      .slideUp(3000)
+      .slideDown(3000);
+  });
+});
+
+// Chaining for medium slow
+
+$(document).ready(function(){
+  $("#mouseEnterChainingMediumSlow").mouseenter(function(){
+    $("#mouseEnterChainingEffectMediumSlow")
+      .slideUp(1500)
+      .slideDown(1500);
+  });
+});
+
+// Chaining for slow 
+
+$(document).ready(function(){
+  $("#mouseEnterChainingSlow").mouseenter(function(){
+    $("#mouseEnterChainingEffectSlow")
+      .slideUp("slow")
+      .slideDown("slow");
+  });
+});
+
+// Chaining for Fast 
+
+$(document).ready(function(){
+  $("#mouseEnterChainingFast").mouseenter(function(){
+    $("#mouseEnterChainingEffectFast")
+      .slideUp(300)
+      .slideDown(300);
+  });
+});
+
+// Chaining for fast and slow 
+
+$(document).ready(function(){
+  $("#mouseEnterChainingFastSlow").mouseenter(function(){
+    $("#mouseEnterChainingEffectFastSlow")
+      .slideUp(300)
+      .slideDown(3000);
+  });
+});
 
 
+// For Animation 
+
+// Animate for Left 250px
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateLeft250px").mouseenter(function(){
+    $("#mouseEnterAnimateLeft250pxEffect").animate({left: '250px'});
+  });
+});
 
 
+// Animate for Left 150px
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateLeft150px").mouseenter(function(){
+    $("#mouseEnterAnimateLeft150pxEffect").animate({left: '150px'});
+  });
+});
 
 
+// Animate for Left 100px
 
+$(document).ready(function(){
+  $("#mouseEnterAnimateLeft100px").mouseenter(function(){
+    $("#mouseEnterAnimateLeft100pxEffect").animate({left: '100px'});
+  });
+});
+
+
+// Animate for Left 50px
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateLeft50px").mouseenter(function(){
+    $("#mouseEnterAnimateLeft50pxEffect").animate({left: '50px'});
+  });
+});
+
+// Animate for Right 250px 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateRight250px").mouseenter(function(){
+    $("#mouseEnterAnimateRight250pxEffect").animate({right: '250px'});
+  });
+});
+
+
+// Animate for Right 150px 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateRight150px").mouseenter(function(){
+    $("#mouseEnterAnimateRight150pxEffect").animate({right: '150px'});
+  });
+});
+
+
+// Animate for Right 100px 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateRight100px").mouseenter(function(){
+    $("#mouseEnterAnimateRight100pxEffect").animate({right: '100px'});
+  });
+});
+
+
+// Animate for Right 50px 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateRight50px").mouseenter(function(){
+    $("#mouseEnterAnimateRight50pxEffect").animate({right: '50px'});
+  });
+});
+
+// Animate for left 250px with innerHeight,width and opacity 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateLeft250HeightWidthOpacity").mouseenter(function(){
+    $("#mouseEnterAnimateLeft250HeightWidthOpacityEffect").animate({
+      left: '250px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+
+// Animate for left 150px with innerHeight,width and opacity 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateLeft150HeightWidthOpacity").mouseenter(function(){
+    $("#mouseEnterAnimateLeft150HeightWidthOpacityEffect").animate({
+      left: '150px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+
+
+// Animate for left 100px with innerHeight,width and opacity 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateLeft100HeightWidthOpacity").mouseenter(function(){
+    $("#mouseEnterAnimateLeft100HeightWidthOpacityEffect").animate({
+      left: '100px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+
+
+// Animate for left 50px with innerHeight,width and opacity 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateLeft50HeightWidthOpacity").mouseenter(function(){
+    $("#mouseEnterAnimateLeft50HeightWidthOpacityEffect").animate({
+      left: '50px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+
+// Animate for Right 250px with innerHeight,width and opacity 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateRight250HeightWidthOpacity").mouseenter(function(){
+    $("#mouseEnterAnimateRight250HeightWidthOpacityEffect").animate({
+      right: '250px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+
+
+// Animate for Right 150px with innerHeight,width and opacity 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateRight150HeightWidthOpacity").mouseenter(function(){
+    $("#mouseEnterAnimateRight150HeightWidthOpacityEffect").animate({
+      right: '150px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+
+// Animate for Right 100px with innerHeight,width and opacity 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateRight100HeightWidthOpacity").mouseenter(function(){
+    $("#mouseEnterAnimateRight100HeightWidthOpacityEffect").animate({
+      right: '100px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+
+// Animate for Right 50px with innerHeight,width and opacity 
+
+$(document).ready(function(){
+  $("#mouseEnterAnimateRight50HeightWidthOpacity").mouseenter(function(){
+    $("#mouseEnterAnimateRight50HeightWidthOpacityEffect").animate({
+      right: '50px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
 
