@@ -957,3 +957,5 @@ $(document).ready(function(){
     $("#dbclickChainingEffectFastlySlideup").css("color", "blue").slideUp(-3000).slideDown(3000);
   });
 });
+
+
