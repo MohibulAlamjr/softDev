@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Hello from './firstcomponents/Hello'
+import Welcome from './firstcomponents/Classcom'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className = "App">
+     <h1>{1+4+7}</h1>
+     <h1>Serajum Munira</h1>
+
+     <Hello name = "Serajum" age = "24"></Hello>
+     <Hello name = "Munira" age = "25"></Hello>
+     <Hello name = "Mouly" age = "26"></Hello>
+     <Hello name = "Era" age = "16"></Hello>
+     <Hello name = "Ema" age = "28"></Hello>
+
+     <Welcome></Welcome>
+
+
+   </div>
   );
 }
 
