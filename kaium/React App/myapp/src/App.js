@@ -1,7 +1,6 @@
 import './App.css';
-import Hello from './mycomponent/Hello'
-import Welcome from './mycomponent/Welcome'
 import Arrow from './mycomponent/Arrow'
+
 import'../../myapp/node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
