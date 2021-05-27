@@ -3,7 +3,8 @@ import Hi from './mycomp/Hi';
 import Welcome from './mycomp/Welcome';
 import Bio from './mycomp/Bio';
 import Arrowf from './mycomp/Arrowf';
-import Statec from './mycomp/Statec'
+import Statec from './mycomp/Statec';
+import Stchange from './mycomp/Stchange'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -20,7 +21,12 @@ function App() {
       <Bio fname='Md. Al' lname='Kaium' age='22'></Bio>
       <Arrowf fruits="Mango" vagetable="Potato"> </Arrowf><br/> <br/>
       <Arrowf fruits="Banana" vagetable="All"> </Arrowf>
-      <Statec></Statec>
+      <Statec></Statec><br/> <br/>
+      <Stchange name="Alam"></Stchange>
+      <Stchange name="mouly"></Stchange>
+      <Stchange name="sweety"></Stchange>
+      <Stchange name="kaium"></Stchange>
+
 
     </div>
   );
