@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Hi from './mycomp/Hi';
 import Welcome from './mycomp/Welcome';
 import Bio from './mycomp/Bio';
@@ -8,6 +7,9 @@ import Stchange from './mycomp/Stchange';
 import Login from './mycomp/Login';
 import Refresh from './mycomp/Refresh';
 import Elements from './mycomp/Elements';
+import Renderm from './mycomp/Renderm';
+import Finddom from './mycomp/Finddom';
+import Form from './mycomp/Form';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -32,6 +34,9 @@ function App() {
       <Login></Login>
       <Elements></Elements>
       <Refresh></Refresh>
+      <Renderm></Renderm>
+      <Finddom></Finddom>
+      <Form></Form>
 
 
     </div>
