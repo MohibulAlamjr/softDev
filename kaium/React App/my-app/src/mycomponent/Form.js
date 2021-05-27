@@ -21,7 +21,7 @@ onSubmitHandler=()=>{
             <div>
                 <form onSubmit={this.onSubmitHandler}>
                     <p>First Form</p>
-                    <p>{this.state.name}</p>
+                    <h5>{this.state.name}</h5>
                     <input onChange={this.onChangeHandler} type="text" placeholder="Your name"></input>
                     <button className="btn btn-primary" type="submit" value="Submit Now">Submit</button>
                 </form>
