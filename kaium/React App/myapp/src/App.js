@@ -1,7 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Hello from './mycomponent/Hello'
-import Welcome from './mycomponent/Welcome'
+import Arrow from './mycomponent/Arrow'
+
+import'../../myapp/node_modules/bootstrap/dist/css/bootstrap.min.css'
+
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +15,8 @@ function App() {
       <Welcome value="Salam" age="23"></Welcome>
       <Welcome value="Kamal" age="25"></Welcome>
       <Welcome value="jamal" age="30"></Welcome>
+      <Arrow></Arrow>
+      
     </div>
   );
 }
