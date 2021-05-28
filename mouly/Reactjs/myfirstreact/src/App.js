@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 
+
 import Hello from './firstcomponents/Hello'
 import Welcome from './firstcomponents/Classcom'
 import Arrow from './firstcomponents/Arrow'
@@ -8,6 +9,10 @@ import Setstate from './firstcomponents/Setstate'
 import Condition1 from './firstcomponents/Condition1'
 import Element from './firstcomponents/Element'
 import Refresh from './firstcomponents/Refresh'
+import Demo from './firstcomponents/Demo'
+import FindDomnode from './firstcomponents/FindDomnode'
+import Form from './firstcomponents/Form'
+import Signup from './firstcomponents/Signup'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 function App() {
@@ -29,6 +34,10 @@ function App() {
     <Condition1></Condition1> 
     <Element></Element>
     <Refresh></Refresh>
+    <Demo></Demo>
+    <FindDomnode></FindDomnode> <br></br>
+    <Form></Form>
+    <Signup></Signup>
 
 
    </div>
