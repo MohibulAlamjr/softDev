@@ -11,6 +11,7 @@ import Signup from './mycomp/Signup';
 import Renderm from './mycomp/Renderm';
 import Finddom from './mycomp/Finddom';
 import Form from './mycomp/Form';
+import Text from './mycomp/Text' ;
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -39,6 +40,7 @@ function App() {
       <Finddom></Finddom>
       <Form></Form>
      <Signup></Signup>
+     <Text></Text>
 
     </div>
   );
