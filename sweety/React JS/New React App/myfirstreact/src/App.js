@@ -8,6 +8,13 @@ import Change from './my components/Change'
 import Condition1 from './my components/Condition1'
 import ConditionElement from './my components/ConditionElement'
 import Refresh from './my components/Refresh'
+import Reactdom from './my components/Reactdom'
+import AnotherDom from './my components/AnotherDom'
+import Form from './my components/Form'
+import FormOnchange from './my components/FormOnchange'
+import SignUp from './my components/SignUp'
+import Text from './my components/Text'
+import Select from './my components/Select'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -31,7 +38,15 @@ function App() {
 
      <Condition1></Condition1>
      <ConditionElement></ConditionElement><br/>
-     <Refresh></Refresh>
+     <Refresh></Refresh><br/>
+
+     <Reactdom></Reactdom><br/>
+     <AnotherDom></AnotherDom><br/>
+     <Form></Form><br/>
+     <FormOnchange></FormOnchange><br/>
+     <SignUp></SignUp><br/>
+     <Text></Text>
+     <Select></Select>
     </div>
   );
 }
