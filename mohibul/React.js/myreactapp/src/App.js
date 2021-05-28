@@ -10,6 +10,7 @@ import Elements from './mycomp/Elements';
 import Signup from './mycomp/Signup';
 import Renderm from './mycomp/Renderm';
 import Finddom from './mycomp/Finddom';
+import Select from './mycomp/Select';
 import Form from './mycomp/Form';
 import Text from './mycomp/Text' ;
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -41,6 +42,7 @@ function App() {
       <Form></Form>
      <Signup></Signup>
      <Text></Text>
+     <Select></Select>
 
     </div>
   );
