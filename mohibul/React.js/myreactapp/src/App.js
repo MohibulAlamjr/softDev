@@ -7,6 +7,7 @@ import Stchange from './mycomp/Stchange';
 import Login from './mycomp/Login';
 import Refresh from './mycomp/Refresh';
 import Elements from './mycomp/Elements';
+import Signup from './mycomp/Signup';
 import Renderm from './mycomp/Renderm';
 import Finddom from './mycomp/Finddom';
 import Form from './mycomp/Form';
@@ -37,7 +38,7 @@ function App() {
       <Renderm></Renderm>
       <Finddom></Finddom>
       <Form></Form>
-
+     <Signup></Signup>
 
     </div>
   );

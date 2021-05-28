@@ -5,7 +5,7 @@
 
 
 $(document).ready(function(){
-    var text="";
+    var text="<table>";
     count=1;
     $("#btn").click(function(){
 // collectdata 
@@ -35,18 +35,24 @@ counts=1;
 // creat button 
 
         for(let i=1;i<=row;i++){
-            text+="<br>"
-            for(let j=0;j<seatInRow;j++){
-                if(j==leftRow){
+   
+            
+                // if(j==leftRow){
+                  text+="<tr><td>"+ count++ +"</td><td>"+ count++ +"</td><td></td><td>"+ count++ +"</td><td>"+ count++ +"</td><td>"+ count++ +"</td></tr>"
                    
 
-                    text+= "<button class='bb' style='margin-left:20px'>"+count+"</button>"; 
-                }else{
-                text+= "<button class='bb' >"+count+"</button>";}
-                count++;
-            }
+
+                    // text+= "<button class='bb' style='margin-left:20px'>"+count+"</button>"; 
+                // }
+            //     else{
+            //     text+= "<button class='bb' >"+count+"</button>";
+            // }
+                
+            
+
           
         }
+        text+="</table>"
         $("#ddd").html(text)
     })
 })

@@ -3,3 +3,25 @@
     width: 100px;
 
 }
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color:green;
+}
+td{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+td:nth-child(1),td:nth-child(4),td:nth-child(6){
+    background-color: green;
+    border: 1px solid;
+}
+td:nth-child(2),td:nth-child(5){
+    background-color: red;
+    border: 1px solid;
+}
