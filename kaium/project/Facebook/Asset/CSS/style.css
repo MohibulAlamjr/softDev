@@ -1,0 +1,14 @@
+body{
+    background-color:#EDF0F5;
+}
+.left{
+    margin: 10%;
+}
+.right{
+    border: gray 1px solid;
+    border-radius: 8px;
+    margin-top: 10%;
+    box-shadow:rgb(105, 103, 103) 2px 5px 5px 5px;    
+
+
+}
