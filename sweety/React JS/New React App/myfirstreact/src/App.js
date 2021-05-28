@@ -13,6 +13,8 @@ import AnotherDom from './my components/AnotherDom'
 import Form from './my components/Form'
 import FormOnchange from './my components/FormOnchange'
 import SignUp from './my components/SignUp'
+import Text from './my components/Text'
+import Select from './my components/Select'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -42,7 +44,9 @@ function App() {
      <AnotherDom></AnotherDom><br/>
      <Form></Form><br/>
      <FormOnchange></FormOnchange><br/>
-     <SignUp></SignUp>
+     <SignUp></SignUp><br/>
+     <Text></Text>
+     <Select></Select>
     </div>
   );
 }
