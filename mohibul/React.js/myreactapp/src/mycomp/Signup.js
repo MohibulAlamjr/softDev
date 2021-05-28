@@ -30,6 +30,20 @@ class Signup extends Component {
         }else{
           this.setState({lname:"this is valid"})
         }
+    }else if(inputName==='email'){
+        var namePattern =/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if(!namePattern.test(inputValue)){
+            this.setState({email:"this is invalid"})
+        }else{
+          this.setState({email:"this is valid"})
+        }
+    }else if(inputName==='number'){
+        var namePattern =/^\d{11}$/;
+        if(!namePattern.test(inputValue)){
+            this.setState({number:"this is invalid"})
+        }else{
+          this.setState({number:"this is valid"})
+        }
     }
     }
     render() {
