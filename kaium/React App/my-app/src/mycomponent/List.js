@@ -4,12 +4,12 @@ class List extends Component {
         const country=['Bangladesh','India','Chaina','Canada'];
         const dataItems= country.map((mydata)=>{
             return(
-                <li>{mydata}</li>
+                <option>{mydata}</option>
             )
         })
         return (
             <div>
-                <ol>{dataItems}</ol>
+                <select>{dataItems}</select>
             </div>
         );
     }
