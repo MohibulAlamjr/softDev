@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-
 class List extends Component {
     render() {
-
         const country=['Bangladesh','India','Chaina','Canada'];
         const dataItems= country.map((mydata)=>{
             return(
