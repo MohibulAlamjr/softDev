@@ -1,42 +1,36 @@
 import React, { Component } from 'react';
 
-class jsonlist extends Component {
+class Jsonlist extends Component {
     render() {
         const mylist=[
 
             {
-                city : "Dhaka",
-                Zip :"6000"
+               name : "Dhaka",
+                Zip :"Mohibul lives in "
             },
             {
-                city : "Barisal",
-                Zip :"6000"
+               name : "Barisal",
+                Zip :"Kamal lives in "
             },
             {
-                city : "Barguna",
-                Zip :"6000"
+               name : "Barguna",
+                Zip :"Salam"
             }
         ]
-        const dataItemsCity =mylist.map((dataCity)=>
-        {
-            return <option>{dataCity.city}</option>
-        })
-        
-        const dataItemsZip =mylist.map((dataZip)=>
-        {
-            return <option>{dataZip.Zip}</option>
-        })
+     var dataBio = mylist.map((data)=>{
+         return <option>{Date.city + Date.Zip}</option>
+     })
+       
         return (
             <div>
                 <select>
-                    {dataItemsCity}
+                    {dataBio}
                 </select>
-                <select>
-                    {dataItemsZip}
-                </select>
+                
+                
             </div>
         );
     }
 }
 
-export default jsonlist;
+export default Jsonlist;
