@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    for (i = new Date().getFullYear(); i > 1904; i--)
+    for (i = new Date().getFullYear(); i > 1950; i--)
 {
     $('#year').append($('<option />').html(i));
 }
