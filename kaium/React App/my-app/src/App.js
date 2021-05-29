@@ -6,6 +6,7 @@ import Condition1 from './mycomponent/Condition1'
 import Refresh from './mycomponent/Refresh'
 import Newdemo from './mycomponent/Newdemo'
 import Select1 from './mycomponent/Select1'
+import List from './mycomponent/List'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Select1></Select1>
     <Refresh></Refresh>
     <Newdemo></Newdemo>
+    <List></List>
     </div>
   );
 }
