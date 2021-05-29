@@ -3,12 +3,77 @@ body{
 }
 .left{
     margin: 10%;
+    margin-top: 15%;
 }
 .right{
-    border: gray 1px solid;
+    background-color: white;
+    border: rgb(252, 243, 243) 1px solid;
     border-radius: 8px;
-    margin-top: 10%;
-    box-shadow:rgb(105, 103, 103) 2px 5px 5px 5px;    
+    padding:10px;
+    margin-top:25%;
+    box-shadow:rgb(211, 211, 211) 1px 1px 1px 2px;    
 
 
 }
+.login{
+    
+    width:100%;
+    background-color: #1876F1;
+    color: white;
+}
+
+.new{
+    background-color: #42B72A;
+    color: white;
+}
+.btnnew{
+    padding-left: 15%;
+}
+h1{
+    color: #1876F1;font-size: 60px;
+}
+h6{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.right input{
+    line-height: 10px;
+}
+
+
+/* Element | http://127.0.0.1:5500/kaium/project/Facebook/index.html */
+
+create.btn {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  
+
+/* Element | http://127.0.0.1:5500/kaium/project/Facebook/index.html */
+
+div.card:nth-child(1) {
+    left: -28px;
+  }
+  
+
+
+  #Female {
+    position: relative;
+    border: 1px solid black;
+    width: 80px;
+
+}
+
+#male {
+    position: relative;
+    border: 1px solid black;
+    width: 80px;
+}
+
+#custom {
+    position: relative;
+    border: 1px solid black;
+    width: 80px;
+}
+
+  

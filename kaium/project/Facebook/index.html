@@ -21,31 +21,37 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-5 left">
-                <h1>facebook</h1>
-                <h5>Facebook helps you connect and share with the people in your life.</h5>
+                <h1><b>facebook</b> </h1>
+                <h4>Facebook helps you connect and share with the people in your life.</h4>
             </div>
-            <div class="col-lg-4 right">
-                <form>
+            <div class="col-lg-4 text-center">
+                <form class="right">
                     <div class="form-group">
 
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                             placeholder="Email address or phone">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     </div>
                     <div class="form-check">
-                        <Create type="button" class="btn btn-primary">log In</button>
+                        <Create type="button" class="btn btn-primary login">Log In</button>
                     </div>
                     <div class="form-check">
                         <a href="">Forgotten password?</a>
                     </div>
                     <hr>
-                    <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#exampleModal">Create New Account</button>
+                    <div class="text-center btnnew">
+                        <button type="button" class="btn btn-primary new" data-toggle="modal"
+                            data-target="#exampleModal">Create
+                            New Account
+                        </button>
+                    </div>
+
                 </form>
+                <h6><b>Create a Page</b> for a celebrity, band or business.</h6>
             </div>
-           
+
 
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -53,39 +59,117 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                           
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+                       
+                           <form>
+                                <div class="card ml-auto p-2" style="width: 436px;height: 674px;">
+                                   
+                                        
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="First name">
+                                                <input type="text" class="form-control" placeholder="Surname">
+                                            </div>
+                                            <div class="form-group1">
+                                                <input type="text" class="form-control"
+                                                    placeholder="Mobile number or email address">
+                                                <input type="text" class="form-control" placeholder="New password">
+                                            </div><br>
+
+                                            <!-- for dropdown  -->
+
+
+                                            <label for="label">Date of birth</label>
+                                            <a href="#"><i class="fas fa-question-circle"></i></a>
+                                            <div class="DMY">
+                                                <select name="days" id="days"></select>
+                                                <select name="month" id="months"></select>
+                                                <select name="year" id="year"></select>
+
+                                            </div>
+
+                                            <div id="last">
+                                                <p>Gender</p>
+                                                <a href="#"><i class="fas fa-question-circle"></i></a>
+
+                                                <div class="form-group" id="Female">
+                                                    <label for="female">Female</label>
+                                                    <input type="radio" name="gender" value="female">
+                                                </div>
+                                                <div class="form-group" id="male">
+                                                    <label for="female">Male</label>
+                                                    <input type="radio" name="gender" value="female">
+                                                </div>
+                                                <div class="form-group" id="custom">
+                                                    <label for="female">Custom</label>
+                                                    <input type="radio" name="gender" value="female">
+                                                </div>
+
+                                                <div id="ppp">
+                                                    <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>,<a
+                                                            href="#"> Data Policy</a> and <a href="#">cookie
+                                                            Policy</a>.You</p>
+                                                    <p>may receive SMS notifications from us and can opt out at any
+                                                        time.</p>
+
+                                                   
+                                                        <button type="submit" class="btn btn-success btn-block" ">Sign up</button>
+                
+                                            </div>
+                      
+                                            
+                                          </div>
+                                            </div>
+                                          </div>
+                                          </div>
+                                        </form>
+                                     
+                                    
+                                </div>
+                            </div>
+                            
+                       
                     </div>
                 </div>
             </div>
+
         </div>
 
-    </div>
+        <div class=" card">
+
+                                                            <div class="card-header">
+                                                                Featured
+                                                            </div>
 
 
 
 
 
-    <!--Bootstrap js-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+
+
+                                                    </div>
+
+
+
+                                                    <!--Bootstrap js-->
+                                                    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                                                        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                                                        crossorigin="anonymous">
+                                                    </script>
+                                                    <script
+                                                        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                                                        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                                                        crossorigin="anonymous">
+                                                    </script>
+                                                    <script
+                                                        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                                                        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                                                        crossorigin="anonymous">
+                                                    </script>
+                                                    <script src="./Asset/JS/main.js"></script>
 
 </body>
 
