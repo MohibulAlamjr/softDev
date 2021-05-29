@@ -7,6 +7,7 @@ import Refresh from './mycomponent/Refresh'
 import Newdemo from './mycomponent/Newdemo'
 import Select1 from './mycomponent/Select1'
 import List from './mycomponent/List'
+import jsonlist from './mycomponent/jsonlist'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Refresh></Refresh>
     <Newdemo></Newdemo>
     <List></List>
+    <jsonlist></jsonlist>
     </div>
   );
 }
