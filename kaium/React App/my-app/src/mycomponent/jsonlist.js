@@ -5,20 +5,20 @@ class Jsonlist extends Component {
         const mylist=[
 
             {
-               name : "Dhaka",
+               name : " Dhaka",
                 Zip :"Mohibul lives in "
             },
             {
-               name : "Barisal",
+               name : " Barisal",
                 Zip :"Kamal lives in "
             },
             {
-               name : "Barguna",
-                Zip :"Salam"
+               name : " Barguna",
+                Zip :"Salam lives in"
             }
         ]
      var dataBio = mylist.map((data)=>{
-         return <option>{Date.city + Date.Zip}</option>
+         return <option>{data.Zip + data.name}</option>
      })
        
         return (
