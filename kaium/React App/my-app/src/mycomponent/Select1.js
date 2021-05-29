@@ -15,8 +15,6 @@ import React,{Component} from 'react';
             var SelectedValue = event.target.value;
             this.setState({show:SelectedValue,auto:SelectedValue})
         }
-
-
         render(){
             return(
                 <div>
