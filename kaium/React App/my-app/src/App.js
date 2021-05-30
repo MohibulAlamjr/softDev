@@ -8,6 +8,10 @@ import Newdemo from './mycomponent/Newdemo'
 import Select1 from './mycomponent/Select1'
 import List from './mycomponent/List'
 import Jsonlist from './mycomponent/Jsonlist'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Protfolio from './pages/Protfolio'
+import{Router,Link,BrowserRouter as Router} from '../node_modules/react-router-dom'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -21,6 +25,9 @@ function App() {
     <Newdemo></Newdemo>
     <List></List>
     <Jsonlist></Jsonlist>
+    <About></About>
+    <Contact></Contact>
+    <Protfolio></Protfolio>
     </div>
   );
 }
