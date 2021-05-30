@@ -16,35 +16,35 @@ class Signup extends Component {
       var inputName=event.target.name;
       var inputValue=event.target.value;
       this.setState({[inputName]:inputValue})
-      if(inputName==='fname'){
-          var namePattern =/^([a-zA-Z]){2,30}$/;
-          if(!namePattern.test(inputValue)){
-              this.setState({fname:"this is invalid"})
-          }else{
-            this.setState({fname:"this is valid"})
-          }
-      }else if(inputName==='lname'){
-       namePattern =/^([a-zA-Z]){2,30}$/;
-        if(!namePattern.test(inputValue)){
-            this.setState({lname:"this is invalid"})
-        }else{
-          this.setState({lname:"this is valid"})
+        if(inputName==='fname'){
+                var namePattern =/^([a-zA-Z]){2,30}$/;
+                if(!namePattern.test(inputValue)){
+                    this.setState({fname:"this is invalid"})
+                }else{
+                    this.setState({fname:"this is valid"})
+                }
+        }else if(inputName==='lname'){
+                namePattern =/^([a-zA-Z]){2,30}$/;
+                if(!namePattern.test(inputValue)){
+                    this.setState({lname:"this is invalid"})
+                }else{
+                    this.setState({lname:"this is valid"})
+                }
+        }else if(inputName==='email'){
+                namePattern =/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                if(!namePattern.test(inputValue)){
+                    this.setState({email:"this is invalid"})
+                }else{
+                    this.setState({email:"this is valid"})
+                }
+        }else if(inputName==='number'){
+                namePattern =/^\d{11}$/;
+                if(!namePattern.test(inputValue)){
+                    this.setState({number:"this is invalid"})
+                }else{
+                    this.setState({number:"this is valid"})
+                }
         }
-    }else if(inputName==='email'){
-       namePattern =/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        if(!namePattern.test(inputValue)){
-            this.setState({email:"this is invalid"})
-        }else{
-          this.setState({email:"this is valid"})
-        }
-    }else if(inputName==='number'){
-        namePattern =/^\d{11}$/;
-        if(!namePattern.test(inputValue)){
-            this.setState({number:"this is invalid"})
-        }else{
-          this.setState({number:"this is valid"})
-        }
-    }
     }
     render() {
         return (
