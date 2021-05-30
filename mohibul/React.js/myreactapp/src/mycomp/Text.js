@@ -8,6 +8,7 @@ class Text extends Component {
           
         }
     }
+    
     textchangehandaler=(event)=>{
       var newName = event.target.value;
       this.setState({name:newName})
@@ -26,3 +27,5 @@ class Text extends Component {
 }
 
 export default Text;
+
+
