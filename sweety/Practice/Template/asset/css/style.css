@@ -2,9 +2,9 @@ body{
     margin-top: 0%;
 }
 .cover{
-    background-image: url(../image/coverr.jpg);
+    background-image: url(../image/thumb-1920-377100.jpg);
     height: 850px;
-    width: 100%;
+    width: 102%;
     background-position: center;
     background-repeat: none;
 
@@ -24,6 +24,17 @@ body{
 
 }
 
+.logo > p:nth-child(2) > b:nth-child(1) > i:nth-child(1) {
+  color: white;
+  position: relative;
+  left: 10px;
+  top: -54px;
+}
+
+.bb {
+  color: white;
+}
+
 .srBar p{
     height: 20px;
     width: 125px;
@@ -34,7 +45,7 @@ body{
 }
 .buy button{
     border-radius: 12px;
-    background-color: mediumorchid;
+    background-color:red;
     border: none;
    
 }
@@ -49,7 +60,7 @@ body{
   .srBar > p:nth-child(1) {
     position: relative;
     left: 550px;
-    top: -83px;
+    top: -130px;
   }
 
 .logo > img:nth-child(1) {
@@ -80,7 +91,7 @@ body{
 
   .fa-search {
     position: relative;
-    top: -124px;
+    top: -164px;
     left: 531px;
   }
 
@@ -98,7 +109,31 @@ body{
     left: 573px;
   }
   
-  
+
+.srBar > p:nth-child(1) {
+  top: -133px;
+}
+
+.fa-search {
+  top: -168px;
+}
+
+.buy {
+  top: -185px;
+}
+
+.srBar > p:nth-child(1) {
+  top: -127px;
+}
+
+.fa-search {
+  top: -162px;
+}
+
+.buy {
+  top: -179px;
+}
+
   .buy {
     left: 722px;
   }
@@ -115,16 +150,40 @@ body{
       top: 87px;
   }
 
+.heading > h2:nth-child(2) > i:nth-child(1) {
+  position: relative;
+  left: 224px;
+  top: 92px;
+}
+
+
+.heading > h1:nth-child(1) {
+  top: 133px;
+  font-family: 'Pattaya', sans-serif;
+}
+.heading:hover{
+  color: red;
+}
+
+.heading {
+  margin-top: -31px;
+}
+
+
 .fa-search {
   left: 676px;
-  top: -125px;
+  top: -142px;
+}
+
+.fa-search {
+  top: -162px;
 }
 
 
 /* Second Part  */
 
 .second{
-  background-color: rgb(185, 17, 190);
+  background-color:black;
   height: 380px;
   width: 100%;
 }
@@ -175,7 +234,7 @@ body{
   top: -707px;
   left: 298px;
   font-size: 40px;
-  color: #ffff;
+  color:red;
 }
 
 
@@ -183,7 +242,7 @@ body{
   position: relative;
   top: -707px;
   left: 299px;
-  color: #ffff;
+  color:red;
 }
 
 .btn {
@@ -202,36 +261,267 @@ body{
   top: -698px;
 }
 .btn {
-  /* height: 24px; */
-  /* width: 6%; */
   height: 30px;
   width: 7%;
+}
+.btn {
+  width: 6%;
+  border-top: none;
+  border-left: none;
+}
+
+.btn {
+  border-radius: 45%;
+}
+
+.subElement3 {
+  position: relative;
+  left: 922px;
+  top: -388px;
+}
+
+.subElement2 {
+  position: relative;
+  top: 150px;
+  left: 611px;
+}
+
+.subElement1 {
+  position: relative;
+  left: 183px;
+  top: 41px;
+}
+.subSection{
+  background-color: gray;
+  margin-top: -20px;
+}
+
+.Fourth{
+  background-color: rgba(15, 13, 13, 0.842);
+  height: 700px;
+}
+.image img{
+height: 400px;
+width: 50%;
+}
+
+
+.image > img:nth-child(1) {
+  position: relative;
+  top: 220px;
+  left: 652px;
 }
 
 
 
+.Fourth {
+  margin-top: -22px;
+}
+
+.hh {
+  color: white;
+  position: relative;
+  left: 616px;
+  top: 72px;
+}
+
+.iframe{
+  height: 50px;
+  width: 50px;
+}
+
+.iframe > iframe:nth-child(1) {
+  position: relative;
+  left: 898px;
+  top: -39px;
+}
+
+.image > h1:nth-child(3) {
+  position: relative;
+  color: white;
+  left: 948px;
+  top: -64px;
+  font-size: 40px;
+}
 
 
+.hh > p:nth-child(2) {
+  position: relative;
+  left: -279px;
+}
 
 
+.hh > p:nth-child(3) {
+  position: relative;
+  left: -151px;
+  top: -10px;
+}
+
+.image > img:nth-child(1) {
+  top: 117px;
+}
 
 
+.iframe > iframe:nth-child(1) {
+  top: -158px;
+}
+
+.image > h1:nth-child(3) {
+  top: -188px;
+}
+
+.white{
+  background-color:gray;
+  height: 80px;
+  width: 80px;
+  border-radius:100%;
+}
+
+.white {
+  position: relative;
+  top: -724px;
+  left: 713px;
+}
+
+.white {
+  left: 695px;
+}
 
 
+.Fifth{
+  background-color: rgb(24, 23, 23);
+  height: 400px;
+}
+
+.refine {
+  position: relative;
+  color: white;
+  left: 409px;
+  top: -122px;
+}
+
+.fas {
+  /* color: black; */
+  color: wheat;
+}
+
+.design {
+  position: relative;
+  color: white;
+  top: 90px;
+  left: 46px;
+}
+
+.dive {
+  position: relative;
+  color: white;
+  top: -334px;
+  left: 785px;
+}
+.img img{
+  height: 400px;
+  width: 50%;
+  text-align: right;
+}
+
+.research {
+  position: relative;
+  color: white;
+  top: -547px;
+  left: 1145px;
+}
 
 
+i.fa-search:nth-child(1) {
+  position: relative;
+  top: 00px;
+  color: aqua;
+}
+
+.fas {
+  /* color: wheat; */
+  color: black;
+}
+.dive i{
+  color: white;
+  font-size: 40px;
+}
+.refine i{
+  color: white;
+  font-size: 40px;
+}
+.research i{
+  color: white;
+  font-size: 40px;
+}
+.design i{
+  color: white;
+  font-size: 40px;
+}
+
+.design {
+  top: 79px;
+}
 
 
+.img > img:nth-child(1) {
+  margin-top: -412px;
+  margin-left: 760px;
+}
+
+.img > img:nth-child(1) {
+  position: relative;
+  top: -151px;
+  left: -9px;
+}
 
 
+.Fifth {
+  width: 102%;
+}
 
+.Fourth {
+  width: 102%;
+}
 
+.subSection {
+  width: 102%;
+}
 
+.messenger {
+  width: 102%;
+}
 
+.second {
+  /* width: 100%; */
+  width: 102%;
+}
+.Six{
+  background-color: black;
+height: 400px;
+}
+.connectivitySection {
+  margin-top: -460px;
+  margin-left: 191px;
+}
 
+.fa-cloud-download-alt::before {
+  font-size: 40px;
+}
 
+.connectivitySection > p:nth-child(2) {
+  font-size: 30px;
+}
 
+/* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
 
+.connectivitySection {
+  color: white;
+}
 
+/* style.css | file:///E:/softDev2/softDev/sweety/Practice/Template/asset/css/style.css */
 
-
+.fas {
+  /* color: black; */
+  color: white;
+}
