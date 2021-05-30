@@ -703,6 +703,197 @@ $(document).ready(function(){
   });
 });
 
+
+// CallBack Function
+
+// CallBack For Slow Hide 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackSlowHide").mouseenter(function(){
+    $("#mouseEnterCallbackSlowHideEffect").hide("slow", function(){
+     let a = $("#mouseEnterCallbackSlowHideEffect").text();
+     alert(a);
+    });
+  });
+});
+
+// CallBack for so slow hide 
+
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackSoSlowHide").mouseenter(function(){
+    $("#mouseEnterCallbackSoSlowHideEffect").hide(5000, function(){
+     let a = $("#mouseEnterCallbackSoSlowHideEffect").text();
+     alert(a);
+    });
+  });
+});
+
+// CllBack for Slowly Hide 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackSlowlyHide").mouseenter(function(){
+    $("#mouseEnterCallbackSlowlyHideEffect").hide(3000, function(){
+     let a = $("#mouseEnterCallbackSlowlyHideEffect").text();
+     alert(a);
+    });
+  });
+});
+
+
+// Call Back for Medium Slow Hide 
+
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackMediumHide").mouseenter(function(){
+    $("#mouseEnterCallbackMediumHideEffect").hide(1500, function(){
+     let a = $("#mouseEnterCallbackMediumHideEffect").text();
+     alert(a);
+    });
+  });
+});
+
+// CallBack for Fast Hide 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackFastHide").mouseenter(function(){
+    $("#mouseEnterCallbackFastHideEffect").hide(500, function(){
+     let a = $("#mouseEnterCallbackFastHideEffect").text();
+     alert(a);
+    });
+  });
+});
+
+// For CallBack First Then Alert
+// CallBack for so slow 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackBeforeHideSoSlow").mouseenter(function(){
+    $("#mouseEnterCallbackBeforeHideSoSlowEffect").hide(5000);
+    let a = $("#mouseEnterCallbackBeforeHideSoSlowEffect").text();
+    alert(a);
+  });
+});
+
+// Call Back for slowly Hide
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackBeforeHideSlowly").mouseenter(function(){
+    $("#mouseEnterCallbackBeforeHideSlowlyEffect").hide(3000);
+    let a = $("#mouseEnterCallbackBeforeHideSlowlyEffect").text();
+    alert(a);
+  });
+});
+
+// call Back for Fast Hide
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackBeforeHideFast").mouseenter(function(){
+    $("#mouseEnterCallbackBeforeHideFastEffect").hide(1000);
+    let a = $("#mouseEnterCallbackBeforeHideFastEffect").text();
+    alert(a);
+  });
+});
+
+// CallBack for Show 
+
+// Call Back for Slow Show 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackSlowShowEffect").css("display","none");
+    $("#mouseEnterCallbackSlowShow").mouseenter(function(){
+      $("#mouseEnterCallbackSlowShowEffect").show("slow", function(){
+        let a = $("#mouseEnterCallbackSlowShowEffect").text();
+        alert(a);
+      });
+    });
+  });
+
+// CallBack for Slow Show 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackSoSlowShowEffect").css("display","none");
+    $("#mouseEnterCallbackSoSlowShow").mouseenter(function(){
+      $("#mouseEnterCallbackSoSlowShowEffect").show(5000, function(){
+        let a = $("#mouseEnterCallbackSoSlowShowEffect").text();
+        alert(a);
+      });
+    });
+  });
+
+
+// CallBack for Medium Slow Show 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackMediumSlowShowEffect").css("display","none");
+    $("#mouseEnterCallbackMediumSlowShow").mouseenter(function(){
+      $("#mouseEnterCallbackMediumSlowShowEffect").show(1500, function(){
+        let a = $("#mouseEnterCallbackMediumSlowShowEffect").text();
+        alert(a);
+      });
+    });
+  });
+
+
+// For Callback Slowly Show 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackSlowlyShowEffect").css("display","none");
+    $("#mouseEnterCallbackSlowlyShow").mouseenter(function(){
+      $("#mouseEnterCallbackSlowlyShowEffect").show(3000, function(){
+        let a = $("#mouseEnterCallbackSlowlyShowEffect").text();
+        alert(a);
+      });
+    });
+  });
+
+// For CallBack Fast Show 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackFastShowEffect").css("display","none");
+    $("#mouseEnterCallbackFastShow").mouseenter(function(){
+      $("#mouseEnterCallbackFastShowEffect").show(500, function(){
+        let a = $("#mouseEnterCallbackFastShowEffect").text();
+        alert(a);
+      });
+    });
+  });
+
+// CallBack First Then Show 
+
+// CallBack for so slow 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackBeforeShowSoSlowEffect").css("display","none");
+  $("#mouseEnterCallbackBeforeShowSoSlow").mouseenter(function(){
+    $("#mouseEnterCallbackBeforeShowSoSlowEffect").show(5000);
+    let a = $("#mouseEnterCallbackBeforeShowSoSlowEffect").text();
+    alert(a);
+  });
+});
+
+// CallBack For Slow 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackBeforeShowSlowEffect").css("display","none");
+  $("#mouseEnterCallbackBeforeShowSlow").mouseenter(function(){
+    $("#mouseEnterCallbackBeforeShowSlowEffect").show(3000);
+    let a = $("#mouseEnterCallbackBeforeShowSlowEffect").text();
+    alert(a);
+  });
+});
+
+// CallBack For Fast 
+
+$(document).ready(function(){
+  $("#mouseEnterCallbackBeforeShowFastEffect").css("display","none");
+  $("#mouseEnterCallbackBeforeShowFast").mouseenter(function(){
+    $("#mouseEnterCallbackBeforeShowFastEffect").show(1000);
+    let a = $("#mouseEnterCallbackBeforeShowFastEffect").text();
+    alert(a);
+  });
+});
+
 // Chaining Function 
 
 // Chaining for more slow
@@ -944,31 +1135,4 @@ $(document).ready(function(){
     });
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
