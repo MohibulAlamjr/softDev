@@ -13,6 +13,8 @@ import Finddom from './mycomp/Finddom';
 import Select from './mycomp/Select';
 import Form from './mycomp/Form';
 import Text from './mycomp/Text' ;
+import Jsonlist from './mycomp/Jsonlist';
+import List from './mycomp/List';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -43,6 +45,8 @@ function App() {
      <Signup></Signup>
      <Text></Text>
      <Select></Select>
+     <List></List>
+     <Jsonlist/>
 
     </div>
   );
