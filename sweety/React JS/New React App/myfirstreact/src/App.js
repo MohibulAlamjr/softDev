@@ -15,7 +15,9 @@ import FormOnchange from './my components/FormOnchange'
 import SignUp from './my components/SignUp'
 import Text from './my components/Text'
 import Select from './my components/Select'
+import List from './my components/List'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import JSONList from './my components/JSONList';
 
 function App() {
   return (
@@ -46,7 +48,9 @@ function App() {
      <FormOnchange></FormOnchange><br/>
      <SignUp></SignUp><br/>
      <Text></Text>
-     <Select></Select>
+     <Select></Select><br/>
+     <List></List><br/>
+     <JSONList></JSONList>
     </div>
   );
 }
