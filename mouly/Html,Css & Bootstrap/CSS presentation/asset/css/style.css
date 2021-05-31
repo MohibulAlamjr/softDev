@@ -1,0 +1,233 @@
+
+#name{
+    background-color: rgb(0, 132, 255);
+}
+.hello{
+    text-align: left;
+    border-style: dotted;
+    border-color: blueviolet;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 0.8;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px red;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: italic;
+    font-variant: normal;
+    font-size: 40px;
+}
+
+h1,h2{
+    color: tomato;
+}
+
+ /* specified element silbling  */
+
+div~p{
+    background-color: blueviolet;
+}
+body{
+    background-image: url(../image/one.jpg);
+    background-repeat: no-repeat;
+   float: left;
+    background-attachment: scroll;
+    
+  
+}
+
+#margin{
+    margin: 25px 50px 0px 100px;
+    background-color: cyan;
+}
+
+.lorem{
+    border: 2px solid blue;
+    background-color: darkorchid;
+    padding: 80px 50px 75px 100px;
+
+    /* margin-top: 25px; */
+
+}
+/* 
+when 4 value: top,right,bottom,left
+when 3 value: top,left-right,bottom
+when 2 value: top-bottom,left-right
+when 1 value: top-right-bottom-left
+        */
+.list{
+    list-style-type: upper-roman;
+}
+
+tr,th,td{
+    border: 5px solid red;
+    text-align: center;
+}
+
+.display{
+    display: inline;
+    background-color: salmon;
+}
+
+.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    }
+    .absolute {
+    position: relative;
+    top : -150px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    }    
+
+    .overflow{
+        height: 100px;
+        width: 100px;
+        background-color: springgreen;
+        overflow: scroll;
+    }
+
+    .clearfix{
+        overflow: auto;
+        border: 4px solid rgb(11, 11, 20);
+        padding: 10px;
+    }
+
+    .img{
+        float: left;
+        opacity: .5;
+        border: 10px solid transparent;
+
+    }
+    img:hover{
+        opacity: 1;
+    }
+
+    .pseudo {
+      
+        background-color: yellow;
+        padding: 20px;
+        }
+        .pseudo p:hover  {
+        display: block;
+        color:red;
+        }
+       p::first-letter{
+           font-size: 40px;
+       }
+       li {
+           display: inline;
+       }
+
+
+       .counter {
+        counter-reset: section;
+        }
+        h2::before {
+        counter-increment: section;
+        content: "Section " counter(section) ": ";
+        }
+
+        .rcorners1 {
+            border-radius: 50px;
+            background: #73AD21;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+            }
+
+            .img2{
+                border: 10px solid red ;
+                object-fit: fill;
+
+            }
+
+
+            .grad{
+                height: 200px;
+          background-color: red;
+                background-image: linear-gradient(to right, red,orange,yellow,rgb(113, 201, 113),blue,indigo,violet);
+            }
+            .grad1 {
+                height: 200px;
+                background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+            }
+
+             .text{
+                white-space: nowrap;
+                width: 200px;
+                border: 1px solid #000000;
+                overflow: hidden/visible;
+                text-overflow: clip;
+                column-count: 3;
+                }
+               
+                .transforms {
+                    width: 300px;
+                    height: 100px;
+                    background-color: yellow;
+                    border: 1px solid black;
+                    transform: rotateY(150deg); 
+                    }
+                    
+
+
+
+                    .tooltip {
+                        position: relative;
+                        display: inline-block;
+                        border-bottom: 1px dotted black;
+                      }
+                      
+                      .tooltip .tooltiptext {
+                        visibility: hidden;
+                        width: 120px;
+                        background-color: black;
+                        color: #fff;
+                        text-align: center;
+                        border-radius: 6px;
+                        padding: 5px 0;
+                        
+                        
+                        position: absolute;
+                        z-index: 1;
+                       
+                      }
+                      
+                      .tooltip:hover .tooltiptext {
+                        visibility: visible;
+                      }
+
+                      .pagination{
+                          display: inline-block;
+                      }
+
+                      .pagination a {
+                          color: tomato;
+                          float: left;
+                          padding: 12px 12px ;
+                          text-decoration: none;
+                      }
+                      .pagination a:hover{
+                          background-color: yellowgreen;
+                      }
+
+
+
+                      .count{
+                        column-count: 4;
+                      }
+
+
+                      .UI{
+
+border: 4px dotted;
+width: 300px;
+resize: both;
+overflow: auto;
+
+                      }
