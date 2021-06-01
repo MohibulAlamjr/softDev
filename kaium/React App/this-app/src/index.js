@@ -5,6 +5,7 @@ import App from './App';
 import About from'./Pages/About';
 import Contact from './Pages/Contact';
 import Protfolio from './Pages/Protfolio';
+import Axiosd from './Pages/Axiosd'
 import {Route,Link,BrowserRouter as Router} from '../node_modules/react-router-dom'
 import reportWebVitals from './reportWebVitals';
  
@@ -19,19 +20,19 @@ const myrouter=(
   <Link to="/About">About</Link>
   <Link to="/Contact">Contact</Link>
   <Link to="/Protfolio">Protfolio</Link>
+  <Link to ="/Axiosd">Axiosd</Link>
   
   
   </ul>
-  <Route exact path=""component={App}/>
-  <Route path=""component={About}/>
-  <Route path=""component={Contact}/>
-  <Route path=""component={Protfolio}/>
+  <Route exact path="/"component={App}/>
+  <Route path="/About"component={About}/>
+  <Route path="/Contact"component={Contact}/>
+  <Route path="/Protfolio"component={Protfolio}/>
+  <Route path="/Axiosd"component={Axiosd}/>
   
   </div>
   
-  
-  
-  
+
   </Router>
    
   
