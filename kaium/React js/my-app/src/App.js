@@ -4,6 +4,8 @@ import Welcome from './mycomponent/Welcome'
 import Welcome1 from './mycomponent/Welcome1'
 import Arrow from './mycomponent/Arrow'
 import Welcome2 from './mycomponent/Welcome2'
+import Welcome3 from './mycomponent/Welcome3'
+import Welcome4 from './mycomponent/Welcome4'
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,8 @@ function App() {
      <Welcome1></Welcome1>
      <Welcome2></Welcome2>
      <Arrow></Arrow>
-
+     <Welcome3></Welcome3>
+     <Welcome4></Welcome4>
     </div>
   );
 }

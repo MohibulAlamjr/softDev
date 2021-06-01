@@ -25,7 +25,7 @@ class Welcome2 extends Component {
                 <h1>{this.state.hight}</h1>
                 <h1>{this.state.arr}</h1>
                 <h1>{this.state.arr[1]}</h1>
-                <h1>{this.state.weight}</h1>
+                <h1>{this.state.weight.Class7}</h1>
 
             </div>
         );
