@@ -6,6 +6,7 @@ import Arrow from './mycomponent/Arrow'
 import Welcome2 from './mycomponent/Welcome2'
 import Welcome3 from './mycomponent/Welcome3'
 import Welcome4 from './mycomponent/Welcome4'
+import Refesh from './mycomponent/Refesh'
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
      <Hello name="Mohibul" age="23" home="Rajshahi"></Hello>
      <Hello name="Sweety" age="22" home="Dhaka"></Hello>
      <Hello name="Mouly" age="21" home="Khulna"></Hello>
+     <Refesh></Refesh>
      
      <Welcome></Welcome>
      <Welcome name="Kaium" age="25" home="Barisal"></Welcome>
