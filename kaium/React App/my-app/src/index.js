@@ -9,10 +9,42 @@ import Contact from './pages/Contact';
 import Protfolio from './pages/Protfolio';
 import {Route,Link,BrowserRouter as Router} from '../node_modules/react-router-dom'
 
+
+
+const myrouter=(
+ 
+<Router>
+
+<div>
+<ul>
+
+<Link to="/">Home</Link>
+<Link to="/About">About</Link>
+<Link to="/Contact">Contact</Link>
+<Link to="/Protfolio">Protfolio</Link>
+
+
+</ul>
+<Route exact path=""component={App}/>
+<Route path=""component={About}/>
+<Route path=""component={Contact}/>
+<Route path=""component={Protfolio}/>
+
+</div>
+
+
+
+
+</Router>
+ 
+
+  
+)
+
+
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  myrouter,
   document.getElementById('root')
 );
 
