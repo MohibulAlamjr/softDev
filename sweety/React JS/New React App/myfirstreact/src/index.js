@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 import '../node_modules/antd/dist/antd.css';
 import Slider from './my components/Slider';
 import Axios from './Pages/Axios';
-
+import Table from './Pages/Table';
 const myRoute = (
   <Router>
     <div>
@@ -23,6 +23,7 @@ const myRoute = (
         <Link to = "/style">Style</Link>
         <Link to = "/carousel">Slider</Link>
         <Link to = "/axios">Axios</Link>
+        <Link to = "/table">Table</Link>
 
       </ul>
       <Route exact path = "/" component={App}/>
@@ -32,6 +33,7 @@ const myRoute = (
       <Route path = "/style" component={Style}/>
       <Route path = "/carousel" component={Slider}/>
       <Route path = "/axios" component={Axios}/>
+      <Route path = "/table" component={Table}/>
     </div>
   </Router>
 )
