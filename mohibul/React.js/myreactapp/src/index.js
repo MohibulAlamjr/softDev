@@ -9,6 +9,8 @@ import Style from './pages/Style';
 import Testcss from './pages/Testcss';
 import Recss from './pages/Recss';
 import Slider from './mycomp/Slider';
+import Axiosd from './pages/Axiosd';
+import Tabledata from './pages/Tabledata';
 import { Route, Link, BrowserRouter as Router} from '../node_modules/react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -24,6 +26,8 @@ const myrount=(
         <Link to="/module">Moudule</Link>
         <Link to="/recss">Recss</Link>
         <Link to="/slider">slider</Link>
+        <Link to="/apidata">Axiosd</Link>
+        <Link to="/table">Table</Link>
       </ul>
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
@@ -33,6 +37,8 @@ const myrount=(
       <Route path="/module" component={Testcss} />
       <Route path="/recss" component={Recss} />
       <Route path="/slider" component={Slider} />
+      <Route path="/apidata" component={Axiosd} />
+      <Route path="/table" component={Tabledata} />
 
     </div>
   </Router>
