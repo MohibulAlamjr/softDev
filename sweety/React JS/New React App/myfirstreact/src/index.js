@@ -10,6 +10,7 @@ import {Route,Link,BrowserRouter as Router} from '../node_modules/react-router-d
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/antd/dist/antd.css';
 import Slider from './my components/Slider';
+import Axios from './Pages/Axios';
 
 const myRoute = (
   <Router>
@@ -21,6 +22,8 @@ const myRoute = (
         <Link to = "/portfolio">Portfolio</Link>
         <Link to = "/style">Style</Link>
         <Link to = "/carousel">Slider</Link>
+        <Link to = "/axios">Axios</Link>
+
       </ul>
       <Route exact path = "/" component={App}/>
       <Route path = "/about" component={About}/>
@@ -28,6 +31,7 @@ const myRoute = (
       <Route path = "/portfolio" component={Portfolio}/>
       <Route path = "/style" component={Style}/>
       <Route path = "/carousel" component={Slider}/>
+      <Route path = "/axios" component={Axios}/>
     </div>
   </Router>
 )

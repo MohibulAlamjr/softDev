@@ -608,5 +608,8 @@ height: 400px;
 
 .last > p:nth-child(1) {
   color: red;
+  
 }
-
+.last p{
+  text-shadow: rgb(37, 14, 167);
+}

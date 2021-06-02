@@ -1,0 +1,8 @@
+$namneColour :red;
+$BackColor:green;
+$mypadding:50px;
+.TextStyle{
+    padding:$mypadding;
+    background-color: $BackColor;
+    color: $namneColour;
+}
