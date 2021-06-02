@@ -9,7 +9,7 @@ import Welcome4 from './mycomponent/Welcome4'
 import Refesh from './mycomponent/Refesh'
 import Welcome5 from './mycomponent/Welcome5'
 import Welcome6 from './mycomponent/Welcome6'
-
+import Tabledata from './mycomponent/Mytable'
 
 
 import Signup from './mycomponent/Signup'
@@ -36,6 +36,7 @@ function App() {
      <Refesh></Refesh>
      <Welcome5></Welcome5>
      <Welcome6></Welcome6>
+     <Tabledata></Tabledata>
     
 
 
