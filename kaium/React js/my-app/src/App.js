@@ -8,7 +8,7 @@ import Welcome3 from './mycomponent/Welcome3'
 import Welcome4 from './mycomponent/Welcome4'
 import Refesh from './mycomponent/Refesh'
 import Welcome5 from './mycomponent/Welcome5'
-// import Welcome6 from './mycomponent/Welcome6'
+import Welcome6 from './mycomponent/Welcome6'
 
 
 
@@ -35,6 +35,7 @@ function App() {
      <Welcome4></Welcome4> 
      <Refesh></Refesh>
      <Welcome5></Welcome5>
+     <Welcome6></Welcome6>
     
 
 
