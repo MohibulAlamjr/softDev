@@ -1,23 +1,63 @@
 /* for navbar  */
 
 
-
+.cover{
+  background-image: url(../image/promo_2.jpg);
+  height: 900px;
+  width: 1520px;
+}
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
       text-align: center;
     }
   }
-  
+  .col-sm-12 {
+    background-color: white;
+  }
   .fixed-top {
     height: 80px;
     color: white;
+    background-color: white;
   }
   
   #logo{
-      font-size: 10px;
+      width: 80px;
+      height: 50px;
+      
   }
 
   .navbar-collapse{
       text-align: center;
+  }
+  .collapse{
+    padding: 300px;
+ 
+  }
+  .nav-item{
+    padding-left: 40px;
+    margin-top: 20px;
+    
+
+  }
+  .btn{
+    padding-left: 90px;
+    margin-left: 90px;
+    height: 80px;
+    width: 400px;
+    text-align: center;
+    background-color: rgb(235, 161, 26);
+    transition: transform .3s,-webkit-transform .3s;
+   border-color:rgb(235, 161, 26);
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333;
+  } 
+
+  .btn:hover{
+    background-color: rgb(235, 161, 26);
+  }
+
+  .donate{
+    padding-right: 190px;
   }
