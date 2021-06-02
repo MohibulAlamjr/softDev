@@ -12,28 +12,120 @@
 
 }
 .navbar{
-    height: 90px;
-}
-.navbar-brand img{
-    height:50%;
-    width: 50%;
-    margin-left: 50%;
-}
-.nav-item{
-    margin-left: 50px;
-    margin-top: 55px;
-}
-.btn-primary{
-    margin-left: 120px;
-    margin-bottom:3%;
-    height: 92px;
-    width: 90%;
-    margin-top: 30px;
-    padding-left: 18%;
-    padding-bottom: 5%;
+    height: 80px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
   
 }
-.btn-primary p{
+ .navbar-brand img{
+    height:30%;
+    width: 30%
+} 
+
+.fa-bars{
+    font-size: 20px;
+} 
+
+#btn01{
+    height: 80px;
+    width: 20%;
+    background-color: #efc940;
+   border-color: #efc940;
+  
+}
+#btn01 p{
     margin-top: 23px;
    
+} 
+  #btn01 > p:nth-child(1) {
+    font-size: medium;
+    color: black;
+  }
+
+#btn01 {
+  margin-left: 42px;
 }
+
+#btn01 {
+  width: 150%;
+}
+
+  .fa-square{
+      font-size: 22%;
+  }
+  .fa-chevron-down{
+      font-size: 55%;
+  }
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(21, 18, 18);
+}
+
+
+/* Element | file:///E:/softDev2/softDev/sweety/Template/Helpo%20HTML%20Template/index.html */
+
+i.fas:nth-child(1) {
+    margin-left: 63px;
+  }
+
+  
+  .navbar-brand > img:nth-child(1) {
+    margin-left: 67px;
+  }
+  
+  
+  .fa-square{
+    margin-top: 18px;
+  }
+  
+  
+  a.nav-item:nth-child(3) {
+    margin-left: 15px;
+  }
+  
+  
+  i.fas:nth-child(4) {
+    margin-top: 18px;
+  }
+  
+  a.nav-item:nth-child(5) {
+    margin-left: 16px;
+  }
+  
+  i.fas:nth-child(6) {
+    margin-top: 18px;
+  }
+  
+  
+  a.nav-item:nth-child(7) {
+    margin-left: 22px;
+  }
+  
+  
+  i.fas:nth-child(8) {
+    margin-top: 18px;
+  }
+  
+  a.nav-item:nth-child(9) {
+    margin-left: 25px;
+  }
+  
+  a.nav-item:nth-child(10) {
+    margin-left: 20px;
+  }
+  
+  i.fas:nth-child(11) {
+    margin-top: 18px;
+  }
+  a.nav-item:nth-child(13) {
+    margin-left: 232px;
+  }
+  
+  i.fas:nth-child(14) {
+    margin-top: 18px;
+    margin-left: -4px;
+  }
+  .fa-chevron-down {
+    font-size: 70%;
+  }
+ 
