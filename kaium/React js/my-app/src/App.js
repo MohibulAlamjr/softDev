@@ -7,6 +7,14 @@ import Welcome2 from './mycomponent/Welcome2'
 import Welcome3 from './mycomponent/Welcome3'
 import Welcome4 from './mycomponent/Welcome4'
 import Refesh from './mycomponent/Refesh'
+import Welcome5 from './mycomponent/Welcome5'
+// import Welcome6 from './mycomponent/Welcome6'
+
+
+
+import Signup from './mycomponent/Signup'
+
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +23,7 @@ function App() {
      <Hello name="Mohibul" age="23" home="Rajshahi"></Hello>
      <Hello name="Sweety" age="22" home="Dhaka"></Hello>
      <Hello name="Mouly" age="21" home="Khulna"></Hello>
-     <Refesh></Refesh>
+    
      
      <Welcome></Welcome>
      <Welcome name="Kaium" age="25" home="Barisal"></Welcome>
@@ -24,7 +32,23 @@ function App() {
      <Welcome2></Welcome2>
      <Arrow></Arrow>
      <Welcome3></Welcome3>
-     <Welcome4></Welcome4>
+     <Welcome4></Welcome4> 
+     <Refesh></Refesh>
+     <Welcome5></Welcome5>
+    
+
+
+
+
+
+
+
+
+
+
+     <br/><br/><br/>
+
+     <Signup></Signup>
     </div>
   );
 }

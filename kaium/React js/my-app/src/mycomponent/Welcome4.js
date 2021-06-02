@@ -26,7 +26,7 @@ class Welcome4 extends Component {
        
 
         return(
-            this.state.login? <h1>I AM FIRST</h1>:<h1>I AM Second</h1>
+            this.state.login? (<h1>I AM FIRST</h1>):(<h1>I AM Second</h1>)
         )
     }
 }
