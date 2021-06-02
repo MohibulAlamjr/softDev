@@ -5,9 +5,7 @@ class Welcome6 extends Component {
     render() {
         return (
             <div>
-                
-                <button className="btn btn-warning m-6">Change IMG</button>
-               
+                <button className="btn btn-warning m-6">Change IMG</button>              
             </div>
         );
     }
