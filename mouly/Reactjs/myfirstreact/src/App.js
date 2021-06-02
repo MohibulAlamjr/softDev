@@ -13,8 +13,16 @@ import Demo from './firstcomponents/Demo'
 import FindDomnode from './firstcomponents/FindDomnode'
 import Form from './firstcomponents/Form'
 import Signup from './firstcomponents/Signup'
+import Textarea from './firstcomponents/Textarea'
+import Select from './firstcomponents/Select'
+import List from './firstcomponents/List'
+import Jsonlist from './firstcomponents/Jsonlist'
+import Style from './pages/Style'
+import Slider from './pages/Slider'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+
+
 function App() {
   return (
    <div className = "App">
@@ -38,6 +46,13 @@ function App() {
     <FindDomnode></FindDomnode> <br></br>
     <Form></Form>
     <Signup></Signup>
+    <Textarea></Textarea>
+    <Select></Select>
+    <List></List>
+    <Jsonlist></Jsonlist>
+    <Style></Style>
+    <Slider></Slider>
+   
 
 
    </div>

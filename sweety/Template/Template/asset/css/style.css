@@ -497,7 +497,7 @@ i.fa-search:nth-child(1) {
   width: 102%;
 }
 .Six{
-  background-color: black;
+  background-color:gray;
 height: 400px;
 }
 .connectivitySection {
@@ -513,15 +513,103 @@ height: 400px;
   font-size: 30px;
 }
 
-/* Element | file:///E:/softDev2/softDev/sweety/Practice/Template/index.html */
 
 .connectivitySection {
   color: white;
 }
 
-/* style.css | file:///E:/softDev2/softDev/sweety/Practice/Template/asset/css/style.css */
 
 .fas {
   /* color: black; */
   color: white;
+}
+
+.connectivitySection {
+  margin-top: -555px;
+}
+
+
+.connectivitySection {
+  /* color: white; */
+  color: rebeccapurple;
+}
+
+.fa-cloud-download-alt {
+  margin-top: 0px;
+  position: relative;
+  top: 24px;
+}
+
+.fas {
+  /* color: white; */
+  color: rebeccapurple;
+}
+.footer{
+  background-image: url(../image/Apple.jpg);
+  height: 700px;
+  width: 102%;
+}
+
+
+.last > p:nth-child(2) {
+  color: white;
+}
+
+.last > p:nth-child(1) {
+  color: white;
+}
+
+.footer {
+  margin-top: -16px;
+}
+
+
+.last {
+  position: relative;
+  left: 905px;
+  top: 325px;
+}
+
+
+.last > p:nth-child(1) {
+  position: relative;
+  top: -182px;
+  left: -33px;
+}
+
+.last > p:nth-child(2) {
+  position: relative;
+  top: -136px;
+  left: -34px;
+  font-size: 25px;
+}
+
+
+.last > p:nth-child(3) {
+  color:red;
+}
+
+
+.last > p:nth-child(3) {
+  position: relative;
+  top: 121px;
+  left: 378px;
+}
+.connectivitySection1para > p:nth-child(2) {
+  font-size: 30px;
+  position: relative;
+  top: 13px;
+}
+
+.last > p:nth-child(2) {
+  /* color: white; */
+  color: red;
+}
+
+.last > p:nth-child(1) {
+  color: red;
+  
+}
+.last p{
+  text-shadow: rgb(37, 14, 167);
 }

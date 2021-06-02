@@ -1,0 +1,39 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.cover{
+    background-image: url(../image/promo_1.jpg);
+    min-height: 900px;
+    min-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    height: 90px;
+}
+.navbar-brand img{
+    height:50%;
+    width: 50%;
+    margin-left: 50%;
+}
+.nav-item{
+    margin-left: 50px;
+    margin-top: 55px;
+}
+.btn-primary{
+    margin-left: 120px;
+    margin-bottom:3%;
+    height: 92px;
+    width: 90%;
+    margin-top: 30px;
+    padding-left: 18%;
+    padding-bottom: 5%;
+  
+}
+.btn-primary p{
+    margin-top: 23px;
+   
+}
