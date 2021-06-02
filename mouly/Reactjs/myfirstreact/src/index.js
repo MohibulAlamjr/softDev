@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Style from './pages/Style';
+import Axios from './pages/Axios'
 
 import { Route, Link, BrowserRouter as Router} from '../node_modules/react-router-dom';
 import reportWebVitals from './reportWebVitals';
@@ -22,6 +23,7 @@ const myrount=(
         <Link to="/portfolio">Portfolio</Link>
         <Link to="/css">Style</Link>
         <Link to="/slider">Slider</Link>
+        <Link to="/data">Axios</Link>
         
 
       </ul>
@@ -31,6 +33,7 @@ const myrount=(
       <Route path="/portfolio" component={Portfolio} />
       <Route path="/css" component={Style} />
       <Route path="/slider" component={Slider} />
+      <Route path="/data" component={Axios} />
 
     </div>
   </Router>
