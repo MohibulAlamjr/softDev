@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/esm/Nav';
 import Navbar from 'react-bootstrap/esm/Navbar';
 import Form from 'react-bootstrap/esm/Form';
 import Button from 'react-bootstrap/esm/Button';
-import {Link} from 'react-router-dom';
+import {Link,NavLink} from 'react-router-dom';
 
 
 import FormControl from 'react-bootstrap/esm/FormControl';
@@ -14,11 +14,11 @@ class Navbard extends Component {
         return (
             <div>
                 <Navbar bg="dark" variant="dark">
-                    <Navbar.Brand > <Link to="/">softDev</Link> </Navbar.Brand>
+                    <Navbar.Brand > <NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/">softDev</NavLink> </Navbar.Brand>
                     <Nav className="mr-auto">
-                    <Nav.Link><Link to="/about">About</Link></Nav.Link>
-                    <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
-                    <Nav.Link><Link to="/myw">Mywork</Link></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/about">About</NavLink></Nav.Link>
+                   
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/mywk">Mywork</NavLink></Nav.Link>
                     </Nav>
                     <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />
