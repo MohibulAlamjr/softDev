@@ -12,6 +12,8 @@ import { Route, Link, BrowserRouter as Router} from '../node_modules/react-route
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/antd/dist/antd.css';
 import Slider from './pages/Slider';
+import Table from './pages/Table';
+import Navigation from './pages/Navigation';
 
 const myrount=(
   <Router>
@@ -24,6 +26,8 @@ const myrount=(
         <Link to="/css">Style</Link>
         <Link to="/slider">Slider</Link>
         <Link to="/data">Axios</Link>
+        <Link to="/path">Table</Link>
+        <Link to="/new">Nav</Link>
         
 
       </ul>
@@ -34,6 +38,8 @@ const myrount=(
       <Route path="/css" component={Style} />
       <Route path="/slider" component={Slider} />
       <Route path="/data" component={Axios} />
+      <Route path="/path" component={Table} />
+      <Route path="/new" component={Navigation} />
 
     </div>
   </Router>

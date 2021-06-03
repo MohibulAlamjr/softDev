@@ -10,9 +10,11 @@ import Refesh from './mycomponent/Refesh'
 import Welcome5 from './mycomponent/Welcome5'
 import Welcome6 from './mycomponent/Welcome6'
 import Tabledata from './mycomponent/Mytable'
+import Nav from './mycomponent/Nav'
 
 
 import Signup from './mycomponent/Signup'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -37,6 +39,7 @@ function App() {
      <Welcome5></Welcome5>
      <Welcome6></Welcome6>
      <Tabledata></Tabledata>
+     <Nav></Nav>
     
 
 
