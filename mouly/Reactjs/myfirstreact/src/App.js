@@ -19,6 +19,7 @@ import List from './firstcomponents/List'
 import Jsonlist from './firstcomponents/Jsonlist'
 import Style from './pages/Style'
 import Slider from './pages/Slider'
+import Table from './pages/Table'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
@@ -52,6 +53,7 @@ function App() {
     <Jsonlist></Jsonlist>
     <Style></Style>
     <Slider></Slider>
+    <Table></Table>
    
 
 

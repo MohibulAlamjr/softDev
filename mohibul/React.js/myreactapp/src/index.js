@@ -10,6 +10,7 @@ import Testcss from './pages/Testcss';
 import Recss from './pages/Recss';
 import Slider from './mycomp/Slider';
 import Axiosd from './pages/Axiosd';
+import Boots from './pages/Boots';
 import Tabledata from './pages/Tabledata';
 import { Route, Link, BrowserRouter as Router} from '../node_modules/react-router-dom';
 import reportWebVitals from './reportWebVitals';
@@ -28,6 +29,7 @@ const myrount=(
         <Link to="/slider">slider</Link>
         <Link to="/apidata">Axiosd</Link>
         <Link to="/table">Table</Link>
+        <Link to="/boots">Bootstrap Navbar</Link>
       </ul>
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
@@ -39,6 +41,7 @@ const myrount=(
       <Route path="/slider" component={Slider} />
       <Route path="/apidata" component={Axiosd} />
       <Route path="/table" component={Tabledata} />
+      <Route path="/boots" component={Boots} />
 
     </div>
   </Router>
