@@ -4,60 +4,78 @@
 .cover{
   background-image: url(../image/promo_2.jpg);
   height: 900px;
-  width: 1520px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 75% 100%;
+    
 }
 
-@media (min-width: 992px) {
-    .navbar-expand-lg .navbar-collapse {
-      text-align: center;
-    }
-  }
-  .col-sm-12 {
-    background-color: white;
-  }
+
   .fixed-top {
     height: 80px;
     color: white;
+   
     background-color: white;
   }
   
   #logo{
-      width: 80px;
+      width: 90%;
       height: 50px;
+      margin-left: 50%;
       
   }
 
-  .navbar-collapse{
-      text-align: center;
-  }
-  .collapse{
-    padding: 300px;
- 
-  }
-  .nav-item{
-    padding-left: 40px;
-    margin-top: 20px;
-    
-
-  }
+  
   .btn{
-    padding-left: 90px;
-    margin-left: 90px;
-    height: 80px;
-    width: 400px;
-    text-align: center;
-    background-color: rgb(235, 161, 26);
+   padding-left: 21.5%;
+   padding-right: 21.5%;
+   padding-top: 6%;
+   padding-bottom: 6%;
+    background-color: #efc940;;
     transition: transform .3s,-webkit-transform .3s;
-   border-color:rgb(235, 161, 26);
+   border-color:#efc940;;
     font-size: 14px;
     text-transform: uppercase;
     color: #333;
+    margin-right: -10%;
+    margin-left: 20%;
   } 
 
   .btn:hover{
-    background-color: rgb(235, 161, 26);
+    background-color: #efc940;
+  
   }
-
-  .donate{
-    padding-right: 190px;
-  }
+#en{
+padding-left: 10%;
+padding-top: 5%;
+}
+#elements{
+  padding-left: 10%;
+padding-top: 5%;
+}
+#contacts{
+  padding-left: 10%;
+  padding-top: 5%;
+}
+#shop{
+  padding-left: 10%;
+  padding-top: 5%;
+}
+#causes{
+  padding-left:10%;
+  padding-top: 5%;
+}
+#pages{
+  padding-left: 10%;
+  padding-top: 5%;
+}
+#home{
+  padding-left: 40%;
+  padding-top: 5%;
+}
+#icon{
+  padding-left: 5%;
+ font-size: 170%;
+  color: blue;
+}
