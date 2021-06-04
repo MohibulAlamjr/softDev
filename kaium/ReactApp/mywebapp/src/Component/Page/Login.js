@@ -25,7 +25,7 @@ class Login extends Component {
     login=()=>{
         const nam='kaium';
         const pas='12345';
-        if(nam == this.state.fname && pas == this.state.pass ){
+        if(nam === this.state.fname && pas === this.state.pass ){
             sessionStorage.setItem("userName",this.state.verify)
         }else{
            alert("Password or User name doesn't match")
