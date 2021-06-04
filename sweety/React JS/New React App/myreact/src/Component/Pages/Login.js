@@ -9,7 +9,7 @@ class Login extends Component {
         this.state={
             fname:" ",
             pass:" ",
-            verify:"success",
+            verify:"done",
             
         }
         
@@ -23,12 +23,12 @@ class Login extends Component {
     }
 
     login=()=>{
-        const nam='kaium';
-        const pas='12345';
-        if(nam == this.state.fname && pas == this.state.pass ){
+        const name='Sweety';
+        const pass='123434';
+        if(name == this.state.fname && pass == this.state.pass ){
             sessionStorage.setItem("userName",this.state.verify)
         }else{
-           alert("Password or User name doesn't match")
+           alert("Password Invalid")
         }
         
     }
@@ -36,14 +36,16 @@ class Login extends Component {
    
         return (
             <div>
-                <form>
-                    <input onChange={this.oneChangehandel} type="text" name='fname' placeholder='First Name'></input> <br/>
-                    <input onChange={this.oneChangehandel} type="password" name='pass' placeholder='pass'></input>
+                <form style={{textAlign:'center',marginTop:'200px'}}>
+                    <label><b>First Name:-</b></label>
+                    <input onChange={this.oneChangehandel} type="text" name='fname' placeholder='First Name'></input> <br/><br/>
+                    <label><b>Password:-</b></label>
+                    <input onChange={this.oneChangehandel} type="password" name='pass' placeholder='password'></input><br/><br/>
                   
                     
                     <Button onClick={this.login} variant="outline-primary"><Link  to={"/contact/"+this.state.fname+"/"+this.state.pass}>Login</Link></Button>
                     </form>
-                    <p>{this.state.failedm}</p>
+                    <p>{this.state.failed}</p>
                 
             </div>
         );

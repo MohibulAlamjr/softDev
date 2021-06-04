@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Route, BrowserRouter , Switch} from 'react-router-dom';
-import Home from './Page/Home';
-import About from './Page/About';
-import Contact from './Page/Contact';
-import Mywork from './Page/Mywork';
-import Errors from './Page/Errors';
-import Login from './Page/Login';
-import Logout from './Page/Logout';
+import Home from '../Component/Pages/Home';
+import About from '../Component/Pages/About';
+import Contact from '../Component/Pages/Contact';
+import Mywork from '../Component/Pages/Mywork';
+import Errors from '../Component/Pages/Errors';
+import Login from '../Component/Pages/Login';
+import Logout from '../Component/Pages/Logout';
 
-class Routed extends Component {
+class Routes extends Component {
     render() {
         return (
             <div>
@@ -17,7 +17,7 @@ class Routed extends Component {
                 <Route path="/about" component={ About} />
                 <Route path="/Login" component={Login} />
                 <Route path="/contact/:username/:pass" component={Contact} />
-                <Route path="/myw" component={Mywork} />
+                <Route path="/mywork" component={Mywork} />
                 <Route path="/logout" component={ Logout} />
                 <Route  component={Errors} />
                 </Switch>
@@ -26,4 +26,4 @@ class Routed extends Component {
     }
 }
 
-export default Routed;
+export default Routes;
