@@ -4,7 +4,7 @@ class Errors extends Component {
     render() {
         return (
             <div>
-                <h1>This File is Error </h1>
+                <h1>Page Not Found</h1>
             </div>
         );
     }

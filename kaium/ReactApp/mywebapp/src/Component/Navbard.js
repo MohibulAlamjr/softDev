@@ -17,7 +17,6 @@ class Navbard extends Component {
                     <Navbar.Brand > <Link to="/">softDev</Link> </Navbar.Brand>
                     <Nav className="mr-auto">
                     <Nav.Link><NavLink exact activeStyle={{color:'#fff'}} to="/about">About</NavLink></Nav.Link>
-                    <Nav.Link><NavLink exact activeStyle={{color:'#fff'}}  to="/contact">Contact</NavLink></Nav.Link>
                     <Nav.Link><NavLink exact activeStyle={{color:'#fff'}}  to="/myw">Mywork</NavLink></Nav.Link>
                     </Nav>
                     <Form inline>

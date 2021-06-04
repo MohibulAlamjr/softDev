@@ -1,34 +1,47 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import {Link,NavLink, Redirect} from 'react-router-dom';
 import Button from 'react-bootstrap/esm/Button';
 
+
 class About extends Component {
-    constructor(){
+
+    constructor() {
         super();
         this.state={
-            name:"",
-            password:""
+            fname:" ",
+            pass:" "
         }
+        
     }
-    onchangeHandel=(event)=>{
-        const val=event.target.value;
-     
-        const val2=event.target.value;
-        this.setState({[val]:val2})
-    }
-    render() {
-        return (
-            <div>
-                <h1>I am from About page</h1>
-                <form>
-                    <input onChange={this.onchangeHandel} type="text" name='fname' placeholder='First Name'></input><br/>
-                    <input onChange={this.onchangeHandel} type="Password" name='fname' placeholder='Password'></input><br/>
-                    <Button variant="btn btn-primary"><Link to={"/contact/"+ this.state.val}>Click Me</Link></Button>
-                    </form>
-                
+    oneChangehandel=(event)=>{
+        var inputName=event.target.name;
+      var inputValue=event.target.value;
+      this.setState({[inputName]:inputValue})
 
-            </div>
-        );
+    }
+    
+    render() {
+
+        if(sessionStorage.getItem("userName")==null){
+            return <Redirect to="/login"/>
+        }
+        else{
+            return (
+                <div>
+                    <h1>I am from About page</h1>
+                    <form>
+                    <input onChange={this.oneChangehandel} type="text" name='fname' placeholder='First Name'></input> <br/>
+                    <input onChange={this.oneChangehandel} type="password" name='pass' placeholder='pass'></input>
+                  
+                    
+                    <Button variant="outline-primary"><Link  to={"/contact/"+this.state.fname+"/"+this.state.pass}>Contact</Link></Button>
+                    </form>
+                    
+                </div>
+            );
+        }
+
+        
     }
 }
 
