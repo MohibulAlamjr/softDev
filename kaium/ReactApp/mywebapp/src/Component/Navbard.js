@@ -21,6 +21,7 @@ class Navbard extends Component {
                     <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/myw">Mywork</NavLink></Nav.Link>
                     <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/Login">Login</NavLink></Nav.Link>
                     <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/demo">Demo</NavLink></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/son">Son</NavLink></Nav.Link>
                     </Nav>
                     <Form inline>
                    
