@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import {Link, Redirect} from 'react-router-dom';
+import { Redirect} from 'react-router-dom';
 
 
 
-class About extends Component {
+class Home extends Component {
 
     
     render() {
@@ -14,7 +14,7 @@ class About extends Component {
         }else{
             return (
                 <div>
-                    <h1>I am from About page</h1>
+                    <h1>I am from Home page</h1>
                     
                     
                 </div>
@@ -24,4 +24,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default Home;
