@@ -16,6 +16,8 @@ class Navbaarr extends Component {
       <Nav.Link ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/about">About</NavLink></Nav.Link>
      
       <Nav.Link ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/mywork">Mywork</NavLink></Nav.Link>
+      <Nav.Link ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/hookdemo">Hookdemo</NavLink></Nav.Link>
+      <Nav.Link ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/tree">Son</NavLink></Nav.Link>
      <Button><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/logout">Logout</NavLink></Button>
     </Nav>
     </Container>
