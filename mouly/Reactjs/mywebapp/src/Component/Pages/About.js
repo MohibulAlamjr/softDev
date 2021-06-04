@@ -2,41 +2,37 @@ import React, { Component } from 'react';
 import {Link,NavLink} from 'react-router-dom';
 import Button from 'react-bootstrap/esm/Button';
 
+
 class About extends Component {
 
     constructor() {
         super();
         this.state={
-           fname: " ",
-           pass: " "
+            fname:" ",
+            pass:" "
         }
         
     }
-    
+    oneChangehandel=(event)=>{
+        var inputName=event.target.name;
+      var inputValue=event.target.value;
+      this.setState({[inputName]:inputValue})
 
-           
-onChangeHandler = (event)=>{
-    var myname = event.target.name;
-    var myvalue = event.target.value;
-    this.setState({[myname]:myvalue})
-}
+    }
+    
     render() {
 
- 
         return (
             <div>
-
-<h1>I am from about page</h1> <br/>
-
+                <h1>I am from About page</h1>
                 <form>
+                <input onChange={this.oneChangehandel} type="text" name='fname' placeholder='First Name'></input> <br/>
+                <input onChange={this.oneChangehandel} type="password" name='pass' placeholder='pass'></input>
+              
                 
-                 <input  onChange={this.onChangeHandler} type = "text" name = "name" placeholder ="Name"></input> <br></br>
-                 
-                 <input  onChange={this.onChangeHandler} type = "password" name ="pass" placeholder ="pass"></input> <br></br>
-               
-
-                <Button>  <Link  to={"/contact/"+this.state.fname+ "/" + this.state.pass}>Contact</Link></Button> <br/>
+                <Button variant="outline-primary"><Link  to={"/contact/"+this.state.fname+"/"+this.state.pass}>Contact</Link></Button>
                 </form>
+                
             </div>
         );
     }
