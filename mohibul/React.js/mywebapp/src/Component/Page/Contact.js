@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Redirect } from 'react-router';
 
 class Contact extends Component {
     constructor({match}) {
@@ -11,13 +12,22 @@ class Contact extends Component {
     }
     
     render() {
-        return (
-            <div>
-                <h1>I am from Contact page</h1>
-                <p>your User Name is : {this.state.name}</p>
-                <p>your Password is : {this.state.password}</p>
-            </div>
-        );
+       
+        if (sessionStorage.getItem('userName')== null){
+
+            return <Redirect to="/Login"/>   
+        }else{
+            
+                return (
+                    <div>
+                        <h1>I am from Contact page</h1>
+                        <p>your User Name is : {this.state.name}</p>
+                        <p>your Password is : {this.state.password}</p>
+                    </div>
+               
+            );
+        }
+       ;
     }
 }
 

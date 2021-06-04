@@ -1,40 +1,26 @@
 import React, { Component } from 'react';
-import {Link,NavLink} from 'react-router-dom';
-import Button from 'react-bootstrap/esm/Button';
+import {Link, Redirect} from 'react-router-dom';
+
 
 
 class About extends Component {
 
-    constructor() {
-        super();
-        this.state={
-            fname:" ",
-            pass:" "
-        }
-        
-    }
-    oneChangehandel=(event)=>{
-        var inputName=event.target.name;
-      var inputValue=event.target.value;
-      this.setState({[inputName]:inputValue})
-
-    }
     
     render() {
+        
+        if (sessionStorage.getItem('userName')== null){
 
-        return (
-            <div>
-                <h1>I am from About page</h1>
-                <form>
-                <input onChange={this.oneChangehandel} type="text" name='fname' placeholder='First Name'></input> <br/>
-                <input onChange={this.oneChangehandel} type="password" name='pass' placeholder='pass'></input>
-              
-                
-                <Button variant="outline-primary"><Link  to={"/contact/"+this.state.fname+"/"+this.state.pass}>Contact</Link></Button>
-                </form>
-                
-            </div>
-        );
+            return <Redirect to="/Login"/>   
+        }else{
+            return (
+                <div>
+                    <h1>I am from About page</h1>
+                    
+                    
+                </div>
+            );
+        }
+       
     }
 }
 
