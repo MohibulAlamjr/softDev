@@ -22,6 +22,8 @@ class Navbard extends Component {
                     <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                     <Button variant="outline-info">Search</Button>
+                    <Button variant="outline-success"> <NavLink exact activeStyle={{color:'#fff'}}  to="/logout">Logout</NavLink></Button>
+                   
                     </Form>
                 </Navbar>
                 

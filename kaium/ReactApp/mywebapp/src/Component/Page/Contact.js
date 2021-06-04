@@ -12,7 +12,7 @@ class Contact extends Component {
     }
     
     render() {
-        if(sessionStorage.getItem("userName")==null){
+        if(sessionStorage.getItem('userName')=="failed"){
             return <Redirect to="/login"/>
         }
         else{

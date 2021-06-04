@@ -3,7 +3,7 @@ import { Redirect } from 'react-router';
 
 class Mywork extends Component {
     render() {
-        if(sessionStorage.getItem("userName")==null){
+        if(sessionStorage.getItem('userName')=="failed"){
             return <Redirect to="/login"/>
         }
         else{
