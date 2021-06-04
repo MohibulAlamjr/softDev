@@ -3,10 +3,10 @@ import { Redirect } from 'react-router';
 
 class Mywork extends Component {
     render() {
-        if(sessionStorage.getItem('userName')=="failed"){
-            return <Redirect to="/login"/>
-        }
-        else{
+        if (sessionStorage.getItem('userName')== null){
+
+            return <Redirect to="/Login"/>   
+        }else{
             return (
                 <div>
                     <h1>I am from Mywork page</h1>
