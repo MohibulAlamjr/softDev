@@ -7,8 +7,10 @@ class Nati extends Component {
     
         return (
             <div>
+                <h1>I am from Nati</h1>
+                <p>{this.props.name}</p>
                 <Button className= "btn btn-danger">NatiButton</Button>
-                <Puti name= {this.props.name}/>
+                <Puti/>
             </div>
         );
     }
