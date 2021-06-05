@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nati from './Nati';
 import { Redirect } from 'react-router';
 import Button from 'react-bootstrap/esm/Button';
+import { DadaProvider } from './Mycontext';
 
 class Son extends Component {
     render() {
@@ -11,9 +12,11 @@ class Son extends Component {
         }else{
         return (
             <div>
-        
-                <Nati name="Here is Sweety"/>
+        <DadaProvider value="MainProvider send message to Receiver">
+        <Nati name="Here is Sweety"/>
                 
+        </DadaProvider>
+               
             </div>
         );
     }

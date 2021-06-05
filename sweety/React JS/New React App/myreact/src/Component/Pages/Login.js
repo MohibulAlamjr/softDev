@@ -19,7 +19,6 @@ class Login extends Component {
       var inputValue=event.target.value;
       this.setState({[inputName]:inputValue})
      
-
     }
 
     login=()=>{
