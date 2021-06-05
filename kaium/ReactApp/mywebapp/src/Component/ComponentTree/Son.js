@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import Button from 'react-bootstrap/esm/Button';
 import { Redirect } from 'react-router';
+import Nati from './Nati';
 
-class Mywork extends Component {
+
+class Son extends Component {
     render() {
         if (sessionStorage.getItem('userName')== null){
 
@@ -9,12 +12,15 @@ class Mywork extends Component {
         }else{
             return (
                 <div>
-                    <h1>I am from Mywork page</h1>
+                    <Button className="btn btn-Success">Son</Button>
+                    <Nati name="My name is Kaium"/>
+                    
                 </div>
             );
         }
-       
-    }
+                  
 }
-
-export default Mywork;
+       
+    
+}
+export default Son ;

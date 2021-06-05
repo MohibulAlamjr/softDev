@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Nav from 'react-bootstrap/esm/Nav';
 import Navbar from 'react-bootstrap/esm/Navbar';
 import Container from 'react-bootstrap/esm/Container';
-import {Link,NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import '../css/bootstrap.min.css';
-
+import Button from 'react-bootstrap/esm/Button'
 class Navbaarr extends Component {
     render() {
         return (
@@ -14,8 +14,11 @@ class Navbaarr extends Component {
     <Navbar.Brand ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/">softDev</NavLink></Navbar.Brand>
     <Nav className="me-auto">
       <Nav.Link ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/about">About</NavLink></Nav.Link>
-      <Nav.Link ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/contact">Contact</NavLink></Nav.Link>
+     
       <Nav.Link ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/mywork">Mywork</NavLink></Nav.Link>
+      <Nav.Link ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/hookdemo">Hookdemo</NavLink></Nav.Link>
+      <Nav.Link ><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/tree">Son</NavLink></Nav.Link>
+     <Button><NavLink style = {{color : 'white'}} exact activeStyle = {{color: 'red'}} to="/logout">Logout</NavLink></Button>
     </Nav>
     </Container>
   </Navbar>

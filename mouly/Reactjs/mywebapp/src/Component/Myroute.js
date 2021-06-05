@@ -4,19 +4,34 @@ import Home from '../Component/Pages/Home';
 import About from '../Component/Pages/About';
 import Contact from '../Component/Pages/Contact';
 import Mywork from '../Component/Pages/Mywork';
+import Error from '../Component/Pages/Error';
+import Login from '../Component/Pages/Login';
+import Logout from '../Component/Pages/Logout';
+import Hookdemo from './Pages/Hookdemo';
+import Son from './Tree/Son';
 
-import Error from '../Component/Pages/Error'
 class Myroute extends Component {
+
+    
     render() {
+       
         return (
             <div>
            <Switch>
+
 
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/contact/:username/:pass" component={Contact} />
       <Route path="/mywork" component={Mywork} />
+      <Route path="/hookdemo" component={Hookdemo} />
+      <Route path="/tree" component={Son} />
+      <Route  path="/login" component={Login} />
+      <Route  path="/logout" component={Logout} />
       <Route  component={Error} />
+    
+
+
 
       </Switch>
             </div>
