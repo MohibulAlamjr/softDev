@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/esm/Button';
 import { Redirect } from 'react-router';
+import { DadaProvider } from './Mycontext';
 import Nati from './Nati';
 
 class Son extends Component {
@@ -12,8 +13,14 @@ class Son extends Component {
         return (
             <div>
                  <Button className= "btn btn-success">SonButton</Button>
-               <Nati name = "Her name is Rose"/>
 
+                 <br/>
+                 <br/>
+                 
+
+                 <DadaProvider  value = "Dada send message to Puti">
+               <Nati name = "This in Mouly"/>
+               </DadaProvider>
 
             </div> 
         );
