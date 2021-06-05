@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link, Redirect} from 'react-router-dom';
+import Hookm from '../Hookm';
 
 
 
@@ -15,7 +16,7 @@ class About extends Component {
             return (
                 <div>
                     <h1>I am from About page</h1>
-                    
+                    <Hookm/>
                     
                 </div>
             );

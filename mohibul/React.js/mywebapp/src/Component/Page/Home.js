@@ -17,6 +17,7 @@ class Home extends Component {
                     <h1>I am from About page</h1>
                     
                     
+                    
                 </div>
             );
         }
