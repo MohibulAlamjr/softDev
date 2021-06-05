@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import Nati from './Nati'
 import Button from 'react-bootstrap/esm/Button';
 import { Redirect } from 'react-router';
-import Nati from './Nati';
+import {Dadaprovider} from './Mycontext';
 
 
 class Son extends Component {
@@ -12,9 +13,13 @@ class Son extends Component {
         }else{
             return (
                 <div>
-                    <Button className="btn btn-Success">Son</Button>
+                    <Dadaprovider value="Dada Sent Message To puti(Abba)">
+
+                         <Button className="btn btn-Success">Son</Button>
                     <Nati name="My name is Kaium"/>
                     
+                    </Dadaprovider>
+                   
                 </div>
             );
         }
