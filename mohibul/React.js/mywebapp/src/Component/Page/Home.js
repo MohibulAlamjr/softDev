@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Fragment } from 'react';
 import {Link, Redirect} from 'react-router-dom';
 
 
@@ -13,12 +14,12 @@ class Home extends Component {
             return <Redirect to="/Login"/>   
         }else{
             return (
-                <div>
+                <>
                     <h1>I am from About page</h1>
                     
                     
                     
-                </div>
+                </>
             );
         }
        
