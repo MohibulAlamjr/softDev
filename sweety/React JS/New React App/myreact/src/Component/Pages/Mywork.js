@@ -9,7 +9,7 @@ class Mywork extends Component {
         }else{
             return (
                 <div>
-                    <h1>I am from Mywork page</h1>
+                    <h1 style={{textAlign:'center',color:'blue',marginTop:'200px'}}>I am from Mywork page</h1>
                 </div>
             );
         }

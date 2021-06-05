@@ -11,16 +11,19 @@ class Navbar1 extends Component {
         return (
             <div>
                 <Navbar bg="dark" variant="dark">
-                    <Navbar.Brand > <NavLink style={{color:'red'}} exact activeStyle={{color:'#fff'}} to="/">Home</NavLink> </Navbar.Brand>
+                    <Navbar.Brand > <NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/">softDev</NavLink> </Navbar.Brand>
                     <Nav className="mr-auto">
-                    <Nav.Link><NavLink to="/about">About</NavLink></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/about">About</NavLink></Nav.Link>
                    
-                    <Nav.Link><NavLink to="/mywork">Mywork</NavLink></Nav.Link>
-                    <Nav.Link><NavLink to="/Login">Login</NavLink></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/mywork">Mywork</NavLink></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#fff'}} exact activeStyle={{color:'#c6c9d0'}} to="/Login">Login</NavLink></Nav.Link>
+
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/hookdemo">Hookdemo</NavLink></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/son">Son</NavLink></Nav.Link>
                     </Nav>
                     <Form inline>
                    
-                    <Button variant="outline-danger"><NavLink to="/logout">Logout</NavLink></Button>
+                    <Button variant="outline-danger"><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/logout">Logout</NavLink></Button>
                     
                     </Form>
                 </Navbar><br/>
