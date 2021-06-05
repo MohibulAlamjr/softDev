@@ -7,6 +7,8 @@ import Mywork from '../Component/Pages/Mywork';
 import Errors from '../Component/Pages/Errors';
 import Login from '../Component/Pages/Login';
 import Logout from '../Component/Pages/Logout';
+import Hookdemo from './Pages/Hookdemo';
+import Son from'./ComponentTree/Son';
 
 class Routes extends Component {
     render() {
@@ -19,7 +21,10 @@ class Routes extends Component {
                 <Route path="/contact/:username/:pass" component={Contact} />
                 <Route path="/mywork" component={Mywork} />
                 <Route path="/logout" component={ Logout} />
+                <Route path="/hookdemo" component={Hookdemo} />
+                <Route path="/son" component={Son} />
                 <Route  component={Errors} />
+                
                 </Switch>
                 </div>
         );

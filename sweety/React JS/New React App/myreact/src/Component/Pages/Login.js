@@ -36,14 +36,16 @@ class Login extends Component {
    
         return (
             <div>
-                <form style={{textAlign:'center',marginTop:'200px'}}>
+                <form style={{textAlign:'center',marginTop:'150px',backgroundColor:'gray',height:'350px',margin:'150px 400px 150px'}}><br/><br/><br/><br/>
+                    
                     <label><b>First Name:-</b></label>
                     <input onChange={this.oneChangehandel} type="text" name='fname' placeholder='First Name'></input> <br/><br/>
+
                     <label><b>Password:-</b></label>
                     <input onChange={this.oneChangehandel} type="password" name='pass' placeholder='password'></input><br/><br/>
                   
                     
-                    <Button onClick={this.login} variant="outline-primary"><Link  to={"/contact/"+this.state.fname+"/"+this.state.pass}>Login</Link></Button>
+                    <Button onClick={this.login} variant="outline-danger"><Link style={{color:'black'}} to={"/contact/"+this.state.fname+"/"+this.state.pass}>Login</Link></Button>
                     </form>
                     <p>{this.state.failed}</p>
                 

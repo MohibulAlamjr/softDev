@@ -19,10 +19,10 @@ class Contact extends Component {
         }else{
             
                 return (
-                    <div>
+                    <div style={{textAlign:'center',marginTop:'200px',color:'blue'}}>
                         <h1>I am from Contact page</h1>
-                        <p>your User Name is : {this.state.name}</p>
-                        <p>your Password is : {this.state.password}</p>
+                        <p>Your userName is : {this.state.name}</p>
+                        <p>Your Password is : {this.state.password}</p>
                     </div>
                
             );

@@ -14,7 +14,7 @@ class About extends Component {
         }else{
             return (
                 <div>
-                    <h1>I am from About page</h1>
+                    <h1 style={{textAlign:'center',color:'blue',marginTop:'200px'}}>I am from About page</h1>
                     
                     
                 </div>
