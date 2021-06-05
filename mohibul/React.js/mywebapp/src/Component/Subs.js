@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/esm/Button';
-import{PutiConsumer} from "./Mycontext";
+import { PutiConsumer } from './Myprovider';
 
-class Puti extends Component {
+
+class Subs extends Component {
     render() {
         return (
-            <div style={{textAlign:'center',marginTop:'200px'}}>
-                <p>{this.props.name}</p>
-                <h2 style={{color:'blue'}}>I am from softDev</h2>
-                <Button className="btn btn-danger">Click</Button>
-
+            <div>
+                <Button>It's From Subs.js</Button><br/>
+                <br/>
+                <br/>
                 <h1>
+                
                     <PutiConsumer>
                         {
                             msg=>{
@@ -20,9 +21,10 @@ class Puti extends Component {
 
                     </PutiConsumer>
                 </h1>
+
             </div>
         );
     }
 }
 
-export default Puti;
+export default Subs;
