@@ -468,3 +468,9 @@ body {
       display: none;
     }
   }
+  header.ant-layout-header{
+    background-color: white;
+  }
+  .ant-layout-header{
+    position: relative;
+  }
