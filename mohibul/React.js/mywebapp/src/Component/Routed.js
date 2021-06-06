@@ -9,6 +9,10 @@ import Login from './Page/Login';
 import Logout from './Page/Logout';
 import Mainsec from './Mainsec';
 import Subs from './Subs';
+import Sub from './Sub';
+
+
+
 
 class Routed extends Component {
     render() {
@@ -22,7 +26,7 @@ class Routed extends Component {
                 <Route path="/myw" component={Mywork} />
                 <Route path="/logout" component={ Logout} />
                 
-                <Route path="/tree" component={Subs}/>
+                <Route path="/tree" component={ Mainsec}/>
                 <Route  component={Errors} />
                 </Switch>
                 </div>

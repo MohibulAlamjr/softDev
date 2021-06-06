@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Redirect} from 'react-router-dom';
-
+import { Layout } from 'antd';
+import Appheader from '../common/Appheader'
+const { Header} = Layout;
 
 
 class Home extends Component {
@@ -13,11 +15,16 @@ class Home extends Component {
             return <Redirect to="/Login"/>   
         }else{
             return (
-                <div>
-                    <h1>I am from About page</h1>
+               <>
+                   
+                   <Layout className="mainlayout">
+                        <Header>
+                            <Appheader/>
+                             
+                            </Header>                
+                   </Layout>
                     
-                    
-                </div>
+                </>
             );
         }
        
