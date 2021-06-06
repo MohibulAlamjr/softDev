@@ -24,7 +24,7 @@ class Home extends Component {
         }else{
             return (
                 <>
-                    <Layout className="mainlayout">
+                    <Layout className="mainLayout">
                         <Header>
                             <Appheader/>
                         
