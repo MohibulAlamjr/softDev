@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Fragment } from 'react';
 import { Redirect } from 'react-router';
 
 class Home extends Component {
@@ -11,9 +12,13 @@ class Home extends Component {
    else {
       
     return (
-        <div>
+        
+            <>
             <h1>I am from home page</h1>
-        </div>
+            <h1>I am from fragment</h1>
+            <h1>I am from fragment</h1>
+            </>
+        
     );
    }
 
