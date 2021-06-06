@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { Fragment } from 'react';
 import {Link, Redirect} from 'react-router-dom';
-import { Button, Tooltip } from 'antd';
+
 import 'antd/dist/antd.css';
-import { SearchOutlined } from '@ant-design/icons';
-import { Layout, Menu } from 'antd';
+
+import { Layout } from 'antd';
 import Appheader from '../common/Appheader';
 import '../../Css/Mynew.css';
+import Mainhome from '../Apppage/Mainhome';
 
 
-const { Header } = Layout;
+const { Header ,Content} = Layout;
 
 
 
@@ -30,6 +31,12 @@ class Home extends Component {
                         
                         
                         </Header>
+                        <Content>
+
+                           
+                        <Mainhome/>
+
+                        </Content>
                         
                     
                     </Layout>

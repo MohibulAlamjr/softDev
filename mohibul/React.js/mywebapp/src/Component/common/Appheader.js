@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Menu } from 'antd';
 import '../../Css/Mynew.css'
 
+
 class Appheader extends Component {
     render() {
         return (
@@ -10,8 +11,8 @@ class Appheader extends Component {
 
                 <div className='header'>
                     <div className="logo" >
-                        <i class='fas fa-bolt'></i>
-                        <a href="#">Tech</a>
+                    <i className="fab fa-react"></i>
+                        <a href="#">softReact</a>
                     </div>
                     <Menu mode="horizontal" defaultSelectedKeys={['home']}>
                         <Menu.Item key="home">Home</Menu.Item>
