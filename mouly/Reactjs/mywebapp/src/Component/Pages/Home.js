@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Fragment } from 'react';
 import { Redirect } from 'react-router';
+import { Button, Tooltip } from 'antd';
+import 'antd/dist/antd.css';
+import { SearchOutlined } from '@ant-design/icons';
 
 class Home extends Component {
     render() {
@@ -17,6 +20,10 @@ class Home extends Component {
             <h1>I am from home page</h1>
             <h1>I am from fragment</h1>
             <h1>I am from fragment</h1>
+            <Button type="primary">Primary Button</Button>
+            <Tooltip>
+            <Button shape="circle" icon={<SearchOutlined />} />
+            </Tooltip>
             </>
         
     );
