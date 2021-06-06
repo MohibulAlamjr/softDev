@@ -24,40 +24,40 @@ class Appfeature extends Component {
 
            },
            {
-            image: img2,
-            tite:'Clean and Elegant',
-            link:'www.facebook.com'
+                image: img2,
+                tite:'Clean and Elegant',
+                link:'www.facebook.com'
 
 
-        },
-       {
-        image: img3,
-        tite:'Great Support',
-        link:'www.softDev.com'
+           },
+           {
+                image: img3,
+                tite:'Great Support',
+                link:'www.softDev.com'
 
 
-   },
-    {
-        image: img4,
-        tite:'Easy to customise',
-        link:'www.twitter.com'
+            },
+            {
+                image: img4,
+                tite:'Easy to customise',
+                link:'www.twitter.com'
 
 
-        },
-   {
-    image: img5,
-    tite:'Unlimited Features',
-    link:'www.Zoomusa.com'
+            },
+            {
+                image: img5,
+                tite:'Unlimited Features',
+                link:'www.Zoomusa.com'
 
 
-    },
-    {
-     image: img6,
-     tite:'Advanced Options',
-     link:'www.netflixe.com'
+            },
+            {
+                image: img6,
+                tite:'Advanced Options',
+                link:'www.netflixe.com'
  
  
-     }
+             }
 
         ]
         return (
@@ -71,7 +71,6 @@ class Appfeature extends Component {
                                 <Col span={8} >
                              <Card
                                  hoverable
-                                
                                  cover={<img alt="example" src={data.image} />}
                              >
                                  <Meta title={data.tite} description={data.link} />
