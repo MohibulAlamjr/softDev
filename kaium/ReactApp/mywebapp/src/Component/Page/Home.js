@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Redirect} from 'react-router-dom';
 import { Layout } from 'antd';
 import Appheader from '../common/Appheader'
-const { Header} = Layout;
+import Mainhome from '../Apppage/Mainhome';
+const { Header,Content} = Layout;
 
 
 class Home extends Component {
@@ -17,11 +18,14 @@ class Home extends Component {
             return (
                <>
                    
-                   <Layout className="mainlayout">
+                   <Layout className="mainLayout">
                         <Header>
-                            <Appheader/>
-                             
-                            </Header>                
+                            <Appheader/>                             
+                        </Header> 
+                          
+                        <Content>
+                               <Mainhome/>  
+                        </Content>                                     
                    </Layout>
                     
                 </>
