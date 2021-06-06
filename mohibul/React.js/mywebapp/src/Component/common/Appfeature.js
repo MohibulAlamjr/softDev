@@ -47,7 +47,7 @@ class Appfeature extends Component {
             {
                 image: img5,
                 tite:'Unlimited Features',
-                link:'www.Zoomusa.com'
+                link:'www.zoomusa.com'
 
 
             },
@@ -64,6 +64,10 @@ class Appfeature extends Component {
             <>
                 <div className='block featureBlock bgGray'>
                     <div className='container-fluid'>
+                        <div className='titleHolder'>
+                        <h2>Key Features and Benefits</h2>
+                <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
+                        </div>
                     <Row gutter={[16, 16]}>
                     {
                         cards.map(data =>{
