@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import { Redirect} from 'react-router-dom';
+import { Button,Tooltip } from 'antd';
+import 'antd/dist/antd.css';
+import { Layout } from 'antd';
+import AppHeader from '../Common/AppHeader';
 
 
 
+const { Header } = Layout;
 class Home extends Component {
 
     
@@ -13,11 +18,16 @@ class Home extends Component {
             return <Redirect to="/Login"/>   
         }else{
             return (
-                <div>
-                    <h1 style={{textAlign:'center',color:'blue',marginTop:'200px'}}>I am from softDev</h1>
+                <>
+                    <Layout className="mainLayout">
+    <Header>
+    <AppHeader/>
+     
+    </Header>
+  </Layout>
+ 
                     
-                    
-                </div>
+                </>
             );
         }
        
