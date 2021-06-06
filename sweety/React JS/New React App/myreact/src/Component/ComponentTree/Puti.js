@@ -8,7 +8,6 @@ class Puti extends Component {
             <div style={{textAlign:'center',marginTop:'200px'}}>
                 <p>{this.props.name}</p>
                 <h2 style={{color:'blue'}}>I am from softDev</h2>
-                <Button className="btn btn-danger">Click</Button>
 
                 <h1>
                     <PutiConsumer>
@@ -20,6 +19,7 @@ class Puti extends Component {
 
                     </PutiConsumer>
                 </h1>
+                <Button className="btn btn-danger">Click</Button>
             </div>
         );
     }

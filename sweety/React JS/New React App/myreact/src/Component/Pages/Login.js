@@ -37,8 +37,8 @@ class Login extends Component {
             <div>
                 <form style={{textAlign:'center',marginTop:'150px',backgroundColor:'gray',height:'350px',margin:'150px 400px 150px'}}><br/><br/><br/><br/>
                     
-                    <label><b>First Name:-</b></label>
-                    <input onChange={this.oneChangehandel} type="text" name='fname' placeholder='First Name'></input> <br/><br/>
+                    <label><b>User Name:-</b></label>
+                    <input onChange={this.oneChangehandel} type="text" name='fname' placeholder='User Name'></input> <br/><br/>
 
                     <label><b>Password:-</b></label>
                     <input onChange={this.oneChangehandel} type="password" name='pass' placeholder='password'></input><br/><br/>

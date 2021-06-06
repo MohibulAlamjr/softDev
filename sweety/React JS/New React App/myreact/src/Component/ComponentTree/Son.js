@@ -11,7 +11,7 @@ class Son extends Component {
             return <Redirect to="/Login"/>   
         }else{
         return (
-            <div>
+            <div style={{color:'blue'}}>
         <DadaProvider value="MainProvider send message to Receiver">
         <Nati name="Here is Sweety"/>
                 
