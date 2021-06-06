@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import { Fragment } from 'react';
 import {Link, Redirect} from 'react-router-dom';
+import { Button, Tooltip } from 'antd';
+import 'antd/dist/antd.css';
+import { SearchOutlined } from '@ant-design/icons';
+import { Layout, Menu } from 'antd';
+import Appheader from '../common/Appheader';
+import '../../Css/Mynew.css';
+
+
+const { Header } = Layout;
 
 
 
@@ -15,8 +24,15 @@ class Home extends Component {
         }else{
             return (
                 <>
-                    <h1>I am from About page</h1>
+                    <Layout className="mainlayout">
+                        <Header>
+                            <Appheader/>
+                        
+                        
+                        </Header>
+                        
                     
+                    </Layout>
                     
                     
                 </>
