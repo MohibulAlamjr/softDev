@@ -33,7 +33,7 @@ class Appfooter extends Component {
                </div>
                <div>
                 
-                <BackTop>
+                <BackTop duration='3000' >
                     <div style={style}><i className='fas fa-arrow-circle-up'></i></div>
                 </BackTop>
   </div>

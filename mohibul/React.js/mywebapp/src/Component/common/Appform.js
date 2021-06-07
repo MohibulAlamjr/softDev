@@ -71,7 +71,7 @@ class Appform extends Component {
                                 <Form.Item name={['user', 'introduction']} >
                                     <Input.TextArea placeholder='Message' />
                                 </Form.Item>
-                                <Form.Item
+                                <Form.Item className='ant-checkbox'
                                     name="agreement"
                                     valuePropName="checked"
                                     rules={[
@@ -82,7 +82,7 @@ class Appform extends Component {
                                     ]}
                                     {...tailFormItemLayout}
                                 >
-                                    <Checkbox className='ant-checkbox'>
+                                    <Checkbox>
                                     
                                     I agree with terms and conditions.
                                     </Checkbox>
