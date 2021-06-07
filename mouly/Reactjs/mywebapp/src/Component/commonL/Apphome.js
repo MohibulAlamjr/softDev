@@ -45,7 +45,8 @@ class Apphome extends Component {
                            {
                                Items.map(data=>{
                                return (
-                                <Col span={8} key={data.key} >
+                                <Col md={{ span: 8}}
+                             key={data.key} >
                                     <div id="home" className = 'content'>
                                         <div className='icon'>
                                             {data.icon}

@@ -48,7 +48,15 @@ class Apppricing extends Component {
                             <p>Debitis itaque minima dolorum fuga aperiam inventore, quidem enim</p>
                         </div>
                    <List
-    grid={{ gutter: 16, column: 3 }}
+    grid={{ gutter: 16, 
+            xs:1,
+            sm:1,
+            md:3,
+            lg:3,
+            xl:3,
+            xxl:3
+    
+    }}
     dataSource={data}
     renderItem={item => (
       <List.Item>

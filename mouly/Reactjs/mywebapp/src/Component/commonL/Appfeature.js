@@ -72,7 +72,7 @@ class Appfeature extends Component {
                   {
                       cards.map(data=>{
                           return (
-                            <Col span={8}>
+                            <Col sm={{ span: 12}} md={{ span: 8}} >
 
                             <Card
                       hoverable
