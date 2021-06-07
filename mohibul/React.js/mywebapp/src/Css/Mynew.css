@@ -201,7 +201,7 @@ body {
   ---- 
   */
   .heroBlock {
-    background: url('../assets/images/bg-hero.jpg') no-repeat;
+    background: url('../assets//images/bg-hero.jpg') no-repeat;
     background-position: 50% 100%;
     background-size: cover;
     height: 100vh;
@@ -468,9 +468,55 @@ body {
       display: none;
     }
   }
-  header.ant-layout-header{
-    background-color: white;
-  }
   .ant-layout-header{
-    position: relative;
+      background-color: #fff;
   }
+
+
+
+.ant-layout-header {
+ position: relative;
+}
+.fa-react{
+  color: #1890ff;
+}
+.ant-collapse-icon-position-left{
+  margin-bottom: 0px !important;
+}
+.quickSupport{
+  margin-top: 3% !important;
+}
+.fonts{
+  font-size: 40px;
+  color: rgb(101, 101, 105);
+}
+.ant-form-item-with-help{
+  text-align: left !important;
+}
+.logo{
+  text-align: center;
+}
+.bgdark{
+  background-color: #111!important;
+  padding-top: 2%;
+}
+.footer .fab{
+  color: #fff;
+  font-size: 25px;
+  
+  padding: 25px;
+  
+}
+.footer{
+  text-align: center;
+
+}
+.footer p{
+  color: #fff;
+ padding-top:2%;
+ padding-bottom: 5%;
+ margin-bottom: 0;
+}
+.logo .fab{
+color: dodgerblue;
+}

@@ -3,14 +3,16 @@ import {Menu} from 'antd';
 import '../../Css/Mynew.css'
 
 class Appheader extends Component {
+    
     render() {
         return (
             <div className="container-fluid">
                 <div className="header">
                     <div className="logo">
                         <i className="fas fa-bolt"></i>
-                        <a href="#">Tech</a>
-                        <Menu  mode="horizontal" defaultSelectedKeys={['2']}>
+                        <a href=" ">Tech</a>
+                    </div>
+                    <Menu  mode="horizontal" defaultSelectedKeys={['2']}>
                         <Menu.Item key="home">Home</Menu.Item>
                         <Menu.Item key="about">About</Menu.Item>
                         <Menu.Item key="feature">Feature</Menu.Item>
@@ -18,13 +20,13 @@ class Appheader extends Component {
                         <Menu.Item key="faq">FAQ</Menu.Item>
                         <Menu.Item key="priceing">Pricein</Menu.Item>
                         <Menu.Item key="contact">Contact</Menu.Item>
-                </Menu> 
-                    </div>
-               
-
+                    </Menu> 
                 </div>
-               
+                
+
             </div>
+               
+            
         );
     }
 }
