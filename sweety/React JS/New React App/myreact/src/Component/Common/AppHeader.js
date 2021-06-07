@@ -12,8 +12,8 @@ class AppHeader extends Component {
             <div className="container-fluid">
                 <div className="header">
                 <div className="logo">
-                    <i class='fas fa-bolt'></i>
-                   <a href="#">tech</a>
+                    <i className='fab fa-react'></i>
+                   <a href="#">React.js</a>
                 </div>
       <Menu  mode="horizontal" defaultSelectedKeys={['home']}>
         <Menu.Item key="home">Home</Menu.Item>

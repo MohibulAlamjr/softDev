@@ -472,3 +472,20 @@ body {
       background-color:white;
   
   }
+  .ant-layout-header{
+    position: relative;
+  }
+  .ant-collapse-icon-position-left{
+    margin-bottom: 0px !important;
+  }
+  .quickSupport{
+    margin-top: 3% !important;
+
+  }
+  .fonts{
+    font-size: 35px;
+    color: gray;
+  }
+  .ant-checkbox{
+    margin-top: 3% !important;
+  }
