@@ -486,3 +486,7 @@ body {
 .quickSupport{
   margin-top: 3% !important;
 }
+.fonts{
+  font-size: 40px;
+  color: rgb(101, 101, 105);
+}
