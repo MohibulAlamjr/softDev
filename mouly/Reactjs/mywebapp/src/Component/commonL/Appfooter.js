@@ -16,12 +16,14 @@ class Appfooter extends Component {
 
         return (
             <>
-            <div id= " footer" className = "bgdark">
+            <div id= "footer" className = "bgdark">
                 <div className= "container-fluid ">
                     <div className = "footer">
                     <div className = "logo">
-                    <i className = " fas fa-bolt"></i>
-                    <p>TECH</p>
+                    <i className = " fas fa-bolt">  </i>
+                    <a href="#">TECH</a>
+                   
+                   
                            
 
                         </div>
@@ -35,7 +37,7 @@ class Appfooter extends Component {
 
     
     <BackTop duration = '3000'>
-      <div style={style}><i class="fas fa-arrow-circle-up"></i> UP</div>
+      <div style={style}><i class="fas fa-arrow-circle-up"></i> </div>
     </BackTop>
   </div>
  

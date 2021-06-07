@@ -18,42 +18,42 @@ class Appfeature extends Component {
 
             {
                 image:img1,
-                title:'image',
+                title:'Modern Design',
                 link:"www.instagram.com"
             },
 
             
             {
                 image:img2,
-                title:'image',
+                title:'Clean and Elegant',
                 link:"www.facebook.com"
             },
 
             
             {
                 image:img3,
-                title:'image',
+                title:'Great Support',
                 link:"www.twitter.com"
             },
 
             
             {
                 image:img4,
-                title:'image',
+                title:'Easy to customise',
                 link:"www.skype.com"
             },
 
             
             {
                 image:img5,
-                title:'image',
+                title:'Unlimited Features',
                  link:"www.softDev.com"
             },
 
             
             {
                 image:img6,
-                title:'image',
+                title:'Advanced Options',
                 link:"www.google.com"
             },
         ]
@@ -61,8 +61,13 @@ class Appfeature extends Component {
 
           
             <>
+            
             <div id= "features" className = "block featureblock bgGray">
                 <div className = "container-fluid">
+                <div className="titleHolder">
+                            <h3>Key Features and Benefits</h3>
+                            <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
+                        </div>
                 <Row gutter={[16, 16]}>
                   {
                       cards.map(data=>{

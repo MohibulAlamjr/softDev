@@ -8,36 +8,38 @@ class Apphome extends Component {
             {
                key : '1',
                icon: <i className = 'fas fa-chart-pie'></i>,
-               title:"let's Think Out Of The Box",
-               context:"A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea.A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea."
+               title:"High Performance",
+               context:"cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus."
         },
 
 
         {
-            key : '1',
-            icon: <i className = 'fas fa-chart-pie'></i>,
-            title:"let's Think Out Of The Box",
-            context:"A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea.A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea."
+            key : '2',
+            icon: <i class="fas fa-database"></i>,
+            title:"Flat Design",
+            context:"cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus."
      },
 
      {
-        key : '1',
+        key : '3',
         icon: <i className = 'fas fa-chart-pie'></i>,
-        title:"let's Think Out Of The Box",
-        context:"A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea.A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea."
+        title:"Simplified Workflow",
+        context:"cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus."
  }
     ]
         return (
             <>
-               <div className = "block aboutBlock">
+               <div id= "about" className = "block aboutBlock">
                    <div className = "container-fluid">
                        <div className= "titleHolder">
                           <h2>About Us</h2>
-                          <p>A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea.</p>
+                          <p>dolor sit amet, consectetur adipisicing elit</p>
                        </div>
 
                        <div className ="contentHolder">
-                           <p>A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language.A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language.</p>
+                           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus officiis repudiandae est deserunt delectus dolorem iure porro distinctio fuga, nostrum doloremque. Facilis porro in laborum dolor amet ratione hic? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam aut a porro, adipisci quidem sint enim pariatur ducimus, saepe voluptatibus inventore commodi! Quis, explicabo molestias libero tenetur temporibus perspiciatis deserunt.
+
+</p>
                        </div>
                        <Row gutter={[24, 16]}>
                            {

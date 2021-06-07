@@ -19,14 +19,14 @@ return (
  <div id = "work" className='block worksBlock'>
      <div className='container-fulid'>
          <div className='titleHolder'>
-              <h2>Here is a vedio</h2>
-              <p>A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language.A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language.</p>
+              <h2>How it works</h2>
+              <p>Perspiciatis vero similique, ut ducimus modi ipsam autem tempora</p>
                      
          </div>
          <div className='contentHolder'>
          <Button onClick={showModal}>
-              <i className='fas fa-play'></i>
-         </Button>
+                <i className='fas fa-play'></i>
+           </Button>
          </div>
          <Modal
           title="Kal jo na" 
