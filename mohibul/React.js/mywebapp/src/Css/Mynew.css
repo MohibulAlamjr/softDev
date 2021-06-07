@@ -480,3 +480,9 @@ body {
 .fa-react{
   color: #1890ff;
 }
+.ant-collapse-icon-position-left{
+  margin-bottom: 0px !important;
+}
+.quickSupport{
+  margin-top: 3% !important;
+}
