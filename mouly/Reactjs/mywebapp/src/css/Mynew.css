@@ -471,3 +471,42 @@ body {
   .ant-layout-header{
       background-color: rgb(243, 199, 237);
   }
+  .ant-layout-header {
+    position: relative;
+   
+}
+.ant-collapse-icon-position-left{
+  margin-bottom: 0px  !important;
+}
+.quickSupport{
+  margin-top:2% !important;
+}
+.ant-checkbox + span{
+  padding-left: 0%;
+}
+.logo{
+  text-align: center;
+}
+.bgdark{
+  background-color: #111 !important;
+  padding-top: 2%;
+}
+.footer .fab{
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 20px;
+ 
+}
+.footer{
+  text-align: center;
+  margin-top: 2%;
+}
+.footer.p{
+  color: #f3f3f4;
+}
+.footer .fas {
+  color: #e1e5e9;
+  font-size: 20px;
+  margin: 0 5px 0 0;
+}

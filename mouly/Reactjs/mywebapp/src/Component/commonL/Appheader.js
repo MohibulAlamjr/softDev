@@ -1,19 +1,31 @@
-import { Menu } from 'antd';
+import { Anchor, Menu } from 'antd';
 import React, { Component } from 'react';
 import '../../css/Mynew.css';
 
+const {Link} = Anchor;
 class Appheader extends Component {
     render() {
-       
+      
         return (
-            <div className="container-fluid">
+            <div  className="container-fluid">
                 <div className="header">
                 <div className="logo" />
-      <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
-        <Menu.Item key="1">nav 1</Menu.Item>
-        <Menu.Item key="2">nav 2</Menu.Item>
-        <Menu.Item key="3">nav 3</Menu.Item>
-      </Menu>
+                <i className="fab fa-react">
+                    Ant Design
+                </i>
+      
+
+
+      <Anchor>
+         <Link href = "hero" title = "Home"></Link>
+         <Link href = "about" title = "About"></Link>
+         <Link href = "features" title = "Features"></Link>
+         <Link href = "how it works" title = "How it works"></Link>
+         <Link href = "faq" title = "FAQ"></Link>
+         <Link href = "pricing" title = "Pricing"></Link>
+         <Link href = "contact" title = "Contact"></Link>
+
+      </Anchor>
                 </div>
                 
             </div>
