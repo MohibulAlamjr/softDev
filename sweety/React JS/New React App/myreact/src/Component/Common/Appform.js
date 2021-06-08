@@ -6,7 +6,7 @@ class Appform extends Component {
     render() {
         return (
             <>
-               <div className='block contactBlock'>
+               <div id='Appform' className='block contactBlock'>
                    <div className='container-fluid'>
                        <div className='titleHolder'>
                            <h4>Get in Touch</h4>
