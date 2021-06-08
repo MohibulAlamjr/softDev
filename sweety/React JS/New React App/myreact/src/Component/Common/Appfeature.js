@@ -46,13 +46,16 @@ class Appfeature extends Component {
         ]
         return (
             <>
-            <div className='block featureBlock bgGray'>
+            <div id='Appfeature' className='block featureBlock bgGray'>
                 <div className='container-fluid'>
                 <Row gutter={[16, 16]}>
                     {
                         cards.map(data=>{
                             return(
-                         <Col span={8}>
+                         <Col 
+                         sm={{ span: 12}}
+                         md={{ span: 8}}
+                         >
                      <Card
                       hoverable
                          style={{ width: 350 }}
