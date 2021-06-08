@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { Redirect } from 'react-router';
 import { Layout, Menu, Breadcrumb } from 'antd';
 import Appheader from '../commonL/Appheader';
+import Mainhome from '../Apppage/Mainhome';
 
-const { Header, Content, Footer } = Layout;
+const { Header,Content,  Footer } = Layout;
 class Mywork extends Component {
     render() {
 
-    
+   
         if (sessionStorage.getItem("username")==null){
             return <Redirect to = "/login"/>
         }
@@ -15,19 +16,21 @@ class Mywork extends Component {
         else {
             return (
                 <div>
-                    <Layout className="mainlayout">
+                    <Layout className="mainLayout">
     <Header>
         <Appheader/>
      
     </Header>
+
+     <Content>
+<Mainhome>
+
+</Mainhome>
+     </Content>
+
     </Layout>
 
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    
-                    <h1>I am from mywork page</h1>
+                   
                 </div>
                 
             );
