@@ -43,7 +43,7 @@ const [visible, setVisible] = useState(false);
 </div>
 <div className = "mobileVisible">
 <Button type="primary" onClick={showDrawer}>
-        Open
+<i class="fas fa-bars"></i>
       </Button>
       <Drawer
         title="Menu Bar"
