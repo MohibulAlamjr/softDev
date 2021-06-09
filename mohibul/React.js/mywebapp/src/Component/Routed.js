@@ -8,8 +8,8 @@ import Errors from './Page/Errors';
 import Login from './Page/Login';
 import Logout from './Page/Logout';
 import Mainsec from './Mainsec';
-import Subs from './Subs';
-import Sub from './Sub';
+
+import Mreact from './Page/Mreact';
 
 
 
@@ -18,6 +18,7 @@ class Routed extends Component {
     render() {
         return (
             <div>
+            
                 <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={ About} />
@@ -27,6 +28,7 @@ class Routed extends Component {
                 <Route path="/logout" component={ Logout} />
                 
                 <Route path="/tree" component={ Mainsec}/>
+                <Route path="/mreact" component={ Mreact}/>
                 <Route  component={Errors} />
                 </Switch>
                 </div>

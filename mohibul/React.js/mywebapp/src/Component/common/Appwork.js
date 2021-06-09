@@ -17,7 +17,7 @@ const Appwork = () => {
 
 return (
 <>
-   <div className='block worksBlock'>
+   <div id='work' className='block worksBlock'>
        <div className='container-fulid'>
            <div className='titleHolder'>
                 <h2>We are a team</h2>

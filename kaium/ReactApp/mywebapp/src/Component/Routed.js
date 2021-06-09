@@ -9,7 +9,7 @@ import Login from './Page/Login';
 import Logout from './Page/Logout';
 import Demo from './Page/Demo';
 import Son from './ComponentTree/Son';
-
+import Mreact from './Page/Mreact';
 
 class Routed extends Component {
     render() {
@@ -24,7 +24,9 @@ class Routed extends Component {
                 <Route path="/contact/:username/:pass" component={Contact} />
                 <Route path="/myw" component={Mywork} />
                 <Route path="/logout" component={ Logout} />
+                <Route path="/mreactt" component={Mreact} />
                 <Route  component={Errors} />
+              
                 </Switch>
                 </div>
         );
