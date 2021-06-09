@@ -16,11 +16,13 @@ class Navbard extends Component {
                 <Navbar bg="dark" variant="dark">
                     <Navbar.Brand > <NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/">softDev</NavLink> </Navbar.Brand>
                     <Nav className="mr-auto">
-                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/about">About</NavLink></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}}  activeStyle={{color:'#fff'}} to="/about">About</NavLink></Nav.Link>
                    
-                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/myw">Mywork</NavLink></Nav.Link>
-                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/Login">Login</NavLink></Nav.Link>
-                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/tree">Tree</NavLink></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}}  activeStyle={{color:'#fff'}} to="/myw">Mywork</NavLink></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}}  activeStyle={{color:'#fff'}} to="/Login">Login</NavLink></Nav.Link>
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}}  activeStyle={{color:'#fff'}} to="/tree">Tree</NavLink></Nav.Link>
+                   
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}}  activeStyle={{color:'#fff'}} to="/mreact">Material UI</NavLink></Nav.Link>
                     </Nav>
                     <Form inline>
                    

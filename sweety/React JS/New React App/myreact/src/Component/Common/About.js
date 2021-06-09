@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'antd';
+import {Row,Col} from 'antd';
 
-class Appabout extends Component {
+class About extends Component {
     render() {
 
         const Items=[
@@ -26,7 +26,7 @@ class Appabout extends Component {
         ]
         return (
             <>
-               <div id='about' className="block aboutBlock">
+               <div id='About' className="block aboutBlock">
                    <div className='container-fluid'>
                        <div className='titleHolder'>
                            <h2>About Us</h2>
@@ -39,7 +39,8 @@ class Appabout extends Component {
                                {
                                 Items.map(data=>{
                                     return(
-                                        <Col md={{ span: 8}} key={data.key} >
+                                        <Col md={{ span: 8}}
+                                        key={data.key} >
                                         <div className='content'>
                                           <div className='icon'>
                                              {data.icon}
@@ -61,4 +62,4 @@ class Appabout extends Component {
     }
 }
 
-export default Appabout;
+export default About;

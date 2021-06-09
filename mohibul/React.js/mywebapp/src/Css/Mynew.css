@@ -486,3 +486,37 @@ body {
 .quickSupport{
   margin-top: 3% !important;
 }
+.fonts{
+  font-size: 40px;
+  color: rgb(101, 101, 105);
+}
+.ant-form-item-with-help{
+  text-align: left !important;
+}
+.logo{
+  text-align: center;
+}
+.bgdark{
+  background-color: #111!important;
+  padding-top: 2%;
+}
+.footer .fab{
+  color: #fff;
+  font-size: 25px;
+  
+  padding: 25px;
+  
+}
+.footer{
+  text-align: center;
+
+}
+.footer p{
+  color: #fff;
+ padding-top:2%;
+ padding-bottom: 5%;
+ margin-bottom: 0;
+}
+.logo .fab{
+color: dodgerblue;
+}

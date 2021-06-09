@@ -1,35 +1,72 @@
-import React, { Component } from 'react';
-import { Menu } from 'antd';
+
 import '../../Css/Mynew.css';
+import { Anchor } from 'antd';
+import { Drawer, Button } from 'antd';
+import React,{useState} from 'react';
 
+const { Link } = Anchor;
 
-
-
-class AppHeader extends Component {
-    render() {
-        return (
+const AppHeader = () => {
+    const [visible, setVisible] = useState(false);
+  const showDrawer = () => {
+    setVisible(true);
+}
+const onClose = () => {
+    setVisible(false);
+  };
+    return (
+       
+             
             <>
             <div className="container-fluid">
                 <div className="header">
                 <div className="logo">
-                    <i class='fas fa-bolt'></i>
-                   <a href="#">tech</a>
+                    <i className='fab fa-react'></i>
+                   <a href="#">React.js</a>
                 </div>
-      <Menu  mode="horizontal" defaultSelectedKeys={['home']}>
-        <Menu.Item key="home">Home</Menu.Item>
-        <Menu.Item key="about">About</Menu.Item>
-        <Menu.Item key="feature">Feature</Menu.Item>
-        <Menu.Item key="how it works">How it works</Menu.Item>
-        <Menu.Item key="faq">FAQ</Menu.Item>
-        <Menu.Item key="pricing">Pricing</Menu.Item>
-        <Menu.Item key="contact">Contact</Menu.Item>
-      </Menu>
+               
+               <div className='mobileHidden'>
+               <Anchor>
+          <Link href="#Hero" title="Home" />
+          <Link href="#About" title="About" />
+          <Link href="#Appfeature" title="Feature" />
+          <Link href="#Appwork" title="How it works" />
+          <Link href="#Appfaq" title="FAQ" />
+          <Link href="#Apppricing" title="Pricing" />
+          <Link href="#Appfooter" title="Footer" />
+      </Anchor>
+               </div>
+              <div className='mobileVisible'>
+             < Button type="primary" onClick={showDrawer}>
+        Open
+      </Button>
+      <Drawer
+        title="Basic Drawer"
+        placement="right"
+        closable={false}
+        onClose={onClose}
+        visible={visible}
+      >
+         <Anchor>
+          <Link href="#Hero" title="Home" />
+          <Link href="#About" title="About" />
+          <Link href="#Appfeature" title="Feature" />
+          <Link href="#Appwork" title="How it works" />
+          <Link href="#Appfaq" title="FAQ" />
+          <Link href="#Apppricing" title="Pricing" />
+          <Link href="#Appfooter" title="Footer" />
+      </Anchor>
+      </Drawer>
+              </div>
+     
                 </div>
                 
             </div>
             </>
         );
-    }
-}
+        
+
+};
 
 export default AppHeader;
+

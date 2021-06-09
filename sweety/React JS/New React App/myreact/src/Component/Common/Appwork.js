@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Modal, Button } from 'antd';
 
@@ -8,20 +7,17 @@ const Appwork = () => {
     const showModal = () => {
         setIsModalVisible(true);
     };
-
-   
-
     const handleCancel = () => {
         setIsModalVisible(false);
     };
 
 return (
 <>
-   <div id='work' className='block worksBlock'>
+   <div id='Appwork' className='block worksBlock'>
        <div className='container-fulid'>
            <div className='titleHolder'>
-                <h2>We are a team</h2>
-                <p>We are from softDev. We all a core member of softDev.</p>
+                <h2>Hello softDev!</h2>
+                <p>We are from softDev. We all are core member of softDev.</p>
            </div>
            <div className='contentHolder'>
            <Button onClick={showModal}>
