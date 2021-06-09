@@ -37,14 +37,23 @@ class Apppricing extends Component {
         return (
            
             <>
-              <div className='block pricingBlock bgGray'>
+              <div id='pricing' className='block pricingBlock bgGray'>
                   <div className='container-fluid'>
                   <div className='titleHolder'>
                 <h2>Choose a plan to fit your needs</h2>
                 <p>Debitis itaque minima dolorum fuga aperiam inventore, quidem enim</p>
            </div>
                     <List
-                        grid={{ gutter: 16, column: 3 }}
+                        grid={{ 
+                            gutter: 16,
+                            xs:1,
+                            sm:1,
+                            md:3,
+                            lg:3,
+                            xl:3,
+                            xxl:3
+                        
+                        }}
                         dataSource={data}
                         renderItem={item => (
                         <List.Item>

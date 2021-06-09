@@ -16,7 +16,7 @@ class Appfooter extends Component {
           
         return (
             <>
-            <div className=' bgdark'>
+            <div id='footer' className=' bgdark'>
                <div className='container-fluid'>
                    <div className='footer'>
                        <div className='logo'>

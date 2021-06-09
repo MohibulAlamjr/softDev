@@ -33,7 +33,7 @@ class Hero extends Component {
        
         return (
             <>
-                <div className="heroBlock">
+                <div id='hero' className="heroBlock">
                     <Carousel >
                        {
                            heroarray.map(Item=>{

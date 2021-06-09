@@ -20,8 +20,8 @@ class Appform extends Component {
           
         
         return (
-            <>
-                <div className='block contactBlock'>
+            < >
+                <div id='from' className='block contactBlock'>
                     <div className='container-fluid'>
                         <div className='titleHolder'>
                         <h2>Choose a plan to fit your needs</h2>

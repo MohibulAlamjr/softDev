@@ -62,7 +62,7 @@ class Appfeature extends Component {
         ]
         return (
             <>
-                <div className='block featureBlock bgGray'>
+                <div id='feature' className='block featureBlock bgGray'>
                     <div className='container-fluid'>
                         <div className='titleHolder'>
                         <h2>Key Features and Benefits</h2>
@@ -72,7 +72,7 @@ class Appfeature extends Component {
                     {
                         cards.map(data =>{
                              return(
-                                <Col span={8} >
+                                <Col  sm={{ span: 12}} md={{ span: 8}} >
                              <Card
                                  hoverable
                                  cover={<img alt="example" src={data.image} />}
