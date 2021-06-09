@@ -6,6 +6,7 @@ import Appwork from '../common/Appwork';
 import Appfaq from '../common/Appfaq'
 import Apppricing from '../common/Apppricing'
 import Appform from '../common/Appform'
+import Appfooter from '../Apppage/Appfooter'
 
 class Mainhome extends Component {
     render() {
@@ -20,6 +21,7 @@ class Mainhome extends Component {
                 <Appfaq></Appfaq>
                 <Apppricing></Apppricing>
                 <Appform></Appform>
+                <Appfooter></Appfooter>
 
             </>
         );
