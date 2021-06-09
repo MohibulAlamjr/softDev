@@ -20,6 +20,9 @@ class Navbar1 extends Component {
 
                     <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/hookdemo">Hookdemo</NavLink></Nav.Link>
                     <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/son">Son</NavLink></Nav.Link>
+
+                    <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="mreact">Material UI</NavLink></Nav.Link>
+
                     </Nav>
                     <Form inline>
                    
