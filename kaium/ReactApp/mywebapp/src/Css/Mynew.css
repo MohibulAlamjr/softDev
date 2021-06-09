@@ -472,5 +472,18 @@ body {
     background-color: white;
   }
   .ant-layout-header{
-    position: relative;
+    position: absolute;
   }
+
+/* Inline #7 | http://localhost:3000/ */
+
+.footer {
+  background-color: black;
+}
+
+/* Inline #7 | http://localhost:3000/ */
+
+.mainLayout .ant-layout-header {
+  /* background: #f8f8f8; */
+  background: #bfadad;
+}

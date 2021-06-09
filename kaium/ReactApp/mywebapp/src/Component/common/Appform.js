@@ -13,13 +13,11 @@ class Appform extends Component {
                         <p>Dolore nam rerum obcaecati fugit odio nobis Molestiae rerum</p>
                         </div>
 
-                        <Form
-      name="normal_login"
-      className="login-form"
-      initialValues={{ remember: true }}
+                        <Form name="normal_login"className="login-form"initialValues={{ remember: true }}>
      
-    >
-      <Form.Item
+      <Form.Item>
+        <Form.Item name="remember" valuePropName="checked" noStyle>
+        <Form.Item
         name="username"
         rules={[{ required: true, message: 'Please input your Username!' }]}
       >
@@ -35,28 +33,40 @@ class Appform extends Component {
           placeholder="Password"
         />
       </Form.Item>
-      <Form.Item>
-        <Form.Item name="remember" valuePropName="checked" noStyle>
-          <Checkbox>Remember me</Checkbox>
+        
         </Form.Item>
+        <Form.Item
+            name="telephone"
+          >
+            <Input placeholder="Telephone" />
+          </Form.Item>
+          <Form.Item
+            name="subject"
+          >
+            <Input placeholder="Subject" />
+          </Form.Item>
+          <Form.Item
+            name="message"
+          >
+            <TextArea placeholder="Message" />
+          </Form.Item>
 
-        <a className="login-form-forgot" href="">
-          Forgot password
-        </a>
+                  
+          <Checkbox>I agree with terms and conditions.</Checkbox>
       </Form.Item>
 
       <Form.Item>
         <Button type="primary" htmlType="submit" className="login-form-button">
           Log in
         </Button>
-        Or <a href="">register now!</a>
+        
       </Form.Item>
     </Form>
-
                     </div>
                 </div>
             </>
         );
+         
     }
 }
 

@@ -9,6 +9,7 @@ import Login from '../Component/Pages/Login';
 import Logout from '../Component/Pages/Logout';
 import Hookdemo from './Pages/Hookdemo';
 import Son from'./ComponentTree/Son';
+import Mreact from '../Component/Pages/Mreact';
 
 class Routes extends Component {
     render() {
@@ -23,6 +24,7 @@ class Routes extends Component {
                 <Route path="/logout" component={ Logout} />
                 <Route path="/hookdemo" component={Hookdemo} />
                 <Route path="/son" component={Son} />
+                <Route path="/mreact" component={Mreact} />
                 <Route  component={Errors} />
                 
                 </Switch>

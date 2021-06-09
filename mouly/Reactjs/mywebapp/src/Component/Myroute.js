@@ -7,12 +7,13 @@ import Mywork from '../Component/Pages/Mywork';
 import Error from '../Component/Pages/Error';
 import Login from '../Component/Pages/Login';
 import Logout from '../Component/Pages/Logout';
+import MaterialR from '../Component/Pages/MaterialR';
 import Hookdemo from './Pages/Hookdemo';
 import Son from './Tree/Son';
 
 class Myroute extends Component {
 
-    
+   
     render() {
        
         return (
@@ -27,7 +28,9 @@ class Myroute extends Component {
       <Route path="/hookdemo" component={Hookdemo} />
       <Route path="/tree" component={Son} />
       <Route  path="/login" component={Login} />
+      
       <Route  path="/logout" component={Logout} />
+      <Route  path="/mreact" component={MaterialR} />
       <Route  component={Error} />
     
 
