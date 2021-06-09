@@ -37,7 +37,7 @@ class Apppricing extends Component {
           
         return (
             <div>
-                <div className='block pricingBlock bgGray'>
+                <div id='Apppricing' className='block pricingBlock bgGray'>
                     <div classsss
                     ='container-fluid'>
                         <div className='titleHolder'>
@@ -49,7 +49,15 @@ class Apppricing extends Component {
                         </div>
                         
                         <List
-                    grid={{ gutter: 16, column: 3 }}
+                    grid={{
+                        gutter: 16,
+                        xs:1,
+                        sm:1,
+                        md:2,
+                        lg:3,
+                        xl:3,
+                        xxl:3,
+                    }}
                     dataSource={data}
                     renderItem={item => (
                    <List.Item>

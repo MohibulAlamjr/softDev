@@ -10,6 +10,7 @@ import Appwork from '../Common/Appwork';
 import Appfaq from '../Common/Appfaq';
 import Apppricing from '../Common/Apppricing';
 import Appform from '../Common/Appform';
+import Appfooter from '../Common/Appfooter';
 
 
 
@@ -39,6 +40,7 @@ class Home extends Component {
     <Appfaq/>
     <Apppricing/>
     <Appform/>
+    <Appfooter/>
     
      
     </Header>

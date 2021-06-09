@@ -284,7 +284,7 @@ body {
   ------------
   */
   .worksBlock {
-    background: url('../assets/images/bg-hero.jpg') no-repeat;
+    background: url('../assets/images//bg-works.jpg') no-repeat;
     background-position: 50% 0;
     background-size: cover;
     background-attachment: fixed;
@@ -489,3 +489,24 @@ body {
   .ant-checkbox{
     margin-top: 3% !important;
   }
+  .bgdark{
+    background-color: #111 !important;
+     height: 270px; 
+    padding-top: 2%;
+    margin-bottom: 0%;
+  }
+  .footer .fab{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 25px;
+  }
+  .footer{
+    text-align: center;
+  }
+  .footer p{
+    color: #fff;
+  }
+  /* .ant-layout-header{
+    
+  } */

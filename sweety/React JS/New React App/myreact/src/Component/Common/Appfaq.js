@@ -52,7 +52,7 @@ class Appfaq extends Component {
        ]
         return (
             <>
-              <div className='block faqBlock'>
+              <div id='Appfaq' className='block faqBlock'>
                   <div className='container-fluid'>
                       <div className='titleHolder'>
                           <h1>Frequently Asked Questions</h1>
