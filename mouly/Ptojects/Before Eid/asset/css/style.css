@@ -1603,3 +1603,42 @@ button.btn:nth-child(5) {
   position: relative;
   left: -132px;
 }
+
+/* Element | file:///E:/softDev6/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#analy3 {
+  height: 50px;
+  width: 485px;
+  border-radius: 10px;
+  position: relative;
+  top: 19px;
+}
+
+/* Element | file:///E:/softDev6/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.last1 {
+  position: relative;
+  top: 46px;
+  right: -233px;
+  border-radius: 10px;
+}
+
+/* Element | file:///E:/softDev6/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+.last1 {
+  border-radius: 50px;
+  position: relative;
+  left: 228px;
+}
+
+/* Element | file:///E:/softDev6/softDev/mouly/Ptojects/Before%20Eid/index.html */
+
+#analy3 {
+  border-radius: 50px;
+  position: relative;
+  bottom: -20px;
+  left: -7px;
+}
+#in1{
+  display: none;
+}

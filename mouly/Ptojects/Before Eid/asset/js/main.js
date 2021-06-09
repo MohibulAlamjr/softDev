@@ -13,15 +13,14 @@ $(document).ready(function(){
         $("#in").slideToggle("slow");
        
         
+$(document).ready(function(){
+    $("#icon").click(function(){
+
+        $("#in1").show("slow");
+       
+        
         // $("#analy").slideToggle("slow");
         // $("#diag").slideToggle("slow");
     });
 });
 
-$(document).ready(function(){
-    $("#diag2").click(function(){
-        $("#nec").slideToggle("slow");
-        // $("#analy").slideToggle("slow");
-        // $("#diag").slideToggle("slow");
-    });
-});

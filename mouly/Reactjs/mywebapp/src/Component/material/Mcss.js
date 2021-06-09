@@ -15,13 +15,13 @@ const usestyle = makeStyles({
 const Mcss = () => {
     const classes = usestyle();
     return (
-        <div>
+        <>
             <Button varitant = "contained"
             className = {classes.btn}
             
             >Button
             </Button>
-        </div>
+        </>
     );
 };
 
