@@ -27,7 +27,7 @@ class Typo extends Component {
             color='textSecondary'
             gutterBottom
            >
-               Let's Think Out of the Box
+               Hello !,This is Material-UI
         </Typography>
             
           <Button variant="contained" type='submit' color="secondary"> SoftDev</Button>
