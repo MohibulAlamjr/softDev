@@ -41,12 +41,12 @@ class Mreact extends Component {
         return (
             <>
             <ThemeProvider theme={mycss}>
-            <Container>
-            <Layout>
-            <Typo/>
+            <Container><br/>
+            <Layout><br/>
+            <Typo/><br/>
                <Mcss/><br/>
                </Layout>
-               <Customtheme/>  <br/><br/>
+               <Customtheme/> <br/><br/>
           
            <Cardui/>
             <Drawerm/>
