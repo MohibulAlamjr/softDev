@@ -31,7 +31,7 @@ class Typo extends Component {
             
           <Button variant="contained" type='submit' color="secondary"> SoftDev</Button>
             <Button align='center' variant="contained">Default</Button>
-            <Button variant="contained" color="primary">
+            <Button variant="contained" color="primary" href="#contained-buttons">
             Primary
             </Button>
             <Button variant="contained" color="secondary">
