@@ -9,7 +9,7 @@ import BackupIcon from '@material-ui/icons/Backup';
 class Typo extends Component {
     render() {
         return (
-            <Container>
+            <>
                 <Typography
                 
                 variant="h4"
@@ -65,7 +65,7 @@ class Typo extends Component {
                       click Icons
                       </Button><br/><br/>
         
-            </Container>
+            </>
         );
     }
 }
