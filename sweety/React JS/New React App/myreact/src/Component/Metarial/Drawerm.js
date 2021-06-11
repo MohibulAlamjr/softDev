@@ -13,6 +13,10 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 
+import Nav from 'react-bootstrap/esm/Nav';
+import Navbar from 'react-bootstrap/esm/Navbar';
+import {NavLink} from 'react-router-dom';
+
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -37,6 +41,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.default,
     padding: theme.spacing(3),
   },
+  marginLeft:{
+    flexGrow:1
+  }
 }));
 
 export default function Drawerm() {
@@ -45,10 +52,22 @@ export default function Drawerm() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
+      <AppBar position="fixed" className={classes.appBar} elevation={0}>
         <Toolbar>
           <Typography variant="h6" noWrap>
-            Permanent drawer
+          <Navbar.Brand > <NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/">softDev</NavLink> </Navbar.Brand>
+          </Typography>
+       
+          <Typography variant="h6" noWrap>
+          <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/mywork">Mywork</NavLink></Nav.Link>
+          </Typography>
+      
+          <Typography className={classes.marginLeft} variant="h6" noWrap>
+          <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="/hookdemo">Hookdemo</NavLink></Nav.Link>
+          </Typography>
+
+          <Typography variant="h6" noWrap>
+          <Nav.Link><NavLink style={{color:'#c6c9d0'}} exact activeStyle={{color:'#fff'}} to="mreact">Material UI</NavLink></Nav.Link>
           </Typography>
         </Toolbar>
       </AppBar>
