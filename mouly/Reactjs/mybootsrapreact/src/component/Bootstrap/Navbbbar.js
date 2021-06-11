@@ -4,7 +4,7 @@ class Navbbbar extends Component {
     render() {
         return (
             <div>
-                <h1>hgdfgjshfcxgffut</h1>
+                <h1 style = {{background:'blue'}}>hello I'm from Bootstrap</h1>
             </div>
         );
     }

@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/esm/Button'
 class Linnk extends Component {
     render() {
         return (
-            <div>
+            <>
              <Navbar bg="dark" variant="dark">
     <Container>
     
@@ -19,7 +19,7 @@ class Linnk extends Component {
     
     </Container>
   </Navbar>
-            </div>
+            </>
         );
     }
 }
