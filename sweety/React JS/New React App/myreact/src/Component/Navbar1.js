@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/esm/Navbar';
 import Form from 'react-bootstrap/esm/Form';
 import Button from 'react-bootstrap/esm/Button';
 import {NavLink} from 'react-router-dom';
-import '../Css/Bootstrap.min.css'
+import '../Css/Bootstrap.min.css';
 
 class Navbar1 extends Component {
     render() {
