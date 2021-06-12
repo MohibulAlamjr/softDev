@@ -1,0 +1,35 @@
+
+
+#secoundcard {
+    /* margin-bottom: 100px; */
+    
+    top: -400px;
+    opacity: 0
+  }
+  #firstcard{
+      opacity: 0;
+      left: -400px;
+  }
+  #thredcard{
+    opacity: 0;
+    right: -400px; 
+  }
+  #card3body{
+      display: none;
+      color: floralwhite;
+  }
+
+  #card2body{
+    display: none;
+    color: floralwhite;
+}
+
+
+#card1body{
+    display: none;
+    color: floralwhite;
+}
+
+.mystyle{
+    margin-top: 15%;
+}
