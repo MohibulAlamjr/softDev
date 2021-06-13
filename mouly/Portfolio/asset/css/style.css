@@ -869,3 +869,10 @@ body {
   right: -631px;
   color: white;
 }
+
+/* Element | file:///E:/softDev6/softDev/mouly/Portfolio/skills.html */
+
+.all > div:nth-child(2) > p:nth-child(2) {
+  text-align: center;
+  padding: 50px;
+}
