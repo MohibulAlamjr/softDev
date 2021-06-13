@@ -5,9 +5,12 @@ import Navbars from './Bootstrap/Navbars';
 class Routerb extends Component {
     render() {
         return (
-            <div>
-                 <Route  path="/navbar" component={Navbars} />
-            </div>
+            <>
+                <Switch>
+                <Route  path="/" component={Navbars} />
+                </Switch>
+                
+            </>
         );
     }
 }
