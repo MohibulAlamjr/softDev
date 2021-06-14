@@ -19,14 +19,21 @@
    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
    <link rel="stylesheet" href="asset/css/style.css">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="home">
     <h4 class="container page"> <b>  <i> Welcome to my page!!! </b> </i></h4>
     
     <div class="container">
+        <div data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="2500"
+        data-aos-delay="300">
         <img src="asset/image/faceu_0_20200918172148822.jpg2.jpg" class="rounded-circle" alt="Cinque Terre" width="304" height="236"> 
     </div>
+</div>
     <div class="navbar">
           <div class="btn1"> <a href="skills.html"> SKILLS </a></div>
           <div class="btn2"><a href="works.html"> WORKS </a></div>
@@ -34,11 +41,28 @@
          
           <div class="btn4"><a href="contact.html"> CONTACT US  </a></div>
         </div>
+
+
+        <div class="about">
+            <div data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="600"
+        data-aos-delay="300">
         <h5>ABOUT ME</h5>
+    </div>
+    </div>
+        
+        <div data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="2500"
+        data-aos-delay="300">
         <div class="paragraph">
             <h4> <b> Hi,This is Serajum Munira </b> </h4>
           
            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam perferendis,  <br> recusandae numquam dicta impedit ab sequi  tempora quod inventore rerum, <br> aliquam, ullam sint dolores  fugit temporibus quidem quo eius quas!Lorem <br>  ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate  odio quidem <br> officiis commodi exercitationem, repudiandae sint sapiente cumque tempora <br> est accusantium at ipsa quisquam fuga iure harum amet perferendis. Cumque.</p>
+        </div>
         </div>
         
           
@@ -56,5 +80,10 @@
         </div>
            
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

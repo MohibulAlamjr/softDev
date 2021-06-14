@@ -24,7 +24,7 @@ const mycss=createMuiTheme({
         
     },
     typography: {
-        fontFamily:['Dancing Script']
+        fontFamily:['Lato']
 
     }
         
