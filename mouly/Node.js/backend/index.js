@@ -1,14 +1,18 @@
-const bodyParser = require("body-parser");
+const bodyparser = require("body-parser");
 const express = require ("express");
 const http = require("http");
-var bodyParser = require ("body-parser");
 const cors = require("cors");
 const port = process.env.PORT || 4002;
-const app = express;
 
-app.use(bodyParser.json());
+
+
+var connect = require('connect');
+
+var app = connect();
+
+app.use(bodyparser.json());
 app.use(
-    bodyParser.urlencoded({
+    bodyparser.urlencoded({
         extended:true,
     })
 );
