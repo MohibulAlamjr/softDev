@@ -17,8 +17,10 @@ class Typo extends Component {
             align='center'
             color='primary'
             gutterBottom
-           >
-               softDev
+           ><br/>
+           
+              \\... "softDev"...//
+
         </Typography>
         <Typography
            variant="p"
@@ -29,15 +31,23 @@ class Typo extends Component {
            >
                Hello !,This is Material-UI
         </Typography>
-            
-          <Button variant="contained" type='submit' color="secondary"> SoftDev</Button>
-            <Button align='center' variant="contained">Default</Button>
+
+        <Typography
+           variant="h2"
+           component="h1"
+            align='center'
+            color='primary'
+            gutterBottom
+           >             
+
+               <Button variant="contained" type='submit' color="secondary"> SoftDev</Button><br/>
+            <Button align='center' variant="contained">Default</Button><br/>
             <Button variant="contained" color="primary">
             Primary
-            </Button>
+            </Button><br/>
             <Button variant="contained" color="secondary">
             Secondary
-            </Button>
+            </Button><br/>
             <Button variant="contained" disabled>
             Disabled
             </Button>
@@ -50,17 +60,21 @@ class Typo extends Component {
                  <Button>Click me</Button>
                  <Button>Button One</Button>
                  <Button>Button Two</Button>
-             </ButtonGroup>
+             </ButtonGroup><br/>
+            <br/>
              <Button variant="contained" color="primary" startIcon={<ArrowBackIcon/>} endIcon={<ArrowBackIcon/>}> Click here</Button>
+             <br/>
+            <br/>
+            <BackupIcon style={{color:'red'}}  fontSize='large' />
 
-             <BackupIcon style={{color:'red'}}  fontSize='large' />
-
-            <br/><br/><br/><br/>
+              <br/><br/><br/><br/>
             <AcUnitIcon style={{color:'red'}}  fontSize='large'/>
             <AcUnitIcon style={{color:'red'}}  fontSize='small'/>
             <AcUnitIcon style={{color:'red'}}  fontSize='small'/>
             <AcUnitIcon style={{color:'red'}}  fontSize='large'/>
             <br/><br/><br/><br/>
+        </Typography>
+          
              <Button
         variant="contained"
         color="primary"
