@@ -1,0 +1,79 @@
+.bg-dark {
+    background-color: rgb(48, 41, 31);
+    height: 900px;
+}
+.pb-3{
+    text-align: center;
+    padding: 50px;
+    color: white;
+   
+}
+.col-md-4{
+   
+    color: white;
+    display: inline;
+  
+    padding-left: 300px;
+}
+#count1{
+    background-color: teal;
+    height: 100px;
+    width: 30px;
+}
+
+
+/* style.css | file:///E:/softDev6/softDev/mouly/jQuery/jproject3/asset/css/style.css */
+
+.bg-dark {
+    /* background-color: rgb(48, 41, 31); */
+    background-color: rgb(61, 88, 150);
+  }
+  
+  #count1 {
+    /* background-color: teal; */
+    background-color: #0b0c0c;
+  }
+
+/* Element | file:///E:/softDev6/softDev/mouly/jQuery/jproject3/index.html */
+
+#count1 {
+    position: relative;
+    top: 0px;
+    right: -233px;
+    border: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 20px;
+    box-shadow: 5px 5px #a7a6a6;
+  }
+  
+  /* Element | file:///E:/softDev6/softDev/mouly/jQuery/jproject3/index.html */
+  
+  #count2 {
+    position: relative;
+    right: -81px;
+    background-color: #0b0c0c;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px #a7a6a6;
+  }
+  
+  /* Element | file:///E:/softDev6/softDev/mouly/jQuery/jproject3/index.html */
+  
+  #count3 {
+    position: relative;
+    right: 38px;
+    background-color: #0b0c0c;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px #a7a6a6;
+  }
+    
+
+/* Element | file:///E:/softDev6/softDev/mouly/jQuery/jproject3/index.html */
+
+.container {
+    position: relative;
+    bottom: -100px;
+  }
+  
