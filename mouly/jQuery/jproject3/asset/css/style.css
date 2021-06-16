@@ -6,6 +6,7 @@
     text-align: center;
     padding: 50px;
     color: white;
+   
 }
 .col-md-4{
    
@@ -39,6 +40,11 @@
     position: relative;
     top: 0px;
     right: -233px;
+    border: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 20px;
+    box-shadow: 5px 5px #a7a6a6;
   }
   
   /* Element | file:///E:/softDev6/softDev/mouly/jQuery/jproject3/index.html */
@@ -47,6 +53,9 @@
     position: relative;
     right: -81px;
     background-color: #0b0c0c;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px #a7a6a6;
   }
   
   /* Element | file:///E:/softDev6/softDev/mouly/jQuery/jproject3/index.html */
@@ -55,6 +64,9 @@
     position: relative;
     right: 38px;
     background-color: #0b0c0c;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px #a7a6a6;
   }
     
 

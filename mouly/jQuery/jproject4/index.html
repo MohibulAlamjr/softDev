@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <section class="center">
+        <canvas class="main" ondblclick="draw()"></canvas>
+      </section>
+      <p>Animation</p>
+      <section class="controls">
+        <label><span>Speed</span>
+          <input type="range" name="speed" id="speed" value=750 max=1500 min=1 oninput="setSpeed(this.value)">
+          <span class="speed-val">750</span>
+        </label>
+        <label><span>Wheels</span>
+          <input type="range" name="wheels" id="wheels" value=3 max=7 min=2 oninput="setWheels(this.value)">
+          <span class="wheel-val">3</span>
+        </label>
+        <label><span>Line</span>
+          <input type="range" name="line" id="line" value=1 max=20 min=1 oninput="setLineWidth(this.value)">
+          <span class="line-val">1</span>
+        </label>
+        <label><span>Opacity</span>
+          <input type="range" name="opacity" id="opacity" value=0.2 max=1.0 min=0.01 step=0.01 oninput="setOpacity(this.value)">
+          <span class="opacity-val">0.2</span>
+        </label>
+        <button onclick="draw()">
+          Restart
+        </button>
+      </section>
+      <script src="asset/js/main.js"></script>
+</body>
+</html>
