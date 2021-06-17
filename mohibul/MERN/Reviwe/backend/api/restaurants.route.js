@@ -1,5 +1,5 @@
 import express from "express"
-import RestaurantsCtrl from './restaurants.contoller';
+import RestaurantsCtrl from "./restaurants.contoller"
 
 
 const router=express.Router()
