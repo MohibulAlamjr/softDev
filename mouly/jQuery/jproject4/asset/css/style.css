@@ -1,0 +1,43 @@
+
+
+body {
+  background: #000;
+  margin: 0;
+  overflow: hidden;
+  font-family: 'source code pro', sans-serif;
+  line-height: 10px;
+  font-size: 14px;
+  color: #eee;
+  width: 100vw;
+  height: 100vh;
+}
+p {
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  user-select: none;
+}
+label {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  user-select: none;
+}
+label span {
+  width: 60px;
+}
+button {
+  margin: 10px;
+}
+canvas {
+  margin: 0 auto;
+}
+.center {
+  display: flex;
+}
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
