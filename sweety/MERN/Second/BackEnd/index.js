@@ -3,6 +3,7 @@ const http = require("http");
 var bodyparser = require('body-parser') ;
 const cors= require("cors");
 const port=process.env.PORT || 4002;
+var db = require("./db");
 
 
 const app= express();
@@ -13,15 +14,15 @@ app.use(bodyparser.urlencoded({
 })
 );
 
-// var apiController = require("./controller/apiController");
-// app.use("/api/",apiController);
+var apiController = require("./controller/apiController");
+app.use("/api/",apiController);
 
-// app.all("/api/*",function(req,res,next){
-//     return res.status(400).json({
-//         success:206,
-//         message: "invalid_request"
-//     })
-// })
+app.all("/api/*",function(req,res,next){
+    return res.status(400).json({
+        success:206,
+        message: "invalid_request"
+    })
+})
 
 
 app.use(cors);
