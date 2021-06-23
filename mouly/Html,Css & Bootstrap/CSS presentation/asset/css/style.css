@@ -50,6 +50,14 @@ body{
     /* margin-top: 25px; */
 
 }
+
+
+.lorem::after { 
+   
+    background-color: rgb(0, 89, 255);
+    color: rgb(255, 0, 212);
+   
+  }
 /* 
 when 4 value: top,right,bottom,left
 when 3 value: top,left-right,bottom
@@ -231,3 +239,21 @@ resize: both;
 overflow: auto;
 
                       }
+
+
+
+                      .fruits {
+                        counter-reset: section;
+                      }
+                      
+h2::before {
+    counter-increment: section;
+    content: "Fruits " counter(section) ": ";
+  }
+
+  .select::before { 
+   
+    background-color: rgb(17, 17, 19);
+    color: rgb(255, 0, 212);
+   
+  }
