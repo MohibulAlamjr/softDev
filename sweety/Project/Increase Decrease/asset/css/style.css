@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.container-fluid{
+  background-color: black;
+  height: 735px;
+}
+.card {
+ background-color: black;
+    left: 295px;
+    margin-left: 0px;
+    top: 98px;
+    height: 500px;
+    box-shadow: 10px 10px 15px rgb(192,183,183), -10px -10px 15px rgb(192,183,183);
+    font-family: Pacifico;
+  }
+ 
+  .CV {
+    
+    position: relative;
+    font-size: 70%;
+    width: 140px;
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;   
+    
+  }
+  
+  .contact {
+   
+    position: relative;
+    font-size: 70%;
+    width: 140px;
+    display: inline-block;
+    cursor: pointer; 
+    
+  }
+
+div.row:nth-child(2) {
+    margin-top: 0px;
+  }
+  
+  div.border:nth-child(1) {
+    top: -158px;
+    left: 119px;
+  
+  }
+
+  div.border:nth-child(2) {
+    left: 149px;
+    top: -158px;
+  }
+ 
+
+h1.card-title {
+    margin-top: 97px;
+    margin-left: -20px;
+    text-shadow: 6px 6px 6px;
+    font-size: 70px;
+  }
+
+#hh {
+  margin-top: 83px;
+
+}
+
+  h5{
+    color: white;
+  }
+
+.card {
+  left: 411px;
+}
+
+div.border:nth-child(1) {
+  left: 210px;
+  top: -158px;
+}
+
+div.border:nth-child(2) {
+  left: 269px;
+}
