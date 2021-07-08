@@ -1,6 +1,8 @@
 .bg-dark {
     background-color: rgb(48, 41, 31);
-    height: 900px;
+    height: 500px;
+    width: 500px;
+    top: 70px;
 }
 .pb-3{
     text-align: center;
@@ -77,3 +79,47 @@
     bottom: -100px;
   }
   
+/* Element | file:///E:/softDev6/softDev/mouly/jQuery/numberCounting/index.html */
+
+#head {
+  position: relative;
+  right: 9px;
+}
+
+/* Element | file:///E:/softDev6/softDev/mouly/jQuery/numberCounting/index.html */
+
+.bg-dark {
+  position: relative;
+  right: -500px;
+  box-shadow: 10px 10px #c1c8cf;
+}
+
+/* Element | file:///E:/softDev6/softDev/mouly/jQuery/numberCounting/index.html */
+
+#count2 {
+  position: relative;
+  right: -81px;
+}
+
+/* Element | file:///E:/softDev6/softDev/mouly/jQuery/numberCounting/index.html */
+
+#count1 {
+  position: relative;
+  right: -188px;
+  bottom: 42px;
+}
+
+/* Element | file:///E:/softDev6/softDev/mouly/jQuery/numberCounting/index.html */
+
+#count3 {
+  position: relative;
+  right: -37px;
+}
+
+/* Element | file:///E:/softDev6/softDev/mouly/jQuery/numberCounting/index.html */
+
+#count1 {
+  position: relative;
+  right: -217px;
+  top: 17px;
+}
